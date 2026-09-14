@@ -42,7 +42,7 @@ def _money(s) -> float | None:
 
 
 class PriceStore:
-    def __init__(self, cache_path: Path, per_second: float = 2.0):
+    def __init__(self, cache_path: Path, per_second: float = 4.0):
         self.path = Path(cache_path)
         self.min_interval = 1.0 / per_second
         self._last = 0.0
@@ -66,9 +66,12 @@ class PriceStore:
 
     def _fetch(self, symbol: str, start: date, end: date) -> dict[str, float]:
         out: dict[str, float] = {}
-        # Nasdaq splits its universe; a stock 404s as an etf and vice versa, so
-        # try both rather than maintaining a classification of our own.
-        for asset in ("stocks", "etf"):
+        # Nasdaq splits its universe and a symbol only resolves under the right
+        # assetclass, so both are tried. The winning class is remembered, which
+        # halves the request count on every subsequent refresh.
+        known = self.data.get(symbol, {}).get("asset")
+        classes = (known,) if known else ("stocks", "etf")
+        for asset in classes:
             self._wait()
             try:
                 r = self.session.get(
@@ -94,6 +97,7 @@ class PriceStore:
                 if close is not None:
                     out[d.isoformat()] = close
             if out:
+                self.data.setdefault(symbol, {})["asset"] = asset
                 break
         return out
 

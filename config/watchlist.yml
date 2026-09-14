@@ -1,35 +1,59 @@
 # ═══════════════════════════════════════════════════════════════════════════
 #  WATCHLIST — anyone here alerts on EVERY trade, ignoring dollar thresholds.
+#  Edit, commit, push. No code changes needed.
 #
-#  >>> REPLACE THIS WITH YOUR OWN LIST. <<<
-#  This is a seed of frequently-cited active filers so the bot does something
-#  useful on day one. It is a starting point, NOT a recommendation, and says
-#  nothing about anyone's conduct -- every trade here is a legally required
-#  public disclosure.
+#  Name matching is order-independent: "Nancy Pelosi", "PELOSI NANCY", and
+#  "Hon. Pelosi, Nancy" all match the same person.
 #
-#  Editing: add or delete a line, commit, push. No code changes needed.
-#  Name matching is fuzzy: it normalizes to lastname + first initial, so
-#  "Hon. Pelosi, Nancy" / "Nancy Pelosi" / "PELOSI NANCY" all match.
+#  ── READ THIS BEFORE TRUSTING THE NAMES BELOW ────────────────────────────
+#  Congressional trading performance does NOT persist year to year. Of the
+#  top 10 performers in 2025, NONE were in the top 10 for 2024. So a list of
+#  "last year's winners" is a list of people who got lucky last year.
+#
+#  That is exactly why the site at /docs scores every trade against the S&P
+#  500 over the same window: so you can replace guesswork with your own
+#  measured numbers after a few months of data. Treat this list as a starting
+#  point to be revised from that page, not as a recommendation.
+#
+#  Every trade here is a legally required public disclosure. Listing someone
+#  says nothing about their conduct.
 # ═══════════════════════════════════════════════════════════════════════════
 
 congress:
-  # Trades are often filed under a spouse's name; matching is on the filing
-  # member, which is how the disclosure itself is attributed.
+  # --- Highest reported 2025 returns (per Unusual Whales' annual tally).
+  #     Included to be measured, not because they'll repeat.
+  - name: "Warren Davidson"          # +78.8% in 2025
+  - name: "Donald Norcross"          # +70.8%
+  - name: "Terri Sewell"             # +67.9%
+  - name: "Bryan Steil"              # +62.5%
+  - name: "Alex Padilla"             # +61.7% (Senate)
+  - name: "Nick LaLota"              # +61.5%
+  - name: "Rick Scott"               # +54.8% (Senate)
+  - name: "Michael Guest"            # +52.5%
+  - name: "Tom McClintock"           # +50.0%
+  - name: "Dwight Evans"             # +41.9%
+
+  # --- Highest-volume / most-watched filers. High trade counts make their
+  #     numbers statistically meaningful faster than the list above.
   - name: "Nancy Pelosi"
   - name: "Ro Khanna"
   - name: "Josh Gottheimer"
   - name: "Michael McCaul"
-  - name: "Dan Crenshaw"
   - name: "Marjorie Taylor Greene"
   - name: "Tommy Tuberville"
-  - name: "Rick Scott"
   - name: "Sheldon Whitehouse"
   - name: "Debbie Wasserman Schultz"
+  - name: "Roger Williams"
+  - name: "Richard Allen"
 
 insiders:
-  # Corporate insiders (Form 4). CIK is optional but makes matching exact --
-  # find one at https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany
-  # Names alone work fine; CIK just removes any ambiguity.
+  # Corporate insiders (Form 4). CIK is optional; it just removes ambiguity.
+  # Look one up: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany
+  #
+  # Note: you rarely need names here. Any CEO/CFO buying $250k+ of their own
+  # stock alerts automatically (senior officers clear a lower bar than the
+  # $1M general threshold), as does any cluster of 3+ insiders buying the
+  # same company inside a week — historically the strongest insider signal.
   - name: "Elon Musk"
     cik: "0001494730"
   - name: "Jensen Huang"
@@ -37,8 +61,8 @@ insiders:
   - name: "Jamie Dimon"
 
 funds:
-  # 13F filers (Phase 4). Quarterly data, up to 4.5 months stale by the time
-  # it is public -- useful for context, useless for speed.
+  # 13F filers. Quarterly and up to 4.5 months stale by the time it's public —
+  # context, not a trading signal.
   - name: "Berkshire Hathaway"
     cik: "0001067983"
   - name: "Scion Asset Management"   # Michael Burry

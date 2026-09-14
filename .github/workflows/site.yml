@@ -1,0 +1,62 @@
+name: Build site
+
+on:
+  schedule:
+    # Every 6 hours. Prices only matter at daily resolution, and the price
+    # cache warms across runs, so there's nothing to gain from running often.
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      max_tickers:
+        description: 'Symbols to price this run (0 = all, slow)'
+        type: string
+        default: '150'
+      backfill:
+        description: 'Backfill congressional history first'
+        type: boolean
+        default: false
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -q -r requirements.txt
+
+      - name: Backfill history
+        if: ${{ inputs.backfill }}
+        run: python scripts/backfill.py
+
+      - name: Build dashboard data
+        run: |
+          python scripts/build_site.py --max-tickers "${{ inputs.max_tickers || 150 }}"
+
+      - name: Commit site data
+        run: |
+          if [[ -z "$(git status --porcelain docs/ data/)" ]]; then
+            echo "nothing changed"; exit 0
+          fi
+          git config user.name  "investor-tracker[bot]"
+          git config user.email "actions@github.com"
+          git add docs/ data/
+          git commit -m "site: rebuild $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+            git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push attempt $i failed"; sleep 5
+          done
+          echo "::warning::could not push site data"

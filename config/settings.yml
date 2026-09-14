@@ -4,6 +4,13 @@ filters:
   # watchlist. Tune this after the first dry-run day (see README).
   min_insider_buy_usd: 1_000_000
 
+  # A CEO or CFO buying is a materially stronger signal than a VP doing the
+  # same (Lakonishok & Lee 2002; Cohen, Malloy & Pomorski 2012 on opportunistic
+  # vs routine trades), so senior officers clear a lower bar.
+  min_senior_buy_usd: 250_000
+  senior_titles: [CEO, "Chief Executive", CFO, "Chief Financial", President,
+                  Chairman, "Chief Operating", COO]
+
   # Minimum dollar value for an open-market insider SELL by a non-watchlist
   # person. Sells are weaker signal than buys, so this is set higher.
   min_insider_sell_usd: 10_000_000

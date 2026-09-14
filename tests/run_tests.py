@@ -230,5 +230,99 @@ check("13f ignores drift below the threshold",
             {"AAA": {"name": "H", "value": 105.0, "shares": 105.0}},
             "u", None, "2026-06-30", "a"), [])
 
+# ── seniority weighting ────────────────────────────────────────────────────
+from src.filters import is_senior, range_low  # noqa: E402
+
+_TITLES = ["CEO", "Chief Executive", "CFO", "Chief Financial", "President",
+           "Chairman", "Chief Operating", "COO"]
+check("CEO is senior", is_senior("President and Chief Executive Officer", _TITLES), True)
+check("CFO is senior", is_senior("Chief Financial Officer", _TITLES), True)
+check("VP is not senior", is_senior("VP of Sales", _TITLES), False)
+check("plain Director is not senior", is_senior("Director", _TITLES), False)
+check("empty role is not senior", is_senior("", _TITLES), False)
+
+_S = {"filters": {"min_insider_buy_usd": 1_000_000, "min_senior_buy_usd": 250_000,
+                  "senior_titles": _TITLES, "min_insider_sell_usd": 10_000_000,
+                  "min_congress_usd": 50_000, "signal_codes": ["P", "S"],
+                  "cluster_min_insiders": 3, "cluster_window_days": 7}}
+_wl = Watchlist({})
+
+
+def _alerts(role, value, action="BUY", code="P"):
+    return len(evaluate([mk(role=role, action=action, code=code, ticker="AAA",
+                            value_usd=value)], _S, _wl, []))
+
+
+check("senior officer clears the lower bar", _alerts("Chief Executive Officer", 400_000), 1)
+check("junior officer does not", _alerts("VP of Sales", 400_000), 0)
+check("senior officer still has a floor", _alerts("Chief Executive Officer", 100_000), 0)
+check("junior officer clears the general bar", _alerts("VP of Sales", 1_500_000), 1)
+
+# Congress alerts off the bottom of the disclosed band, not an exact figure.
+_c = mk(source="house", action="BUY", value_range="$50,001 - $100,000", ticker="AAA")
+check("congress band above floor alerts", len(evaluate([_c], _S, _wl, [])), 1)
+_c2 = mk(source="house", action="BUY", value_range="$1,001 - $15,000", ticker="AAA")
+check("congress band below floor is silent", len(evaluate([_c2], _S, _wl, [])), 0)
+
+# ── company size buckets ───────────────────────────────────────────────────
+from src.prices import cap_tier  # noqa: E402
+
+check("penny by price beats market cap", cap_tier(50e9, 3.0), "Penny (<$5)")
+check("mega cap", cap_tier(500e9, 200.0), "Mega (>$200B)")
+check("large cap", cap_tier(50e9, 200.0), "Large ($10-200B)")
+check("micro cap", cap_tier(100e6, 12.0), "Micro (<$300M)")
+check("unknown when nothing known", cap_tier(None, None), "Unknown")
+
+# ── trade store dedupes by uid ─────────────────────────────────────────────
+import tempfile  # noqa: E402
+from src import store as _store  # noqa: E402
+from src.notify import outbox as _outbox  # noqa: E402
+
+with tempfile.TemporaryDirectory() as _td:
+    _p = Path(_td) / "trades.json"
+    _t1 = mk(uid="a", ticker="AAA", action="BUY")
+    _t2 = mk(uid="b", ticker="BBB", action="SELL")
+    check("store writes new trades", _store.append(_p, [_t1, _t2], {"a"}), 2)
+    check("store ignores duplicates", _store.append(_p, [_t1], set()), 0)
+    _rows = _store.load(_p)
+    check("store keeps both", len(_rows), 2)
+    check("store records alert status", _rows[0]["alerted"], True)
+    check("store records non-alert", _rows[1]["alerted"], False)
+
+    _o = Path(_td) / "outbox.json"
+    check("outbox queues alerts", _outbox.append(_o, [_t1, _t2]), 2)
+    check("outbox dedupes", _outbox.append(_o, [_t1]), 0)
+
+# ── benchmark scoring sign convention ──────────────────────────────────────
+# A buy is credited with the excess return; a sell is credited with its
+# negative, because getting out before a fall is a good decision. Without
+# this, sells would look like losses whenever they were correct.
+from scripts.build_site import score_trades  # noqa: E402
+
+
+class _FakePrices:
+    """Stock doubles; the index is flat."""
+    def history(self, sym, since):
+        return {"2026-01-02": 100.0, "2026-09-01": 200.0 if sym != "SPY" else 100.0}
+
+    def close_on_or_after(self, sym, when, window=10):
+        return 100.0
+
+    def latest(self, sym, since=None):
+        return ("2026-09-01", 100.0 if sym == "SPY" else 200.0)
+
+
+_rows = [
+    {"uid": "buy", "ticker": "AAA", "trade_date": "2026-01-02", "action": "BUY",
+     "source": "house", "person": "P"},
+    {"uid": "sell", "ticker": "AAA", "trade_date": "2026-01-02", "action": "SELL",
+     "source": "house", "person": "P"},
+]
+_sc = {t["uid"]: t for t in score_trades(_rows, _FakePrices(), {}, 0)}
+check("buy on a doubling stock scores +100%", _sc["buy"]["return_pct"], 100.0)
+check("buy beats a flat index by 100", _sc["buy"]["excess_pct"], 100.0)
+check("sell out of a doubling stock scores -100", _sc["sell"]["excess_pct"], -100.0)
+check("raw return is direction-free", _sc["sell"]["return_pct"], 100.0)
+
 print(f"\n{PASS} passed, {FAIL} failed")
 sys.exit(1 if FAIL else 0)

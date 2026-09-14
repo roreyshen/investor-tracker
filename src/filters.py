@@ -77,6 +77,17 @@ class Watchlist:
         return None
 
 
+def is_senior(role: str, titles: list[str]) -> bool:
+    """True for C-suite and board-chair roles.
+
+    Research consistently finds top-officer purchases more informative than
+    those of junior insiders (Lakonishok & Lee 2002; Cohen, Malloy & Pomorski
+    2012), so these clear a lower dollar bar.
+    """
+    low = (role or "").lower()
+    return any(t.lower() in low for t in titles)
+
+
 _RANGE_LOW_RE = re.compile(r"\$?([\d,]+)")
 
 
@@ -124,6 +135,8 @@ def evaluate(trades: list[Trade], settings: dict, watchlist: Watchlist,
     min_buy = f.get("min_insider_buy_usd", 1_000_000)
     min_sell = f.get("min_insider_sell_usd", 10_000_000)
     min_congress = f.get("min_congress_usd", 50_000)
+    min_senior = f.get("min_senior_buy_usd", 250_000)
+    senior_titles = f.get("senior_titles", ["CEO", "CFO", "President", "Chairman"])
     codes = set(f.get("signal_codes", ["P", "S"]))
 
     clusters = find_cluster_buys(
@@ -148,8 +161,11 @@ def evaluate(trades: list[Trade], settings: dict, watchlist: Watchlist,
             if low >= min_congress and t.action in ("BUY", "SELL"):
                 reasons.append(f"large congressional trade ({t.amount_str})")
         elif t.code in codes and t.value_usd:
-            if t.action == "BUY" and t.value_usd >= min_buy:
-                reasons.append(f"large insider buy ({t.amount_str})")
+            senior = is_senior(t.role, senior_titles)
+            floor = min(min_buy, min_senior) if senior else min_buy
+            if t.action == "BUY" and t.value_usd >= floor:
+                who = f"{t.role} " if senior else ""
+                reasons.append(f"large insider buy ({who}{t.amount_str})".replace("  ", " "))
             elif t.action == "SELL" and t.value_usd >= min_sell:
                 reasons.append(f"large insider sell ({t.amount_str})")
 
