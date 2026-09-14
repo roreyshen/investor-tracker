@@ -43,6 +43,13 @@ log = logging.getLogger("backtest")
 
 START_CASH = 100_000.0
 SMG_MIN_PRICE, SMG_MIN_MCAP = 3.0, 25_000_000
+
+# SMG charges a FLAT $5 per trade, not a percentage. That is the whole
+# argument against many small positions: $10 round-trip is 0.05% of a $20k
+# position and 0.5% of a $2k one. Cash earns 0.75% annualised, well below
+# market, so idle cash is a real drag rather than a neutral choice.
+COMMISSION = 5.0
+CASH_APY = 0.0075
 SENIOR = ["CEO", "Chief Executive", "CFO", "Chief Financial", "President",
           "Chairman", "Chief Operating", "COO"]
 
@@ -219,7 +226,7 @@ def run(rows, px, universe, signal, hold_days, max_positions, start, end,
             if (day - p["opened"]).days >= hold_days:
                 out_px = px.close_on_or_before(p["ticker"], day, 6)
                 if out_px:
-                    proceeds = p["shares"] * out_px
+                    proceeds = p["shares"] * out_px - COMMISSION
                     cash += proceeds
                     closed.append({**p, "exit": out_px, "closed": day,
                                    "pnl": proceeds - p["cost"]})
@@ -244,11 +251,17 @@ def run(rows, px, universe, signal, hold_days, max_positions, start, end,
             shares = size // entry
             if shares < 1:
                 continue
-            cost = shares * entry
+            cost = shares * entry + COMMISSION
+            if cost > cash:
+                continue
             cash -= cost
             positions.append({"ticker": r["ticker"], "shares": shares,
                               "entry": entry, "cost": cost, "opened": day,
                               "person": r.get("person")})
+
+        # Interest on idle cash, credited daily at the stated annual rate.
+        if day.weekday() < 5 and cash > 0:
+            cash *= (1 + CASH_APY / 252)
 
         if day.weekday() < 5:
             held = 0.0
@@ -261,7 +274,7 @@ def run(rows, px, universe, signal, hold_days, max_positions, start, end,
     # Liquidate whatever is open at the end.
     for p in positions:
         out_px = px.close_on_or_before(p["ticker"], end, 8) or p["entry"]
-        proceeds = p["shares"] * out_px
+        proceeds = p["shares"] * out_px - COMMISSION
         cash += proceeds
         closed.append({**p, "exit": out_px, "closed": end,
                        "pnl": proceeds - p["cost"]})
@@ -282,6 +295,7 @@ def run(rows, px, universe, signal, hold_days, max_positions, start, end,
         "max_drawdown_pct": round(100 * dd, 2),
         # Coverage matters: a backtest that silently drops the signals it has
         # no price for is reporting on a biased subset, not the strategy.
+        "commission_paid": round(COMMISSION * (len(closed) * 2), 2),
         "considered": considered,
         "skipped_no_price": skipped_no_price,
         "coverage_pct": round(100 * (1 - skipped_no_price / considered), 1)
@@ -368,12 +382,99 @@ def sweep(rows, px, universe, wl, clusters, start, end, out_path):
     return 0
 
 
+def walkforward(rows, px, universe, wl, clusters, start, end, out_path,
+                splits: int = 3):
+    """Pick a strategy on older data, then test that choice on newer data.
+
+    This is the honest substitute for forward paper trading when there is no
+    time to run one. A backtest that reports its best strategy is answering
+    "what worked?", which is always knowable after the fact. The question that
+    matters is "if I had CHOSEN on past data, would the choice have held up?"
+    -- so each split selects a winner using only what came before, then scores
+    it on the period after, which the selection never saw.
+
+    If the in-sample winner keeps winning out-of-sample, that is evidence. If
+    it does not, the single-window result was curve-fitting.
+    """
+    strategies = make_strategies(wl, clusters)
+    span = (end - start).days
+    seg = span // (splits + 1)
+    results = []
+
+    for i in range(splits):
+        train_start = start
+        train_end = start + timedelta(days=seg * (i + 1))
+        test_end = min(end, train_end + timedelta(days=seg))
+        if (test_end - train_end).days < 30:
+            continue
+
+        train_prep = prepare(rows, universe, train_start, train_end)
+        scored = {}
+        for name, fn in strategies.items():
+            sig = build_signals(train_prep, fn)
+            r = run(rows, px, universe, fn, 63, 10, train_start, train_end,
+                    signals=sig)
+            scored[name] = r["return_pct"]
+        pick = max(scored, key=scored.get)
+
+        test_prep = prepare(rows, universe, train_end, test_end)
+        sig = build_signals(test_prep, strategies[pick])
+        oos = run(rows, px, universe, strategies[pick], 63, 10,
+                  train_end, test_end, signals=sig)
+        bench = buy_and_hold(px, train_end, test_end, "SPY")
+        bench_ret = bench["return_pct"] if bench else None
+
+        # What would picking the WORST in-sample strategy have done? If the
+        # spread between best and worst is noise, this lands close by.
+        worst = min(scored, key=scored.get)
+        sigw = build_signals(test_prep, strategies[worst])
+        oos_worst = run(rows, px, universe, strategies[worst], 63, 10,
+                        train_end, test_end, signals=sigw)
+
+        results.append({
+            "split": i + 1,
+            "train": [train_start.isoformat(), train_end.isoformat()],
+            "test": [train_end.isoformat(), test_end.isoformat()],
+            "picked": pick, "train_return": round(scored[pick], 2),
+            "test_return": oos["return_pct"], "test_trades": oos["trades"],
+            "spy": bench_ret,
+            "edge": None if bench_ret is None else round(oos["return_pct"] - bench_ret, 2),
+            "worst_pick": worst,
+            "worst_test_return": oos_worst["return_pct"],
+        })
+        log.info("split %d: trained %s..%s -> picked %-22s "
+                 "in-sample %+7.2f%% | out-of-sample %+7.2f%% vs SPY %+7.2f%%",
+                 i + 1, train_start, train_end, pick, scored[pick],
+                 oos["return_pct"], bench_ret if bench_ret is not None else 0.0)
+        px.save()
+
+    wins = sum(1 for r in results if (r["edge"] or 0) > 0)
+    log.info("")
+    log.info("the in-sample winner beat SPY out-of-sample in %d of %d splits",
+             wins, len(results))
+    if results:
+        avg = statistics.fmean(r["edge"] for r in results if r["edge"] is not None)
+        log.info("average out-of-sample edge vs SPY: %+.2f pp", avg)
+    log.info("A strategy chosen on past data that does not hold up on unseen "
+             "data was curve-fitted, however good the headline number looked.")
+
+    payload = {"generated": date.today().isoformat(), "mode": "walkforward",
+               "splits": results, "oos_wins": wins, "of": len(results),
+               "survivorship": survivorship(rows, universe, start, end)}
+    Path(out_path).with_name("walkforward.json").write_text(
+        json.dumps(payload, separators=(",", ":")))
+    log.info("wrote %s", Path(out_path).with_name("walkforward.json"))
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--hold", type=int, default=63, help="holding period in days")
     ap.add_argument("--positions", type=int, default=10)
     ap.add_argument("--days", type=int, default=365, help="backtest window length")
     ap.add_argument("--out", default="docs/backtest.json")
+    ap.add_argument("--walkforward", action="store_true",
+                    help="choose a strategy on older data, score it on newer")
     ap.add_argument("--sweep", action="store_true",
                     help="test several hold/position combinations and report "
                          "how many beat the benchmark")
@@ -389,6 +490,9 @@ def main() -> int:
 
     end = date.today() - timedelta(days=1)
     start = end - timedelta(days=args.days)
+
+    if args.walkforward:
+        return walkforward(rows, px, universe, wl, clusters, start, end, args.out)
 
     if args.sweep:
         return sweep(rows, px, universe, wl, clusters, start, end, args.out)

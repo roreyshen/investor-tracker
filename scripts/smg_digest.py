@@ -31,7 +31,8 @@ from src.filters import Watchlist  # noqa: E402
 from src.models import Trade  # noqa: E402
 from src.notify import discord, ntfy, outbox  # noqa: E402
 from src.prices import fetch_universe  # noqa: E402
-from scripts.backtest import SMG_MIN_MCAP, SMG_MIN_PRICE, eligible, find_clusters  # noqa: E402
+from scripts.backtest import (COMMISSION, SMG_MIN_MCAP, SMG_MIN_PRICE,  # noqa: E402
+                              eligible, find_clusters)
 from scripts.daily_picks import STRATEGIES  # noqa: E402
 
 log = logging.getLogger("smg")
@@ -72,7 +73,7 @@ def build(strategy: str, positions: int, since_days: int, limit: int):
         if not price:
             continue
         seen.add(tk)
-        shares = int(slice_size // price)
+        shares = int((slice_size - COMMISSION) // price)
         if shares < 1:
             continue
         picks.append({
