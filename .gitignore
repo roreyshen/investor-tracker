@@ -7,3 +7,6 @@ venv/
 .DS_Store
 scratch/
 venv/
+
+# Mac agent runtime log -- local only, would churn against CI commits
+mac_agent/agent.log
