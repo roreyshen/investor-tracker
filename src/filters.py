@@ -25,6 +25,35 @@ _NOISE_TOKENS = {
 }
 
 
+# Watchlists are written the way people are known ("Tommy Tuberville") while
+# filings use the legal name ("Tuberville, Thomas H"). Without this map the
+# entry silently never matches -- the worst kind of failure, because the
+# watchlist looks configured and simply never fires.
+_NICKNAMES = {
+    "tommy": "thomas", "tom": "thomas", "thom": "thomas",
+    "bill": "william", "billy": "william", "will": "william",
+    "bob": "robert", "bobby": "robert", "rob": "robert",
+    "dick": "richard", "rick": "richard", "ricky": "richard", "rich": "richard",
+    "mike": "michael", "mickey": "michael",
+    "jim": "james", "jimmy": "james",
+    "joe": "joseph", "joey": "joseph",
+    "dan": "daniel", "danny": "daniel",
+    "dave": "david", "davey": "david",
+    "chris": "christopher", "steve": "stephen", "steven": "stephen",
+    "tony": "anthony", "andy": "andrew", "matt": "matthew",
+    "greg": "gregory", "jeff": "jeffrey", "ken": "kenneth",
+    "larry": "lawrence", "ron": "ronald", "sam": "samuel",
+    "ben": "benjamin", "pete": "peter", "jerry": "gerald",
+    "terry": "terrence", "doug": "douglas", "phil": "philip",
+    "ed": "edward", "eddie": "edward", "ted": "edward",
+    "nick": "nicholas", "tim": "timothy", "pat": "patrick",
+    "marge": "marjorie", "debbie": "deborah", "deb": "deborah",
+    "liz": "elizabeth", "beth": "elizabeth", "kathy": "katherine",
+    "cathy": "katherine", "sue": "susan", "nan": "nancy",
+    "alex": "alexander", "gil": "gilbert", "gus": "august",
+}
+
+
 def name_tokens(name: str) -> set[str]:
     """Order-independent name key.
 
@@ -34,7 +63,7 @@ def name_tokens(name: str) -> set[str]:
     """
     cleaned = re.sub(r"[^a-z\s]", " ", name.lower())
     return {
-        t for t in cleaned.split()
+        _NICKNAMES.get(t, t) for t in cleaned.split()
         if len(t) > 1 and t not in _NOISE_TOKENS
     }
 

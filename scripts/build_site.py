@@ -28,7 +28,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.config import (PRICES_PATH, SITE_DIR, TRADES_PATH,  # noqa: E402
                         UNIVERSE_PATH)
-from src.filters import range_mid  # noqa: E402
+from src.config import load_watchlist  # noqa: E402
+from src.filters import Watchlist, range_mid  # noqa: E402
 from src.prices import (BENCHMARKS, PriceStore, cap_tier,  # noqa: E402
                         fetch_universe)
 from src import store  # noqa: E402
@@ -251,7 +252,25 @@ def build(max_tickers: int, full: bool) -> dict:
     log.info("scored %d trades", len(scored))
 
     sources = group_by(scored, lambda t: SOURCE_LABEL.get(t["source"], t["source"]), 1)
-    people = group_by(scored, lambda t: t["person"], 3)[:40]
+
+    # Mark who is already tracked, so the page can separate "this is working"
+    # from "you aren't watching this person yet".
+    wl = Watchlist(load_watchlist())
+    all_people = group_by(scored, lambda t: t["person"], 3)
+    for row in all_people:
+        row["watched"] = wl.match(row["name"]) is not None
+    people = all_people[:40]
+
+    # Candidates worth adding: enough trades to mean something, beating the
+    # index, and not already on the list. MIN_SAMPLE is the honest constraint --
+    # a 3-trade sample ranking first is luck, and promoting it would be the
+    # same mistake as seeding the watchlist from last year's winners.
+    MIN_SAMPLE = 10
+    suggestions = [r for r in all_people
+                   if not r["watched"] and r["trades"] >= MIN_SAMPLE
+                   and (r["avg_excess"] or 0) > 0
+                   and (r["median_excess"] or 0) > 0][:10]
+    watched_perf = _agg([t for t in scored if wl.match(t["person"])])
     sectors = group_by(scored, lambda t: t["sector"], 3)
     industries = group_by(scored, lambda t: t["industry"], 3)[:25]
     caps = group_by(scored, lambda t: t["cap_tier"], 1)
@@ -293,6 +312,9 @@ def build(max_tickers: int, full: bool) -> dict:
         "benchmarks": bench_now,
         "by_source": sources,
         "by_person": people,
+        "suggestions": suggestions,
+        "min_sample": MIN_SAMPLE,
+        "watched_performance": watched_perf,
         "by_sector": sectors,
         "by_industry": industries,
         "by_cap": caps,

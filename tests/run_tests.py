@@ -55,6 +55,17 @@ for raw, want in [
     check(f"watchlist({raw!r})", wl.match(raw), want)
 
 check("cik match", wl.match("Whoever", cik="0001494730"), "Elon Musk")
+
+# Nicknames: watchlists are written the way people are known, filings use the
+# legal name. "Tommy Tuberville" vs "Tuberville, Thomas H" silently never
+# matched before this -- a watchlist entry that looks configured and never
+# fires is worse than no entry at all.
+for _filed, _want in [("Tuberville, Thomas H", "Tommy Tuberville"),
+                      ("Scott, Richard L", "Rick Scott"),
+                      ("LaLota, Nicholas", "Nick LaLota"),
+                      ("Allen, Richard W.", "Richard Allen")]:
+    check(f"nickname: {_filed!r}", wl.match(_filed), _want)
+check("nickname map doesn't create false matches", wl.match("Scott, Michael"), None)
 check("name_tokens drops titles", name_tokens("Hon. Pelosi, Nancy Jr."),
       {"pelosi", "nancy"})
 

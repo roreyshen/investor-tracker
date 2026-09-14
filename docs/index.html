@@ -121,6 +121,12 @@ button.theme{background:var(--chip);border:1px solid var(--line);color:var(--mut
   <div class="panel"><h2>Most-traded industries</h2><div class="chartbox"><canvas id="cIndustry"></canvas></div></div>
 </div>
 
+<div class="panel" id="sugPanel" hidden>
+  <h2>Worth adding to your watchlist</h2>
+  <div class="sub" id="sugSub"></div>
+  <div class="scroll" style="max-height:none"><table id="tSug"></table></div>
+</div>
+
 <div class="panel">
   <h2>People — ranked by average excess return vs S&amp;P 500</h2>
   <div class="sub" style="margin-bottom:10px">Minimum 3 scored trades. Small samples swing wildly; treat the trade count as part of the number.</div>
@@ -268,7 +274,8 @@ fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
      {label:"Beat index",key:"win_rate",num:1},{label:"Avg return",key:"avg_return",num:1},
      {label:"Avg held",key:"avg_days",num:1}],
     d.by_person,
-    r => `<tr><td>${esc(r.name)}</td><td class="num">${r.trades}</td>
+    r => `<tr><td>${esc(r.name)}${r.watched ? ' <span class="tag">watching</span>' : ""}</td>
+      <td class="num">${r.trades}</td>
       <td class="num"><span class="badge ${r.avg_excess >= 0 ? "p" : "n"}">${fmtPct(r.avg_excess)}</span></td>
       <td class="num ${cls(r.median_excess)}">${fmtPct(r.median_excess)}</td>
       <td class="num">${r.win_rate == null ? "—" : r.win_rate + "%"}</td>
@@ -348,6 +355,29 @@ fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
           disclose a band, so the midpoint is used.</div>`;
     }
     drawRecap(d.recaps[0]);
+  }
+
+  // ── Watchlist suggestions ───────────────────────────────────────────────
+  if (d.suggestions && d.suggestions.length) {
+    $("#sugPanel").hidden = false;
+    const wp = d.watched_performance || {};
+    $("#sugSub").innerHTML =
+      `Not on your watchlist, at least ${d.min_sample} scored trades, and ahead of the
+       index on <em>both</em> average and median — so one lucky trade can't put
+       someone here. Your current watchlist averages
+       <b class="${cls(wp.avg_excess)}">${fmtPct(wp.avg_excess)}</b> across
+       ${wp.trades || 0} scored trades.
+       <br>Add a name to <code>config/watchlist.yml</code> to track every trade they make.`;
+    sortable($("#tSug"),
+      [{label:"Person",key:"name"},{label:"Trades",key:"trades",num:1},
+       {label:"Avg excess",key:"avg_excess",num:1},{label:"Median",key:"median_excess",num:1},
+       {label:"Beat index",key:"win_rate",num:1},{label:"Avg held",key:"avg_days",num:1}],
+      d.suggestions,
+      r => `<tr><td>${esc(r.name)}</td><td class="num">${r.trades}</td>
+        <td class="num"><span class="badge p">${fmtPct(r.avg_excess)}</span></td>
+        <td class="num ${cls(r.median_excess)}">${fmtPct(r.median_excess)}</td>
+        <td class="num">${r.win_rate == null ? "—" : r.win_rate + "%"}</td>
+        <td class="num">${r.avg_days == null ? "—" : r.avg_days + "d"}</td></tr>`);
   }
 
   const uniq = k => [...new Set(d.trades.map(x => x[k]).filter(Boolean))].sort();
