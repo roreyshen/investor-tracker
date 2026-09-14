@@ -12,7 +12,6 @@ import argparse
 import logging
 import os
 import sys
-from datetime import date
 
 from .config import (OUTBOX_PATH, STATE_PATH, TRADES_PATH,
                      load_settings, load_watchlist)

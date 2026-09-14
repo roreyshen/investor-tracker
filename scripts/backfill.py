@@ -19,7 +19,6 @@ import argparse
 import logging
 import sys
 import tempfile
-from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))

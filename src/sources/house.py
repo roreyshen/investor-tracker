@@ -55,8 +55,6 @@ _HEADER_END = "$200?"
 # names don't contain these.
 _DESC_SMELL_RE = re.compile(
     r"(shares?\s+sold|@\s*\$|\u2013|\u2014|included the following)")
-# Start of a transaction row, used to detect an amount that wrapped a line.
-_TXN_PREFIX_RE = re.compile(r"^(S \(partial\)|P|S|E)\s+\d{2}/\d{2}/\d{4}")
 _TRAILING_JUNK_RE = re.compile(
     r"(Filing ID #?\d+|\b[A-Z]\s*:\s*[A-Z]{1,3}\b|Digitally Signed.*?$)")
 
