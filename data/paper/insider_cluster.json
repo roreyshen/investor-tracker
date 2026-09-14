@@ -1,0 +1,15 @@
+{
+ "cash": 100000.0,
+ "closed": [],
+ "marks": [
+  {
+   "date": "2026-09-14",
+   "equity": 100000.0,
+   "spy": 764.29
+  }
+ ],
+ "open": [],
+ "pending": [],
+ "started": "2026-09-14",
+ "strategy": "insider_cluster"
+}

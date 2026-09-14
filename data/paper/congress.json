@@ -1,0 +1,41 @@
+{
+ "cash": 100000.0,
+ "closed": [],
+ "marks": [
+  {
+   "date": "2026-09-14",
+   "equity": 100000.0,
+   "spy": 764.29
+  }
+ ],
+ "open": [],
+ "pending": [
+  {
+   "picked": "2026-09-14",
+   "ticker": "HMN",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "picked": "2026-09-14",
+   "ticker": "CDW",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "picked": "2026-09-14",
+   "ticker": "KMX",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "picked": "2026-09-14",
+   "ticker": "APG",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "picked": "2026-09-14",
+   "ticker": "TTD",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  }
+ ],
+ "started": "2026-09-14",
+ "strategy": "congress"
+}

@@ -28,7 +28,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write        # the paper-trading log is committed daily
 
 jobs:
   digest:
@@ -49,6 +49,31 @@ jobs:
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: python scripts/backfill.py --no-house --no-senate --form4-days 5 --limit 600
+
+      # Forward paper trading: the only out-of-sample evidence in the project.
+      # Backtests are in-sample, exclude delisted names, and had their
+      # parameters chosen after the fact. This commits to a pick before the
+      # outcome exists.
+      - name: Record paper trades
+        run: |
+          for s in insider_big insider_cluster congress; do
+            python scripts/paper.py --strategy "$s" --positions 10 --hold 63 || true
+          done
+
+      - name: Commit paper log
+        run: |
+          if [[ -z "$(git status --porcelain data/paper/)" ]]; then
+            echo "no paper changes"; exit 0
+          fi
+          git config user.name  "investor-tracker[bot]"
+          git config user.email "actions@github.com"
+          git add data/paper/
+          git commit -m "paper: $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+            git push origin "HEAD:${GITHUB_REF_NAME}" && break
+            sleep 5
+          done
 
       - name: Send digest
         env:

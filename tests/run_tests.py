@@ -465,6 +465,24 @@ check("emoji dropped rather than raising",
       _ntfy._ascii_header("\U0001F7E2 BUY"), " BUY")
 _ntfy._ascii_header("x" * 300).encode("latin-1")  # must not raise
 
+# ── Paper trading log ──────────────────────────────────────────────────────
+# The point of this log is that it cannot cheat: a pick is recorded today and
+# priced at a LATER real close, never the one that was already visible when it
+# was chosen.
+import scripts.paper as _paper  # noqa: E402
+
+with tempfile.TemporaryDirectory() as _td:
+    _paper.PAPER_DIR = Path(_td)
+    _blank = _paper.load("teststrat")
+    check("new log starts at the full portfolio", _blank["cash"], _paper.PORTFOLIO)
+    check("new log has no positions", (_blank["open"], _blank["closed"]), ([], []))
+
+    _blank["pending"] = [{"ticker": "AAA", "picked": "2026-09-14"}]
+    _paper.save("teststrat", _blank)
+    check("log round-trips", _paper.load("teststrat")["pending"][0]["ticker"], "AAA")
+    check("log is written per strategy",
+          _paper.path_for("teststrat").name, "teststrat.json")
+
 # ── Mac agent quiet hours ──────────────────────────────────────────────────
 # The window wraps midnight, which is the easy thing to get wrong: a naive
 # start <= h < end comparison silently never fires for 23->7.
