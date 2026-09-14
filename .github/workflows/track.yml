@@ -1,0 +1,79 @@
+name: Track trades
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub queues these on a best-effort basis and can run
+    # them late under load, so treat the real cadence as "roughly every 15-30
+    # minutes" rather than a guarantee.
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Print alerts without sending them'
+        type: boolean
+        default: false
+      backfill:
+        description: 'Also sweep the SEC daily index for N days back'
+        type: string
+        default: '0'
+      limit:
+        description: 'Cap filings fetched this run (0 = no cap)'
+        type: string
+        default: '0'
+
+# A slow run must never overlap the next scheduled one -- two workers writing
+# state/seen.json produces conflicting commits and duplicate alerts.
+concurrency:
+  group: track
+  cancel-in-progress: false
+
+permissions:
+  contents: write        # required to commit state/seen.json back
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -q -r requirements.txt
+
+      - name: Run tracker
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          python -m src.main \
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            --backfill "${{ inputs.backfill || 0 }}" \
+            --limit "${{ inputs.limit || 0 }}"
+
+      - name: Persist state
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if [[ -z "$(git status --porcelain state/)" ]]; then
+            echo "no state change"; exit 0
+          fi
+          git config user.name  "investor-tracker[bot]"
+          git config user.email "actions@github.com"
+          git add state/
+          git commit -m "state: $(date -u +%Y-%m-%dT%H:%MZ)"
+          # Another run may have pushed while this one worked. Rebase rather
+          # than force -- the state file is append-mostly and merges cleanly.
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+            git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push attempt $i failed, retrying"; sleep 5
+          done
+          echo "::warning::could not persist state after 3 attempts"

@@ -1,0 +1,50 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  WATCHLIST — anyone here alerts on EVERY trade, ignoring dollar thresholds.
+#
+#  >>> REPLACE THIS WITH YOUR OWN LIST. <<<
+#  This is a seed of frequently-cited active filers so the bot does something
+#  useful on day one. It is a starting point, NOT a recommendation, and says
+#  nothing about anyone's conduct -- every trade here is a legally required
+#  public disclosure.
+#
+#  Editing: add or delete a line, commit, push. No code changes needed.
+#  Name matching is fuzzy: it normalizes to lastname + first initial, so
+#  "Hon. Pelosi, Nancy" / "Nancy Pelosi" / "PELOSI NANCY" all match.
+# ═══════════════════════════════════════════════════════════════════════════
+
+congress:
+  # Trades are often filed under a spouse's name; matching is on the filing
+  # member, which is how the disclosure itself is attributed.
+  - name: "Nancy Pelosi"
+  - name: "Ro Khanna"
+  - name: "Josh Gottheimer"
+  - name: "Michael McCaul"
+  - name: "Dan Crenshaw"
+  - name: "Marjorie Taylor Greene"
+  - name: "Tommy Tuberville"
+  - name: "Rick Scott"
+  - name: "Sheldon Whitehouse"
+  - name: "Debbie Wasserman Schultz"
+
+insiders:
+  # Corporate insiders (Form 4). CIK is optional but makes matching exact --
+  # find one at https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany
+  # Names alone work fine; CIK just removes any ambiguity.
+  - name: "Elon Musk"
+    cik: "0001494730"
+  - name: "Jensen Huang"
+  - name: "Mark Zuckerberg"
+  - name: "Jamie Dimon"
+
+funds:
+  # 13F filers (Phase 4). Quarterly data, up to 4.5 months stale by the time
+  # it is public -- useful for context, useless for speed.
+  - name: "Berkshire Hathaway"
+    cik: "0001067983"
+  - name: "Scion Asset Management"   # Michael Burry
+    cik: "0001649339"
+  - name: "Pershing Square"          # Bill Ackman
+    cik: "0001336528"
+
+# Tickers to always alert on, from anyone, at any size. Empty = off.
+tickers: []

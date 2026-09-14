@@ -1,0 +1,58 @@
+# ── Alert thresholds ────────────────────────────────────────────────────────
+filters:
+  # Minimum dollar value for an open-market insider BUY by someone NOT on the
+  # watchlist. Tune this after the first dry-run day (see README).
+  min_insider_buy_usd: 1_000_000
+
+  # Minimum dollar value for an open-market insider SELL by a non-watchlist
+  # person. Sells are weaker signal than buys, so this is set higher.
+  min_insider_sell_usd: 10_000_000
+
+  # Transaction codes that count as real conviction trades.
+  #   P = open-market purchase (insider spent their own money) -- strongest signal
+  #   S = open-market sale
+  # Everything else is compensation mechanics, not conviction:
+  #   A = grant/award      F = shares withheld for taxes
+  #   M = option exercise  G = gift        C = conversion
+  signal_codes: [P, S]
+
+  # Cluster buy: N+ distinct insiders at the same company buying inside a window.
+  # Fires regardless of dollar size -- historically the strongest insider signal.
+  cluster_min_insiders: 3
+  cluster_window_days: 7
+
+  # Anyone on the watchlist alerts on EVERY trade, ignoring the thresholds above.
+
+# ── Notification channels ───────────────────────────────────────────────────
+notify:
+  discord:
+    enabled: true              # primary channel: free + reliable
+  sms_gateway:
+    enabled: true              # free carrier email->SMS. Best effort, see README.
+    number: "4087486507"
+    # Xfinity Mobile is a Verizon MVNO. Both gateways are tried; whichever the
+    # carrier honors delivers, the other bounces harmlessly.
+    gateways: ["vtext.com", "mypixmessages.com"]
+    # Hard cap so a burst of filings can't spam the phone (or trip carrier
+    # anti-spam, which is how these gateways get blocked).
+    max_per_run: 5
+    max_per_day: 40
+  twilio:
+    enabled: false             # paid, guaranteed delivery. Flip to true after
+    from_number: ""            # completing A2P 10DLC registration. See README.
+    to_number: "+14087486507"
+
+# ── Source toggles ──────────────────────────────────────────────────────────
+sources:
+  edgar_form4: true            # ~2 business day lag  (THE fast one)
+  house:       false           # Phase 2
+  senate:      false           # Phase 2
+  edgar_13f:   false           # Phase 4
+
+http:
+  # SEC requires a declared User-Agent with real contact info. They ban IPs that
+  # omit it. Rate limit is 10 req/s; we stay at 5 to be polite.
+  user_agent: "Rorey Shen roreyshen@gmail.com"
+  requests_per_second: 5
+  timeout_seconds: 30
+  max_retries: 3
