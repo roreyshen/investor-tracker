@@ -1,5 +1,5 @@
 {
- "cash": 100000.0,
+ "cash": 50020.61999999998,
  "closed": [],
  "marks": [
   {
@@ -8,34 +8,49 @@
    "spy": 764.29
   }
  ],
- "open": [],
- "pending": [
+ "open": [
   {
-   "picked": "2026-09-14",
+   "cost": 9997.85,
+   "entry": 48.77,
+   "opened": "2026-09-14",
+   "shares": 205,
    "ticker": "HMN",
    "why": "Cisneros, Gilbert (Rep. CA31)"
   },
   {
-   "picked": "2026-09-14",
+   "cost": 9996.35,
+   "entry": 153.79,
+   "opened": "2026-09-14",
+   "shares": 65,
    "ticker": "CDW",
    "why": "Cisneros, Gilbert (Rep. CA31)"
   },
   {
-   "picked": "2026-09-14",
+   "cost": 9995.16,
+   "entry": 61.32,
+   "opened": "2026-09-14",
+   "shares": 163,
    "ticker": "KMX",
    "why": "Cisneros, Gilbert (Rep. CA31)"
   },
   {
-   "picked": "2026-09-14",
+   "cost": 9995.04,
+   "entry": 37.86,
+   "opened": "2026-09-14",
+   "shares": 264,
    "ticker": "APG",
    "why": "Cisneros, Gilbert (Rep. CA31)"
   },
   {
-   "picked": "2026-09-14",
+   "cost": 9994.98,
+   "entry": 14.34,
+   "opened": "2026-09-14",
+   "shares": 697,
    "ticker": "TTD",
    "why": "Cisneros, Gilbert (Rep. CA31)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "congress"
 }

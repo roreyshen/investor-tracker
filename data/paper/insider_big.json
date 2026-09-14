@@ -1,5 +1,5 @@
 {
- "cash": 100000.0,
+ "cash": 90039.76,
  "closed": [],
  "marks": [
   {
@@ -8,12 +8,21 @@
    "spy": 764.29
   }
  ],
- "open": [],
+ "open": [
+  {
+   "cost": 9960.24,
+   "entry": 70.64,
+   "opened": "2026-09-14",
+   "shares": 141,
+   "ticker": "PVH",
+   "why": "Larsson Stefan (Chief Executive Officer)"
+  }
+ ],
  "pending": [
   {
    "picked": "2026-09-14",
-   "ticker": "PVH",
-   "why": "Larsson Stefan (Chief Executive Officer)"
+   "ticker": "CRBG",
+   "why": "NIPPON LIFE INSURANCE CO (10% Owner)"
   }
  ],
  "started": "2026-09-14",
