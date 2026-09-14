@@ -125,5 +125,62 @@ check("submission url",
 check("empty index link", _submission_url("", "x"), "")
 check("garbage xml yields no trades", parse_form4("not xml", "a", "u"), [])
 
+# ── House PDF parsing ──────────────────────────────────────────────────────
+from src.sources.house import _merge_wrapped, _parse_page  # noqa: E402
+
+# A "(TICKER)" that wrapped away from its "[ST]" must be rejoined, or the row
+# loses its anchor and the whole transaction disappears.
+check("merge wrapped ticker marker",
+      _merge_wrapped(["Netflix, Inc. (NFLX)", "[ST]", "other"]),
+      ["Netflix, Inc. (NFLX) [ST]", "other"])
+check("merge leaves unrelated lines alone",
+      _merge_wrapped(["Apple Inc. (AAPL) [ST]", "P 01/02/2026 01/03/2026 $1 - $2"]),
+      ["Apple Inc. (AAPL) [ST]", "P 01/02/2026 01/03/2026 $1 - $2"])
+
+PAGE = """$200?
+Amazon.com, Inc. - Common Stock
+(AMZN) [ST]
+S (partial) 03/16/2026 03/16/2026 $1,001 - $15,000
+F      S     : New
+D          : The full transaction included the following sales: T - 37 shares
+sold @ $493.42/share SPY - 8.318 shares sold @ $670.02/share
+AT&T Inc. (T) [ST] S (partial) 03/16/2026 03/16/2026 $1,001 - $15,000
+Aalo Atomics [OI] P 01/29/2026 01/29/2026 $15,001 -
+$50,000
+SP Allocate Alpha Fund II LP [OT] P 12/19/2025 12/31/2025 $1,001 - $15,000
+* For the complete list
+"""
+rows = _parse_page(PAGE)
+check("page yields every row", len(rows), 4)
+check("ticker on its own line", (rows[0]["ticker"], rows[0]["action"]), ("AMZN", "SELL"))
+check("asset name kept clean of description prose",
+      rows[0]["asset"], "Amazon.com, Inc. - Common Stock")
+check("asset and transaction sharing one line",
+      (rows[1]["ticker"], rows[1]["asset"]), ("T", "AT&T Inc."))
+check("no-ticker asset still parsed",
+      (rows[2]["ticker"], rows[2]["asset"], rows[2]["action"]),
+      ("", "Aalo Atomics", "BUY"))
+check("wrapped amount rejoined", rows[2]["amount"], "$15,001 - $50,000")
+check("owner prefix stripped", rows[3]["asset"], "Allocate Alpha Fund II LP")
+
+# ── Senate HTML parsing ────────────────────────────────────────────────────
+from src.sources.senate import parse_report  # noqa: E402
+
+HTML = """<table><tbody>
+<tr><td>1</td><td>08/27/2026</td><td>Joint</td><td>IVV</td>
+<td>iShares Core S&amp;P 500 ETF</td><td>Stock</td><td>Sale (Partial)</td>
+<td>$1,001 - $15,000</td><td>--</td></tr>
+<tr><td>2</td><td>08/13/2026</td><td>Self</td><td>--</td>
+<td>Some Corporate Bond</td><td>Corporate Bond</td><td>Purchase</td>
+<td>$15,001 - $50,000</td><td>--</td></tr>
+</tbody></table>"""
+srows = parse_report(HTML)
+check("senate row count", len(srows), 2)
+check("senate sale maps to SELL", srows[0]["action"], "SELL")
+check("senate html entity decoded", srows[0]["asset"], "iShares Core S&P 500 ETF")
+check("senate purchase maps to BUY", srows[1]["action"], "BUY")
+check("senate empty ticker normalized", srows[1]["ticker"], "")
+check("senate no tbody -> no rows", parse_report("<p>nothing</p>"), [])
+
 print(f"\n{PASS} passed, {FAIL} failed")
 sys.exit(1 if FAIL else 0)

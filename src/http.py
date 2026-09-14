@@ -72,6 +72,26 @@ class Fetcher:
         log.error("giving up on %s: %s", url, last_err)
         return None
 
+    def post(self, url: str, *, data=None, headers: dict | None = None,
+             **kw) -> requests.Response | None:
+        last_err = None
+        for attempt in range(self.max_retries):
+            self.limiter.wait()
+            try:
+                r = self.session.post(url, data=data, headers=headers,
+                                      timeout=self.timeout, **kw)
+                if r.status_code in (429, 503):
+                    time.sleep(2 ** attempt * 5)
+                    continue
+                r.raise_for_status()
+                return r
+            except requests.RequestException as e:
+                last_err = e
+                if attempt < self.max_retries - 1:
+                    time.sleep(2 ** attempt)
+        log.error("POST failed %s: %s", url, last_err)
+        return None
+
     def get_text(self, url: str, **kw) -> str | None:
         r = self.get(url, **kw)
         return r.text if r is not None else None

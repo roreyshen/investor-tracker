@@ -77,8 +77,19 @@ class Watchlist:
         return None
 
 
-def _is_open_market(trade: Trade) -> bool:
-    return trade.code in ("P", "S")
+_RANGE_LOW_RE = re.compile(r"\$?([\d,]+)")
+
+
+def range_low(value_range: str) -> float:
+    """Bottom of a disclosed band. Congress never publishes an exact amount,
+    so the conservative read is the smallest it could have been."""
+    m = _RANGE_LOW_RE.search(value_range or "")
+    if not m:
+        return 0.0
+    try:
+        return float(m.group(1).replace(",", ""))
+    except ValueError:
+        return 0.0
 
 
 def find_cluster_buys(trades: list[Trade], history: list[dict],
@@ -112,6 +123,7 @@ def evaluate(trades: list[Trade], settings: dict, watchlist: Watchlist,
     f = settings.get("filters", {})
     min_buy = f.get("min_insider_buy_usd", 1_000_000)
     min_sell = f.get("min_insider_sell_usd", 10_000_000)
+    min_congress = f.get("min_congress_usd", 50_000)
     codes = set(f.get("signal_codes", ["P", "S"]))
 
     clusters = find_cluster_buys(
@@ -131,11 +143,10 @@ def evaluate(trades: list[Trade], settings: dict, watchlist: Watchlist,
         if t.ticker and t.ticker.upper() in watchlist.tickers:
             reasons.append(f"watched ticker {t.ticker}")
 
-        # Congressional filings carry ranges, not exact values, and have no
-        # transaction code -- they bypass the dollar rules and rely on the
-        # watchlist match above.
         if t.source in ("house", "senate"):
-            pass
+            low = range_low(t.value_range)
+            if low >= min_congress and t.action in ("BUY", "SELL"):
+                reasons.append(f"large congressional trade ({t.amount_str})")
         elif t.code in codes and t.value_usd:
             if t.action == "BUY" and t.value_usd >= min_buy:
                 reasons.append(f"large insider buy ({t.amount_str})")

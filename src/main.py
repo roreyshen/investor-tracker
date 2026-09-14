@@ -20,7 +20,7 @@ from .http import Fetcher
 from .models import Trade
 from .notify import discord, sms_gateway, twilio_sms
 from .notify.format import sms_line
-from .sources import edgar_form4
+from .sources import edgar_form4, house, senate
 from .state import State
 
 log = logging.getLogger("tracker")
@@ -65,7 +65,19 @@ def collect_trades(settings: dict, fetcher: Fetcher, state: State,
             # One broken source must not take down the others.
             log.exception("form4 source failed")
 
-    # Phase 2/4 sources register here as they land.
+    if want("house"):
+        try:
+            trades += house.collect(fetcher, state, limit=args.limit)
+        except Exception:
+            log.exception("house source failed")
+
+    if want("senate"):
+        try:
+            trades += senate.collect(fetcher, state, limit=args.limit)
+        except Exception:
+            log.exception("senate source failed")
+
+    # Phase 4 (13F) registers here.
     return trades
 
 

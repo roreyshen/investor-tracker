@@ -8,6 +8,12 @@ filters:
   # person. Sells are weaker signal than buys, so this is set higher.
   min_insider_sell_usd: 10_000_000
 
+  # Congressional filings disclose a BAND ("$1,001 - $15,000"), never an exact
+  # figure, so this compares against the bottom of the band. Set low because
+  # the whole Congress files only ~1,000 transactions a year -- the volume
+  # problem that drives the insider thresholds simply doesn't exist here.
+  min_congress_usd: 50_000
+
   # Transaction codes that count as real conviction trades.
   #   P = open-market purchase (insider spent their own money) -- strongest signal
   #   S = open-market sale
@@ -45,8 +51,8 @@ notify:
 # ── Source toggles ──────────────────────────────────────────────────────────
 sources:
   edgar_form4: true            # ~2 business day lag  (THE fast one)
-  house:       false           # Phase 2
-  senate:      false           # Phase 2
+  house:       true            # 30-45 day statutory lag
+  senate:      true            # 30-45 day statutory lag
   edgar_13f:   false           # Phase 4
 
 http:
