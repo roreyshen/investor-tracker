@@ -10,3 +10,7 @@ venv/
 
 # Mac agent runtime log -- local only, would churn against CI commits
 mac_agent/agent.log
+
+# Bulk-imported trade history: ~30MB and rebuilt from SEC datasets on demand,
+# so it is derived data, not source. Rebuild with scripts/import_bulk.py
+data/trades.json
