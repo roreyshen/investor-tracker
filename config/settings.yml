@@ -33,19 +33,16 @@ filters:
 notify:
   discord:
     enabled: true              # primary channel: free + reliable
-  sms_gateway:
-    enabled: true              # free carrier email->SMS. Best effort, see README.
-    number: "4087486507"
-    # Xfinity Mobile is a Verizon MVNO. Both gateways are tried; whichever the
-    # carrier honors delivers, the other bounces harmlessly.
-    gateways: ["vtext.com", "mypixmessages.com"]
-    # Hard cap so a burst of filings can't spam the phone (or trip carrier
-    # anti-spam, which is how these gateways get blocked).
-    max_per_run: 5
-    max_per_day: 40
+  mac_agent:
+    # Queues alerts to state/outbox.json for the Mac to text via Messages.app.
+    # The carrier email-to-SMS route was scrapped: Xfinity Mobile bounces it and
+    # Verizon retires the gateway 2027-03-31. See mac_agent/README.md.
+    enabled: true
   twilio:
-    enabled: false             # paid, guaranteed delivery. Flip to true after
-    from_number: ""            # completing A2P 10DLC registration. See README.
+    # Paid fallback, kept ready but off. Only worth it if the Mac agent proves
+    # too unreliable (it only sends while the Mac is awake).
+    enabled: false
+    from_number: ""
     to_number: "+14087486507"
 
 # ── Source toggles ──────────────────────────────────────────────────────────

@@ -8,6 +8,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = ROOT / "config"
 STATE_PATH = ROOT / "state" / "seen.json"
+OUTBOX_PATH = ROOT / "state" / "outbox.json"
 
 
 def _load(path: Path) -> dict:

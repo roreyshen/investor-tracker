@@ -14,11 +14,11 @@ import os
 import sys
 from datetime import date
 
-from .config import STATE_PATH, load_settings, load_watchlist
+from .config import OUTBOX_PATH, STATE_PATH, load_settings, load_watchlist
 from .filters import Watchlist, evaluate, history_entries
 from .http import Fetcher
 from .models import Trade
-from .notify import discord, sms_gateway, twilio_sms
+from .notify import discord, outbox, twilio_sms
 from .notify.format import sms_line
 from .sources import edgar_13f, edgar_form4, house, senate
 from .state import State
@@ -86,16 +86,6 @@ def collect_trades(settings: dict, fetcher: Fetcher, state: State,
     return trades
 
 
-def sms_budget(state: State, cfg: dict) -> int:
-    """Remaining daily SMS allowance, reset at UTC midnight."""
-    today = date.today().isoformat()
-    rec = state.data.get("sms_quota", {})
-    if rec.get("date") != today:
-        rec = {"date": today, "sent": 0}
-        state.data["sms_quota"] = rec
-    return max(0, int(cfg.get("max_per_day", 40)) - int(rec.get("sent", 0)))
-
-
 def main(argv=None) -> int:
     args = build_arg_parser().parse_args(argv)
     logging.basicConfig(
@@ -147,16 +137,8 @@ def main(argv=None) -> int:
         discord.send(os.environ.get("DISCORD_WEBHOOK_URL", ""), alerts,
                      dry_run=args.dry_run)
 
-    sms_cfg = n.get("sms_gateway", {})
-    if sms_cfg.get("enabled"):
-        sent, _ = sms_gateway.send(
-            sms_cfg,
-            os.environ.get("GMAIL_ADDRESS", ""),
-            os.environ.get("GMAIL_APP_PASSWORD", ""),
-            alerts, budget=sms_budget(state, sms_cfg), dry_run=args.dry_run,
-        )
-        if not args.dry_run and sent:
-            state.data["sms_quota"]["sent"] += sent
+    if n.get("mac_agent", {}).get("enabled") and not args.dry_run:
+        outbox.append(OUTBOX_PATH, alerts)
 
     tw_cfg = n.get("twilio", {})
     if tw_cfg.get("enabled"):

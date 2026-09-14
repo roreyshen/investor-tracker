@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 
 from src.config import load_settings                    # noqa: E402
 from src.models import Trade                            # noqa: E402
-from src.notify import discord, sms_gateway, twilio_sms  # noqa: E402
+from src.notify import discord, twilio_sms  # noqa: E402
 from src.notify.format import sms_line                  # noqa: E402
 
 SAMPLE = Trade(
@@ -52,16 +52,8 @@ def main() -> int:
             results["discord"] = "SENT - check your Discord channel" if ok else "FAILED"
 
     if args.channel in ("all", "sms"):
-        sent, _ = sms_gateway.send(
-            n.get("sms_gateway", {}),
-            os.environ.get("GMAIL_ADDRESS", ""),
-            os.environ.get("GMAIL_APP_PASSWORD", ""),
-            [SAMPLE], budget=1,
-        )
-        results["sms"] = (
-            "HANDED OFF - delivery NOT confirmed" if sent else
-            "SKIP/FAILED - see log above"
-        )
+        results["sms"] = ("SKIP - texting is handled by the Mac agent; run "
+                          "`python3 mac_agent/agent.py --test`")
 
     if args.channel in ("all", "twilio"):
         cfg = n.get("twilio", {})
@@ -81,12 +73,6 @@ def main() -> int:
     print(f"\n  Message body ({len(sms_line(SAMPLE))} chars):")
     print(f"  {sms_line(SAMPLE)}\n")
 
-    if "sms" in results and results["sms"].startswith("HANDED OFF"):
-        print("  >> SMS needs YOU to verify, SMTP cannot:")
-        print("     1. Did a text arrive at 408-748-6507 within ~2 minutes?")
-        print("     2. Check roreyshen@gmail.com for a bounce/undeliverable.")
-        print("     If no text AND a bounce -> Xfinity blocks the gateway.")
-        print("     Discord still works; see README for the Twilio upgrade.\n")
     return 0
 
 
