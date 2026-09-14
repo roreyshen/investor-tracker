@@ -36,7 +36,7 @@ congress:
   # --- Highest-volume / most-watched filers. High trade counts make their
   #     numbers statistically meaningful faster than the list above.
   - name: "Nancy Pelosi"
-  - name: "Ro Khanna"
+  - name: "Ro Khanna"          # files as "Khanna, Rohit"
   - name: "Josh Gottheimer"
   - name: "Michael McCaul"
   - name: "Marjorie Taylor Greene"
@@ -57,6 +57,8 @@ insiders:
   - name: "Elon Musk"
     cik: "0001494730"
   - name: "Jensen Huang"
+    # Files under his legal name; "Jensen" never appears in SEC filings.
+    aliases: ["Huang Jen Hsun"]
   - name: "Mark Zuckerberg"
   - name: "Jamie Dimon"
 

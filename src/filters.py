@@ -91,12 +91,20 @@ class Watchlist:
                 name = item.get("name", "") if isinstance(item, dict) else str(item)
                 if not name:
                     continue
-                toks = name_tokens(name)
-                if len(toks) >= 2:
-                    self.entries.append((toks, name, group))
-                else:
-                    log.warning("watchlist entry %r is too vague to match safely "
-                                "(needs first + last name), skipping", name)
+                # Aliases exist for name forms no nickname map can reach:
+                # Jensen Huang files as "HUANG JEN HSUN", where "Jensen" is an
+                # English name and "Jen-Hsun" the legal one. Without this the
+                # entry silently matches nothing.
+                forms = [name]
+                if isinstance(item, dict):
+                    forms += [a for a in (item.get("aliases") or []) if a]
+                for form in forms:
+                    toks = name_tokens(form)
+                    if len(toks) >= 2:
+                        self.entries.append((toks, name, group))
+                    else:
+                        log.warning("watchlist entry %r is too vague to match "
+                                    "safely (needs first + last name), skipping", form)
                 if isinstance(item, dict) and item.get("cik"):
                     self.ciks[str(item["cik"]).lstrip("0")] = name
 

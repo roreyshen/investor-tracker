@@ -66,6 +66,12 @@ for _filed, _want in [("Tuberville, Thomas H", "Tommy Tuberville"),
                       ("Allen, Richard W.", "Richard Allen")]:
     check(f"nickname: {_filed!r}", wl.match(_filed), _want)
 check("nickname map doesn't create false matches", wl.match("Scott, Michael"), None)
+
+# Aliases cover name forms no nickname map can reach. Jensen Huang files as
+# "HUANG JEN HSUN" -- 271 trades that matched nothing before this.
+check("alias matches the filed legal name", wl.match("HUANG JEN HSUN"), "Jensen Huang")
+check("primary name still matches", wl.match("Huang Jensen"), "Jensen Huang")
+check("alias does not match a different Huang", wl.match("Huang Victor"), None)
 check("name_tokens drops titles", name_tokens("Hon. Pelosi, Nancy Jr."),
       {"pelosi", "nancy"})
 
