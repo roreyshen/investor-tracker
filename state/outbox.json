@@ -1,0 +1,18 @@
+{
+ "pending": [
+  {
+   "uid": "20035444:0",
+   "queued_at": "2026-09-14T15:16:56.824060+00:00",
+   "text": "\ud83d\udd34 SELL GOOGL $250K-500K - Rose (Rep. TN06) - traded 6/3 (466d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035444.pdf"
+  },
+  {
+   "uid": "20035445:0",
+   "queued_at": "2026-09-14T15:16:56.824060+00:00",
+   "text": "\ud83d\udd34 SELL 2000140446 American Fu $500K-1M - Rose (Rep. TN06) - traded 6/3 (466d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035445.pdf"
+  }
+ ]
+}
