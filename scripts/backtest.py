@@ -118,6 +118,23 @@ def find_clusters(rows: list[dict], window_days: int = 7, min_insiders: int = 3)
     return out
 
 
+def conviction(r: dict) -> float:
+    """Rank signals when there are more than there are slots.
+
+    Ten positions and a 63-day hold means most signals are never acted on, so
+    taking whichever arrived first makes arrival order the strategy. Ranking
+    by dollar size, seniority and cluster membership at least tests the signal
+    rather than the calendar.
+    """
+    v = float(r.get("value_usd") or range_low(r.get("value_range") or "") or 0)
+    score = v
+    if is_senior(r.get("role") or "", SENIOR):
+        score *= 2.0
+    if r.get("source") == "senate":
+        score *= 1.2
+    return score
+
+
 def next_close(px: PriceStore, tk: str, when: date, window: int = 6):
     """First close strictly AFTER `when` -- a same-day fill would be lookahead."""
     return px.close_on_or_after(tk, when + timedelta(days=1), window)
@@ -126,6 +143,8 @@ def next_close(px: PriceStore, tk: str, when: date, window: int = 6):
 def run(rows, px, universe, signal, hold_days, max_positions, start, end):
     cash, positions, closed = START_CASH, [], []
     equity_curve = []
+    skipped_no_price = 0
+    considered = 0
 
     signals = defaultdict(list)
     for r in rows:
@@ -155,14 +174,16 @@ def run(rows, px, universe, signal, hold_days, max_positions, start, end):
             still.append(p)
         positions = still
 
-        # Enter new signals, oldest-first, equal weight.
-        for r in signals.get(day, []):
+        # Enter new signals, strongest first, equal weight.
+        for r in sorted(signals.get(day, []), key=conviction, reverse=True):
             if len(positions) >= max_positions:
                 break
             if any(p["ticker"] == r["ticker"] for p in positions):
                 continue
+            considered += 1
             entry = next_close(px, r["ticker"], day)
             if not entry or entry <= 0:
+                skipped_no_price += 1
                 continue
             size = min(START_CASH / max_positions, cash)
             if size < entry:
@@ -206,6 +227,12 @@ def run(rows, px, universe, signal, hold_days, max_positions, start, end):
         "win_rate": round(100 * len(wins) / len(closed), 1) if closed else None,
         "avg_pnl": round(statistics.fmean([c["pnl"] for c in closed]), 2) if closed else None,
         "max_drawdown_pct": round(100 * dd, 2),
+        # Coverage matters: a backtest that silently drops the signals it has
+        # no price for is reporting on a biased subset, not the strategy.
+        "considered": considered,
+        "skipped_no_price": skipped_no_price,
+        "coverage_pct": round(100 * (1 - skipped_no_price / considered), 1)
+                        if considered else None,
         "equity": equity_curve,
     }
 
@@ -246,9 +273,9 @@ def main() -> int:
     for name, fn in make_strategies(wl, clusters).items():
         r = run(rows, px, universe, fn, args.hold, args.positions, start, end)
         results[name] = r
-        log.info("%-24s %+7.2f%%  trades=%-4d win=%s  maxDD=%s%%",
+        log.info("%-24s %+7.2f%%  trades=%-4d win=%-5s maxDD=%-7s coverage=%s%%",
                  name, r["return_pct"], r["trades"], r["win_rate"],
-                 r["max_drawdown_pct"])
+                 r["max_drawdown_pct"], r["coverage_pct"])
         px.save()
 
     for bench in ("SPY", "QQQ", "DIA"):
