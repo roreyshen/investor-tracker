@@ -377,6 +377,146 @@
    "text": "\ud83d\udfe2 BUY SMG: ANGX x1834, CRBG  amount undisclosed - Smg",
    "source": "smg",
    "url": ""
+  },
+  {
+   "uid": "0001104659-26-107514:0",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL INGM $356.8M - Platinum Equity Llc (10% Owner) - 9/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2080996/000110465926107514/0001104659-26-107514-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009430",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL SNDK $55.3M - David (Director) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000195004726009430/0001950047-26-009430-index.htm"
+  },
+  {
+   "uid": "0001539838-26-000160:0",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL FANG $15.3M - Stice (Director) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559933/000153983826000160/0001539838-26-000160-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009418",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $11.9M - Roxanne (Director) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000195004726009418/0001950047-26-009418-index.htm"
+  },
+  {
+   "uid": "0001734563-26-000019:1",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL DBX $11.4M - Houston (Co-CEO) - 9/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1734563/000173456326000019/0001734563-26-000019-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009452",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL ROST $11.3M - James (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1623534/000195004726009452/0001950047-26-009452-index.htm"
+  },
+  {
+   "uid": "0002062781-26-000022:3",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL HNGE $10.1M - Mecklenburg (Director) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2062781/000206278126000022/0002062781-26-000022-index.htm"
+  },
+  {
+   "uid": "0001969223-26-001021",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL CRVL $9M - Corstar Holdings Inc (10%) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1256520/000196922326001021/0001969223-26-001021-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009432",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL FTNT $8.8M - John (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1476336/000195004726009432/0001950047-26-009432-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009427",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL DDOG $8.8M - David (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000195004726009427/0001950047-26-009427-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009419",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL NTAP $7.7M - George (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1586813/000195004726009419/0001950047-26-009419-index.htm"
+  },
+  {
+   "uid": "0001959173-26-006948",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL W $7.1M - Conine (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1620052/000195917326006948/0001959173-26-006948-index.htm"
+  },
+  {
+   "uid": "0001959173-26-006949",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL W $7.1M - Shah (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1620093/000195917326006949/0001959173-26-006949-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009382",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL ESTC $7.1M - Shay (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1753445/000195004726009382/0001950047-26-009382-index.htm"
+  },
+  {
+   "uid": "0001193125-26-390651:0",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $6M - Nippon Life Insurance (10% Owner) - 9/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526390651/0001193125-26-390651-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009437",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL FIG $5.8M - Kristopher (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2073592/000195004726009437/0001950047-26-009437-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009442",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udd34 SELL RYTM $5.2M - David (Director) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1649904/000195004726009442/0001950047-26-009442-index.htm"
+  },
+  {
+   "uid": "0001628280-26-061880:0",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udfe2 BUY GREE $100K - Kovler (CEO) - 9/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1971292/000162828026061880/0001628280-26-061880-index.htm"
+  },
+  {
+   "uid": "0001628280-26-061879:0",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udfe2 BUY GREE $100K - Mulvihill (CFO) - 9/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1998358/000162828026061879/0001628280-26-061879-index.htm"
+  },
+  {
+   "uid": "0001628280-26-061878:0",
+   "queued_at": "2026-09-14T22:06:42.137400+00:00",
+   "text": "\ud83d\udfe2 BUY GREE $100K - Irwin (Pres) - 9/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1881363/000162828026061878/0001628280-26-061878-index.htm"
   }
  ]
 }
