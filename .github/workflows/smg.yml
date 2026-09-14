@@ -1,0 +1,62 @@
+name: SMG pre-close digest
+
+on:
+  schedule:
+    # 19:15 UTC on weekdays = 3:15pm ET during EDT, 2:15pm ET during EST.
+    # Either way it lands before the 4pm close, which is the only deadline
+    # that matters: SMG fills at that day's close if entered before 4pm.
+    - cron: '15 19 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      strategy:
+        description: 'Signal strategy'
+        type: choice
+        default: insider_big
+        options: [insider_big, insider, insider_senior, insider_cluster,
+                  congress, congress_big, senate, watchlist]
+      positions:
+        description: 'Portfolio split (equal weight)'
+        type: string
+        default: '10'
+      send:
+        description: 'Push to phone/Discord'
+        type: boolean
+        default: true
+
+concurrency:
+  group: smg
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -q -r requirements.txt
+
+      # The trade store is gitignored (~30MB of derived data), so the digest
+      # rebuilds the recent slice it needs rather than relying on a committed
+      # snapshot that would go stale.
+      - name: Refresh recent filings
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python scripts/backfill.py --no-house --no-senate --form4-days 5 --limit 600
+
+      - name: Send digest
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          python scripts/smg_digest.py \
+            --strategy "${{ inputs.strategy || 'insider_big' }}" \
+            --positions "${{ inputs.positions || 10 }}" \
+            ${{ (inputs.send == false) && ' ' || '--send' }}

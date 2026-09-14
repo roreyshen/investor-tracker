@@ -453,6 +453,18 @@ check("ntfy collapses a burst", _ntfy.send("topic", _many, dry_run=True),
 check("ntfy sends small batches individually",
       _ntfy.send("topic", _many[:3], dry_run=True), 3)
 
+# HTTP headers are latin-1 only. A title with an em-dash or emoji raises
+# UnicodeEncodeError inside http.client and the send fails outright -- which
+# would have killed the scheduled digest silently.
+check("em-dash transliterated in header",
+      _ntfy._ascii_header("SMG picks \u2014 enter before 4pm"),
+      "SMG picks - enter before 4pm")
+check("smart quotes transliterated",
+      _ntfy._ascii_header("\u201cbuy\u201d \u2018now\u2019"), '"buy" \'now\'')
+check("emoji dropped rather than raising",
+      _ntfy._ascii_header("\U0001F7E2 BUY"), " BUY")
+_ntfy._ascii_header("x" * 300).encode("latin-1")  # must not raise
+
 # ── Mac agent quiet hours ──────────────────────────────────────────────────
 # The window wraps midnight, which is the easy thing to get wrong: a naive
 # start <= h < end comparison silently never fires for 23->7.

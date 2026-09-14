@@ -29,13 +29,28 @@ BASE = "https://ntfy.sh"
 MAX_INDIVIDUAL = 6
 
 
+def _ascii_header(value: str) -> str:
+    """HTTP headers are latin-1 only.
+
+    The message BODY is sent as UTF-8 and can hold anything, but a title with
+    an em-dash or emoji raises UnicodeEncodeError inside http.client and the
+    send fails outright. Common punctuation is transliterated rather than
+    dropped so titles stay readable.
+    """
+    swaps = {"\u2014": "-", "\u2013": "-", "\u2018": "'", "\u2019": "'",
+             "\u201c": '"', "\u201d": '"', "\u2026": "...", "\u00b7": "-"}
+    for bad, good in swaps.items():
+        value = value.replace(bad, good)
+    return value.encode("latin-1", "ignore").decode("latin-1")
+
+
 def _post(topic: str, text: str, title: str, url: str = "",
           priority: str = "default", attempts: int = 3) -> bool:
-    headers = {"Title": title[:200], "Priority": priority,
+    headers = {"Title": _ascii_header(title)[:200], "Priority": priority,
                "Tags": "chart_with_upwards_trend"}
     if url:
         # Renders as a tappable button straight to the filing.
-        headers["Actions"] = f"view, Open filing, {url}"
+        headers["Actions"] = _ascii_header(f"view, Open filing, {url}")
     for n in range(attempts):
         try:
             r = requests.post(f"{BASE}/{topic}", data=text.encode("utf-8"),
@@ -49,6 +64,15 @@ def _post(topic: str, text: str, title: str, url: str = "",
             log.warning("ntfy attempt %d failed: %s", n + 1, e)
             time.sleep(2 ** n)
     return False
+
+
+def send_text(topic: str, text: str, title: str = "Investor Tracker",
+              priority: str = "default") -> bool:
+    """Send one arbitrary message (digests, summaries, status)."""
+    if not topic:
+        log.info("ntfy: no NTFY_TOPIC set, skipping")
+        return False
+    return _post(topic, text, title, priority=priority)
 
 
 def send(topic: str, trades: list[Trade], dry_run: bool = False) -> int:

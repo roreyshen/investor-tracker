@@ -140,6 +140,31 @@ def next_close(px: PriceStore, tk: str, when: date, window: int = 6):
     return px.close_on_or_after(tk, when + timedelta(days=1), window)
 
 
+def survivorship(rows, universe, start, end) -> dict:
+    """How much of the signal set is invisible to this backtest, and why.
+
+    The ticker universe is a snapshot of what is listed TODAY, so anything
+    delisted, acquired or moved to OTC since is absent and gets skipped. That
+    is survivorship bias: failures are quietly excluded, which flatters
+    results. Acquisitions (often at a premium) are excluded too, pushing the
+    other way, so the net direction is not certain -- but the size of the hole
+    should never be hidden.
+    """
+    lo, hi = start.isoformat(), end.isoformat()
+    inwin = [r for r in rows if r.get("ticker") and r.get("filed_date")
+             and lo <= r["filed_date"] <= hi]
+    missing = sum(1 for r in inwin if r["ticker"] not in universe)
+    inelig = sum(1 for r in inwin if r["ticker"] in universe
+                 and not eligible(universe[r["ticker"]]))
+    return {
+        "signals_in_window": len(inwin),
+        "ticker_not_listed_today": missing,
+        "listed_but_ineligible": inelig,
+        "tradeable": len(inwin) - missing - inelig,
+        "delisted_pct": round(100 * missing / len(inwin), 1) if inwin else None,
+    }
+
+
 def prepare(rows, universe, start, end):
     """Parse and filter once, not once per parameter combination.
 
@@ -329,10 +354,15 @@ def sweep(rows, px, universe, wl, clusters, start, end, out_path):
     log.info("Chance alone would produce some winners; a strategy that only "
              "beats the benchmark at one setting is a fitted parameter.")
 
+    surv = survivorship(rows, universe, start, end)
+    log.info("survivorship: %.1f%% of in-window signals are on tickers not "
+             "listed today and were skipped", surv["delisted_pct"] or 0)
+
     payload = {"generated": date.today().isoformat(), "mode": "sweep",
                "start": start.isoformat(), "end": end.isoformat(),
                "benchmarks": bench, "holds": holds, "positions": sizes,
-               "grid": grid, "beat_count": beats, "combinations": total}
+               "grid": grid, "beat_count": beats, "combinations": total,
+               "survivorship": surv}
     Path(out_path).with_name("sweep.json").write_text(json.dumps(payload, separators=(",", ":")))
     log.info("wrote %s", Path(out_path).with_name("sweep.json"))
     return 0
@@ -382,7 +412,8 @@ def main() -> int:
     payload = {"generated": date.today().isoformat(),
                "start": start.isoformat(), "end": end.isoformat(),
                "hold_days": args.hold, "max_positions": args.positions,
-               "start_cash": START_CASH, "results": results}
+               "start_cash": START_CASH, "results": results,
+               "survivorship": survivorship(rows, universe, start, end)}
     Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     Path(args.out).write_text(json.dumps(payload, separators=(",", ":")))
     log.info("wrote %s", args.out)
