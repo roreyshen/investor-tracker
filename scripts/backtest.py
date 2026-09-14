@@ -250,12 +250,71 @@ def buy_and_hold(px, start, end, symbol="SPY"):
             "max_drawdown_pct": None, "equity": []}
 
 
+def sweep(rows, px, universe, wl, clusters, start, end, out_path):
+    """Run every strategy across several hold/position settings.
+
+    A single backtest that beats the benchmark proves very little: test enough
+    combinations and one will win by chance. Reporting the whole grid makes
+    that visible -- if a strategy only works at one specific holding period,
+    that is a fitted parameter, not an edge.
+    """
+    holds, sizes = [21, 42, 63, 90], [5, 10, 20]
+    strategies = make_strategies(wl, clusters)
+
+    bench = {}
+    for b in ("SPY", "QQQ"):
+        r = buy_and_hold(px, start, end, b)
+        if r:
+            bench[b] = r["return_pct"]
+    spy = bench.get("SPY", 0.0)
+    log.info("benchmark over window: SPY %+.2f%%  QQQ %+.2f%%",
+             spy, bench.get("QQQ", 0.0))
+
+    grid, beats, total = {}, 0, 0
+    for name, fn in strategies.items():
+        row = {}
+        for h in holds:
+            for n in sizes:
+                r = run(rows, px, universe, fn, h, n, start, end)
+                row[f"h{h}_p{n}"] = r["return_pct"]
+                total += 1
+                if r["return_pct"] > spy:
+                    beats += 1
+        vals = list(row.values())
+        grid[name] = {"cells": row,
+                      "best": round(max(vals), 2), "worst": round(min(vals), 2),
+                      "median": round(statistics.median(vals), 2),
+                      "beat_spy": sum(1 for v in vals if v > spy),
+                      "of": len(vals)}
+        log.info("%-24s median %+7.2f%%  range %+.2f%% .. %+.2f%%  beat SPY %d/%d",
+                 name, grid[name]["median"], grid[name]["worst"],
+                 grid[name]["best"], grid[name]["beat_spy"], grid[name]["of"])
+        px.save()
+
+    log.info("")
+    log.info("%d of %d strategy/parameter combinations beat SPY (%.0f%%)",
+             beats, total, 100 * beats / total if total else 0)
+    log.info("Chance alone would produce some winners; a strategy that only "
+             "beats the benchmark at one setting is a fitted parameter.")
+
+    payload = {"generated": date.today().isoformat(), "mode": "sweep",
+               "start": start.isoformat(), "end": end.isoformat(),
+               "benchmarks": bench, "holds": holds, "positions": sizes,
+               "grid": grid, "beat_count": beats, "combinations": total}
+    Path(out_path).with_name("sweep.json").write_text(json.dumps(payload, separators=(",", ":")))
+    log.info("wrote %s", Path(out_path).with_name("sweep.json"))
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--hold", type=int, default=63, help="holding period in days")
     ap.add_argument("--positions", type=int, default=10)
     ap.add_argument("--days", type=int, default=365, help="backtest window length")
     ap.add_argument("--out", default="docs/backtest.json")
+    ap.add_argument("--sweep", action="store_true",
+                    help="test several hold/position combinations and report "
+                         "how many beat the benchmark")
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)-7s %(message)s")
 
@@ -268,6 +327,9 @@ def main() -> int:
 
     end = date.today() - timedelta(days=1)
     start = end - timedelta(days=args.days)
+
+    if args.sweep:
+        return sweep(rows, px, universe, wl, clusters, start, end, args.out)
 
     results = {}
     for name, fn in make_strategies(wl, clusters).items():
