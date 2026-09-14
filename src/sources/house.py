@@ -101,14 +101,21 @@ def fetch_index(fetcher, year: int, etag: str | None = None):
     return rows, r.headers.get("ETag", etag)
 
 
-def parse_ptr_pdf(data: bytes) -> tuple[list[dict], str, str]:
-    """Return (transactions, member_name, district). Empty list => scanned."""
+_AMENDED_RE = re.compile(r"F\s+S\s*:\s*Amended", re.I)
+
+
+def parse_ptr_pdf(data: bytes) -> tuple[list[dict], str, str, bool]:
+    """Return (transactions, member_name, district, amended).
+
+    `amended` matters: an amendment can correct a trade from over a year ago,
+    so it surfaces with a huge lag. Without saying why, that reads like a bug.
+    """
     try:
         import pypdf
         pages = [p.extract_text() or "" for p in pypdf.PdfReader(io.BytesIO(data)).pages]
     except Exception as e:                       # noqa: BLE001 - pypdf raises broadly
         log.warning("house: unreadable PDF: %s", e)
-        return [], "", ""
+        return [], "", "", False
 
     # These PDFs letter-space their field labels with NUL bytes, so
     # "Filing Status:" extracts as "F\x00\x00\x00\x00\x00 S...". NUL is not
@@ -120,16 +127,20 @@ def parse_ptr_pdf(data: bytes) -> tuple[list[dict], str, str]:
     name = name_m.group(1).strip() if name_m else ""
     district = dist_m.group(1).strip() if dist_m else ""
 
+    amended = bool(_AMENDED_RE.search(full))
+
     out = []
     for page in pages:
         out.extend(_parse_page(page))
-    return out, name, district
+    return out, name, district, amended
 
 
 # The asset-TYPE bracket ends every asset name. The parenthesized ticker is
 # optional -- plenty of holdings are private funds or bonds with no symbol
 # ("Aalo Atomics [OI]"), and anchoring on the ticker silently dropped them.
-_ASSET_END_RE = re.compile(r"\[[A-Z]{2}\]")
+# Closing brace is deliberately loose: the source PDFs contain typos like
+# "[MF}" which would otherwise survive into the asset name.
+_ASSET_END_RE = re.compile(r"\[[A-Z]{2}[\]}\)]")
 # A transaction whose amount wrapped, e.g. "... $15,001 -" / "$50,000". Matched
 # anywhere in the line, since the asset can share the line with it.
 _TXN_WRAP_RE = re.compile(
@@ -143,6 +154,10 @@ _OWNER_PREFIX_RE = re.compile(r"^(SP|JT|DC)\s+")
 # A trailing date from the previous row's description can lead the next asset
 # name, e.g. "1/16/26. SP Apple Inc. - Common Stock".
 _LEAD_DATE_RE = re.compile(r"^\d{1,2}/\d{1,2}/\d{2,4}\.?\s*")
+# The clerk prefixes each row with an internal transaction id
+# ("2000140446 American Funds AMCAP Fund"). It is in the source, not a parsing
+# artefact, but it is noise in an alert.
+_LEAD_ID_RE = re.compile(r"^\d{6,}\s+")
 
 
 def _merge_wrapped(lines: list[str]) -> list[str]:
@@ -231,6 +246,7 @@ def _parse_page(text: str) -> list[dict]:
             asset = _TRAILING_JUNK_RE.sub(" ", asset)
             asset = re.sub(r"\s+", " ", asset).strip(" -,:")
             asset = _OWNER_PREFIX_RE.sub("", _LEAD_DATE_RE.sub("", asset))
+            asset = _LEAD_ID_RE.sub("", asset)
             if _DESC_SMELL_RE.search(asset) or len(re.sub(r"[^A-Za-z0-9]", "", asset)) < 3:
                 asset = ""          # formatter falls back to the ticker
 
@@ -282,7 +298,7 @@ def collect(fetcher, state, year: int | None = None,
         if resp is None:
             continue
 
-        txns, name, district = parse_ptr_pdf(resp.content)
+        txns, name, district, amended = parse_ptr_pdf(resp.content)
         # The index has surname and given name in separate columns; the PDF
         # only has "Hon. Mark Alford", where the surname is last. Use the
         # index and write "Last, First" so the shared formatter picks the
@@ -297,7 +313,8 @@ def collect(fetcher, state, year: int | None = None,
             trades.append(Trade(
                 source="house", uid=doc, person=person, role=role,
                 action="OTHER", filed_date=filed, url=url,
-                note="scanned paper filing - open the PDF for details",
+                note=("amended " if amended else "")
+                     + "scanned paper filing - open the PDF for details",
             ))
             continue
 
@@ -306,12 +323,17 @@ def collect(fetcher, state, year: int | None = None,
             # swallows the asset name. The amount and date are still exact, so
             # report the trade and point at the filing for the security.
             unnamed = not t["ticker"] and not t["asset"]
+            notes = []
+            if amended:
+                notes.append("AMENDED filing")
+            if unnamed:
+                notes.append("security not machine-readable - open the filing")
             trades.append(Trade(
                 source="house", uid=f"{doc}:{i}", person=person, role=role,
                 action=t["action"], company=t["asset"], ticker=t["ticker"],
                 value_range=t["amount"], trade_date=t["trade_date"],
                 filed_date=filed, url=url, code=t["ttype"],
-                note="security not machine-readable - open the filing" if unnamed else "",
+                note=" · ".join(notes),
             ))
 
     log.info("house: %d transactions from %d new filings", len(trades), len(new_rows))

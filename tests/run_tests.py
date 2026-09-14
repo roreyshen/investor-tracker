@@ -174,6 +174,24 @@ check("no-ticker asset still parsed",
 check("wrapped amount rejoined", rows[2]["amount"], "$15,001 - $50,000")
 check("owner prefix stripped", rows[3]["asset"], "Allocate Alpha Fund II LP")
 
+# The clerk prefixes rows with an internal id, and some asset-type brackets
+# are typo'd in the source ("[MF}"). Both must be stripped from the name.
+ID_PAGE = """$200?
+2000140446 American Funds AMCAP Fund
+Class A M/F [MF} [OT]
+S 06/03/2025 06/04/2025 $500,001 - $1,000,000
+* For the complete list
+"""
+_idrows = _parse_page(ID_PAGE)
+check("clerk transaction id stripped", _idrows[0]["asset"].startswith("American Funds"), True)
+check("typo'd asset bracket stripped", "[MF}" in _idrows[0]["asset"], False)
+
+# An amendment can correct a trade from over a year ago, so it surfaces with a
+# huge lag. Flagging it is what stops that looking like a bug.
+from src.sources.house import _AMENDED_RE  # noqa: E402
+check("amended filing detected", bool(_AMENDED_RE.search("F      S     : Amended")), True)
+check("new filing not flagged amended", bool(_AMENDED_RE.search("F      S     : New")), False)
+
 # ── Senate HTML parsing ────────────────────────────────────────────────────
 from src.sources.senate import parse_report  # noqa: E402
 
