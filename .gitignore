@@ -14,3 +14,9 @@ mac_agent/agent.log
 # Bulk-imported trade history: ~30MB and rebuilt from SEC datasets on demand,
 # so it is derived data, not source. Rebuild with scripts/import_bulk.py
 data/trades.json
+
+# Price cache: ~90MB and growing, rebuildable with scripts/warm_prices.py.
+# Derived data, not source. CI keeps its own copy via actions/cache.
+data/prices.json
+data/universe.json
+data/fundamentals.json

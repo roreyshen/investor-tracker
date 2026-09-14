@@ -37,6 +37,19 @@ jobs:
 
       - run: pip install -q -r requirements.txt
 
+      # The price cache is gitignored derived data (~90MB), so CI keeps its
+      # own copy here instead of in the repo. Without this every run would
+      # refetch from scratch.
+      - name: Cache price data
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/prices.json
+            data/universe.json
+            data/fundamentals.json
+          key: market-data-${{ github.run_id }}
+          restore-keys: market-data-
+
       - name: Backfill history
         if: ${{ inputs.backfill }}
         run: python scripts/backfill.py
@@ -47,12 +60,12 @@ jobs:
 
       - name: Commit site data
         run: |
-          if [[ -z "$(git status --porcelain docs/ data/)" ]]; then
+          if [[ -z "$(git status --porcelain docs/)" ]]; then
             echo "nothing changed"; exit 0
           fi
           git config user.name  "investor-tracker[bot]"
           git config user.email "actions@github.com"
-          git add docs/ data/
+          git add docs/
           git commit -m "site: rebuild $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \

@@ -46,6 +46,19 @@ jobs:
           cache: pip
       - run: pip install -q -r requirements.txt
 
+      # The price cache is gitignored derived data (~90MB), so CI keeps its
+      # own copy here instead of in the repo. Without this every run would
+      # refetch from scratch.
+      - name: Cache price data
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/prices.json
+            data/universe.json
+            data/fundamentals.json
+          key: market-data-${{ github.run_id }}
+          restore-keys: market-data-
+
       # The trade store is gitignored (~30MB of derived data), so the digest
       # rebuilds the recent slice it needs rather than relying on a committed
       # snapshot that would go stale.
