@@ -30,7 +30,8 @@ from src.config import (OUTBOX_PATH, TRADES_PATH, UNIVERSE_PATH,  # noqa: E402
 from src.filters import Watchlist  # noqa: E402
 from src.models import Trade  # noqa: E402
 from src.notify import discord, ntfy, outbox  # noqa: E402
-from src.prices import fetch_universe  # noqa: E402
+from src.config import PRICES_PATH  # noqa: E402
+from src.prices import PriceStore, daily_volatility, fetch_universe  # noqa: E402
 from scripts.backtest import (COMMISSION, SMG_MIN_MCAP, SMG_MIN_PRICE,  # noqa: E402
                               eligible, find_clusters)
 from scripts.daily_picks import STRATEGIES  # noqa: E402
@@ -38,6 +39,16 @@ from scripts.daily_picks import STRATEGIES  # noqa: E402
 log = logging.getLogger("smg")
 ET = ZoneInfo("America/New_York")
 PORTFOLIO = 100_000.0
+
+# Stop and target are set from recent daily volatility, so a quiet stock gets a
+# tight stop and a jumpy one gets room. A fixed percentage would stop you out
+# of volatile names on noise and leave no protection on calm ones.
+STOP_MULT = 2.5          # days of typical movement against you
+TARGET_MULT = 5.0        # 2:1 reward-to-risk
+
+# DECA SMG 2026-27: Sept 8 - Dec 4 2026. Ranking is percent return vs
+# S&P 500 Growth, and the top 25 per region advance to ICDC.
+SESSION_END = date(2026, 12, 4)
 
 
 def market_status() -> str:
@@ -54,11 +65,13 @@ def market_status() -> str:
 def build(strategy: str, positions: int, since_days: int, limit: int):
     rows = store.load(TRADES_PATH)
     universe = fetch_universe(UNIVERSE_PATH)
+    px = PriceStore(PRICES_PATH)
+    today = date.today()
     wl = Watchlist(load_watchlist())
     clusters = find_clusters(rows)
     fn = STRATEGIES[strategy]
 
-    cutoff = (date.today() - timedelta(days=since_days)).isoformat()
+    cutoff = (today - timedelta(days=since_days)).isoformat()
     slice_size = PORTFOLIO / max(positions, 1)
 
     picks, seen = [], set()
@@ -76,34 +89,76 @@ def build(strategy: str, positions: int, since_days: int, limit: int):
         shares = int((slice_size - COMMISSION) // price)
         if shares < 1:
             continue
+
+        closes = px.history(tk, today - timedelta(days=90))
+        vol = daily_volatility(closes, today)
+        last = px.close_on_or_before(tk, today, 6) or price
+        stop = target = band = None
+        if vol:
+            stop = round(last * (1 - STOP_MULT * vol), 2)
+            target = round(last * (1 + TARGET_MULT * vol), 2)
+            band = round(last * vol, 2)
+
         picks.append({
-            "ticker": tk, "price": price, "shares": shares,
-            "cost": round(shares * price, 2),
+            "ticker": tk, "price": last, "shares": shares,
+            "cost": round(shares * last, 2),
             "company": (info.get("name") or r.get("company", ""))[:44],
             "who": r.get("person", "?"), "role": r.get("role") or r["source"],
             "filed": r.get("filed_date"), "url": r.get("url", ""),
             "value": r.get("value_usd") or r.get("value_range") or "",
+            "vol": vol, "band": band, "stop": stop, "target": target,
+            "risk": round((last - stop) * shares, 0) if stop else None,
+            "reward": round((target - last) * shares, 0) if target else None,
         })
 
     # Biggest disclosed conviction first, so a short list is the strongest one.
     picks.sort(key=lambda p: -(p["cost"]))
+    px.save()
     return picks[:limit]
 
 
 def render(picks, strategy: str, positions: int) -> str:
     status = market_status()
+    days_left = (SESSION_END - date.today()).days
     if not picks:
-        return (f"SMG digest — no qualifying signals today ({strategy}).\n"
-                f"{status}.\nA quiet day is normal; forcing a trade is how you lose.")
-    lines = [f"SMG picks — {strategy} · {status}",
-             f"Equal weight, {positions} positions (${PORTFOLIO/positions:,.0f} each)", ""]
+        return (f"SMG — no qualifying signals today ({strategy}).\n"
+                f"{status}. {days_left}d left in the DECA session.\n"
+                "A quiet day is normal; forcing a trade is how you lose.")
+
+    out = [f"SMG PICKS — {strategy}",
+           f"{status} · {days_left}d left in session",
+           f"Equal weight, {positions} pos (${PORTFOLIO/positions:,.0f} each)",
+           ""]
     for p in picks:
-        lines.append(f"{p['ticker']}  {p['shares']} sh @ ${p['price']:.2f} "
-                     f"= ${p['cost']:,.0f}")
-        lines.append(f"   {p['who'][:34]} ({p['role'][:22]}) · filed {p['filed']}")
-    lines.append("")
-    lines.append("Enter before 4pm ET to fill at today's close.")
-    return "\n".join(lines)
+        out.append(f"BUY {p['ticker']}  {p['shares']} sh")
+        out.append(f"  now      ${p['price']:.2f}")
+        if p.get("band"):
+            lo, hi = p["price"] - p["band"], p["price"] + p["band"]
+            # Not a forecast. This is the stock's own typical daily range, so
+            # you know what a normal close looks like versus a real move.
+            out.append(f"  fills at today's close; typical range "
+                       f"${lo:.2f}-${hi:.2f}")
+        else:
+            out.append("  fills at today's close")
+        out.append(f"  cost     ${p['cost']:,.0f}")
+        if p.get("stop"):
+            dn = 100 * (p["stop"] / p["price"] - 1)
+            out.append(f"  STOP     ${p['stop']:.2f} ({dn:+.1f}%)  "
+                       f"risk ${abs(p['risk']):,.0f}")
+        if p.get("target"):
+            up = 100 * (p["target"] / p["price"] - 1)
+            out.append(f"  TARGET   ${p['target']:.2f} ({up:+.1f}%)  "
+                       f"profit ${p['reward']:,.0f}")
+        if p.get("stop") and p.get("target"):
+            rr = (p["target"] - p["price"]) / max(p["price"] - p["stop"], 0.01)
+            out.append(f"  R:R      {rr:.1f}:1")
+        out.append(f"  why      {p['who'][:30]} ({p['role'][:20]}) {p['filed']}")
+        out.append("")
+
+    out.append("Enter before 4pm ET to fill at today's close.")
+    out.append("Stops/targets are from each stock's own recent volatility,")
+    out.append("not a price prediction. Nobody can forecast a close.")
+    return "\n".join(out)
 
 
 def main() -> int:

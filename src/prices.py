@@ -256,6 +256,30 @@ def fetch_universe(path: Path, max_age_days: int = 7) -> dict[str, dict]:
     return tickers
 
 
+def daily_volatility(closes: dict[str, float], when: date,
+                     lookback: int = 20) -> float | None:
+    """Standard deviation of daily returns over the recent window.
+
+    Used as a stand-in for ATR. The cache stores closes only, so true ATR
+    (which needs highs and lows) is not available without refetching
+    everything -- and close-to-close volatility is a good enough basis for
+    sizing a stop, which is all it is used for here.
+    """
+    keys = sorted(k for k in closes if k <= when.isoformat())[-(lookback + 1):]
+    if len(keys) < 6:
+        return None
+    rets = []
+    for a, b in zip(keys, keys[1:]):
+        pa, pb = closes[a], closes[b]
+        if pa > 0:
+            rets.append(pb / pa - 1.0)
+    if len(rets) < 5:
+        return None
+    mean = sum(rets) / len(rets)
+    var = sum((r - mean) ** 2 for r in rets) / len(rets)
+    return var ** 0.5
+
+
 def cap_tier(market_cap: float | None, price: float | None) -> str:
     if price is not None and price < PENNY_MAX_PRICE:
         return "Penny (<$5)"
