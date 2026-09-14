@@ -19,7 +19,7 @@ from .filters import Watchlist, evaluate, history_entries
 from .http import Fetcher
 from .models import Trade
 from . import store
-from .notify import discord, outbox, twilio_sms
+from .notify import discord, ntfy, outbox, twilio_sms
 from .notify.format import sms_line
 from .sources import edgar_13f, edgar_form4, edgar_form144, house, senate
 from .state import State
@@ -151,6 +151,9 @@ def main(argv=None) -> int:
     if n.get("discord", {}).get("enabled"):
         discord.send(os.environ.get("DISCORD_WEBHOOK_URL", ""), alerts,
                      dry_run=args.dry_run)
+
+    if n.get("ntfy", {}).get("enabled"):
+        ntfy.send(os.environ.get("NTFY_TOPIC", ""), alerts, dry_run=args.dry_run)
 
     if n.get("mac_agent", {}).get("enabled") and not args.dry_run:
         outbox.append(OUTBOX_PATH, alerts)

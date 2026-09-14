@@ -369,6 +369,19 @@ check("big proposed sale alerts",
 _small = parse_144(F144.replace("7,500,000.00", "100,000.00"), "b", "u", {})
 check("small proposed sale is silent", len(evaluate([_small], _S144, _wl, [])), 0)
 
+# ── ntfy cloud push (dry-run: no network) ─────────────────────────────────
+from src.notify import ntfy as _ntfy  # noqa: E402
+
+check("ntfy with no topic sends nothing", _ntfy.send("", [mk(ticker="A")]), 0)
+check("ntfy with no trades sends nothing", _ntfy.send("topic", []), 0)
+_many = [mk(uid=f"n{i}", ticker=f"T{i}", value_usd=1e6) for i in range(10)]
+# Six individual notifications plus one "+N more" summary, so a heavy filing
+# day is a handful of buzzes rather than ten.
+check("ntfy collapses a burst", _ntfy.send("topic", _many, dry_run=True),
+      _ntfy.MAX_INDIVIDUAL + 1)
+check("ntfy sends small batches individually",
+      _ntfy.send("topic", _many[:3], dry_run=True), 3)
+
 # ── Mac agent quiet hours ──────────────────────────────────────────────────
 # The window wraps midnight, which is the easy thing to get wrong: a naive
 # start <= h < end comparison silently never fires for 23->7.

@@ -23,6 +23,7 @@ This is a data pipeline, not financial advice.
 GitHub Actions (free, 24/7)          Your Mac (when awake)
   ├─ every 15 min: poll filings        └─ every 5 min: read the queue,
   │    ├─ alerts  -> Discord                 text you via Messages.app
+  │    ├─ alerts  -> ntfy push (phone)       (only while the Mac is awake)
   │    └─ queue   -> state/outbox.json  ◄────┘
   └─ every 6 h: price + score trades
        └─ docs/data.json -> Vercel (auto-deploys on push)
@@ -74,6 +75,25 @@ email-to-SMS gateway is widely reported to bounce, and Verizon retires that
 gateway on 2027-03-31. Twilio works but costs ~$4 setup plus ~$3–4/month and
 needs an 18+ account. That sender is written and sits behind
 `notify.twilio.enabled` if you ever want it.
+
+### Push to your phone when the Mac is off (working)
+
+The Mac agent only sends while your Mac is awake and online. **ntfy** runs in
+GitHub Actions instead, so it reaches you regardless — Mac closed, lid shut,
+no wifi at home.
+
+**Set it up once (2 minutes):**
+1. Install **ntfy** — [iOS](https://apps.apple.com/us/app/ntfy/id1625396347) ·
+   [Android](https://play.google.com/store/apps/details?id=io.heckel.ntfy)
+2. Open it → **+** → Subscribe to topic
+3. Enter exactly: `rorey-trades-a31569aff948c666`
+
+That's it. No account, no cost. It's a push notification rather than an SMS,
+but your phone buzzes the same way, with a tappable link to the filing.
+Watchlist hits are sent at high priority so they break through Do Not Disturb.
+
+Keep that topic private — anyone who knows the string can read the
+notifications. It's stored in the `NTFY_TOPIC` repo secret, never in the code.
 
 ### Discord (recommended, still to set up)
 
@@ -218,6 +238,7 @@ read as "no change" forever.
 - [x] House & Senate congressional filings
 - [x] 13F fund tracking
 - [x] Native Mac texting via Messages.app
+- [x] ntfy push — reaches the phone with the Mac closed
 - [x] Dashboard with S&P/Dow/Nasdaq benchmarking, deployed to Vercel
 - [ ] Discord webhook — 2 minutes, see above
 - [ ] Let it run a few weeks, then rebuild the watchlist from measured results
@@ -226,7 +247,8 @@ read as "no change" forever.
 
 - **Congress is 30–45 days late.** Statutory. Nothing fixes it.
 - **GitHub cron drifts.** Runs can be 5–15+ min late under load.
-- **The Mac only texts while awake.** Discord covers the gap.
+- **The Mac only texts while awake.** ntfy push and Discord cover that gap —
+  both are sent from the cloud and do not depend on your machine.
 - **Following disclosed trades is not a strategy.** By the time a Form 4 is
   public the market has often moved. This tells you what happened; it does not
   tell you whether to act.

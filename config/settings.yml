@@ -46,6 +46,13 @@ filters:
 notify:
   discord:
     enabled: true              # primary channel: free + reliable
+  ntfy:
+    # Free push to your phone, sent from GitHub Actions -- so it arrives even
+    # when the Mac is closed or offline, which the Mac agent cannot do.
+    # The topic is a shared secret and this repo is public, so it lives in the
+    # NTFY_TOPIC GitHub secret, never here.
+    enabled: true
+
   mac_agent:
     # Queues alerts to state/outbox.json for the Mac to text via Messages.app.
     # The carrier email-to-SMS route was scrapped: Xfinity Mobile bounces it and
