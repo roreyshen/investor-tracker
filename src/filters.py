@@ -51,6 +51,16 @@ _NICKNAMES = {
     "liz": "elizabeth", "beth": "elizabeth", "kathy": "katherine",
     "cathy": "katherine", "sue": "susan", "nan": "nancy",
     "alex": "alexander", "gil": "gilbert", "gus": "august",
+    # Found by scripts/audit_watchlist.py against real filer names:
+    "ro": "rohit",          # Rep. Ro Khanna files as "Khanna, Rohit"
+    "jamie": "james",       # Jamie Dimon files as "DIMON JAMES"
+    "tommy": "thomas", "thomas": "thomas",
+    "mitch": "mitchell", "hal": "harold", "gene": "eugene",
+    "art": "arthur", "bernie": "bernard", "charlie": "charles",
+    "chuck": "charles", "frank": "francis", "hank": "henry",
+    "jack": "john", "johnny": "john", "kate": "katherine",
+    "maggie": "margaret", "peggy": "margaret", "sandy": "alexander",
+    "vinny": "vincent", "vince": "vincent", "walt": "walter",
 }
 
 

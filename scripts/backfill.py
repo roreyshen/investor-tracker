@@ -19,6 +19,7 @@ import argparse
 import logging
 import sys
 import tempfile
+from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -41,6 +42,9 @@ def main() -> int:
                     help="also sweep N days of SEC Form 4 filings")
     ap.add_argument("--no-house", action="store_true")
     ap.add_argument("--no-senate", action="store_true")
+    ap.add_argument("--years", type=int, default=1,
+                    help="how many years of congressional history to pull "
+                         "(1 = this year only)")
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)-7s %(message)s")
 
@@ -57,11 +61,20 @@ def main() -> int:
         for src in ("house", "senate", "form4"):
             st.data["seen"][src] = {"__backfill__": 1}   # bypass cold-start priming
 
+        this_year = date.today().year
+        years = [this_year - i for i in range(args.years)]
+
         trades = []
         if not args.no_house:
-            trades += house.collect(fetcher, st, limit=args.limit)
+            for y in years:
+                # Each year is a separate index file on the Clerk's site, and
+                # only the current one was ever fetched -- which is why two of
+                # the highest-volume filers had no history at all.
+                st.data["house_etag"] = None
+                trades += house.collect(fetcher, st, year=y, limit=args.limit)
         if not args.no_senate:
-            trades += senate.collect(fetcher, st, limit=args.limit)
+            oldest = date(min(years), 1, 1)
+            trades += senate.collect(fetcher, st, since=oldest, limit=args.limit)
         if args.form4_days:
             trades += edgar_form4.collect(fetcher, st, backfill_days=args.form4_days,
                                           limit=args.limit)
