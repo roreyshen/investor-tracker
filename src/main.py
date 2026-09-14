@@ -14,10 +14,12 @@ import os
 import sys
 from datetime import date
 
-from .config import OUTBOX_PATH, STATE_PATH, load_settings, load_watchlist
+from .config import (OUTBOX_PATH, STATE_PATH, TRADES_PATH,
+                     load_settings, load_watchlist)
 from .filters import Watchlist, evaluate, history_entries
 from .http import Fetcher
 from .models import Trade
+from . import store
 from .notify import discord, outbox, twilio_sms
 from .notify.format import sms_line
 from .sources import edgar_13f, edgar_form4, house, senate
@@ -116,6 +118,12 @@ def main(argv=None) -> int:
 
     history = state.data.get("recent_buys", [])
     alerts = evaluate(trades, settings, watchlist, history)
+
+    # The website analyses the full population, not the alerted subset, so the
+    # comparisons ("congress vs insiders", "penny vs mega cap") aren't measured
+    # against an already-filtered sample.
+    if not args.dry_run:
+        store.append(TRADES_PATH, trades, {a.uid for a in alerts})
 
     # Remember open-market buys regardless of whether they alerted -- a cluster
     # is built from individually unremarkable trades.

@@ -9,6 +9,11 @@ ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = ROOT / "config"
 STATE_PATH = ROOT / "state" / "seen.json"
 OUTBOX_PATH = ROOT / "state" / "outbox.json"
+DATA_DIR = ROOT / "data"
+TRADES_PATH = DATA_DIR / "trades.json"
+PRICES_PATH = DATA_DIR / "prices.json"
+UNIVERSE_PATH = DATA_DIR / "universe.json"
+SITE_DIR = ROOT / "docs"
 
 
 def _load(path: Path) -> dict:
