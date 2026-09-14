@@ -416,6 +416,30 @@ check("backward lookup finds the last close", _bwd("SPY", _sunday), 110.0)
 check("forward lookup works from before a session", _fwd("SPY", date(2026, 9, 9)), 100.0)
 check("backward lookup exact date", _bwd("SPY", date(2026, 9, 10)), 100.0)
 
+# A ticker whose history starts later than the date asked for must not refetch
+# on every call. Before this, min(closes) > since stayed true forever and a
+# backtest sweep made thousands of redundant HTTP requests.
+class _CountingStore(PriceStore):
+    def __init__(self):
+        self.data = {}
+        self.fetches = 0
+        self.min_interval = 0
+        self._last = 0
+
+    def _fetch(self, symbol, start, end):
+        self.fetches += 1
+        return {"2026-09-10": 100.0}
+
+
+_cs = _CountingStore()
+_old = date(2020, 1, 1)          # far earlier than the data goes
+for _ in range(5):
+    _cs.history("AAA", _old)
+check("history does not refetch beyond available data", _cs.fetches, 1)
+# Asking for something even older is a genuinely new request.
+_cs.history("AAA", date(2015, 1, 1))
+check("an older request does refetch once", _cs.fetches, 2)
+
 # ── ntfy cloud push (dry-run: no network) ─────────────────────────────────
 from src.notify import ntfy as _ntfy  # noqa: E402
 

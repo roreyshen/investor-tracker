@@ -140,23 +140,51 @@ def next_close(px: PriceStore, tk: str, when: date, window: int = 6):
     return px.close_on_or_after(tk, when + timedelta(days=1), window)
 
 
-def run(rows, px, universe, signal, hold_days, max_positions, start, end):
-    cash, positions, closed = START_CASH, [], []
-    equity_curve = []
-    skipped_no_price = 0
-    considered = 0
+def prepare(rows, universe, start, end):
+    """Parse and filter once, not once per parameter combination.
 
-    signals = defaultdict(list)
+    The sweep runs 96 simulations. Re-parsing 77,000 rows and re-checking
+    eligibility inside each one cost more than the simulation itself.
+    """
+    out = []
     for r in rows:
         fd = r.get("filed_date")
-        if not fd or not r.get("ticker"):
+        tk = r.get("ticker")
+        if not fd or not tk:
             continue
         try:
             d = date.fromisoformat(fd)
         except ValueError:
             continue
-        if start <= d <= end and eligible(universe.get(r["ticker"], {})) and signal(r):
-            signals[d].append(r)
+        if not (start <= d <= end):
+            continue
+        if not eligible(universe.get(tk, {})):
+            continue
+        out.append((d, r))
+    out.sort(key=lambda x: x[0])
+    return out
+
+
+def build_signals(prepared, signal):
+    """Group one strategy's signals by day, strongest first within a day."""
+    by_day = defaultdict(list)
+    for d, r in prepared:
+        if signal(r):
+            by_day[d].append(r)
+    for d in by_day:
+        by_day[d].sort(key=conviction, reverse=True)
+    return by_day
+
+
+def run(rows, px, universe, signal, hold_days, max_positions, start, end,
+        signals=None):
+    cash, positions, closed = START_CASH, [], []
+    equity_curve = []
+    skipped_no_price = 0
+    considered = 0
+
+    if signals is None:
+        signals = build_signals(prepare(rows, universe, start, end), signal)
 
     day = start
     while day <= end:
@@ -175,7 +203,7 @@ def run(rows, px, universe, signal, hold_days, max_positions, start, end):
         positions = still
 
         # Enter new signals, strongest first, equal weight.
-        for r in sorted(signals.get(day, []), key=conviction, reverse=True):
+        for r in signals.get(day, ()):
             if len(positions) >= max_positions:
                 break
             if any(p["ticker"] == r["ticker"] for p in positions):
@@ -270,12 +298,16 @@ def sweep(rows, px, universe, wl, clusters, start, end, out_path):
     log.info("benchmark over window: SPY %+.2f%%  QQQ %+.2f%%",
              spy, bench.get("QQQ", 0.0))
 
+    prepared = prepare(rows, universe, start, end)
+    log.info("%d eligible signals in window", len(prepared))
+
     grid, beats, total = {}, 0, 0
     for name, fn in strategies.items():
+        sig = build_signals(prepared, fn)
         row = {}
         for h in holds:
             for n in sizes:
-                r = run(rows, px, universe, fn, h, n, start, end)
+                r = run(rows, px, universe, fn, h, n, start, end, signals=sig)
                 row[f"h{h}_p{n}"] = r["return_pct"]
                 total += 1
                 if r["return_pct"] > spy:

@@ -113,7 +113,29 @@ class PriceStore:
 
         closes = entry["closes"]
         today = date.today()
-        need_backfill = not closes or min(closes) > since.isoformat()
+        since_key = since.isoformat()
+
+        # Fast path. A sweep makes millions of lookups, and recomputing
+        # min(closes) over ~700 dates each time dominated the runtime. Once a
+        # symbol has been checked today and already covers the requested
+        # range, return immediately.
+        if closes and entry.get("checked") == today.isoformat():
+            earliest = entry.get("_min")
+            if earliest is None:
+                earliest = min(closes)
+                entry["_min"] = earliest
+            asked_already = entry.get("earliest_requested")
+            if earliest <= since_key or (asked_already is not None
+                                         and asked_already <= since_key):
+                return closes
+        # Remember how far back we have ALREADY asked. Without this, a ticker
+        # whose history genuinely starts later than the requested date (a
+        # recent listing, or simply no earlier data upstream) fails the
+        # min(closes) > since test on every call and refetches forever -- which
+        # turned a backtest sweep into thousands of redundant HTTP requests.
+        asked = entry.get("earliest_requested")
+        need_backfill = not closes or (
+            min(closes) > since_key and (asked is None or since_key < asked))
         last_check = entry.get("checked")
         stale = last_check != today.isoformat()
 
@@ -121,10 +143,14 @@ class PriceStore:
             fetched = self._fetch(symbol, since - timedelta(days=7), today)
             closes.update(fetched)
             entry["missing"] = not closes
+            entry["earliest_requested"] = (
+                since_key if asked is None else min(asked, since_key))
+            entry.pop("_min", None)
         elif stale:
             # Only the recent tail can change; older closes are immutable.
             fetched = self._fetch(symbol, today - timedelta(days=10), today)
             closes.update(fetched)
+            entry.pop("_min", None)
 
         entry["checked"] = today.isoformat()
         return closes
@@ -173,7 +199,10 @@ class PriceStore:
     def save(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         tmp = self.path.with_suffix(".tmp")
-        tmp.write_text(json.dumps(self.data, separators=(",", ":"), sort_keys=True))
+        # "_min" is a derived in-memory index, not data worth persisting.
+        out = {k: {kk: vv for kk, vv in v.items() if kk != "_min"}
+               for k, v in self.data.items()}
+        tmp.write_text(json.dumps(out, separators=(",", ":"), sort_keys=True))
         tmp.replace(self.path)
 
 
