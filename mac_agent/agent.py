@@ -34,12 +34,27 @@ SENT_DB = Path.home() / ".investor-tracker-sent.json"
 CONFIG = Path.home() / ".investor-tracker-agent.json"
 
 DEFAULT_RECIPIENT = "+14087486507"
+# Nothing is urgent enough to wake you. Alerts inside this window stay queued
+# and go out as a digest afterwards -- congressional filings are already 30+
+# days old, and even Form 4 is two days old, so an overnight hold costs nothing.
+QUIET_START, QUIET_END = 23, 7      # 11pm - 7am local
 # Alerts older than this are summarized instead of sent one by one. Coming back
 # from a long sleep should not mean 40 buzzes.
 STALE_AFTER = timedelta(hours=12)
 MAX_INDIVIDUAL = 8
 # A hung osascript means macOS is showing the Automation permission dialog.
 OSA_TIMEOUT = 25
+
+
+def in_quiet_hours(now: datetime | None = None) -> bool:
+    cfg = load_json(CONFIG, {})
+    start = cfg.get("quiet_start", QUIET_START)
+    end = cfg.get("quiet_end", QUIET_END)
+    if start == end:
+        return False
+    h = (now or datetime.now()).hour
+    # The window wraps midnight, so it's "after start OR before end".
+    return h >= start or h < end if start > end else start <= h < end
 
 
 def log(msg: str) -> None:
@@ -145,6 +160,10 @@ def main() -> int:
     alerts = pending_alerts()
     if not alerts:
         log("nothing pending")
+        return 0
+
+    if in_quiet_hours() and not args.dry_run:
+        log(f"quiet hours -- holding {len(alerts)} alert(s) until morning")
         return 0
 
     now = datetime.now(timezone.utc)

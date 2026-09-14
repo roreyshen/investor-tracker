@@ -8,7 +8,7 @@ different formats the sources use, dollar formatting, and the filter rules.
 from __future__ import annotations
 
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -323,6 +323,17 @@ check("buy on a doubling stock scores +100%", _sc["buy"]["return_pct"], 100.0)
 check("buy beats a flat index by 100", _sc["buy"]["excess_pct"], 100.0)
 check("sell out of a doubling stock scores -100", _sc["sell"]["excess_pct"], -100.0)
 check("raw return is direction-free", _sc["sell"]["return_pct"], 100.0)
+
+# ── Mac agent quiet hours ──────────────────────────────────────────────────
+# The window wraps midnight, which is the easy thing to get wrong: a naive
+# start <= h < end comparison silently never fires for 23->7.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "mac_agent"))
+from agent import in_quiet_hours  # noqa: E402
+
+for _h, _want in [(22, False), (23, True), (0, True), (3, True), (6, True),
+                  (7, False), (12, False)]:
+    check(f"quiet hours at {_h:02d}:00",
+          in_quiet_hours(datetime(2026, 9, 14, _h, 0)), _want)
 
 print(f"\n{PASS} passed, {FAIL} failed")
 sys.exit(1 if FAIL else 0)
