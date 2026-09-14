@@ -1,5 +1,5 @@
 {
- "cash": 90039.76,
+ "cash": 80054.79999999999,
  "closed": [],
  "marks": [
   {
@@ -16,13 +16,21 @@
    "shares": 141,
    "ticker": "PVH",
    "why": "Larsson Stefan (Chief Executive Officer)"
+  },
+  {
+   "cost": 9984.96,
+   "entry": 34.67,
+   "opened": "2026-09-14",
+   "shares": 288,
+   "ticker": "CRBG",
+   "why": "NIPPON LIFE INSURANCE CO (10% Owner)"
   }
  ],
  "pending": [
   {
    "picked": "2026-09-14",
-   "ticker": "CRBG",
-   "why": "NIPPON LIFE INSURANCE CO (10% Owner)"
+   "ticker": "RSG",
+   "why": "CASCADE INVESTMENT, L.L.C. (+1) (10% Owner)"
   }
  ],
  "started": "2026-09-14",
