@@ -103,6 +103,13 @@ button.theme{background:var(--chip);border:1px solid var(--line);color:var(--mut
 
 <div class="cards" id="cards"></div>
 
+<div class="panel" id="btPanel" hidden>
+  <h2>Backtest — would any of this have beaten just buying the index?</h2>
+  <div class="sub" id="btSub"></div>
+  <div class="scroll" style="max-height:none"><table id="tBt"></table></div>
+  <div class="quiet" id="btNote"></div>
+</div>
+
 <div class="panel" id="smgPanel" hidden>
   <h2>Stock Market Game — is any of this actually tradeable?</h2>
   <div class="note" style="margin:0 0 14px">
@@ -294,6 +301,52 @@ fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
       <td class="num">${r.win_rate == null ? "—" : r.win_rate + "%"}</td>
       <td class="num ${cls(r.avg_return)}">${fmtPct(r.avg_return)}</td>
       <td class="num">${r.avg_days == null ? "—" : r.avg_days + "d"}</td></tr>`);
+
+  // ── Backtest ────────────────────────────────────────────────────────────
+  fetch("backtest.json?" + Date.now()).then(r => r.ok ? r.json() : null).then(bt => {
+    if (!bt || !bt.results) return;
+    $("#btPanel").hidden = false;
+    const res = bt.results;
+    const spy = (res["Buy & hold SPY"] || {}).return_pct;
+    const rows = Object.entries(res).map(([name, v]) => ({
+      name, ...v, vs: spy == null ? null : +(v.return_pct - spy).toFixed(2),
+      bench: name.startsWith("Buy & hold")
+    })).sort((a, b) => b.return_pct - a.return_pct);
+
+    $("#btSub").innerHTML =
+      `$${bt.start_cash.toLocaleString()} start · ${bt.start} to ${bt.end} ·
+       ${bt.hold_days}-day holds · max ${bt.max_positions} positions ·
+       entries fill at the <b>next close after the filing is public</b>.
+       Benchmarks are buy-once-and-hold.`;
+
+    const beat = rows.filter(r => !r.bench && r.vs > 0).length;
+    const strat = rows.filter(r => !r.bench).length;
+    $("#btNote").innerHTML =
+      `<b>${beat} of ${strat}</b> strategies beat buy-and-hold SPY.
+       A win rate below 50% means a strategy was carried by a few large winners
+       rather than by being right often — high variance, not a reliable edge.
+       Coverage is the share of signals that had a price available; anything
+       well under 100% means the run traded a subset.
+       Slippage, commissions and dividends are not modelled, and all three
+       flatter these numbers.`;
+
+    sortable($("#tBt"),
+      [{label:"Strategy",key:"name"},{label:"Return",key:"return_pct",num:1},
+       {label:"vs SPY",key:"vs",num:1},{label:"Trades",key:"trades",num:1},
+       {label:"Win",key:"win_rate",num:1},{label:"Max DD",key:"max_drawdown_pct",num:1},
+       {label:"Coverage",key:"coverage_pct",num:1}],
+      rows,
+      r => `<tr${r.bench ? ' style="opacity:.72"' : ""}>
+        <td>${r.bench ? "" : ""}${esc(r.name)}</td>
+        <td class="num ${cls(r.return_pct)}">${fmtPct(r.return_pct)}</td>
+        <td class="num">${r.vs == null ? "—" :
+            `<span class="badge ${r.vs >= 0 ? "p" : "n"}">${fmtPct(r.vs)}</span>`}</td>
+        <td class="num">${r.trades}</td>
+        <td class="num ${r.win_rate != null && r.win_rate < 50 ? "neg" : ""}">${r.win_rate == null ? "—" : r.win_rate + "%"}</td>
+        <td class="num ${cls(r.max_drawdown_pct)}">${r.max_drawdown_pct == null ? "—" : r.max_drawdown_pct + "%"}</td>
+        <td class="num">${r.coverage_pct == null ? "—" : r.coverage_pct + "%"}</td>
+      </tr>`);
+  }).catch(() => {});
 
   // ── SMG: trade-date vs actionable ───────────────────────────────────────
   if (d.smg && d.smg.by_source && d.smg.by_source.length) {
