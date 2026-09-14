@@ -19,8 +19,11 @@ log = logging.getLogger(__name__)
 
 # ~2 years of congressional plus filtered insider flow. Far more than the site
 # charts, and keeps the committed file to a sane size.
-MAX_TRADES = 120_000
-RETAIN_DAYS = 730
+# A decade of insider history is the point: two years is one market regime,
+# and concluding "no edge" from a single bull market is not a conclusion.
+# The file is gitignored derived data, so size is a local concern only.
+MAX_TRADES = 600_000
+RETAIN_DAYS = 3800
 
 # Form 4 codes worth keeping: P = open-market purchase, S = open-market sale.
 # Everything else (A grant, F tax withholding, M option exercise, G gift) is

@@ -17,6 +17,7 @@ import csv
 import io
 import logging
 import sys
+import time
 import zipfile
 from datetime import date, datetime
 from pathlib import Path
@@ -84,12 +85,27 @@ def _rows(zf: zipfile.ZipFile, name: str):
         yield from csv.DictReader(text, delimiter="\t")
 
 
-def load_quarter(q: str, min_sell: float) -> list[Trade]:
-    r = requests.get(URL.format(q=q), headers=UA, timeout=180)
-    if r.status_code != 200:
-        log.warning("%s unavailable (%s) -- likely not published yet", q, r.status_code)
+def load_quarter(q: str, min_sell: float, attempts: int = 3) -> list[Trade]:
+    # These are ~14MB downloads and the connection does get reset. A silently
+    # skipped quarter is a hole in the history that nothing later reveals, so
+    # retry rather than log-and-continue.
+    content = None
+    for n in range(attempts):
+        try:
+            r = requests.get(URL.format(q=q), headers=UA, timeout=240)
+            if r.status_code != 200:
+                log.warning("%s unavailable (%s) -- likely not published yet",
+                            q, r.status_code)
+                return []
+            content = r.content
+            break
+        except requests.RequestException as e:
+            log.warning("%s attempt %d failed: %s", q, n + 1, e)
+            time.sleep(3 * (n + 1))
+    if content is None:
+        log.error("%s: giving up after %d attempts -- HISTORY GAP", q, attempts)
         return []
-    zf = zipfile.ZipFile(io.BytesIO(r.content))
+    zf = zipfile.ZipFile(io.BytesIO(content))
 
     subs = {}
     for row in _rows(zf, "SUBMISSION.tsv"):
