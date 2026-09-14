@@ -1,0 +1,25 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  YOUR ACTUAL SMG POSITIONS
+#
+#  SMG has no API, so the bot cannot see what you hold. Add a line each time
+#  you buy, and the stop watcher checks these against real closing prices
+#  every day and alerts you if one breaks its stop.
+#
+#  That is the part worth automating: remembering to check 10 stops every
+#  afternoon for 13 weeks is exactly the sort of thing people stop doing in
+#  week three.
+#
+#  Delete a line when you sell. Everything except ticker/shares/entry is
+#  optional -- a missing stop just means no alert for that position.
+# ═══════════════════════════════════════════════════════════════════════════
+
+positions: []
+# Example — copy the numbers straight from the daily text:
+#
+# positions:
+#   - ticker: PVH
+#     shares: 141
+#     entry: 70.64
+#     stop: 65.86
+#     target: 80.20
+#     opened: 2026-09-15

@@ -6,6 +6,10 @@ on:
     # Either way it lands before the 4pm close, which is the only deadline
     # that matters: SMG fills at that day's close if entered before 4pm.
     - cron: '15 19 * * 1-5'
+    # 21:30 UTC = 5:30pm ET: after the close, so stops are checked against a
+    # settled price rather than an intraday wobble that would alert and then
+    # recover.
+    - cron: '30 21 * * 1-5'
   workflow_dispatch:
     inputs:
       strategy:
@@ -74,6 +78,15 @@ jobs:
             git push origin "HEAD:${GITHUB_REF_NAME}" && break
             sleep 5
           done
+
+      # Stops are watched for you: remembering to check ten levels every
+      # afternoon for thirteen weeks is exactly what people stop doing.
+      - name: Watch stops
+        if: ${{ github.event_name == 'schedule' }}
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python scripts/stop_watch.py --send || true
 
       - name: Send digest
         env:

@@ -483,6 +483,20 @@ with tempfile.TemporaryDirectory() as _td:
     check("log is written per strategy",
           _paper.path_for("teststrat").name, "teststrat.json")
 
+# ── P/E must never be invented for a loss-making company ───────────────────
+from src.fundamentals import Fundamentals  # noqa: E402
+
+with tempfile.TemporaryDirectory() as _td:
+    _f = Fundamentals(Path(_td) / "f.json")
+    _f.data["PROF"] = {"fetched": date.today().isoformat(), "ttm_eps": 5.0}
+    _f.data["LOSS"] = {"fetched": date.today().isoformat(), "ttm_eps": -0.88}
+    _f.data["NONE"] = {"fetched": date.today().isoformat(), "ttm_eps": None}
+    check("P/E from trailing earnings", _f.pe("PROF", 100.0), (20.0, ""))
+    # A negative P/E is not "cheap", it is meaningless -- report the loss.
+    check("loss-maker reports a loss, not a negative P/E",
+          _f.pe("LOSS", 5.45), (None, "loss-making"))
+    check("missing earnings reports no data", _f.pe("NONE", 10.0), (None, "no data"))
+
 # ── Mac agent quiet hours ──────────────────────────────────────────────────
 # The window wraps midnight, which is the easy thing to get wrong: a naive
 # start <= h < end comparison silently never fires for 23->7.

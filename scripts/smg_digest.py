@@ -30,7 +30,8 @@ from src.config import (OUTBOX_PATH, TRADES_PATH, UNIVERSE_PATH,  # noqa: E402
 from src.filters import Watchlist  # noqa: E402
 from src.models import Trade  # noqa: E402
 from src.notify import discord, ntfy, outbox  # noqa: E402
-from src.config import PRICES_PATH  # noqa: E402
+from src.config import FUNDAMENTALS_PATH, PRICES_PATH  # noqa: E402
+from src.fundamentals import Fundamentals  # noqa: E402
 from src.prices import PriceStore, daily_volatility, fetch_universe  # noqa: E402
 from scripts.backtest import (COMMISSION, SMG_MIN_MCAP, SMG_MIN_PRICE,  # noqa: E402
                               eligible, find_clusters)
@@ -66,6 +67,7 @@ def build(strategy: str, positions: int, since_days: int, limit: int):
     rows = store.load(TRADES_PATH)
     universe = fetch_universe(UNIVERSE_PATH)
     px = PriceStore(PRICES_PATH)
+    fund = Fundamentals(FUNDAMENTALS_PATH)
     today = date.today()
     wl = Watchlist(load_watchlist())
     clusters = find_clusters(rows)
@@ -106,6 +108,7 @@ def build(strategy: str, positions: int, since_days: int, limit: int):
             "who": r.get("person", "?"), "role": r.get("role") or r["source"],
             "filed": r.get("filed_date"), "url": r.get("url", ""),
             "value": r.get("value_usd") or r.get("value_range") or "",
+            "pe": None, "pe_note": "", "earnings_soon": None,
             "vol": vol, "band": band, "stop": stop, "target": target,
             "risk": round((last - stop) * shares, 0) if stop else None,
             "reward": round((target - last) * shares, 0) if target else None,
@@ -113,8 +116,17 @@ def build(strategy: str, positions: int, since_days: int, limit: int):
 
     # Biggest disclosed conviction first, so a short list is the strongest one.
     picks.sort(key=lambda p: -(p["cost"]))
+    picks = picks[:limit]
+
+    # Fundamentals only for the shortlist -- one request each, so this stays
+    # cheap even though it is a per-ticker lookup.
+    for p in picks:
+        pe, note = fund.pe(p["ticker"], p["price"])
+        p["pe"], p["pe_note"] = pe, note
+        p["earnings_soon"] = fund.earnings_within(p["ticker"], 21)
+    fund.save()
     px.save()
-    return picks[:limit]
+    return picks
 
 
 def render(picks, strategy: str, positions: int) -> str:
@@ -152,6 +164,11 @@ def render(picks, strategy: str, positions: int) -> str:
         if p.get("stop") and p.get("target"):
             rr = (p["target"] - p["price"]) / max(p["price"] - p["stop"], 0.01)
             out.append(f"  R:R      {rr:.1f}:1")
+        pe_txt = (f"{p['pe']}" if p.get("pe") else (p.get("pe_note") or "n/a"))
+        out.append(f"  P/E      {pe_txt}")
+        if p.get("earnings_soon"):
+            # The biggest knowable single-day risk in a 13-week run.
+            out.append(f"  ! EARNINGS {p['earnings_soon']} — expect a big move")
         out.append(f"  why      {p['who'][:30]} ({p['role'][:20]}) {p['filed']}")
         out.append("")
 

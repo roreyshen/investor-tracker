@@ -13,6 +13,7 @@ DATA_DIR = ROOT / "data"
 TRADES_PATH = DATA_DIR / "trades.json"
 PRICES_PATH = DATA_DIR / "prices.json"
 UNIVERSE_PATH = DATA_DIR / "universe.json"
+FUNDAMENTALS_PATH = DATA_DIR / "fundamentals.json"
 SITE_DIR = ROOT / "docs"
 
 
