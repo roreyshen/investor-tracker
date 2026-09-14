@@ -58,6 +58,25 @@ select,input{background:var(--bg);color:var(--ink);border:1px solid var(--line);
 a{color:var(--accent)}
 .foot{color:var(--muted);font-size:12.5px;margin-top:28px;border-top:1px solid var(--line);padding-top:14px}
 .empty{color:var(--muted);text-align:center;padding:36px 12px}
+.recaphead{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:14px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{background:var(--chip);border:1px solid var(--line);color:var(--muted);
+  border-radius:999px;padding:5px 13px;font-size:13px;cursor:pointer;font-family:inherit}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.rstats{display:grid;grid-template-columns:repeat(auto-fit,minmax(124px,1fr));gap:10px;margin-bottom:16px}
+.rstat{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.rstat .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.rstat .v{font-size:19px;font-weight:650;margin-top:3px;letter-spacing:-.01em}
+.rcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.rcol h3{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);
+  margin:0 0 8px;font-weight:600}
+.rlist{list-style:none;margin:0;padding:0}
+.rlist li{display:flex;justify-content:space-between;gap:10px;padding:5px 0;
+  border-bottom:1px solid var(--line);font-size:13.5px}
+.rlist li:last-child{border-bottom:none}
+.rlist .l{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rlist .r{flex:none;font-variant-numeric:tabular-nums;color:var(--muted)}
+.quiet{color:var(--muted);font-size:13px;padding:10px 0}
 button.theme{background:var(--chip);border:1px solid var(--line);color:var(--muted);
   border-radius:7px;padding:5px 10px;font-size:12.5px;cursor:pointer;font-family:inherit}
 </style>
@@ -83,6 +102,14 @@ button.theme{background:var(--chip);border:1px solid var(--line);color:var(--mut
 </div>
 
 <div class="cards" id="cards"></div>
+
+<div class="panel" id="recapPanel" hidden>
+  <div class="recaphead">
+    <h2 style="margin:0">Recap</h2>
+    <div class="tabs" id="recapTabs"></div>
+  </div>
+  <div id="recapBody"></div>
+</div>
 
 <div class="grid2">
   <div class="panel"><h2>Who beats the index</h2><div class="chartbox"><canvas id="cSource"></canvas></div></div>
@@ -168,6 +195,12 @@ function barChart(id, rows, labelKey, valueKey, title) {
   }));
 }
 
+// Holding period belongs next to any average: a group held 5 days and a group
+// held 200 days are not comparable, and the number alone hides that.
+const held = g => g.trades
+  ? `${g.trades} trades` + (g.avg_days ? ` · ~${g.avg_days}d held` : "")
+  : "0 trades";
+
 function card(k, v, m, klass) {
   return `<div class="card"><div class="k">${esc(k)}</div>
           <div class="v ${klass || ""}">${v}</div>
@@ -214,10 +247,10 @@ fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
 
   $("#cards").innerHTML = [
     card("All trades vs S&P", fmtPct(h.all.avg_excess), `${h.all.trades} scored · ${h.all.win_rate}% beat index`, cls(h.all.avg_excess)),
-    card("Congress", fmtPct(h.congress.avg_excess), `${h.congress.trades} trades`, cls(h.congress.avg_excess)),
-    card("Corporate insiders", fmtPct(h.insiders.avg_excess), `${h.insiders.trades} trades`, cls(h.insiders.avg_excess)),
+    card("Congress", fmtPct(h.congress.avg_excess), held(h.congress), cls(h.congress.avg_excess)),
+    card("Corporate insiders", fmtPct(h.insiders.avg_excess), held(h.insiders), cls(h.insiders.avg_excess)),
     card("Penny stocks", fmtPct(h.penny.avg_excess), `${h.penny.trades} trades · under $5`, cls(h.penny.avg_excess)),
-    card("Alerted to you", fmtPct(h.alerted.avg_excess), `${h.alerted.trades} trades passed filters`, cls(h.alerted.avg_excess))
+    card("Alerted to you", fmtPct(h.alerted.avg_excess), `${h.alerted.trades} passed filters`, cls(h.alerted.avg_excess))
   ].join("");
 
   window._render = () => {
@@ -232,13 +265,90 @@ fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
   sortable($("#tPeople"),
     [{label:"Person",key:"name"},{label:"Trades",key:"trades",num:1},
      {label:"Avg excess",key:"avg_excess",num:1},{label:"Median",key:"median_excess",num:1},
-     {label:"Beat index",key:"win_rate",num:1},{label:"Avg return",key:"avg_return",num:1}],
+     {label:"Beat index",key:"win_rate",num:1},{label:"Avg return",key:"avg_return",num:1},
+     {label:"Avg held",key:"avg_days",num:1}],
     d.by_person,
     r => `<tr><td>${esc(r.name)}</td><td class="num">${r.trades}</td>
       <td class="num"><span class="badge ${r.avg_excess >= 0 ? "p" : "n"}">${fmtPct(r.avg_excess)}</span></td>
       <td class="num ${cls(r.median_excess)}">${fmtPct(r.median_excess)}</td>
       <td class="num">${r.win_rate == null ? "—" : r.win_rate + "%"}</td>
-      <td class="num ${cls(r.avg_return)}">${fmtPct(r.avg_return)}</td></tr>`);
+      <td class="num ${cls(r.avg_return)}">${fmtPct(r.avg_return)}</td>
+      <td class="num">${r.avg_days == null ? "—" : r.avg_days + "d"}</td></tr>`);
+
+  // ── Recaps ──────────────────────────────────────────────────────────────
+  const money = v => {
+    if (!v) return "$0";
+    const a = Math.abs(v);
+    if (a >= 1e9) return "$" + (v / 1e9).toFixed(1) + "B";
+    if (a >= 1e6) return "$" + (v / 1e6).toFixed(1) + "M";
+    if (a >= 1e3) return "$" + Math.round(v / 1e3) + "K";
+    return "$" + Math.round(v);
+  };
+  const amountOf = t => t.value_usd ? money(t.value_usd) : (t.value_range || "—");
+
+  if (d.recaps && d.recaps.length) {
+    const panel = $("#recapPanel"); panel.hidden = false;
+    const tabs = $("#recapTabs"), body = $("#recapBody");
+    d.recaps.forEach((r, i) => {
+      const b = document.createElement("button");
+      b.className = "tab"; b.textContent = r.label;
+      b.setAttribute("aria-selected", i === 0 ? "true" : "false");
+      b.onclick = () => {
+        [...tabs.children].forEach(c => c.setAttribute("aria-selected", "false"));
+        b.setAttribute("aria-selected", "true");
+        drawRecap(r);
+      };
+      tabs.appendChild(b);
+    });
+
+    function tradeLi(t) {
+      const ex = t.excess_pct;
+      const right = ex === null || ex === undefined ? amountOf(t) : fmtPct(ex);
+      return `<li><span class="l">${t.action === "BUY" ? "🟢" : "🔴"}
+        ${esc(t.ticker || t.company || "?")} · ${esc(t.person)}</span>
+        <span class="r ${cls(ex)}">${esc(right)}</span></li>`;
+    }
+    function nameLi(x) {
+      return `<li><span class="l">${esc(x.name)}</span>
+              <span class="r">${money(x.notional)}</span></li>`;
+    }
+    function col(title, items, fn) {
+      if (!items || !items.length) return "";
+      return `<div class="rcol"><h3>${esc(title)}</h3>
+              <ul class="rlist">${items.map(fn).join("")}</ul></div>`;
+    }
+
+    function drawRecap(r) {
+      if (!r.filings) {
+        body.innerHTML = `<div class="quiet">No filings became public in this window.
+          Congress files on business days and the SEC doesn't publish on weekends,
+          so quiet stretches are normal.</div>`;
+        return;
+      }
+      const p = r.performance || {};
+      body.innerHTML = `
+        <div class="rstats">
+          <div class="rstat"><div class="k">New filings</div><div class="v">${r.filings.toLocaleString()}</div></div>
+          <div class="rstat"><div class="k">Buys / sells</div><div class="v">${r.buys} / ${r.sells}</div></div>
+          <div class="rstat"><div class="k">Est. notional</div><div class="v">${money(r.notional_est)}</div></div>
+          <div class="rstat"><div class="k">People</div><div class="v">${r.people}</div></div>
+          <div class="rstat"><div class="k">Avg vs S&amp;P</div>
+            <div class="v ${cls(p.avg_excess)}">${fmtPct(p.avg_excess)}</div></div>
+        </div>
+        <div class="rcols">
+          ${col("Biggest trades", r.biggest, tradeLi)}
+          ${col("Most active", r.top_people, nameLi)}
+          ${col("Most traded", r.top_tickers, nameLi)}
+          ${col("Best vs S&P", r.best, tradeLi)}
+          ${col("Worst vs S&P", r.worst, tradeLi)}
+          ${col("Sectors", r.top_sectors, nameLi)}
+        </div>
+        <div class="quiet">Counted by <b>filing</b> date — when it became public,
+          not when it was traded. Notional is an estimate: congressional filings
+          disclose a band, so the midpoint is used.</div>`;
+    }
+    drawRecap(d.recaps[0]);
+  }
 
   const uniq = k => [...new Set(d.trades.map(x => x[k]).filter(Boolean))].sort();
   const fill = (sel, vals) => vals.forEach(v => {

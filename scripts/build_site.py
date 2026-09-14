@@ -28,6 +28,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.config import (PRICES_PATH, SITE_DIR, TRADES_PATH,  # noqa: E402
                         UNIVERSE_PATH)
+from src.filters import range_mid  # noqa: E402
 from src.prices import (BENCHMARKS, PriceStore, cap_tier,  # noqa: E402
                         fetch_universe)
 from src import store  # noqa: E402
@@ -70,11 +71,19 @@ def score_trades(rows: list[dict], px: PriceStore, universe: dict,
     for b in BENCHMARKS:
         px.history(b, earliest)
 
+    # The cap throttles NEW network fetches only. Anything already in the price
+    # cache is always scored -- capping the scoring instead would make the site
+    # silently shed trades on every run, which it did before this was fixed.
+    cached = set(getattr(px, "data", {}))
     tickers = sorted(by_ticker, key=lambda t: -len(by_ticker[t]))
-    if max_tickers:
-        tickers = tickers[:max_tickers]
+    budget = max_tickers or len(tickers)
+    fetched = 0
 
     for n, tk in enumerate(tickers, 1):
+        if tk not in cached:
+            if fetched >= budget:
+                continue
+            fetched += 1
         group = by_ticker[tk]
         oldest = min(date.fromisoformat(r["trade_date"]) for r in group)
         px.history(tk, oldest)
@@ -119,8 +128,11 @@ def score_trades(rows: list[dict], px: PriceStore, universe: dict,
                 "cap_tier": cap_tier(info.get("market_cap"), info.get("price")),
             })
         if n % 25 == 0:
-            log.info("  scored %d/%d tickers", n, len(tickers))
+            log.info("  %d/%d tickers (%d newly fetched this run)",
+                     n, len(tickers), fetched)
             px.save()
+    log.info("priced %d cached + %d new of %d tickers",
+             len(cached & set(tickers)), fetched, len(tickers))
     return scored
 
 
@@ -128,9 +140,10 @@ def _agg(items: list[dict]) -> dict:
     ex = [t["excess_pct"] for t in items if t.get("excess_pct") is not None]
     rets = [t["signed_return_pct"] for t in items
             if t.get("signed_return_pct") is not None]
+    days = [t["days_held"] for t in items if t.get("days_held") is not None]
     if not ex:
         return {"trades": len(items), "avg_excess": None, "median_excess": None,
-                "win_rate": None, "avg_return": None}
+                "win_rate": None, "avg_return": None, "avg_days": None}
     return {
         "trades": len(items),
         "avg_excess": round(statistics.fmean(ex), 2),
@@ -138,6 +151,81 @@ def _agg(items: list[dict]) -> dict:
         # "Win" = beat the S&P over the same window, not merely went up.
         "win_rate": round(100 * sum(1 for v in ex if v > 0) / len(ex), 1),
         "avg_return": round(statistics.fmean(rets), 2) if rets else None,
+        # Averages mix trades held 3 days with trades held 300. Surfacing the
+        # mean window stops a short-window group being read as a fair
+        # comparison against a long-window one.
+        "avg_days": round(statistics.fmean(days)) if days else None,
+    }
+
+
+def notional(row: dict) -> float:
+    """Best available dollar figure for a trade.
+
+    Form 4 reports an exact value; congressional filings only give a band, so
+    the midpoint stands in. Any total built from these is an estimate and is
+    labelled as one on the page.
+    """
+    v = row.get("value_usd")
+    if v:
+        return float(v)
+    return range_mid(row.get("value_range") or "")
+
+
+def _top(items: list[dict], key, n: int = 5, reverse: bool = True) -> list[dict]:
+    vals = [i for i in items if key(i) is not None]
+    return sorted(vals, key=key, reverse=reverse)[:n]
+
+
+def recap(all_rows: list[dict], scored_by_uid: dict[str, dict],
+          days: int, label: str) -> dict:
+    """What happened in the last N days, by FILING date.
+
+    Filing date, not trade date: this is a tracker, so "the last 24 hours"
+    means what became public in the last 24 hours. With congressional trades
+    disclosed 30-45 days late, grouping by trade date would show an empty
+    yesterday and bury everything you actually just learned.
+    """
+    cutoff = (date.today() - timedelta(days=days)).isoformat()
+    rows = [r for r in all_rows if (r.get("filed_date") or "") >= cutoff]
+    scored = [scored_by_uid[r["uid"]] for r in rows if r["uid"] in scored_by_uid]
+
+    people = defaultdict(float)
+    tickers = defaultdict(float)
+    sectors = defaultdict(float)
+    for r in rows:
+        amt = notional(r)
+        people[r.get("person") or "?"] += amt
+        if r.get("ticker"):
+            tickers[r["ticker"]] += amt
+    for t in scored:
+        sectors[t.get("sector") or "Unknown"] += notional(t)
+
+    def slim(t: dict) -> dict:
+        return {k: t.get(k) for k in
+                ("person", "ticker", "action", "company", "filed_date",
+                 "trade_date", "source", "excess_pct", "signed_return_pct",
+                 "value_usd", "value_range", "url")}
+
+    biggest = _top(rows, notional, 6)
+    return {
+        "label": label,
+        "days": days,
+        "filings": len(rows),
+        "scored": len(scored),
+        "buys": sum(1 for r in rows if r.get("action") == "BUY"),
+        "sells": sum(1 for r in rows if r.get("action") == "SELL"),
+        "notional_est": round(sum(notional(r) for r in rows)),
+        "people": len({r.get("person") for r in rows}),
+        "performance": _agg(scored),
+        "top_people": [{"name": k, "notional": round(v)}
+                       for k, v in sorted(people.items(), key=lambda kv: -kv[1])[:6]],
+        "top_tickers": [{"name": k, "notional": round(v)}
+                        for k, v in sorted(tickers.items(), key=lambda kv: -kv[1])[:8]],
+        "top_sectors": [{"name": k, "notional": round(v)}
+                        for k, v in sorted(sectors.items(), key=lambda kv: -kv[1])[:6]],
+        "biggest": [slim(b) for b in biggest],
+        "best": [slim(t) for t in _top(scored, lambda t: t.get("excess_pct"), 5)],
+        "worst": [slim(t) for t in _top(scored, lambda t: t.get("excess_pct"), 5, False)],
     }
 
 
@@ -182,6 +270,11 @@ def build(max_tickers: int, full: bool) -> dict:
 
     recent = sorted(scored, key=lambda t: t.get("filed_date") or "", reverse=True)[:400]
 
+    by_uid = {t["uid"]: t for t in scored}
+    recaps = [recap(rows, by_uid, 1, "Last 24 hours"),
+              recap(rows, by_uid, 7, "Last 7 days"),
+              recap(rows, by_uid, 30, "Last 30 days")]
+
     return {
         "generated": datetime.now().isoformat(timespec="seconds"),
         "totals": {
@@ -204,6 +297,7 @@ def build(max_tickers: int, full: bool) -> dict:
         "by_industry": industries,
         "by_cap": caps,
         "by_action": actions,
+        "recaps": recaps,
         "trades": recent,
     }
 

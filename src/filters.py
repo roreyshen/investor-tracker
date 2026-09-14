@@ -77,6 +77,26 @@ class Watchlist:
         return None
 
 
+_RANGE_BOTH_RE = re.compile(r"\$?([\d,]+)\s*-\s*\$?([\d,]+)")
+
+
+def range_mid(value_range: str) -> float:
+    """Midpoint of a disclosed band, for summing notional across trades.
+
+    Congress discloses only a band, so any total is an estimate. The midpoint
+    is the least-wrong single number; totals built from it are labelled as
+    estimates wherever they're shown.
+    """
+    m = _RANGE_BOTH_RE.search(value_range or "")
+    if not m:
+        return 0.0
+    try:
+        lo, hi = (float(g.replace(",", "")) for g in m.groups())
+    except ValueError:
+        return 0.0
+    return (lo + hi) / 2
+
+
 def is_senior(role: str, titles: list[str]) -> bool:
     """True for C-suite and board-chair roles.
 
