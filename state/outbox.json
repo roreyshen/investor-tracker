@@ -13,6 +13,363 @@
    "text": "\ud83d\udd34 SELL 2000140446 American Fu $500K-1M - Rose (Rep. TN06) - traded 6/3 (466d ago)",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035445.pdf"
+  },
+  {
+   "uid": "0001959173-26-006926",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL GOLD $5.9M - Benjamin (Director) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1591588/000195917326006926/0001959173-26-006926-index.htm"
+  },
+  {
+   "uid": "0001959173-26-006932",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL MRNA $5.8M - Hoge (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1760669/000195917326006932/0001959173-26-006932-index.htm"
+  },
+  {
+   "uid": "f3dc67af-1a91-4d58-a98f-f5adec91ecd7:0",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY Contour Venture Partne $250K-500K - Hagerty (Senator) - traded 1/23 (31d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f3dc67af-1a91-4d58-a98f-f5adec91ecd7/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:0",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY MARYLAND ST TRANSN AUT $250K-500K - Mccormick (Senator) - traded 1/30 (23d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:1",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY PENNSYLVANIA ST TPK CO $250K-500K - Mccormick (Senator) - traded 1/30 (23d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:2",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY MARYLAND ST TRANSN AUT $100K-250K - Mccormick (Senator) - traded 1/30 (23d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:3",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY PENNSYLVANIA INFRASTRU $100K-250K - Mccormick (Senator) - traded 1/29 (24d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:4",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY WALLENPAUPACK PA AREA  $100K-250K - Mccormick (Senator) - traded 1/28 (25d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:5",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY PENNSBURY PA SCH DIST  $100K-250K - Mccormick (Senator) - traded 1/28 (25d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:6",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY PENNSYLVANIA ST TPK CO $100K-250K - Mccormick (Senator) - traded 1/27 (26d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:7",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY PENNSYLVANIA ST GO Rat $250K-500K - Mccormick (Senator) - traded 1/26 (27d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:8",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY NEW GLARUS WIS SCH DIS $250K-500K - Mccormick (Senator) - traded 1/26 (27d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:9",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY KING CNTY WASH DB Rate $250K-500K - Mccormick (Senator) - traded 1/26 (27d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:10",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY DELAWARE VALLEY PA REG $100K-250K - Mccormick (Senator) - traded 1/26 (27d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:11",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL GS $1M-5M - Mccormick (Senator) - traded 1/23 (30d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "f977c281-48c1-4de0-af95-6765127f4720:12",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY MARYLAND ST GO Rate/Co $250K-500K - Mccormick (Senator) - traded 1/23 (30d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
+  },
+  {
+   "uid": "ab93dc59-4217-40a6-bee8-ba19deae027a:0",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY ME St Health & Higher  $50K-100K - Collins (Senator) - traded 1/6 (38d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/ab93dc59-4217-40a6-bee8-ba19deae027a/"
+  },
+  {
+   "uid": "83722654-25b1-499e-8ad5-4a1349d993a6:0",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL LOW $50K-100K - Hickenlooper (Senator) - traded 1/14 (23d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/83722654-25b1-499e-8ad5-4a1349d993a6/"
+  },
+  {
+   "uid": "83722654-25b1-499e-8ad5-4a1349d993a6:1",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL TJX $50K-100K - Hickenlooper (Senator) - traded 1/14 (23d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/83722654-25b1-499e-8ad5-4a1349d993a6/"
+  },
+  {
+   "uid": "83722654-25b1-499e-8ad5-4a1349d993a6:2",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY ETN $50K-100K - Hickenlooper (Senator) - traded 1/14 (23d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/83722654-25b1-499e-8ad5-4a1349d993a6/"
+  },
+  {
+   "uid": "83722654-25b1-499e-8ad5-4a1349d993a6:3",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY UBER $100K-250K - Hickenlooper (Senator) - traded 1/14 (23d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/83722654-25b1-499e-8ad5-4a1349d993a6/"
+  },
+  {
+   "uid": "98b3317b-2632-48c3-b636-d5555c4680ca:0",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL KENTUCKY ST PPTY & BLD $50K-100K - Mullin (Senator) - traded 1/20 (15d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/98b3317b-2632-48c3-b636-d5555c4680ca/"
+  },
+  {
+   "uid": "98b3317b-2632-48c3-b636-d5555c4680ca:10",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL IPS MULTI-SCH BLDG COR $50K-100K - Mullin (Senator) - traded 1/20 (15d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/98b3317b-2632-48c3-b636-d5555c4680ca/"
+  },
+  {
+   "uid": "98b3317b-2632-48c3-b636-d5555c4680ca:15",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL CLEAR CREEK TEX INDPT  $50K-100K - Mullin (Senator) - traded 1/20 (15d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/98b3317b-2632-48c3-b636-d5555c4680ca/"
+  },
+  {
+   "uid": "98b3317b-2632-48c3-b636-d5555c4680ca:16",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL FORT SMITH ARK WTR & S $50K-100K - Mullin (Senator) - traded 1/20 (15d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/98b3317b-2632-48c3-b636-d5555c4680ca/"
+  },
+  {
+   "uid": "98b3317b-2632-48c3-b636-d5555c4680ca:17",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL SEATTLE WASH DRAIN & W $50K-100K - Mullin (Senator) - traded 1/20 (15d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/98b3317b-2632-48c3-b636-d5555c4680ca/"
+  },
+  {
+   "uid": "d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e:0",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL SBUX $1K-15K - Whitehouse (Senator) - traded 1/9 (26d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e/"
+  },
+  {
+   "uid": "d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e:1",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL NVDA $1K-15K - Whitehouse (Senator) - traded 1/9 (26d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e/"
+  },
+  {
+   "uid": "d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e:2",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL HD $1K-15K - Whitehouse (Senator) - traded 1/9 (26d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e/"
+  },
+  {
+   "uid": "d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e:3",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL SBUX $1K-15K - Whitehouse (Senator) - traded 1/9 (26d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e/"
+  },
+  {
+   "uid": "d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e:4",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL NVDA $1K-15K - Whitehouse (Senator) - traded 1/9 (26d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e/"
+  },
+  {
+   "uid": "d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e:5",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL MCD $15K-50K - Whitehouse (Senator) - traded 1/9 (26d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/d8dd8a6c-08c7-4432-8e62-5cd0ee9c4a8e/"
+  },
+  {
+   "uid": "a8f2bab8-0feb-49cf-b80f-9826cb4a7a4c:0",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL BRK.B $100K-250K - Smith (Senator) - 1/27",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/a8f2bab8-0feb-49cf-b80f-9826cb4a7a4c/"
+  },
+  {
+   "uid": "a8f2bab8-0feb-49cf-b80f-9826cb4a7a4c:1",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL MRSH - Marsh & McLenna $50K-100K - Smith (Senator) - 1/27",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/a8f2bab8-0feb-49cf-b80f-9826cb4a7a4c/"
+  },
+  {
+   "uid": "b195126e-7bb2-4d54-baf5-e6fc8e7a0165:2",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY JPM $50K-100K - Mullin (Senator) - traded 12/29 (18d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b195126e-7bb2-4d54-baf5-e6fc8e7a0165/"
+  },
+  {
+   "uid": "b195126e-7bb2-4d54-baf5-e6fc8e7a0165:3",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY COF $50K-100K - Mullin (Senator) - traded 12/29 (18d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b195126e-7bb2-4d54-baf5-e6fc8e7a0165/"
+  },
+  {
+   "uid": "b195126e-7bb2-4d54-baf5-e6fc8e7a0165:5",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY GOOGL $100K-250K - Mullin (Senator) - traded 12/29 (18d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b195126e-7bb2-4d54-baf5-e6fc8e7a0165/"
+  },
+  {
+   "uid": "b195126e-7bb2-4d54-baf5-e6fc8e7a0165:9",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY MSFT $100K-250K - Mullin (Senator) - traded 12/29 (18d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b195126e-7bb2-4d54-baf5-e6fc8e7a0165/"
+  },
+  {
+   "uid": "b195126e-7bb2-4d54-baf5-e6fc8e7a0165:11",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY LRCX $50K-100K - Mullin (Senator) - traded 12/29 (18d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b195126e-7bb2-4d54-baf5-e6fc8e7a0165/"
+  },
+  {
+   "uid": "b195126e-7bb2-4d54-baf5-e6fc8e7a0165:13",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY AMZN $100K-250K - Mullin (Senator) - traded 12/29 (18d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b195126e-7bb2-4d54-baf5-e6fc8e7a0165/"
+  },
+  {
+   "uid": "b195126e-7bb2-4d54-baf5-e6fc8e7a0165:14",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY NVDA $100K-250K - Mullin (Senator) - traded 12/29 (18d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b195126e-7bb2-4d54-baf5-e6fc8e7a0165/"
+  },
+  {
+   "uid": "b195126e-7bb2-4d54-baf5-e6fc8e7a0165:20",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY AAPL $100K-250K - Mullin (Senator) - traded 12/29 (18d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b195126e-7bb2-4d54-baf5-e6fc8e7a0165/"
+  },
+  {
+   "uid": "b195126e-7bb2-4d54-baf5-e6fc8e7a0165:21",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY META $50K-100K - Mullin (Senator) - traded 12/29 (18d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b195126e-7bb2-4d54-baf5-e6fc8e7a0165/"
+  },
+  {
+   "uid": "b195126e-7bb2-4d54-baf5-e6fc8e7a0165:22",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY MA $50K-100K - Mullin (Senator) - traded 12/29 (18d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b195126e-7bb2-4d54-baf5-e6fc8e7a0165/"
+  },
+  {
+   "uid": "b2bdf363-af39-43c8-ae93-13ed14aa3752:0",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY XLU $15K-50K - Tuberville (Senator) - traded 12/17 (29d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b2bdf363-af39-43c8-ae93-13ed14aa3752/"
+  },
+  {
+   "uid": "b2bdf363-af39-43c8-ae93-13ed14aa3752:1",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY XLP $15K-50K - Tuberville (Senator) - traded 12/17 (29d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b2bdf363-af39-43c8-ae93-13ed14aa3752/"
+  },
+  {
+   "uid": "b2bdf363-af39-43c8-ae93-13ed14aa3752:2",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY XLV $15K-50K - Tuberville (Senator) - traded 12/17 (29d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b2bdf363-af39-43c8-ae93-13ed14aa3752/"
+  },
+  {
+   "uid": "b2bdf363-af39-43c8-ae93-13ed14aa3752:3",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL AAPL $50K-100K - Tuberville (Senator) - traded 12/17 (29d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b2bdf363-af39-43c8-ae93-13ed14aa3752/"
+  },
+  {
+   "uid": "b2bdf363-af39-43c8-ae93-13ed14aa3752:4",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL GOOGL $1K-15K - Tuberville (Senator) - traded 12/17 (29d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/b2bdf363-af39-43c8-ae93-13ed14aa3752/"
+  },
+  {
+   "uid": "abe1d99a-f229-49cd-af07-301511ecf0d1:1",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udd34 SELL FWONK $50K-100K - Hickenlooper (Senator) - traded 12/10 (27d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/abe1d99a-f229-49cd-af07-301511ecf0d1/"
+  },
+  {
+   "uid": "89777dd7-42ff-4095-bc54-7204a14232d4:1",
+   "queued_at": "2026-09-14T18:40:43.489096+00:00",
+   "text": "\ud83d\udfe2 BUY US TREASURY BILL26U T  $50K-100K - Graham (Senator) - 12/31",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/89777dd7-42ff-4095-bc54-7204a14232d4/"
   }
  ]
 }
