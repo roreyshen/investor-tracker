@@ -411,5 +411,19 @@ for _h, _want in [(22, False), (23, True), (0, True), (3, True), (6, True),
     check(f"quiet hours at {_h:02d}:00",
           in_quiet_hours(datetime(2026, 9, 14, _h, 0)), _want)
 
+# Regression guard. The first real alert failed because the message was
+# interpolated into the AppleScript source: emoji became \ud83d\udd34 surrogate
+# escapes that AppleScript cannot parse. The message must be passed as an
+# argument instead, so no character in a company name can break the script.
+import inspect  # noqa: E402
+import agent as _agent  # noqa: E402
+
+_src = inspect.getsource(_agent.send_message)
+check("applescript reads argv, not interpolated text", "on run argv" in _src, True)
+check("message is not embedded in the script body",
+      "json.dumps(text)" not in _src, True)
+check("message passed as a subprocess argument",
+      "script, text, to]" in _src, True)
+
 print(f"\n{PASS} passed, {FAIL} failed")
 sys.exit(1 if FAIL else 0)

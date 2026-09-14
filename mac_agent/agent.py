@@ -76,14 +76,20 @@ def recipient() -> str:
 def send_message(text: str, to: str) -> tuple[bool, str]:
     """Send via Messages.app. Returns (ok, detail).
 
-    Tries iMessage first, then falls back to the SMS service, which is what
-    carries the message when the recipient isn't on iMessage (this requires
-    Text Message Forwarding enabled on the paired iPhone).
+    The message and recipient are passed as ARGUMENTS, not interpolated into
+    the script source. Embedding them broke on the first real alert: emoji
+    became \\ud83d\\udd34 surrogate escapes that AppleScript cannot parse
+    ("syntax error: Expected \u201c\"\u201d but found unknown token"), and any
+    quote or backslash in a company name would have done the same.
+
+    Tries iMessage first, then the SMS service, which is what carries the
+    message when the recipient is not on iMessage (that needs Text Message
+    Forwarding enabled on the paired iPhone).
     """
-    script = f'''
-    on run
-        set msg to {json.dumps(text)}
-        set dest to {json.dumps(to)}
+    script = """
+    on run argv
+        set msg to item 1 of argv
+        set dest to item 2 of argv
         tell application "Messages"
             try
                 set svc to 1st service whose service type = iMessage
@@ -100,10 +106,11 @@ def send_message(text: str, to: str) -> tuple[bool, str]:
             end try
         end tell
     end run
-    '''
+    """
     try:
-        r = subprocess.run(["osascript", "-e", script],
-                           capture_output=True, text=True, timeout=OSA_TIMEOUT)
+        r = subprocess.run(["osascript", "-e", script, text, to],
+                           capture_output=True, text=True, encoding="utf-8",
+                           timeout=OSA_TIMEOUT)
     except subprocess.TimeoutExpired:
         return False, ("timed out -- macOS is probably showing the Automation "
                        "permission dialog. Approve it once, then rerun.")
