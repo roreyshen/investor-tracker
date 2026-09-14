@@ -103,6 +103,19 @@ button.theme{background:var(--chip);border:1px solid var(--line);color:var(--mut
 
 <div class="cards" id="cards"></div>
 
+<div class="panel" id="smgPanel" hidden>
+  <h2>Stock Market Game — is any of this actually tradeable?</h2>
+  <div class="note" style="margin:0 0 14px">
+    <b>Two different numbers.</b> "From trade date" is what the filer got — it
+    includes a 30–45 day head start you cannot buy. <b>"Actionable"</b> enters at
+    the first close <em>after the filing became public</em>, which is the
+    earliest price you could really pay, and is the only one that means anything
+    for SMG. Windows are measured from that same entry, because a competition
+    runs a fixed number of weeks.
+  </div>
+  <div id="smgBody"></div>
+</div>
+
 <div class="panel" id="recapPanel" hidden>
   <div class="recaphead">
     <h2 style="margin:0">Recap</h2>
@@ -281,6 +294,44 @@ fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
       <td class="num">${r.win_rate == null ? "—" : r.win_rate + "%"}</td>
       <td class="num ${cls(r.avg_return)}">${fmtPct(r.avg_return)}</td>
       <td class="num">${r.avg_days == null ? "—" : r.avg_days + "d"}</td></tr>`);
+
+  // ── SMG: trade-date vs actionable ───────────────────────────────────────
+  if (d.smg && d.smg.by_source && d.smg.by_source.length) {
+    $("#smgPanel").hidden = false;
+    const hs = d.smg.horizons || [];
+    const rows = d.smg.by_source.map(r => {
+      const cells = hs.map(h => {
+        const v = (r.horizons || {})["d" + h];
+        return v
+          ? `<td class="num ${cls(v.avg)}">${fmtPct(v.avg)}<br>
+             <span class="r" style="font-size:11px">${v.win}% · n=${v.n}</span></td>`
+          : `<td class="num">—</td>`;
+      }).join("");
+      return `<tr>
+        <td>${esc(r.name)}</td>
+        <td class="num">${r.trades}</td>
+        <td class="num ${cls(r.avg_excess)}">${fmtPct(r.avg_excess)}</td>
+        <td class="num"><span class="badge ${(r.avg_actionable||0) >= 0 ? "p" : "n"}">${fmtPct(r.avg_actionable)}</span></td>
+        <td class="num">${r.actionable_win == null ? "—" : r.actionable_win + "%"}</td>
+        ${cells}</tr>`;
+    }).join("");
+    $("#smgBody").innerHTML = `
+      <div class="scroll" style="max-height:none"><table>
+        <thead><tr>
+          <th>Source</th><th class="num">Trades</th>
+          <th class="num">From trade date</th>
+          <th class="num">Actionable</th><th class="num">Win</th>
+          ${hs.map(h => `<th class="num">+${h}d</th>`).join("")}
+        </tr></thead><tbody>${rows}</tbody></table></div>
+      <div class="quiet">
+        SMG-eligible only: NYSE/NASDAQ, at least $${d.smg.min_price}/share and
+        $${(d.smg.min_mcap/1e6).toFixed(0)}M market cap —
+        ${d.smg.eligible_trades.toLocaleString()} of
+        ${d.totals.scored_trades.toLocaleString()} scored trades qualify.
+        A win rate near 50% is a coin flip, not an edge; treat the sample size
+        (n) as part of every number here.
+      </div>`;
+  }
 
   // ── Recaps ──────────────────────────────────────────────────────────────
   const money = v => {
