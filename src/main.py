@@ -22,7 +22,7 @@ from .models import Trade
 from . import store
 from .notify import discord, outbox, twilio_sms
 from .notify.format import sms_line
-from .sources import edgar_13f, edgar_form4, house, senate
+from .sources import edgar_13f, edgar_form4, edgar_form144, house, senate
 from .state import State
 
 log = logging.getLogger("tracker")
@@ -39,7 +39,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     p.add_argument("--backfill", type=int, default=0, metavar="DAYS",
                    help="also sweep the SEC daily index for the last N days")
     p.add_argument("--source", action="append", default=None,
-                   choices=["form4", "house", "senate", "13f"],
+                   choices=["form4", "form144", "house", "senate", "13f"],
                    help="limit to one source (repeatable)")
     p.add_argument("--limit", type=int, default=0, metavar="N",
                    help="cap filings fetched this run (safety valve / testing)")
@@ -53,11 +53,13 @@ def collect_trades(settings: dict, fetcher: Fetcher, state: State,
     wanted = set(args.source) if args.source else None
     trades: list[Trade] = []
 
+    _CFG_KEY = {"form4": "edgar_form4", "13f": "edgar_13f",
+                "form144": "edgar_form144"}
+
     def want(name: str) -> bool:
         if wanted is not None:
             return name in wanted
-        return bool(enabled.get({"form4": "edgar_form4", "13f": "edgar_13f"}
-                                .get(name, name)))
+        return bool(enabled.get(_CFG_KEY.get(name, name)))
 
     if want("form4"):
         try:
@@ -78,6 +80,12 @@ def collect_trades(settings: dict, fetcher: Fetcher, state: State,
             trades += senate.collect(fetcher, state, limit=args.limit)
         except Exception:
             log.exception("senate source failed")
+
+    if want("form144"):
+        try:
+            trades += edgar_form144.collect(fetcher, state, limit=args.limit)
+        except Exception:
+            log.exception("form144 source failed")
 
     if want("13f"):
         try:

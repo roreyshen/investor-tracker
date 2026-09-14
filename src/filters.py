@@ -156,6 +156,7 @@ def evaluate(trades: list[Trade], settings: dict, watchlist: Watchlist,
     min_sell = f.get("min_insider_sell_usd", 10_000_000)
     min_congress = f.get("min_congress_usd", 50_000)
     min_senior = f.get("min_senior_buy_usd", 250_000)
+    min_144 = f.get("min_form144_usd", 5_000_000)
     senior_titles = f.get("senior_titles", ["CEO", "CFO", "President", "Chairman"])
     codes = set(f.get("signal_codes", ["P", "S"]))
 
@@ -176,7 +177,11 @@ def evaluate(trades: list[Trade], settings: dict, watchlist: Watchlist,
         if t.ticker and t.ticker.upper() in watchlist.tickers:
             reasons.append(f"watched ticker {t.ticker}")
 
-        if t.source in ("house", "senate"):
+        if t.source == "form144":
+            if t.value_usd and t.value_usd >= min_144:
+                reasons.append(f"insider intends to sell {t.amount_str} "
+                               "(Form 144, filed before the sale)")
+        elif t.source in ("house", "senate"):
             low = range_low(t.value_range)
             if low >= min_congress and t.action in ("BUY", "SELL"):
                 reasons.append(f"large congressional trade ({t.amount_str})")

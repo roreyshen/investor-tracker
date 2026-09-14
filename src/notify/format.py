@@ -16,7 +16,8 @@ _TITLE_ABBREV = [
     ("chief accounting", "CAO"), ("chief legal", "CLO"),
     ("general counsel", "Counsel"), ("executive chairman", "Exec Chair"),
     ("chairman", "Chair"), ("president", "Pres"), ("director", "Director"),
-    ("10% owner", "10% Owner"),
+    ("10% owner", "10% Owner"), ("affiliate", "Affiliate"),
+    ("officer", "Officer"),
 ]
 
 CODE_MEANING = {

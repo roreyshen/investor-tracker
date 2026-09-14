@@ -15,6 +15,12 @@ filters:
   # person. Sells are weaker signal than buys, so this is set higher.
   min_insider_sell_usd: 10_000_000
 
+  # Form 144 is a notice of INTENT to sell, filed at or before the order --
+  # earlier than Form 4, which reports a sale afterwards. Lower bar than the
+  # Form 4 sell threshold because it is a leading indicator, though it is only
+  # an intent: the sale can shrink or never happen.
+  min_form144_usd: 5_000_000
+
   # Congressional filings disclose a BAND ("$1,001 - $15,000"), never an exact
   # figure, so this compares against the bottom of the band. Set low because
   # the whole Congress files only ~1,000 transactions a year -- the volume
@@ -58,6 +64,7 @@ sources:
   house:       true            # 30-45 day statutory lag
   senate:      true            # 30-45 day statutory lag
   edgar_13f:   true            # quarterly, up to 4.5 months stale
+  edgar_form144: true          # proposed insider sales, filed BEFORE the sale
 
 http:
   # SEC requires a declared User-Agent with real contact info. They ban IPs that

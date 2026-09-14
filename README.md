@@ -5,6 +5,11 @@ trades, and scores every trade against the S&P 500 so you can see whether any
 of it actually beats just holding the index.
 
 **Live dashboard:** https://investor-tracker-sigma.vercel.app
+(also on GitHub Pages at https://roreyshen.github.io/investor-tracker/)
+
+The dashboard carries automated **24-hour, 7-day and 30-day recaps** — what
+became public in each window, the biggest trades, who was most active, and
+what beat or lost to the index.
 
 Everything here is a public record that the filer is legally *required* to
 publish. Reading those filings faster than other people is not insider trading.
@@ -34,11 +39,17 @@ but never loses one.
 
 | Source | Who | Real lag |
 |---|---|---|
+| **SEC Form 144** | Affiliates giving notice of a sale | **before the sale** |
 | **SEC Form 4** | Officers, directors, 10%+ owners | **~2 business days** |
 | House / Senate PTR | Members of Congress | **30–45 days** (statutory) |
 | 13F | Berkshire, Scion, Pershing Square | up to **4.5 months** |
 
-Form 4 is the only genuinely fast feed. **Congressional data cannot be fast** —
+**Form 144 is the earliest signal available.** An affiliate selling restricted
+or control stock files it at or before placing the order, so it lands *ahead*
+of the trade rather than after it. The catch: it states an *intent* to sell.
+The sale can come in smaller, or never happen. Alerts say "intends to sell".
+
+Form 4 is the fastest confirmation of a completed trade. **Congressional data cannot be fast** —
 the reporting window is written into the STOCK Act. Anything advertising
 "real-time congressional trades" is selling you month-old data.
 
@@ -132,6 +143,7 @@ matching is order-independent, so `Nancy Pelosi`, `PELOSI NANCY` and
 | `min_insider_buy_usd` | $1,000,000 | open-market buys only |
 | `min_senior_buy_usd` | $250,000 | CEO/CFO buys are stronger signal, so lower bar |
 | `min_insider_sell_usd` | $10,000,000 | sells are weaker signal |
+| `min_form144_usd` | $5,000,000 | proposed sales; lower bar since it's early |
 | `min_congress_usd` | $50,000 | compares the bottom of the disclosed band |
 | `cluster_min_insiders` | 3 | 3+ insiders buying one stock in a week, any size |
 
@@ -164,7 +176,7 @@ python3 -m venv .venv && ./.venv/bin/pip install -r requirements.txt
 | `--dry-run` | print alerts, send nothing, don't write state |
 | `--backfill N` | sweep the SEC daily index N days back |
 | `--limit N` | cap filings per run (safety valve) |
-| `--source form4` | one source only (`form4`/`house`/`senate`/`13f`) |
+| `--source form4` | one source only (`form4`/`form144`/`house`/`senate`/`13f`) |
 
 The **first run alerts on nothing by design** — the SEC feed remembers ~1,100
 old filings and dumping those on you would be noise, so run one marks them seen
@@ -202,6 +214,7 @@ read as "no change" forever.
 ## Status
 
 - [x] SEC Form 4 insider tracking (the fast feed)
+- [x] SEC Form 144 — proposed sales, filed *before* they happen
 - [x] House & Senate congressional filings
 - [x] 13F fund tracking
 - [x] Native Mac texting via Messages.app

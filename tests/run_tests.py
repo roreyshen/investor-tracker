@@ -324,6 +324,40 @@ check("buy beats a flat index by 100", _sc["buy"]["excess_pct"], 100.0)
 check("sell out of a doubling stock scores -100", _sc["sell"]["excess_pct"], -100.0)
 check("raw return is direction-free", _sc["sell"]["return_pct"], 100.0)
 
+# ── Form 144: notice of intent to sell, filed BEFORE the sale ─────────────
+from src.sources.edgar_form144 import parse_144  # noqa: E402
+
+F144 = """<edgarSubmission><headerData><submissionType>144</submissionType></headerData>
+<formData><issuerInfo><issuerCik>0000320193</issuerCik>
+<issuerName>Apple Inc.</issuerName>
+<nameOfPersonForWhoseAccountTheSecuritiesAreToBeSold>DOE JANE</nameOfPersonForWhoseAccountTheSecuritiesAreToBeSold>
+<relationshipsToIssuer><relationshipToIssuer>Officer</relationshipToIssuer></relationshipsToIssuer>
+</issuerInfo><securitiesInformation><securitiesClassTitle>Common</securitiesClassTitle>
+<noOfUnitsSold>1,000</noOfUnitsSold><aggregateMarketValue>7,500,000.00</aggregateMarketValue>
+<approxSaleDate>09/11/2026</approxSaleDate></securitiesInformation>
+<noticeSignature><noticeDate>09/11/2026</noticeDate></noticeSignature></formData></edgarSubmission>"""
+
+_t144 = parse_144(F144, "acc-1", "http://u", {"320193": "AAPL"})
+check("144 resolves ticker from CIK", _t144.ticker, "AAPL")
+check("144 is always a sale", _t144.action, "SELL")
+check("144 parses value", _t144.value_usd, 7_500_000.0)
+check("144 parses units", _t144.shares, 1000.0)
+check("144 names the person", _t144.person, "DOE JANE")
+check("144 keeps the relationship", _t144.role, "Officer")
+check("144 flags it as intent, not a completed sale",
+      "intends to sell" in _t144.note, True)
+check("144 garbage input is ignored", parse_144("nope", "a", "u", {}), None)
+
+# Unknown CIK must not crash or invent a symbol.
+check("144 unknown cik leaves ticker empty",
+      parse_144(F144, "a", "u", {}).ticker, "")
+
+_S144 = {"filters": {**_S["filters"], "min_form144_usd": 5_000_000}}
+check("big proposed sale alerts",
+      len(evaluate([_t144], _S144, _wl, [])), 1)
+_small = parse_144(F144.replace("7,500,000.00", "100,000.00"), "b", "u", {})
+check("small proposed sale is silent", len(evaluate([_small], _S144, _wl, [])), 0)
+
 # ── Mac agent quiet hours ──────────────────────────────────────────────────
 # The window wraps midnight, which is the easy thing to get wrong: a naive
 # start <= h < end comparison silently never fires for 23->7.
