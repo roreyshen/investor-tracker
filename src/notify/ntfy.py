@@ -74,7 +74,10 @@ def send(topic: str, trades: list[Trade], dry_run: bool = False) -> int:
     if tail:
         msg = f"+{len(tail)} more alert(s) — see the dashboard or Discord."
         if dry_run:
+            # Counted like any other message: a dry run has to report the same
+            # number a real run would send, or it isn't a preview.
             log.info("[dry-run] ntfy overflow: %s", msg)
+            sent += 1
         elif _post(topic, msg, "More alerts"):
             sent += 1
 
