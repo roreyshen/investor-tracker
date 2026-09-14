@@ -145,6 +145,24 @@ class PriceStore:
                 return closes[key]
         return None
 
+    def close_on_or_before(self, symbol: str, when: date,
+                           window: int = 10) -> float | None:
+        """Close on `when`, or the most recent trading day before it.
+
+        Exits and mark-to-market must look BACKWARD. Using a forward lookup
+        means a position near the end of a window finds no future close and
+        silently marks at its entry price -- which reads as a flat 0.00%
+        return rather than as missing data.
+        """
+        closes = self.history(symbol, when - timedelta(days=window + 5))
+        if not closes:
+            return None
+        for i in range(window + 1):
+            key = (when - timedelta(days=i)).isoformat()
+            if key in closes:
+                return closes[key]
+        return None
+
     def latest(self, symbol: str, since: date | None = None) -> tuple[str, float] | None:
         closes = self.history(symbol, since or date.today() - timedelta(days=30))
         if not closes:

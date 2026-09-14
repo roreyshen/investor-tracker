@@ -19,8 +19,15 @@ log = logging.getLogger(__name__)
 
 # ~2 years of congressional plus filtered insider flow. Far more than the site
 # charts, and keeps the committed file to a sane size.
-MAX_TRADES = 40_000
+MAX_TRADES = 120_000
 RETAIN_DAYS = 730
+
+# Form 4 codes worth keeping: P = open-market purchase, S = open-market sale.
+# Everything else (A grant, F tax withholding, M option exercise, G gift) is
+# compensation mechanics -- nobody chose to trade -- and it is ~90% of the
+# volume. Storing it would bloat the committed file and drag every average
+# toward noise.
+KEEP_FORM4_CODES = {"P", "S"}
 
 
 def _row(t: Trade, alerted: bool) -> dict:
@@ -46,6 +53,8 @@ def append(path: Path, trades: list[Trade], alert_uids: set[str]) -> int:
     added = 0
     for t in trades:
         if t.uid in known:
+            continue
+        if t.source == "form4" and t.code and t.code not in KEEP_FORM4_CODES:
             continue
         rows.append(_row(t, t.uid in alert_uids))
         known.add(t.uid)

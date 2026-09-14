@@ -387,6 +387,29 @@ check("big proposed sale alerts",
 _small = parse_144(F144.replace("7,500,000.00", "100,000.00"), "b", "u", {})
 check("small proposed sale is silent", len(evaluate([_small], _S144, _wl, [])), 0)
 
+# ── price lookups must face the right direction ────────────────────────────
+# Entries look forward (a trade on a Saturday fills at the next open session);
+# exits and marks must look BACKWARD. Getting this wrong made positions near
+# the end of a backtest mark at their entry price, reporting a flat 0.00%
+# return that looked like a real result instead of missing data.
+class _FakeStore:
+    data = {}
+
+    def history(self, sym, since):
+        return {"2026-09-10": 100.0, "2026-09-11": 110.0}
+
+
+from src.prices import PriceStore  # noqa: E402
+
+_fs = _FakeStore()
+_fwd = PriceStore.close_on_or_after.__get__(_fs, _FakeStore)
+_bwd = PriceStore.close_on_or_before.__get__(_fs, _FakeStore)
+_sunday = date(2026, 9, 13)
+check("forward lookup finds nothing after the last close", _fwd("SPY", _sunday), None)
+check("backward lookup finds the last close", _bwd("SPY", _sunday), 110.0)
+check("forward lookup works from before a session", _fwd("SPY", date(2026, 9, 9)), 100.0)
+check("backward lookup exact date", _bwd("SPY", date(2026, 9, 10)), 100.0)
+
 # ── ntfy cloud push (dry-run: no network) ─────────────────────────────────
 from src.notify import ntfy as _ntfy  # noqa: E402
 

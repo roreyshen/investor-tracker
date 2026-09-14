@@ -77,6 +77,6 @@ http:
   # SEC requires a declared User-Agent with real contact info. They ban IPs that
   # omit it. Rate limit is 10 req/s; we stay at 5 to be polite.
   user_agent: "Rorey Shen roreyshen@gmail.com"
-  requests_per_second: 5
+  requests_per_second: 8
   timeout_seconds: 30
   max_retries: 3
