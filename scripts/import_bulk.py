@@ -94,8 +94,12 @@ def load_quarter(q: str, min_sell: float) -> list[Trade]:
     subs = {}
     for row in _rows(zf, "SUBMISSION.tsv"):
         acc = row["ACCESSION_NUMBER"]
+        # A 10b5-1 trade was scheduled months in advance under a written plan,
+        # so it reflects no opinion about the stock on the day it executes.
+        # Treating it the same as a discretionary purchase dilutes the signal.
+        plan = (row.get("AFF10B5ONE") or "").strip().lower() in ("1", "true", "y")
         subs[acc] = (row.get("ISSUERNAME", ""), row.get("ISSUERTRADINGSYMBOL", ""),
-                     _d(row.get("FILING_DATE")))
+                     _d(row.get("FILING_DATE")), plan)
 
     owners = {}
     for row in _rows(zf, "REPORTINGOWNER.tsv"):
@@ -112,7 +116,7 @@ def load_quarter(q: str, min_sell: float) -> list[Trade]:
         if code not in ("P", "S"):
             continue
         acc = row["ACCESSION_NUMBER"]
-        issuer, ticker, filed = subs.get(acc, ("", "", None))
+        issuer, ticker, filed, planned = subs.get(acc, ("", "", None, False))
         if not ticker or not filed:
             continue
 
@@ -138,6 +142,7 @@ def load_quarter(q: str, min_sell: float) -> list[Trade]:
             company=issuer, ticker=ticker.strip().upper(),
             shares=shares, price=price, value_usd=value, code=code,
             trade_date=_d(row.get("TRANS_DATE")), filed_date=filed,
+            note="10b5-1 plan (scheduled in advance)" if planned else "",
             url=f"https://www.sec.gov/Archives/edgar/data/{acc.replace('-', '')}",
         ))
     log.info("%s: %d usable transactions", q, len(trades))

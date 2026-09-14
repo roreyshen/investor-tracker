@@ -71,8 +71,14 @@ def make_strategies(wl: Watchlist, clusters: set[tuple[str, str]]):
         return (r["source"] in ("house", "senate") and r["action"] == "BUY"
                 and range_low(r.get("value_range") or "") >= 50_000)
 
+    def _discretionary(r):
+        # Exclude pre-scheduled 10b5-1 trades: they execute on a calendar, not
+        # on a view, so they are noise in a conviction signal.
+        return "10b5-1" not in (r.get("note") or "")
+
     def insider(r):
-        return r["source"] == "form4" and r["action"] == "BUY" and r.get("code") == "P"
+        return (r["source"] == "form4" and r["action"] == "BUY"
+                and r.get("code") == "P" and _discretionary(r))
 
     def insider_senior(r):
         return insider(r) and is_senior(r.get("role") or "", SENIOR)
