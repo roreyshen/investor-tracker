@@ -389,7 +389,7 @@ def sweep(rows, px, universe, wl, clusters, start, end, out_path):
 
 
 def walkforward(rows, px, universe, wl, clusters, start, end, out_path,
-                splits: int = 3):
+                splits: int = 3, min_test_days: int = 60):
     """Pick a strategy on older data, then test that choice on newer data.
 
     This is the honest substitute for forward paper trading when there is no
@@ -411,7 +411,7 @@ def walkforward(rows, px, universe, wl, clusters, start, end, out_path,
         train_start = start
         train_end = start + timedelta(days=seg * (i + 1))
         test_end = min(end, train_end + timedelta(days=seg))
-        if (test_end - train_end).days < 30:
+        if (test_end - train_end).days < min_test_days:
             continue
 
         train_prep = prepare(rows, universe, train_start, train_end)
@@ -481,6 +481,8 @@ def main() -> int:
     ap.add_argument("--out", default="docs/backtest.json")
     ap.add_argument("--walkforward", action="store_true",
                     help="choose a strategy on older data, score it on newer")
+    ap.add_argument("--splits", type=int, default=3,
+                    help="walk-forward splits; three is too few to conclude from")
     ap.add_argument("--sweep", action="store_true",
                     help="test several hold/position combinations and report "
                          "how many beat the benchmark")
@@ -498,7 +500,8 @@ def main() -> int:
     start = end - timedelta(days=args.days)
 
     if args.walkforward:
-        return walkforward(rows, px, universe, wl, clusters, start, end, args.out)
+        return walkforward(rows, px, universe, wl, clusters, start, end,
+                           args.out, splits=args.splits)
 
     if args.sweep:
         return sweep(rows, px, universe, wl, clusters, start, end, args.out)
