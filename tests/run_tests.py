@@ -182,5 +182,53 @@ check("senate purchase maps to BUY", srows[1]["action"], "BUY")
 check("senate empty ticker normalized", srows[1]["ticker"], "")
 check("senate no tbody -> no rows", parse_report("<p>nothing</p>"), [])
 
+# ── 13F holdings ───────────────────────────────────────────────────────────
+from src.sources.edgar_13f import _diff, parse_holdings  # noqa: E402
+
+TABLE = """<informationTable xmlns="http://www.sec.gov/edgar/document/thirteenf">
+<infoTable><nameOfIssuer>ALPHABET INC</nameOfIssuer><titleOfClass>CAP STK CL C</titleOfClass>
+<cusip>02079K107</cusip><value>1000</value>
+<shrsOrPrnAmt><sshPrnamt>100</sshPrnamt><sshPrnamtType>SH</sshPrnamtType></shrsOrPrnAmt></infoTable>
+<infoTable><nameOfIssuer>ALPHABET INC</nameOfIssuer><titleOfClass>CAP STK CL C</titleOfClass>
+<cusip>02079K107</cusip><value>500</value>
+<shrsOrPrnAmt><sshPrnamt>50</sshPrnamt><sshPrnamtType>SH</sshPrnamtType></shrsOrPrnAmt></infoTable>
+<infoTable><nameOfIssuer>KROGER CO</nameOfIssuer><titleOfClass>COM</titleOfClass>
+<cusip>501044101</cusip><value>900</value>
+<shrsOrPrnAmt><sshPrnamt>90</sshPrnamt><sshPrnamtType>SH</sshPrnamtType></shrsOrPrnAmt></infoTable>
+</informationTable>"""
+
+h = parse_holdings(TABLE)
+check("13f aggregates duplicate cusips", len(h), 2)
+# sshPrnamt is nested under shrsOrPrnAmt; reading it as a direct child yields
+# 0 shares and silently disables every diff.
+check("13f sums shares across managers", h["02079K107"]["shares"], 150.0)
+check("13f sums value across managers", h["02079K107"]["value"], 1500.0)
+check("13f keeps share class", h["02079K107"]["title"], "CAP STK CL C")
+check("13f bad xml -> empty", parse_holdings("<nope/>"), {})
+
+# Some filers put xsi:schemaLocation on the root. Removing the xmlns:xsi
+# declaration without removing that attribute leaves an unbound prefix and the
+# whole filing fails to parse.
+NS_TABLE = TABLE.replace(
+    '<informationTable xmlns="http://www.sec.gov/edgar/document/thirteenf">',
+    '<informationTable xsi:schemaLocation="http://x a.xsd" '
+    'xmlns="http://www.sec.gov/edgar/document/thirteenf" '
+    'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">')
+check("13f parses prefixed-attribute variant", len(parse_holdings(NS_TABLE)), 2)
+
+_prev = {"AAA": {"name": "Held", "title": "COM", "value": 100.0, "shares": 100.0},
+         "BBB": {"name": "Gone", "title": "COM", "value": 50.0, "shares": 50.0}}
+_cur = {"AAA": {"name": "Held", "title": "COM", "value": 200.0, "shares": 200.0},
+        "CCC": {"name": "Fresh", "title": "COM", "value": 10.0, "shares": 10.0}}
+_dd = {t.company: t for t in _diff("F", _prev, _cur, "u", None, "2026-06-30", "a")}
+check("13f flags a doubled position", _dd["Held"].action, "BUY")
+check("13f flags an exit", _dd["Gone"].action, "SELL")
+check("13f exit reports the prior size", _dd["Gone"].value_usd, 50.0)
+check("13f flags a new position", _dd["Fresh"].note, "NEW position")
+check("13f ignores drift below the threshold",
+      _diff("F", {"AAA": {"name": "H", "value": 100.0, "shares": 100.0}},
+            {"AAA": {"name": "H", "value": 105.0, "shares": 105.0}},
+            "u", None, "2026-06-30", "a"), [])
+
 print(f"\n{PASS} passed, {FAIL} failed")
 sys.exit(1 if FAIL else 0)

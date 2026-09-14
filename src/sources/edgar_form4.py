@@ -257,8 +257,9 @@ def collect(fetcher, state, backfill_days: int = 0,
         if not url:
             continue
         raw = fetcher.get_text(url, allow_404=True)
-        if raw:
-            all_trades.extend(parse_form4(raw, acc, link or url))
+        if not raw:
+            continue        # retry next run rather than lose the filing
+        all_trades.extend(parse_form4(raw, acc, link or url))
         state.mark_seen("form4", acc)
 
     log.info("form4: parsed %d transactions from %d filings",

@@ -180,8 +180,22 @@ python3 -m venv .venv && ./.venv/bin/pip install -r requirements.txt
 
 - [x] Phase 1 — SEC Form 4 + filtering + Discord + Actions
 - [x] Phase 2 — House & Senate congressional filings
-- [ ] Phase 3 — SMS verification / Twilio switch
-- [ ] Phase 4 — 13F fund tracking
+- [x] Phase 4 — 13F fund tracking (Berkshire, Scion, Pershing Square)
+- [ ] Phase 3 — SMS verification (needs your Discord webhook + Gmail app password)
+
+### On 13F fund tracking
+
+Tracks only the funds in `watchlist.yml` that have a CIK, diffing each new
+13F-HR against the previous quarter's holdings: new positions, exits, and any
+position that moved more than 20%. Holdings are aggregated by CUSIP first,
+because a single issuer is reported once per managing entity — Berkshire's last
+filing was 89 rows covering 29 actual positions.
+
+Be clear-eyed about what 13F is: a quarterly **snapshot**, filed up to 45 days
+after the quarter closes. A "new Berkshire position" can be four months old and
+fully priced in. It also shows only long US equity held at quarter end —
+shorts, bonds, and anything opened and closed inside the quarter never appear.
+Every 13F alert carries that caveat.
 
 ### On parsing the congressional filings
 

@@ -72,6 +72,17 @@ class Fetcher:
         log.error("giving up on %s: %s", url, last_err)
         return None
 
+    def with_user_agent(self, user_agent: str) -> "Fetcher":
+        """A separate Fetcher with its own session and cookie jar.
+
+        Sources must not mutate the shared session's User-Agent: efdsearch
+        needs a browser string, while the SEC returns 403 for one. Sharing a
+        session made the SEC calls fail depending on run order.
+        """
+        return Fetcher(user_agent, per_second=1.0 / self.limiter.min_interval
+                       if self.limiter.min_interval else 5,
+                       timeout=self.timeout, max_retries=self.max_retries)
+
     def post(self, url: str, *, data=None, headers: dict | None = None,
              **kw) -> requests.Response | None:
         last_err = None

@@ -20,7 +20,7 @@ from .http import Fetcher
 from .models import Trade
 from .notify import discord, sms_gateway, twilio_sms
 from .notify.format import sms_line
-from .sources import edgar_form4, house, senate
+from .sources import edgar_13f, edgar_form4, house, senate
 from .state import State
 
 log = logging.getLogger("tracker")
@@ -77,7 +77,12 @@ def collect_trades(settings: dict, fetcher: Fetcher, state: State,
         except Exception:
             log.exception("senate source failed")
 
-    # Phase 4 (13F) registers here.
+    if want("13f"):
+        try:
+            trades += edgar_13f.collect(fetcher, state, load_watchlist())
+        except Exception:
+            log.exception("13f source failed")
+
     return trades
 
 

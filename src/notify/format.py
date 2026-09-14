@@ -99,7 +99,7 @@ def compact_range(text: str) -> str:
 def sms_line(t: Trade) -> str:
     """<=160 chars. Density matters more than grammar here."""
     amount = compact_range(t.amount_str) if t.value_range else t.amount_str
-    bits = [_emoji(t), t.action, t.ticker or (t.company[:12] or "?"), amount]
+    bits = [_emoji(t), t.action, t.ticker or (t.company[:22] or "?"), amount]
     line = " ".join(b for b in bits if b)
     line += f" - {_short_name(t.person)}"
     if t.role:
@@ -147,6 +147,18 @@ def discord_embed(t: Trade) -> dict:
     if when:
         fields.append({"name": "Timing", "value": " · ".join(when),
                        "inline": False})
+
+    if t.source == "13f":
+        # SMS can't carry this, so the caveat lives here where there is room.
+        fields.append({
+            "name": "\u26A0\uFE0F Context, not a signal",
+            "value": ("13F is a quarterly snapshot filed up to 45 days after "
+                      "quarter end, so this position may be months old and "
+                      "already priced in. It shows only long US equity held at "
+                      "quarter close \u2014 shorts, bonds, and anything opened "
+                      "and closed inside the quarter are invisible."),
+            "inline": False,
+        })
 
     if t.reasons:
         fields.append({"name": "Why you're seeing this",

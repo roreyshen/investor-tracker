@@ -53,8 +53,7 @@ def _d(s: str):
 
 
 def _authenticate(fetcher) -> bool:
-    """Walk the agreement gate. Cookies persist on the shared session."""
-    fetcher.session.headers["User-Agent"] = BROWSER_UA
+    """Walk the agreement gate. Cookies persist on this fetcher's session."""
     home = fetcher.get_text(HOME)
     if not home:
         return False
@@ -141,6 +140,10 @@ def parse_report(text: str) -> list[dict]:
 def collect(fetcher, state, since: date | None = None,
             limit: int = 0) -> list[Trade]:
     since = since or date(date.today().year, 1, 1)
+    # Isolated session: this site needs a browser User-Agent, and reusing the
+    # shared one would leave that string set for subsequent SEC requests,
+    # which answer 403 to browser agents.
+    fetcher = fetcher.with_user_agent(BROWSER_UA)
     if not _authenticate(fetcher):
         log.error("senate: could not pass the agreement gate, skipping")
         return []
