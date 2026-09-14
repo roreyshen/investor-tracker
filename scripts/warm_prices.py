@@ -46,9 +46,27 @@ def main() -> int:
                      if r.get("ticker") and r.get("filed_date")
                      and eligible(universe.get(r["ticker"], {})))
     wanted = [t for t, _ in counts.most_common(args.top)]
-    todo = [t for t in wanted if t not in px.data]
-    log.info("%d eligible tickers, %d already cached, fetching %d",
-             len(counts), len(wanted) - len(todo), len(todo))
+    since_key = since.isoformat()
+
+    def needs_work(t: str) -> bool:
+        """Missing, or cached but not reaching far enough back.
+
+        Only checking presence was wrong: a ticker cached with two years of
+        history looks 'done' while a ten-year backtest silently gets nothing
+        from it before 2024.
+        """
+        e = px.data.get(t)
+        if not e or not e.get("closes"):
+            return True
+        asked = e.get("earliest_requested")
+        if asked is not None and asked <= since_key:
+            return False
+        return min(e["closes"]) > since_key
+
+    todo = [t for t in wanted if needs_work(t)]
+    log.info("%d eligible tickers, %d already deep enough, fetching %d "
+             "(history back to %s)",
+             len(counts), len(wanted) - len(todo), len(todo), since_key)
 
     for i, tk in enumerate(todo, 1):
         px.history(tk, since)
