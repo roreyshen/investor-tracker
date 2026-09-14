@@ -65,7 +65,12 @@ jobs:
       - name: Refresh recent filings
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: python scripts/backfill.py --no-house --no-senate --form4-days 5 --limit 600
+        run: |
+          # Form 4 for fresh insider signals, plus congressional filings --
+          # the walk-forward picked insider strategies every time, but the
+          # alerts are worth having either way.
+          python scripts/backfill.py --no-house --no-senate --form4-days 6 --limit 900
+          python scripts/backfill.py --no-senate --years 1 --limit 60 || true
 
       # Forward paper trading: the only out-of-sample evidence in the project.
       # Backtests are in-sample, exclude delisted names, and had their

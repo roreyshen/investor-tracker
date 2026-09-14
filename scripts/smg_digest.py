@@ -132,6 +132,12 @@ def build(strategy: str, positions: int, since_days: int, limit: int):
 def render(picks, strategy: str, positions: int) -> str:
     status = market_status()
     days_left = (SESSION_END - date.today()).days
+    # Keep the per-pick line consistent with the header: saying "fills at
+    # today's close" under a banner that says tomorrow is worse than saying
+    # nothing, because one of them is wrong and you cannot tell which.
+    now = datetime.now(ET)
+    next_session = now.weekday() >= 5 or now.hour >= 16
+    fill_when = "the NEXT session's close" if next_session else "today's close"
     if not picks:
         return (f"SMG — no qualifying signals today ({strategy}).\n"
                 f"{status}. {days_left}d left in the DECA session.\n"
@@ -148,10 +154,10 @@ def render(picks, strategy: str, positions: int) -> str:
             lo, hi = p["price"] - p["band"], p["price"] + p["band"]
             # Not a forecast. This is the stock's own typical daily range, so
             # you know what a normal close looks like versus a real move.
-            out.append(f"  fills at today's close; typical range "
+            out.append(f"  fills at {fill_when}; typical range "
                        f"${lo:.2f}-${hi:.2f}")
         else:
-            out.append("  fills at today's close")
+            out.append(f"  fills at {fill_when}")
         out.append(f"  cost     ${p['cost']:,.0f}")
         if p.get("stop"):
             dn = 100 * (p["stop"] / p["price"] - 1)
@@ -172,7 +178,9 @@ def render(picks, strategy: str, positions: int) -> str:
         out.append(f"  why      {p['who'][:30]} ({p['role'][:20]}) {p['filed']}")
         out.append("")
 
-    out.append("Enter before 4pm ET to fill at today's close.")
+    out.append("Enter before 4pm ET to fill at that day's close."
+               if next_session else
+               "Enter before 4pm ET to fill at today's close.")
     out.append("Stops/targets are from each stock's own recent volatility,")
     out.append("not a price prediction. Nobody can forecast a close.")
     return "\n".join(out)
@@ -182,7 +190,9 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--strategy", default="insider_big", choices=sorted(STRATEGIES))
     ap.add_argument("--positions", type=int, default=10)
-    ap.add_argument("--since", type=int, default=1)
+    ap.add_argument("--since", type=int, default=3,
+                    help="lookback in days; 3 covers a weekend so Monday's "
+                         "digest still sees Friday's filings")
     ap.add_argument("--limit", type=int, default=5)
     ap.add_argument("--send", action="store_true", help="push to the alert channels")
     args = ap.parse_args()
