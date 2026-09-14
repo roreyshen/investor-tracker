@@ -67,45 +67,69 @@ def _authenticate(fetcher) -> bool:
     return r is not None
 
 
-def search_ptrs(fetcher, since: date, limit: int = 100) -> list[dict]:
+def search_ptrs(fetcher, since: date, page_size: int = 100,
+                max_pages: int = 40) -> list[dict]:
+    """Every PTR filed since `since`, following pagination.
+
+    The endpoint returns a fixed page. Requesting one page and stopping meant
+    only the 100 most recent filings were ever visible no matter what date
+    range was asked for -- so a multi-year backfill silently returned a few
+    months.
+    """
     token = fetcher.session.cookies.get("csrftoken")
     if not token:
         log.error("senate: no csrftoken cookie after agreement")
         return []
 
-    r = fetcher.post(
-        SEARCH,
-        headers={"X-CSRFToken": token, "X-Requested-With": "XMLHttpRequest",
-                 "Referer": f"{BASE}/search/"},
-        data={
-            "start": "0", "length": str(limit),
-            "report_types": f"[{REPORT_TYPE_PTR}]", "filer_types": "[]",
-            "submitted_start_date": since.strftime("%m/%d/%Y 00:00:00"),
-            "submitted_end_date": "", "candidate_state": "",
-            "senator_state": "", "office_id": "",
-            "first_name": "", "last_name": "",
-        },
-    )
-    if r is None:
-        return []
-    try:
-        rows = r.json().get("data", [])
-    except ValueError:
-        log.error("senate: search returned non-JSON")
-        return []
+    out: list[dict] = []
+    seen: set[str] = set()
+    for page in range(max_pages):
+        r = fetcher.post(
+            SEARCH,
+            headers={"X-CSRFToken": token, "X-Requested-With": "XMLHttpRequest",
+                     "Referer": f"{BASE}/search/"},
+            data={
+                "start": str(page * page_size), "length": str(page_size),
+                "report_types": f"[{REPORT_TYPE_PTR}]", "filer_types": "[]",
+                "submitted_start_date": since.strftime("%m/%d/%Y 00:00:00"),
+                "submitted_end_date": "", "candidate_state": "",
+                "senator_state": "", "office_id": "",
+                "first_name": "", "last_name": "",
+            },
+        )
+        if r is None:
+            break
+        try:
+            payload = r.json()
+        except ValueError:
+            log.error("senate: search returned non-JSON on page %d", page)
+            break
 
-    out = []
-    for row in rows:
-        if len(row) < 5:
-            continue
-        m = LINK_RE.search(row[3])
-        if not m:
-            continue
-        out.append({
-            "kind": m.group(1), "uuid": m.group(2),
-            "first": _clean(row[0]), "last": _clean(row[1]),
-            "office": _clean(row[2]), "filed": _clean(row[4]),
-        })
+        rows = payload.get("data", [])
+        if not rows:
+            break
+
+        before = len(out)
+        for row in rows:
+            if len(row) < 5:
+                continue
+            m = LINK_RE.search(row[3])
+            if not m or m.group(2) in seen:
+                continue
+            seen.add(m.group(2))
+            out.append({
+                "kind": m.group(1), "uuid": m.group(2),
+                "first": _clean(row[0]), "last": _clean(row[1]),
+                "office": _clean(row[2]), "filed": _clean(row[4]),
+            })
+        if len(out) == before:
+            break                       # nothing new: stop rather than loop
+        total = payload.get("recordsFiltered")
+        if total is not None and len(out) >= int(total):
+            break
+        if len(rows) < page_size:
+            break
+
     log.info("senate: %d PTR filings since %s", len(out), since)
     return out
 
