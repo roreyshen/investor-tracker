@@ -97,7 +97,13 @@ def iter_accessions_for_date(fetcher, day: date) -> dict[str, str]:
     for line in text.splitlines():
         if not line.startswith("4 "):        # form type column
             continue
-        path = line.rsplit(" ", 1)[-1].strip()
+        # Index lines are space-padded to a fixed width, so rsplit-then-strip
+        # returned "" every time and every daily-index backfill silently
+        # parsed nothing. Split on whitespace and take the last field.
+        parts = line.split()
+        if not parts:
+            continue
+        path = parts[-1]
         if not path.endswith(".txt"):
             continue
         acc = path.rsplit("/", 1)[-1].replace(".txt", "")

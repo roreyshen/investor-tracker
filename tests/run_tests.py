@@ -359,6 +359,18 @@ check("buy beats a flat index by 100", _sc["buy"]["excess_pct"], 100.0)
 check("sell out of a doubling stock scores -100", _sc["sell"]["excess_pct"], -100.0)
 check("raw return is direction-free", _sc["sell"]["return_pct"], 100.0)
 
+# ── SEC daily index is space-padded to fixed width ─────────────────────────
+# rsplit-then-strip returned "" on every line, so every daily-index backfill
+# silently parsed zero filings while reporting success.
+import re as _re  # noqa: E402
+
+_IDX_LINE = ("4                ADAMS JOHN K JR                       "
+             "1625471     20260528    edgar/data/1625471/0001625471-26-000003.txt   ")
+check("index path survives trailing padding",
+      _IDX_LINE.split()[-1], "edgar/data/1625471/0001625471-26-000003.txt")
+check("old rsplit-then-strip returned nothing",
+      _IDX_LINE.rsplit(" ", 1)[-1].strip(), "")
+
 # ── Form 144: notice of intent to sell, filed BEFORE the sale ─────────────
 from src.sources.edgar_form144 import parse_144  # noqa: E402
 
