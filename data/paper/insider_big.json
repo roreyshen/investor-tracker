@@ -1,5 +1,5 @@
 {
- "cash": 70254.23999999999,
+ "cash": 60263.26999999999,
  "closed": [],
  "marks": [
   {
@@ -37,15 +37,17 @@
    "shares": 44,
    "ticker": "RSG",
    "why": "CASCADE INVESTMENT, L.L.C. (+1) (10% Owner)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-09-15",
+   "cost": 9990.97,
+   "entry": 27.83,
+   "opened": "2026-09-15",
+   "shares": 359,
    "ticker": "GIII",
    "why": "GOLDFARB MORRIS (CEO)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }

@@ -1,5 +1,5 @@
 {
- "cash": 90004.88,
+ "cash": 80028.40000000001,
  "closed": [],
  "marks": [
   {
@@ -21,13 +21,21 @@
    "shares": 412,
    "ticker": "PMTS",
    "why": "Riley H Sanford (Director)"
+  },
+  {
+   "cost": 9976.48,
+   "entry": 54.22,
+   "opened": "2026-09-15",
+   "shares": 184,
+   "ticker": "COO",
+   "why": "Rosebrough Walter M Jr (Director)"
   }
  ],
  "pending": [
   {
    "picked": "2026-09-15",
-   "ticker": "COO",
-   "why": "Rosebrough Walter M Jr (Director)"
+   "ticker": "RWT",
+   "why": "KUBICEK GREG H (Director)"
   }
  ],
  "started": "2026-09-14",
