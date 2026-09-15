@@ -1,5 +1,5 @@
 {
- "cash": 100000.0,
+ "cash": 90004.88,
  "closed": [],
  "marks": [
   {
@@ -10,15 +10,24 @@
   {
    "date": "2026-09-15",
    "equity": 100000.0,
-   "spy": 764.29
+   "spy": 760.88
   }
  ],
- "open": [],
+ "open": [
+  {
+   "cost": 9995.12,
+   "entry": 24.26,
+   "opened": "2026-09-15",
+   "shares": 412,
+   "ticker": "PMTS",
+   "why": "Riley H Sanford (Director)"
+  }
+ ],
  "pending": [
   {
    "picked": "2026-09-15",
-   "ticker": "PMTS",
-   "why": "Riley H Sanford (Director)"
+   "ticker": "COO",
+   "why": "Rosebrough Walter M Jr (Director)"
   }
  ],
  "started": "2026-09-14",
