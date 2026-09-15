@@ -517,6 +517,125 @@
    "text": "\ud83d\udfe2 BUY GREE $100K - Irwin (Pres) - 9/10",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1881363/000162828026061878/0001628280-26-061878-index.htm"
+  },
+  {
+   "uid": "0000950103-26-013932",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udd34 SELL BZ $283.5M - Image (Shareholder) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1970144/000095010326013932/0000950103-26-013932-index.htm"
+  },
+  {
+   "uid": "0001104659-26-107592:6",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY RSG $39.4M - Cascade (10% Owner) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1060391/000110465926107592/0001104659-26-107592-index.htm"
+  },
+  {
+   "uid": "0001104659-26-107592:5",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY RSG $30.2M - Cascade (10% Owner) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1060391/000110465926107592/0001104659-26-107592-index.htm"
+  },
+  {
+   "uid": "0001104659-26-107592:0",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY RSG $24M - Cascade (10% Owner) - 9/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1060391/000110465926107592/0001104659-26-107592-index.htm"
+  },
+  {
+   "uid": "0001104659-26-107592:1",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY RSG $21.8M - Cascade (10% Owner) - 9/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1060391/000110465926107592/0001104659-26-107592-index.htm"
+  },
+  {
+   "uid": "0001193125-26-390998",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udd34 SELL DELL $15.4M - Silver Lake Partners (See Remarks) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526390998/0001193125-26-390998-index.htm"
+  },
+  {
+   "uid": "0001193125-26-390999",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udd34 SELL DELL $14.1M - Sl (See Remarks) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1767114/000119312526390999/0001193125-26-390999-index.htm"
+  },
+  {
+   "uid": "0001104659-26-107610:0",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY PMTS $11.3M - Tricor Pmt Holdings (10% Owner) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2101417/000110465926107610/0001104659-26-107610-index.htm"
+  },
+  {
+   "uid": "0001104659-26-107592:2",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY RSG $10.7M - Cascade (10% Owner) - 9/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1060391/000110465926107592/0001104659-26-107592-index.htm"
+  },
+  {
+   "uid": "0001193125-26-391006",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udd34 SELL DELL $8.1M - Silver Lake Partners (See Remarks) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1737659/000119312526391006/0001193125-26-391006-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009453",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udd34 SELL CRWV $5.6M - Nitin (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2058038/000195004726009453/0001950047-26-009453-index.htm"
+  },
+  {
+   "uid": "0001104659-26-107592:4",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY RSG $1.7M - Cascade (10% Owner) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1060391/000110465926107592/0001104659-26-107592-index.htm"
+  },
+  {
+   "uid": "0001104659-26-107592:7",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY RSG $1.2M - Cascade (10% Owner) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1060391/000110465926107592/0001104659-26-107592-index.htm"
+  },
+  {
+   "uid": "0001317406-26-000006:0",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY PMTS $300K - Riley (Director) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1641614/000131740626000006/0001317406-26-000006-index.htm"
+  },
+  {
+   "uid": "0001654770-26-000004:0",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY PMTS $250K - Peters (Director) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1654770/000165477026000004/0001654770-26-000004-index.htm"
+  },
+  {
+   "uid": "0001605873-26-000004:0",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY PMTS $100K - Sheinbaum (Director) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1641614/000160587326000004/0001605873-26-000004-index.htm"
+  },
+  {
+   "uid": "0001751947-26-000004:0",
+   "queued_at": "2026-09-15T00:38:51.337824+00:00",
+   "text": "\ud83d\udfe2 BUY PMTS $22K - Mallela (Director) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1751947/000175194726000004/0001751947-26-000004-index.htm"
   }
  ]
 }
