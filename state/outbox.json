@@ -671,6 +671,153 @@
    "text": "\ud83d\udd34 SELL MRNA $5.9M - Hoge (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
    "source": "form144",
    "url": "https://www.sec.gov/Archives/edgar/data/1760669/000195917326006968/0001959173-26-006968-index.htm"
+  },
+  {
+   "uid": "0001999371-26-020559:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udd34 SELL LFST $226.3M - Tpg Gp Llc (10% Owner) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1903793/000199937126020559/0001999371-26-020559-index.htm"
+  },
+  {
+   "uid": "0002110325-26-000008:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udd34 SELL DELL $21.1M - Trizzino (Pres) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2110325/000211032526000008/0002110325-26-000008-index.htm"
+  },
+  {
+   "uid": "0001140361-26-036664:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udd34 SELL PBF $12.1M - Control Empresarial De (10% Owner) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1534504/000114036126036664/0001140361-26-036664-index.htm"
+  },
+  {
+   "uid": "0001623534-26-000006:1",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udd34 SELL ROST $11.3M - Conroy (CEO) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1623534/000162353426000006/0001623534-26-000006-index.htm"
+  },
+  {
+   "uid": "0001193125-26-391947:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $5.9M - Nippon Life Insurance (10% Owner) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526391947/0001193125-26-391947-index.htm"
+  },
+  {
+   "uid": "0001193125-26-392111:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY CARL $3M - Presidio Management Group (10% Owner) - 7/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794546/000119312526392111/0001193125-26-392111-index.htm"
+  },
+  {
+   "uid": "0000821002-26-000041:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY GIII $1.1M - Goldfarb (CEO) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1007772/000082100226000041/0000821002-26-000041-index.htm"
+  },
+  {
+   "uid": "0001352090-26-000007:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY COO $539K - Kurzius (Director) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1352090/000135209026000007/0001352090-26-000007-index.htm"
+  },
+  {
+   "uid": "0001104659-26-107867:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY RWT $384K - Abate (CEO) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1453409/000110465926107867/0001104659-26-107867-index.htm"
+  },
+  {
+   "uid": "0001413087-26-000007:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY COO $379K - Rosebrough (Director) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1413087/000141308726000007/0001413087-26-000007-index.htm"
+  },
+  {
+   "uid": "0001493152-26-042743:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY VENU $350K - Roth (Chair) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1770501/000149315226042743/0001493152-26-042743-index.htm"
+  },
+  {
+   "uid": "0001626337-26-000011:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY COO $250K - Keel (Director) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1626337/000162633726000011/0001626337-26-000011-index.htm"
+  },
+  {
+   "uid": "0001233565-26-000006:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY RWT $193K - Kubicek (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1233565/000123356526000006/0001233565-26-000006-index.htm"
+  },
+  {
+   "uid": "0001413087-26-000007:1",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY COO $163K - Rosebrough (Director) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1413087/000141308726000007/0001413087-26-000007-index.htm"
+  },
+  {
+   "uid": "20035455:0",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY AMAT $1K-15K - Gottheimer (Rep. NJ05) - traded 8/6 (39d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf"
+  },
+  {
+   "uid": "20035455:1",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY MSFT $250K-500K - Gottheimer (Rep. NJ05) - traded 8/14 (31d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf"
+  },
+  {
+   "uid": "20035455:2",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY MSFT $500K-1M - Gottheimer (Rep. NJ05) - traded 8/14 (31d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf"
+  },
+  {
+   "uid": "20035455:3",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udd34 SELL MSFT $250K-500K - Gottheimer (Rep. NJ05) - traded 8/14 (31d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf"
+  },
+  {
+   "uid": "20035455:4",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udd34 SELL MSFT $500K-1M - Gottheimer (Rep. NJ05) - traded 8/14 (31d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf"
+  },
+  {
+   "uid": "20035455:5",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY ? $1K-15K - Gottheimer (Rep. NJ05) - traded 8/6 (39d ago) - security not machine-readable - open the filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf"
+  },
+  {
+   "uid": "20035455:6",
+   "queued_at": "2026-09-15T22:16:20.547316+00:00",
+   "text": "\ud83d\udfe2 BUY QSR $1K-15K - Gottheimer (Rep. NJ05) - traded 8/6 (39d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf"
   }
  ]
 }
