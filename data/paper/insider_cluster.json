@@ -6,10 +6,21 @@
    "date": "2026-09-14",
    "equity": 100000.0,
    "spy": 764.29
+  },
+  {
+   "date": "2026-09-15",
+   "equity": 100000.0,
+   "spy": 764.29
   }
  ],
  "open": [],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-09-15",
+   "ticker": "PMTS",
+   "why": "Riley H Sanford (Director)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }

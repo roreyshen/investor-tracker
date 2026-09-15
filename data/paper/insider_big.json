@@ -1,5 +1,5 @@
 {
- "cash": 80054.79999999999,
+ "cash": 70254.23999999999,
  "closed": [],
  "marks": [
   {
@@ -24,15 +24,17 @@
    "shares": 288,
    "ticker": "CRBG",
    "why": "NIPPON LIFE INSURANCE CO (10% Owner)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-09-14",
+   "cost": 9800.56,
+   "entry": 222.74,
+   "opened": "2026-09-14",
+   "shares": 44,
    "ticker": "RSG",
    "why": "CASCADE INVESTMENT, L.L.C. (+1) (10% Owner)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }
