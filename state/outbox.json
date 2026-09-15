@@ -657,6 +657,20 @@
    "text": "\ud83d\udd34 SELL GMRS $17.8M - Loporcaro (Chair) - 9/14",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2126783/000110465926107664/0001104659-26-107664-index.htm"
+  },
+  {
+   "uid": "0001959173-26-006969",
+   "queued_at": "2026-09-15T15:11:39.047013+00:00",
+   "text": "\ud83d\udd34 SELL KLAC $12.4M - Wallace (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1196898/000195917326006969/0001959173-26-006969-index.htm"
+  },
+  {
+   "uid": "0001959173-26-006968",
+   "queued_at": "2026-09-15T15:11:39.047013+00:00",
+   "text": "\ud83d\udd34 SELL MRNA $5.9M - Hoge (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1760669/000195917326006968/0001959173-26-006968-index.htm"
   }
  ]
 }
