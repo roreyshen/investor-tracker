@@ -818,6 +818,160 @@
    "text": "\ud83d\udfe2 BUY QSR $1K-15K - Gottheimer (Rep. NJ05) - traded 8/6 (39d ago)",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf"
+  },
+  {
+   "uid": "0001388390-26-000014",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL STX $79.4M - Mosley (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1388390/000138839026000014/0001388390-26-000014-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009485",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL STX $41.2M - Ban (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1801425/000195004726009485/0001950047-26-009485-index.htm"
+  },
+  {
+   "uid": "0001764650-26-000011",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL STX $40.5M - Romano (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1764650/000176465026000011/0001764650-26-000011-index.htm"
+  },
+  {
+   "uid": "0001193125-26-392240",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL DELL $27.5M - Silver Lake Partners (See Remarks) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526392240/0001193125-26-392240-index.htm"
+  },
+  {
+   "uid": "0001193125-26-392234",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL DELL $25.1M - Sl (See Remarks) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1767114/000119312526392234/0001193125-26-392234-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009529",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL RDDT $19.7M - Xyz Revocable Trust (Director) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1827011/000195004726009529/0001950047-26-009529-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009511",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726009511/0001950047-26-009511-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009514",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL CRWV $16.6M - Michael (Director) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009514/0001950047-26-009514-index.htm"
+  },
+  {
+   "uid": "0001648401-26-000009:2",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL HPE $15.1M - Neri (Pres) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1648401/000164840126000009/0001648401-26-000009-index.htm"
+  },
+  {
+   "uid": "0001193125-26-392244",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL DELL $14.4M - Silver Lake Partners (See Remarks) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1737659/000119312526392244/0001193125-26-392244-index.htm"
+  },
+  {
+   "uid": "0001921094-26-001023",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL META $13.5M - Cox (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1607459/000192109426001023/0001921094-26-001023-index.htm"
+  },
+  {
+   "uid": "0001988271-26-000012",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL STX $12.5M - Morris (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1988271/000198827126000012/0001988271-26-000012-index.htm"
+  },
+  {
+   "uid": "0001493152-26-042736",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL SGLA $11.4M - Kuk (CEO) - 9/18 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1878651/000149315226042736/0001493152-26-042736-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009509",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL CRWV $8.9M - Omnadora Capital Llc (Director) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009509/0001950047-26-009509-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009528",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL TDG $8.9M - Joel (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1656109/000195004726009528/0001950047-26-009528-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009483",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL AMD $8.7M - Forrest (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1622864/000195004726009483/0001950047-26-009483-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009510",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL TVTX $6.7M - Peter (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1789617/000195004726009510/0001950047-26-009510-index.htm"
+  },
+  {
+   "uid": "0002014361-26-000036",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL PACS $6.6M - Hancock (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2014361/000201436126000036/0002014361-26-000036-index.htm"
+  },
+  {
+   "uid": "0002014361-26-000033",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL PACS $6.4M - Hancock (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2014361/000201436126000033/0002014361-26-000033-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009503",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL TVTX $6.3M - William (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1698262/000195004726009503/0001950047-26-009503-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009513",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL TVTX $6.3M - Eric (Director) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1763494/000195004726009513/0001950047-26-009513-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009468",
+   "queued_at": "2026-09-16T00:27:02.051886+00:00",
+   "text": "\ud83d\udd34 SELL SNPS $5.5M - Sassine (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1822289/000195004726009468/0001950047-26-009468-index.htm"
   }
  ]
 }
