@@ -1,5 +1,5 @@
 {
- "cash": 70030.53000000001,
+ "cash": 50079.330000000016,
  "closed": [],
  "marks": [
   {
@@ -42,20 +42,25 @@
    "shares": 2557,
    "ticker": "RWT",
    "why": "KUBICEK GREG H (Director)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-09-16",
+   "cost": 9987.2,
+   "entry": 31.21,
+   "opened": "2026-09-16",
+   "shares": 320,
    "ticker": "SBLK",
    "why": "Spyrou Symeon (co CFO)"
   },
   {
-   "picked": "2026-09-16",
+   "cost": 9964.0,
+   "entry": 49.82,
+   "opened": "2026-09-16",
+   "shares": 200,
    "ticker": "GABC",
    "why": "Ryan Christina M (Director)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }

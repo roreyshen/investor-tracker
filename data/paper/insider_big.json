@@ -1,5 +1,5 @@
 {
- "cash": 60263.26999999999,
+ "cash": 20326.16999999999,
  "closed": [],
  "marks": [
   {
@@ -50,30 +50,41 @@
    "shares": 359,
    "ticker": "GIII",
    "why": "GOLDFARB MORRIS (CEO)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-09-16",
+   "cost": 9999.36,
+   "entry": 13.02,
+   "opened": "2026-09-16",
+   "shares": 768,
    "ticker": "KBDC",
    "why": "ROBO JAMES L (Director)"
   },
   {
-   "picked": "2026-09-16",
+   "cost": 9988.44,
+   "entry": 21.62,
+   "opened": "2026-09-16",
+   "shares": 462,
    "ticker": "AAT",
    "why": "RADY ERNEST S (Executive Chairman)"
   },
   {
-   "picked": "2026-09-16",
+   "cost": 9993.2,
+   "entry": 12.04,
+   "opened": "2026-09-16",
+   "shares": 830,
    "ticker": "ARDC",
    "why": "THRIVENT FINANCIAL FOR LUTHERANS (10% Owner)"
   },
   {
-   "picked": "2026-09-16",
+   "cost": 9956.1,
+   "entry": 60.34,
+   "opened": "2026-09-16",
+   "shares": 165,
    "ticker": "FOX",
    "why": "MURDOCH LACHLAN K (Executive Chair, CEO)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }
