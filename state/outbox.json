@@ -1021,6 +1021,13 @@
    "text": "\ud83d\udfe2 BUY NTHI $1K - Garnett (CFO) - 9/14",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1997371/000121390026100265/0001213900-26-100265-index.htm"
+  },
+  {
+   "uid": "0001105838-26-000008",
+   "queued_at": "2026-09-16T14:45:52.194053+00:00",
+   "text": "\ud83d\udd34 SELL TDGMW $47.6M - Robotti (Director) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1105838/000110583826000008/0001105838-26-000008-index.htm"
   }
  ]
 }
