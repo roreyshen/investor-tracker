@@ -1231,6 +1231,48 @@
    "text": "\ud83d\udfe2 BUY NONE $6K - Huskinson (CFO, CCO and) - 9/15",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1901037/000110465926108262/0001104659-26-108262-index.htm"
+  },
+  {
+   "uid": "0001193125-26-393369",
+   "queued_at": "2026-09-16T23:53:20.496449+00:00",
+   "text": "\ud83d\udd34 SELL DELL $28M - Silver Lake Partners (See Remarks) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526393369/0001193125-26-393369-index.htm"
+  },
+  {
+   "uid": "0001193125-26-393372",
+   "queued_at": "2026-09-16T23:53:20.496449+00:00",
+   "text": "\ud83d\udd34 SELL DELL $25.5M - Sl (See Remarks) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1767114/000119312526393372/0001193125-26-393372-index.htm"
+  },
+  {
+   "uid": "0001242648-26-000032:0",
+   "queued_at": "2026-09-16T23:53:20.496449+00:00",
+   "text": "\ud83d\udd34 SELL SNDK $21.9M - Goeckeler (Chair) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000032/0001242648-26-000032-index.htm"
+  },
+  {
+   "uid": "0001193125-26-393350",
+   "queued_at": "2026-09-16T23:53:20.496449+00:00",
+   "text": "\ud83d\udd34 SELL DELL $14.7M - Silver Lake Partners (See Remarks) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1737659/000119312526393350/0001193125-26-393350-index.htm"
+  },
+  {
+   "uid": "0001628280-26-062330:0",
+   "queued_at": "2026-09-16T23:53:20.496449+00:00",
+   "text": "\ud83d\udd34 SELL FOX $10.3M - Murdoch (Executive) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026062330/0001628280-26-062330-index.htm"
+  },
+  {
+   "uid": "0001628280-26-062330:1",
+   "queued_at": "2026-09-16T23:53:20.496449+00:00",
+   "text": "\ud83d\udfe2 BUY FOX $10.3M - Murdoch (Executive) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026062330/0001628280-26-062330-index.htm"
   }
  ]
 }
