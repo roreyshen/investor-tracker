@@ -1,5 +1,5 @@
 {
- "cash": 80028.40000000001,
+ "cash": 70030.53000000001,
  "closed": [],
  "marks": [
   {
@@ -11,6 +11,11 @@
    "date": "2026-09-15",
    "equity": 100000.0,
    "spy": 760.88
+  },
+  {
+   "date": "2026-09-16",
+   "equity": 99837.56,
+   "spy": 757.39
   }
  ],
  "open": [
@@ -29,13 +34,26 @@
    "shares": 184,
    "ticker": "COO",
    "why": "Rosebrough Walter M Jr (Director)"
+  },
+  {
+   "cost": 9997.87,
+   "entry": 3.91,
+   "opened": "2026-09-16",
+   "shares": 2557,
+   "ticker": "RWT",
+   "why": "KUBICEK GREG H (Director)"
   }
  ],
  "pending": [
   {
-   "picked": "2026-09-15",
-   "ticker": "RWT",
-   "why": "KUBICEK GREG H (Director)"
+   "picked": "2026-09-16",
+   "ticker": "SBLK",
+   "why": "Spyrou Symeon (co CFO)"
+  },
+  {
+   "picked": "2026-09-16",
+   "ticker": "GABC",
+   "why": "Ryan Christina M (Director)"
   }
  ],
  "started": "2026-09-14",

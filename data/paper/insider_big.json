@@ -11,6 +11,11 @@
    "date": "2026-09-15",
    "equity": 100000.0,
    "spy": 760.88
+  },
+  {
+   "date": "2026-09-16",
+   "equity": 100225.64,
+   "spy": 757.39
   }
  ],
  "open": [
@@ -47,7 +52,28 @@
    "why": "GOLDFARB MORRIS (CEO)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-09-16",
+   "ticker": "KBDC",
+   "why": "ROBO JAMES L (Director)"
+  },
+  {
+   "picked": "2026-09-16",
+   "ticker": "AAT",
+   "why": "RADY ERNEST S (Executive Chairman)"
+  },
+  {
+   "picked": "2026-09-16",
+   "ticker": "ARDC",
+   "why": "THRIVENT FINANCIAL FOR LUTHERANS (10% Owner)"
+  },
+  {
+   "picked": "2026-09-16",
+   "ticker": "FOX",
+   "why": "MURDOCH LACHLAN K (Executive Chair, CEO)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }
