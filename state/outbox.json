@@ -1028,6 +1028,55 @@
    "text": "\ud83d\udd34 SELL TDGMW $47.6M - Robotti (Director) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
    "source": "form144",
    "url": "https://www.sec.gov/Archives/edgar/data/1105838/000110583826000008/0001105838-26-000008-index.htm"
+  },
+  {
+   "uid": "0001140361-26-036761",
+   "queued_at": "2026-09-16T18:30:15.085080+00:00",
+   "text": "\ud83d\udd34 SELL FANG $1.9B - Sgf Fang Holdings (10%) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2080063/000114036126036761/0001140361-26-036761-index.htm"
+  },
+  {
+   "uid": "0000903939-26-000030:0",
+   "queued_at": "2026-09-16T18:30:15.085080+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $8M - Bankers Life Casualty (10% Owner) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2066579/000090393926000030/0000903939-26-000030-index.htm"
+  },
+  {
+   "uid": "0000314984-26-000042:1",
+   "queued_at": "2026-09-16T18:30:15.085080+00:00",
+   "text": "\ud83d\udfe2 BUY ARDC $6M - Thrivent Financial For (10% Owner) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1515324/000031498426000042/0000314984-26-000042-index.htm"
+  },
+  {
+   "uid": "0001193125-26-392735:0",
+   "queued_at": "2026-09-16T18:30:15.085080+00:00",
+   "text": "\ud83d\udfe2 BUY TLAC $2M - Three Lions Sponsor (Director) - 9/2",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2153072/000119312526392735/0001193125-26-392735-index.htm"
+  },
+  {
+   "uid": "0001969701-26-000006:0",
+   "queued_at": "2026-09-16T18:30:15.085080+00:00",
+   "text": "\ud83d\udfe2 BUY SBLK $424K - Spyrou (co CFO) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1969701/000196970126000006/0001969701-26-000006-index.htm"
+  },
+  {
+   "uid": "0001333848-26-000003:0",
+   "queued_at": "2026-09-16T18:30:15.085080+00:00",
+   "text": "\ud83d\udfe2 BUY SBLK $170K - Erhardt (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1386716/000133384826000003/0001333848-26-000003-index.htm"
+  },
+  {
+   "uid": "0002011929-26-000010:0",
+   "queued_at": "2026-09-16T18:30:15.085080+00:00",
+   "text": "\ud83d\udfe2 BUY SBLK $57K - Karellis (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2011929/000201192926000010/0002011929-26-000010-index.htm"
   }
  ]
 }
