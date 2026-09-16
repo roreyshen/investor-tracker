@@ -972,6 +972,55 @@
    "text": "\ud83d\udd34 SELL SNPS $5.5M - Sassine (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
    "source": "form144",
    "url": "https://www.sec.gov/Archives/edgar/data/1822289/000195004726009468/0001950047-26-009468-index.htm"
+  },
+  {
+   "uid": "0001104659-26-108023:0",
+   "queued_at": "2026-09-16T05:06:37.930778+00:00",
+   "text": "\ud83d\udd34 SELL FTK $60M - Profrac Gdm Llc (10% Owner) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2067153/000110465926108023/0001104659-26-108023-index.htm"
+  },
+  {
+   "uid": "0001104659-26-108024:0",
+   "queued_at": "2026-09-16T05:06:37.930778+00:00",
+   "text": "\ud83d\udfe2 BUY FTK $34.3M - Wilks (Director) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1696102/000110465926108024/0001104659-26-108024-index.htm"
+  },
+  {
+   "uid": "0001213900-26-100269:1",
+   "queued_at": "2026-09-16T05:06:37.930778+00:00",
+   "text": "\ud83d\udfe2 BUY NTHI $115K - Heshmatpour (Pres) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1979414/000121390026100269/0001213900-26-100269-index.htm"
+  },
+  {
+   "uid": "0001213900-26-100269:0",
+   "queued_at": "2026-09-16T05:06:37.930778+00:00",
+   "text": "\ud83d\udfe2 BUY NTHI $59K - Heshmatpour (Pres) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1979414/000121390026100269/0001213900-26-100269-index.htm"
+  },
+  {
+   "uid": "0001213900-26-100266:0",
+   "queued_at": "2026-09-16T05:06:37.930778+00:00",
+   "text": "\ud83d\udfe2 BUY NTHI $20K - Chen (CEO) - 9/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1998682/000121390026100266/0001213900-26-100266-index.htm"
+  },
+  {
+   "uid": "0001213900-26-100266:1",
+   "queued_at": "2026-09-16T05:06:37.930778+00:00",
+   "text": "\ud83d\udfe2 BUY NTHI $20K - Chen (CEO) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1998682/000121390026100266/0001213900-26-100266-index.htm"
+  },
+  {
+   "uid": "0001213900-26-100265:0",
+   "queued_at": "2026-09-16T05:06:37.930778+00:00",
+   "text": "\ud83d\udfe2 BUY NTHI $1K - Garnett (CFO) - 9/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1997371/000121390026100265/0001213900-26-100265-index.htm"
   }
  ]
 }
