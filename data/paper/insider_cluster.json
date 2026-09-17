@@ -16,6 +16,11 @@
    "date": "2026-09-16",
    "equity": 99837.56,
    "spy": 757.39
+  },
+  {
+   "date": "2026-09-17",
+   "equity": 99577.82,
+   "spy": 754.05
   }
  ],
  "open": [
@@ -60,7 +65,23 @@
    "why": "Ryan Christina M (Director)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-09-17",
+   "ticker": "BWMX",
+   "why": "CHEVALLIER SANTIAGO CAMPOS (MD Betterware Mexico)"
+  },
+  {
+   "picked": "2026-09-17",
+   "ticker": "RVSB",
+   "why": "Sherman Nicole (President/CEO)"
+  },
+  {
+   "picked": "2026-09-17",
+   "ticker": "EML",
+   "why": "MITAROTONDA JAMES A (Director)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
