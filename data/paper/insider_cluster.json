@@ -1,5 +1,5 @@
 {
- "cash": 50079.330000000016,
+ "cash": 20119.180000000015,
  "closed": [],
  "marks": [
   {
@@ -63,25 +63,33 @@
    "shares": 200,
    "ticker": "GABC",
    "why": "Ryan Christina M (Director)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-09-17",
+   "cost": 9984.47,
+   "entry": 16.13,
+   "opened": "2026-09-17",
+   "shares": 619,
    "ticker": "BWMX",
    "why": "CHEVALLIER SANTIAGO CAMPOS (MD Betterware Mexico)"
   },
   {
-   "picked": "2026-09-17",
+   "cost": 9997.98,
+   "entry": 5.62,
+   "opened": "2026-09-17",
+   "shares": 1779,
    "ticker": "RVSB",
    "why": "Sherman Nicole (President/CEO)"
   },
   {
-   "picked": "2026-09-17",
+   "cost": 9977.7,
+   "entry": 25.26,
+   "opened": "2026-09-17",
+   "shares": 395,
    "ticker": "EML",
    "why": "MITAROTONDA JAMES A (Director)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
