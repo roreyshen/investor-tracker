@@ -1567,6 +1567,83 @@
    "text": "\ud83d\udfe2 BUY BUKS $374 - Daly (Director) - 9/15",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000006/0001332596-26-000006-index.htm"
+  },
+  {
+   "uid": "0001552781-26-000495:0",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udd34 SELL AUR $182.2M - Uber Technologies Inc (10% Owner) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1828108/000155278126000495/0001552781-26-000495-index.htm"
+  },
+  {
+   "uid": "0001193125-26-394724",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udd34 SELL DELL $28.6M - Silver Lake Partners (See Remarks) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526394724/0001193125-26-394724-index.htm"
+  },
+  {
+   "uid": "0001193125-26-394720",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udd34 SELL DELL $26.1M - Sl (See Remarks) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1767114/000119312526394720/0001193125-26-394720-index.htm"
+  },
+  {
+   "uid": "0001140361-26-037024:0",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udd34 SELL TALO $24.3M - Control Empresarial De (10% Owner) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1724965/000114036126037024/0001140361-26-037024-index.htm"
+  },
+  {
+   "uid": "0001193125-26-394730",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udd34 SELL DELL $15M - Silver Lake Partners (See Remarks) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1737659/000119312526394730/0001193125-26-394730-index.htm"
+  },
+  {
+   "uid": "0000950103-26-014140:0",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udd34 SELL META $13.5M - Cox (Officer) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1607459/000095010326014140/0000950103-26-014140-index.htm"
+  },
+  {
+   "uid": "0002071959-26-000008:1",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udd34 SELL CAI $12.1M - Brille (See Remarks) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071959/000207195926000008/0002071959-26-000008-index.htm"
+  },
+  {
+   "uid": "0002135135-26-000012",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udd34 SELL AUGO $5.1M - Kapitalo International Fun (Affiliate) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2135135/000213513526000012/0002135135-26-000012-index.htm"
+  },
+  {
+   "uid": "0001104659-26-108653:0",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udfe2 BUY XBP $580K - Chadha (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1839530/000110465926108653/0001104659-26-108653-index.htm"
+  },
+  {
+   "uid": "0001104659-26-108649:0",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udfe2 BUY XBP $89K - Jonovic (CEO) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1996758/000110465926108649/0001104659-26-108649-index.htm"
+  },
+  {
+   "uid": "0001104659-26-108652:0",
+   "queued_at": "2026-09-17T23:38:54.105999+00:00",
+   "text": "\ud83d\udfe2 BUY XBP $25K - Avramovic (CFO) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1996868/000110465926108652/0001104659-26-108652-index.htm"
   }
  ]
 }
