@@ -1322,6 +1322,55 @@
    "text": "\ud83d\udfe2 BUY MNR $2M - Ward (See Remarks) - 9/14",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1980088/000121390026100673/0001213900-26-100673-index.htm"
+  },
+  {
+   "uid": "0001193125-26-393652:0",
+   "queued_at": "2026-09-17T14:10:58.314490+00:00",
+   "text": "\ud83d\udd34 SELL UMC $170.8M - Liu (CFO & SVP) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2120081/000119312526393652/0001193125-26-393652-index.htm"
+  },
+  {
+   "uid": "0001193125-26-393652:1",
+   "queued_at": "2026-09-17T14:10:58.314490+00:00",
+   "text": "\ud83d\udd34 SELL UMC $58M - Liu (CFO & SVP) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2120081/000119312526393652/0001193125-26-393652-index.htm"
+  },
+  {
+   "uid": "0001628280-26-062396:0",
+   "queued_at": "2026-09-17T14:10:58.314490+00:00",
+   "text": "\ud83d\udfe2 BUY BORR $4.3M - Troim (Director) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026062396/0001628280-26-062396-index.htm"
+  },
+  {
+   "uid": "0002107497-26-000002:0",
+   "queued_at": "2026-09-17T14:10:58.314490+00:00",
+   "text": "\ud83d\udfe2 BUY SBLK $2.1M - Pappas - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2107497/000210749726000002/0002107497-26-000002-index.htm"
+  },
+  {
+   "uid": "0001528153-26-000015:0",
+   "queued_at": "2026-09-17T14:10:58.314490+00:00",
+   "text": "\ud83d\udfe2 BUY ADC $1.4M - Rakolta (Director) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1528153/000152815326000015/0001528153-26-000015-index.htm"
+  },
+  {
+   "uid": "0001348490-26-000006:0",
+   "queued_at": "2026-09-17T14:10:58.314490+00:00",
+   "text": "\ud83d\udfe2 BUY ADC $501K - Agree (Pres) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1348490/000134849026000006/0001348490-26-000006-index.htm"
+  },
+  {
+   "uid": "0001969292-26-000010:0",
+   "queued_at": "2026-09-17T14:10:58.314490+00:00",
+   "text": "\ud83d\udfe2 BUY SBLK $283K - Reskos (COO) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1969292/000196929226000010/0001969292-26-000010-index.htm"
   }
  ]
 }
