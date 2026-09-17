@@ -1399,6 +1399,174 @@
    "text": "\ud83d\udfe2 BUY SBLK $85K - Plakantonaki (Officer) - 9/15",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1978604/000197860426000008/0001978604-26-000008-index.htm"
+  },
+  {
+   "uid": "0001140361-26-037010:0",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL FANG $1.9B - Sgf Fang Holdings (10% Owner) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2080063/000114036126037010/0001140361-26-037010-index.htm"
+  },
+  {
+   "uid": "0001140361-26-037009:0",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL FANG $1.9B - Sgf Fang Holdings (10% Owner) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2080063/000114036126037009/0001140361-26-037009-index.htm"
+  },
+  {
+   "uid": "0001104659-26-108585:0",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL INGM $53.5M - Platinum Equity Llc (10% Owner) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2080996/000110465926108585/0001104659-26-108585-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009626",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL SNDK $51.4M - David (Director) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000195004726009626/0001950047-26-009626-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007035",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL TWST $44.7M - Leproust (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1753655/000195917326007035/0001959173-26-007035-index.htm"
+  },
+  {
+   "uid": "0001315082-26-000002",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL SION $21.8M - Ra Capital Healthcare (Director) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2036042/000131508226000002/0001315082-26-000002-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007028",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL DELL $14M - Kennedy (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2086800/000195917326007028/0001959173-26-007028-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009640",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL CAI $12.1M - Brian (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071959/000195004726009640/0001950047-26-009640-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009600",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL STNG $11.1M - Cameron (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1979195/000195004726009600/0001950047-26-009600-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009653",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL PHVS $10.5M - Schoodic Management Bv (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1830487/000195004726009653/0001950047-26-009653-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007033",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL TWST $9.3M - Leproust (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1753655/000195917326007033/0001959173-26-007033-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009606",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL PANW $7.5M - Goetz Irr Childrens (Director) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327567/000195004726009606/0001950047-26-009606-index.htm"
+  },
+  {
+   "uid": "0001193125-26-394389:0",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $7.4M - Nippon Life Insurance (10% Owner) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526394389/0001193125-26-394389-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009654",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL PHVS $7M - Johannes Ger Chris (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2014983/000195004726009654/0001950047-26-009654-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009642",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udd34 SELL TVTX $6.9M - Eric (Director) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1763494/000195004726009642/0001950047-26-009642-index.htm"
+  },
+  {
+   "uid": "0001213900-26-101014:0",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udfe2 BUY BWMX $732K - Campos (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1834688/000121390026101014/0001213900-26-101014-index.htm"
+  },
+  {
+   "uid": "0001213900-26-101014:1",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udfe2 BUY BWMX $575K - Campos (Director) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1834688/000121390026101014/0001213900-26-101014-index.htm"
+  },
+  {
+   "uid": "0001213900-26-101012:0",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udfe2 BUY BWMX $492K - Chevallier (CEO) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2120042/000121390026101012/0001213900-26-101012-index.htm"
+  },
+  {
+   "uid": "0001213900-26-101012:1",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udfe2 BUY BWMX $247K - Chevallier (CEO) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2120042/000121390026101012/0001213900-26-101012-index.htm"
+  },
+  {
+   "uid": "0001213900-26-101015:0",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udfe2 BUY BWMX $247K - Chevallier (MD) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2119899/000121390026101015/0001213900-26-101015-index.htm"
+  },
+  {
+   "uid": "0001322325-26-000004:0",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udfe2 BUY RVSB $10K - Sherman (Pres) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1322325/000132232526000004/0001322325-26-000004-index.htm"
+  },
+  {
+   "uid": "0001332596-26-000006:2",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udfe2 BUY BUKS $4K - Daly (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000006/0001332596-26-000006-index.htm"
+  },
+  {
+   "uid": "0001332596-26-000006:1",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udfe2 BUY BUKS $2K - Daly (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000006/0001332596-26-000006-index.htm"
+  },
+  {
+   "uid": "0001332596-26-000006:0",
+   "queued_at": "2026-09-17T21:29:43.593921+00:00",
+   "text": "\ud83d\udfe2 BUY BUKS $374 - Daly (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000006/0001332596-26-000006-index.htm"
   }
  ]
 }
