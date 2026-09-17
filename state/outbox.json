@@ -1371,6 +1371,34 @@
    "text": "\ud83d\udfe2 BUY SBLK $283K - Reskos (COO) - 9/15",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1969292/000196929226000010/0001969292-26-000010-index.htm"
+  },
+  {
+   "uid": "0002113812-26-000003:0",
+   "queued_at": "2026-09-17T18:15:49.316534+00:00",
+   "text": "\ud83d\udfe2 BUY SBLK $2.1M - Pappa (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113812/000211381226000003/0002113812-26-000003-index.htm"
+  },
+  {
+   "uid": "0002005037-26-000014:1",
+   "queued_at": "2026-09-17T18:15:49.316534+00:00",
+   "text": "\ud83d\udfe2 BUY SBLK $1.4M - Zagari (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2005037/000200503726000014/0002005037-26-000014-index.htm"
+  },
+  {
+   "uid": "0002005037-26-000014:0",
+   "queued_at": "2026-09-17T18:15:49.316534+00:00",
+   "text": "\ud83d\udfe2 BUY SBLK $283K - Zagari (Director) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2005037/000200503726000014/0002005037-26-000014-index.htm"
+  },
+  {
+   "uid": "0001978604-26-000008:0",
+   "queued_at": "2026-09-17T18:15:49.316534+00:00",
+   "text": "\ud83d\udfe2 BUY SBLK $85K - Plakantonaki (Officer) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1978604/000197860426000008/0001978604-26-000008-index.htm"
   }
  ]
 }
