@@ -1644,6 +1644,20 @@
    "text": "\ud83d\udfe2 BUY XBP $25K - Avramovic (CFO) - 9/15",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1996868/000110465926108652/0001104659-26-108652-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004216",
+   "queued_at": "2026-09-18T01:32:43.220863+00:00",
+   "text": "\ud83d\udd34 SELL KNTK $5.8M - Isq Global Fund (10%) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1904934/000090514826004216/0000905148-26-004216-index.htm"
+  },
+  {
+   "uid": "0001193125-26-394831:0",
+   "queued_at": "2026-09-18T01:32:43.220863+00:00",
+   "text": "\ud83d\udfe2 BUY TENX $102K - Doogan (Director) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1704234/000119312526394831/0001193125-26-394831-index.htm"
   }
  ]
 }
