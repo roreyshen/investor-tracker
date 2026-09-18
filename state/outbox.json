@@ -1658,6 +1658,34 @@
    "text": "\ud83d\udfe2 BUY TENX $102K - Doogan (Director) - 9/16",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1704234/000119312526394831/0001193125-26-394831-index.htm"
+  },
+  {
+   "uid": "0001534574-26-000016:0",
+   "queued_at": "2026-09-18T15:57:52.621118+00:00",
+   "text": "\ud83d\udfe2 BUY TFC $1M - Lyons (Pres) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1534574/000153457426000016/0001534574-26-000016-index.htm"
+  },
+  {
+   "uid": "0001193125-26-395098:0",
+   "queued_at": "2026-09-18T15:57:52.621118+00:00",
+   "text": "\ud83d\udfe2 BUY KRMN $1M - Stinnett (Director) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2054639/000119312526395098/0001193125-26-395098-index.htm"
+  },
+  {
+   "uid": "0001193125-26-395097:0",
+   "queued_at": "2026-09-18T15:57:52.621118+00:00",
+   "text": "\ud83d\udfe2 BUY KRMN $19K - Petryszyn (Director) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2040127/000119312526395097/0001193125-26-395097-index.htm"
+  },
+  {
+   "uid": "0001193125-26-395095:0",
+   "queued_at": "2026-09-18T15:57:52.621118+00:00",
+   "text": "\ud83d\udfe2 BUY KRMN $10K - Twitty (Director) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2054316/000119312526395095/0001193125-26-395095-index.htm"
   }
  ]
 }
