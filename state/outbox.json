@@ -1707,6 +1707,76 @@
    "text": "\ud83d\udfe2 BUY STNG $2.2M - Bugbee (Pres) - 9/17",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1483934/000108822626000007/0001088226-26-000007-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007042",
+   "queued_at": "2026-09-18T21:34:55.651869+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $65.9M - Slootman (Director) - 9/18 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007042/0001959173-26-007042-index.htm"
+  },
+  {
+   "uid": "0001225208-26-007890:2",
+   "queued_at": "2026-09-18T21:34:55.651869+00:00",
+   "text": "\ud83d\udd34 SELL BBY $22.9M - Schulze - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1006394/000122520826007890/0001225208-26-007890-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009666",
+   "queued_at": "2026-09-18T21:34:55.651869+00:00",
+   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 9/18 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726009666/0001950047-26-009666-index.htm"
+  },
+  {
+   "uid": "0000919574-26-006400",
+   "queued_at": "2026-09-18T21:34:55.651869+00:00",
+   "text": "\ud83d\udd34 SELL TEVJF $14.4M - Bridger Management Llc (Shareholder) - 9/18 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166309/000091957426006400/0000919574-26-006400-index.htm"
+  },
+  {
+   "uid": "0001964306-26-000451",
+   "queued_at": "2026-09-18T21:34:55.651869+00:00",
+   "text": "\ud83d\udd34 SELL BX $12.4M - Baratta (Officer) - 9/18 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1574706/000196430626000451/0001964306-26-000451-index.htm"
+  },
+  {
+   "uid": "0001193125-26-395720:0",
+   "queued_at": "2026-09-18T21:34:55.651869+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $9.8M - Liberty Mutual Holding (10% Owner) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1998387/000119312526395720/0001193125-26-395720-index.htm"
+  },
+  {
+   "uid": "0001197649-26-000012:0",
+   "queued_at": "2026-09-18T21:34:55.651869+00:00",
+   "text": "\ud83d\udd34 SELL NVDA $9.7M - Huang (Pres) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1197649/000119764926000012/0001197649-26-000012-index.htm"
+  },
+  {
+   "uid": "0001214659-26-011803:0",
+   "queued_at": "2026-09-18T21:34:55.651869+00:00",
+   "text": "\ud83d\udfe2 BUY GPUS $18K - Horne (CEO) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1333268/000121465926011803/0001214659-26-011803-index.htm"
+  },
+  {
+   "uid": "0001197649-26-000012:1",
+   "queued_at": "2026-09-18T21:34:55.651869+00:00",
+   "text": "\ud83d\udd34 SELL NVDA amount undisclosed - Huang (Pres) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1197649/000119764926000012/0001197649-26-000012-index.htm"
+  },
+  {
+   "uid": "0001628280-26-062717:0",
+   "queued_at": "2026-09-18T21:34:55.651869+00:00",
+   "text": "\ud83d\udfe2 BUY SLM amount undisclosed - Blackley (Director) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1525020/000162828026062717/0001628280-26-062717-index.htm"
   }
  ]
 }
