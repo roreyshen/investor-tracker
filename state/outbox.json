@@ -1777,6 +1777,20 @@
    "text": "\ud83d\udfe2 BUY SLM amount undisclosed - Blackley (Director) - 9/16",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1525020/000162828026062717/0001628280-26-062717-index.htm"
+  },
+  {
+   "uid": "0002102304-26-000003:0",
+   "queued_at": "2026-09-18T23:35:43.936893+00:00",
+   "text": "\ud83d\udfe2 BUY cv $5M - Shen (10% Owner) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2102304/000210230426000003/0002102304-26-000003-index.htm"
+  },
+  {
+   "uid": "0000040417-26-000049:0",
+   "queued_at": "2026-09-18T23:35:43.936893+00:00",
+   "text": "\ud83d\udfe2 BUY GAM $94K - Priest (Pres) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1317435/000004041726000049/0000040417-26-000049-index.htm"
   }
  ]
 }
