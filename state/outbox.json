@@ -1686,6 +1686,27 @@
    "text": "\ud83d\udfe2 BUY KRMN $10K - Twitty (Director) - 9/16",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2054316/000119312526395095/0001193125-26-395095-index.htm"
+  },
+  {
+   "uid": "0001088226-26-000007:0",
+   "queued_at": "2026-09-18T18:58:24.766515+00:00",
+   "text": "\ud83d\udd34 SELL STNG $20M - Bugbee (Pres) - 9/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1483934/000108822626000007/0001088226-26-000007-index.htm"
+  },
+  {
+   "uid": "0001979195-26-000002:0",
+   "queued_at": "2026-09-18T18:58:24.766515+00:00",
+   "text": "\ud83d\udd34 SELL STNG $11.1M - Mackey (COO) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1979195/000197919526000002/0001979195-26-000002-index.htm"
+  },
+  {
+   "uid": "0001088226-26-000007:1",
+   "queued_at": "2026-09-18T18:58:24.766515+00:00",
+   "text": "\ud83d\udfe2 BUY STNG $2.2M - Bugbee (Pres) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1483934/000108822626000007/0001088226-26-000007-index.htm"
   }
  ]
 }
