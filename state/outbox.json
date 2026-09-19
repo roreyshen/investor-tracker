@@ -1791,6 +1791,27 @@
    "text": "\ud83d\udfe2 BUY GAM $94K - Priest (Pres) - 9/18",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1317435/000004041726000049/0000040417-26-000049-index.htm"
+  },
+  {
+   "uid": "0001493152-26-043445:0",
+   "queued_at": "2026-09-19T01:37:57.037851+00:00",
+   "text": "\ud83d\udd34 SELL IHT $361.5M - Berg (EVP &) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1248349/000149315226043445/0001493152-26-043445-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004223",
+   "queued_at": "2026-09-19T01:37:57.037851+00:00",
+   "text": "\ud83d\udd34 SELL KNTK $7.2M - Isq Global Fund (10%) - 9/18 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1904934/000090514826004223/0000905148-26-004223-index.htm"
+  },
+  {
+   "uid": "0001104659-26-109010:0",
+   "queued_at": "2026-09-19T01:37:57.037851+00:00",
+   "text": "\ud83d\udfe2 BUY RWT $384K - Abate (CEO) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1453409/000110465926109010/0001104659-26-109010-index.htm"
   }
  ]
 }
