@@ -1826,6 +1826,41 @@
    "text": "\ud83d\udfe2 BUY CBKM $2K - Lober (Pres) - 9/17",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1401124/000143774926030775/0001437749-26-030775-index.htm"
+  },
+  {
+   "uid": "0002086800-26-000007:0",
+   "queued_at": "2026-09-21T20:24:31.183337+00:00",
+   "text": "\ud83d\udd34 SELL DELL $13.5M - Kennedy (CFO) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2086800/000208680026000007/0002086800-26-000007-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007057",
+   "queued_at": "2026-09-21T20:24:31.183337+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $8.1M - Podbere (Officer) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000195917326007057/0001959173-26-007057-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004617:0",
+   "queued_at": "2026-09-21T20:24:31.183337+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1.1M - De Souza Cintia (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126545/000129281426004617/0001292814-26-004617-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004615:0",
+   "queued_at": "2026-09-21T20:24:31.183337+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1M - Pedras Carlos Henrique (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125970/000129281426004615/0001292814-26-004615-index.htm"
+  },
+  {
+   "uid": "0001487805-26-000004:0",
+   "queued_at": "2026-09-21T20:24:31.183337+00:00",
+   "text": "\ud83d\udfe2 BUY RWT $21K - Stone (CLO) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1487805/000148780526000004/0001487805-26-000004-index.htm"
   }
  ]
 }
