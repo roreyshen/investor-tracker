@@ -26,6 +26,11 @@
    "date": "2026-09-18",
    "equity": 99957.27,
    "spy": 762.6
+  },
+  {
+   "date": "2026-09-21",
+   "equity": 101887.02,
+   "spy": 761.69
   }
  ],
  "open": [
@@ -94,7 +99,13 @@
    "why": "MITAROTONDA JAMES A (Director)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-09-21",
+   "ticker": "BBD",
+   "why": "da Cunha Paulo Roberto Simoes (Director)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
