@@ -1861,6 +1861,230 @@
    "text": "\ud83d\udfe2 BUY RWT $21K - Stone (CLO) - 9/21",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1487805/000148780526000004/0001487805-26-000004-index.htm"
+  },
+  {
+   "uid": "0001104659-26-109340",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL BZ $88.3M - Techwolf Limited (Officer) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1982580/000110465926109340/0001104659-26-109340-index.htm"
+  },
+  {
+   "uid": "0001104659-26-109348:3",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL BZ $77.6M - Zhao (CEO) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1907962/000110465926109348/0001104659-26-109348-index.htm"
+  },
+  {
+   "uid": "0001214659-26-011832:9",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL TWST $36.7M - Leproust (CEO) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1753655/000121465926011832/0001214659-26-011832-index.htm"
+  },
+  {
+   "uid": "0001104659-26-109348:2",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL BZ $32.3M - Zhao (CEO) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1907962/000110465926109348/0001104659-26-109348-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009702",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL HOOD $31.1M - Vladimir (Director) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1871006/000195004726009702/0001950047-26-009702-index.htm"
+  },
+  {
+   "uid": "0001379816-26-000003:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL GSAT $29.8M - Lynch (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1379816/000137981626000003/0001379816-26-000003-index.htm"
+  },
+  {
+   "uid": "0001379664-26-000002:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GSAT $29.8M - Monroe (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1379664/000137966426000002/0001379664-26-000002-index.htm"
+  },
+  {
+   "uid": "0000921895-26-002608:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GME $26.4M - Cohen (Chair) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1767470/000092189526002608/0000921895-26-002608-index.htm"
+  },
+  {
+   "uid": "0001231919-26-001201:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL SION $21.6M - Ra Capital Management (Director) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2036042/000123191926001201/0001231919-26-001201-index.htm"
+  },
+  {
+   "uid": "0001242648-26-000041:2",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL SNDK $15.1M - Goeckeler (Chair) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000041/0001242648-26-000041-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009718",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL STX $12.8M - John (Officer) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1988271/000195004726009718/0001950047-26-009718-index.htm"
+  },
+  {
+   "uid": "0001596532-26-000230:7",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL ANET $11.6M - Bechtolsheim (10% Owner) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000230/0001596532-26-000230-index.htm"
+  },
+  {
+   "uid": "0001784996-26-000095:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL GWRE $10.4M - Rosenbaum (CEO) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1784996/000178499626000095/0001784996-26-000095-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009707",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL P $10.4M - Colgrove Fam Charitable (Director) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1651902/000195004726009707/0001950047-26-009707-index.htm"
+  },
+  {
+   "uid": "0001193125-26-396726:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $6.2M - Nippon Life Insurance (10% Owner) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526396726/0001193125-26-396726-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009717",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL GRAL $5.8M - Joshua (Director) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1822088/000195004726009717/0001950047-26-009717-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004621:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $5.6M - De Oliveira Andre (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125973/000129281426004621/0001292814-26-004621-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009712",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udd34 SELL DUOL $5.3M - Luis Von Ahn (Director) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1829259/000195004726009712/0001950047-26-009712-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004241:12",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $3M - Conifer Management (10% Owner) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004241:11",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $2.7M - Conifer Management (10% Owner) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004241:6",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $2.4M - Conifer Management (10% Owner) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004241:13",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1.7M - Conifer Management (10% Owner) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004241:1",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1.5M - Conifer Management (10% Owner) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
+  },
+  {
+   "uid": "0000912282-26-001293:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY CYBN $1.3M - Halstead (CEO) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1833141/000091228226001293/0000912282-26-001293-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004241:10",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1.3M - Conifer Management (10% Owner) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004241:8",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1.1M - Conifer Management (10% Owner) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004625:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $843K - Da Cunha Paulo (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126534/000129281426004625/0001292814-26-004625-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004619:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $784K - Panico (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125974/000129281426004619/0001292814-26-004619-index.htm"
+  },
+  {
+   "uid": "0001758710-26-000004:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY RWT $20K - Macomber (Officer) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1758710/000175871026000004/0001758710-26-000004-index.htm"
+  },
+  {
+   "uid": "0001332596-26-000007:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY BUKS $16K - Daly (Director) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000007/0001332596-26-000007-index.htm"
+  },
+  {
+   "uid": "0001214659-26-011836:1",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GPUS $5K - Ault (Exec Chair) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1734770/000121465926011836/0001214659-26-011836-index.htm"
+  },
+  {
+   "uid": "0001214659-26-011836:0",
+   "queued_at": "2026-09-21T23:32:45.539049+00:00",
+   "text": "\ud83d\udfe2 BUY GPUS $2K - Ault (Exec Chair) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1734770/000121465926011836/0001214659-26-011836-index.htm"
   }
  ]
 }
