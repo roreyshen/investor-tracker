@@ -1812,6 +1812,20 @@
    "text": "\ud83d\udfe2 BUY RWT $384K - Abate (CEO) - 9/15",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1453409/000110465926109010/0001104659-26-109010-index.htm"
+  },
+  {
+   "uid": "0001193125-26-396327:0",
+   "queued_at": "2026-09-21T15:59:46.678393+00:00",
+   "text": "\ud83d\udfe2 BUY LNBIX $25M - Lincoln Financial Investme (10% Owner) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2054992/000119312526396327/0001193125-26-396327-index.htm"
+  },
+  {
+   "uid": "0001437749-26-030775:0",
+   "queued_at": "2026-09-21T15:59:46.678393+00:00",
+   "text": "\ud83d\udfe2 BUY CBKM $2K - Lober (Pres) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1401124/000143774926030775/0001437749-26-030775-index.htm"
   }
  ]
 }
