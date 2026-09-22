@@ -2246,6 +2246,125 @@
    "text": "\ud83d\udfe2 BUY BBD $843K - Pavarina (Director) - 9/18",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2125969/000129281426004633/0001292814-26-004633-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007060",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $34.5M - Slootman (Director) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007060/0001959173-26-007060-index.htm"
+  },
+  {
+   "uid": "0001921094-26-001039",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udd34 SELL META $28.5M - Cox (Officer) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1607459/000192109426001039/0001921094-26-001039-index.htm"
+  },
+  {
+   "uid": "0001921094-26-001040",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udd34 SELL NVDA $6.8M - Teter (Officer) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1696841/000192109426001040/0001921094-26-001040-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004658:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1.7M - Paris Roberto De (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126530/000129281426004658/0001292814-26-004658-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004654:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1.4M - Fernandes (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126544/000129281426004654/0001292814-26-004654-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004646:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1.1M - Ramalho Miranda Jose (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2127966/000129281426004646/0001292814-26-004646-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004660:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1.1M - Machado (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126967/000129281426004660/0001292814-26-004660-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004642:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1.1M - Marcilio (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126140/000129281426004642/0001292814-26-004642-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004664:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1.1M - Favarao (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2122593/000129281426004664/0001292814-26-004664-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004652:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1M - Tescarolo (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125962/000129281426004652/0001292814-26-004652-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004650:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1M - Bueno (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2122582/000129281426004650/0001292814-26-004650-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004662:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $997K - De Oliveira Tulio (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126527/000129281426004662/0001292814-26-004662-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004656:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $985K - Mantarro (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126532/000129281426004656/0001292814-26-004656-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004648:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $891K - Freiberger (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125967/000129281426004648/0001292814-26-004648-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004638:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $843K - Alvarez (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126531/000129281426004638/0001292814-26-004638-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004666:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $562K - Caffarelli (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2116145/000129281426004666/0001292814-26-004666-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004644:0",
+   "queued_at": "2026-09-22T17:33:55.130472+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $562K - Nunes Regina Helena (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2135664/000129281426004644/0001292814-26-004644-index.htm"
   }
  ]
 }
