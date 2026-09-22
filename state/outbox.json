@@ -2589,6 +2589,48 @@
    "text": "\ud83d\udfe2 BUY West VY Mission CMN ED $250K-500K - Peters (Rep. CA50) - traded 8/6 (46d ago)",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "0001199039-26-000016:0",
+   "queued_at": "2026-09-22T23:14:32.342460+00:00",
+   "text": "\ud83d\udd34 SELL NVDA $297.9M - Stevens (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1199039/000119903926000016/0001199039-26-000016-index.htm"
+  },
+  {
+   "uid": "0001970673-26-000002",
+   "queued_at": "2026-09-22T23:14:32.342460+00:00",
+   "text": "\ud83d\udd34 SELL WULF $52.4M - Prager (Officer) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1877255/000197067326000002/0001970673-26-000002-index.htm"
+  },
+  {
+   "uid": "0001474432-26-000092:3",
+   "queued_at": "2026-09-22T23:14:32.342460+00:00",
+   "text": "\ud83d\udd34 SELL P $10.8M - Colgrove (Officer) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1651902/000147443226000092/0001474432-26-000092-index.htm"
+  },
+  {
+   "uid": "0001193125-26-397991:0",
+   "queued_at": "2026-09-22T23:14:32.342460+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $4.6M - Nippon Life Insurance (10% Owner) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526397991/0001193125-26-397991-index.htm"
+  },
+  {
+   "uid": "0001594983-26-000015:0",
+   "queued_at": "2026-09-22T23:14:32.342460+00:00",
+   "text": "\ud83d\udfe2 BUY TPVG $1.5M - Labe (CEO) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1594983/000159498326000015/0001594983-26-000015-index.htm"
+  },
+  {
+   "uid": "0001214659-26-011871:0",
+   "queued_at": "2026-09-22T23:14:32.342460+00:00",
+   "text": "\ud83d\udfe2 BUY GPUS $4K - Ault (Exec Chair) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1212502/000121465926011871/0001214659-26-011871-index.htm"
   }
  ]
 }
