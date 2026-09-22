@@ -1,5 +1,5 @@
 {
- "cash": 20119.180000000015,
+ "cash": 10120.730000000014,
  "closed": [],
  "marks": [
   {
@@ -29,6 +29,11 @@
   },
   {
    "date": "2026-09-21",
+   "equity": 101887.02,
+   "spy": 761.69
+  },
+  {
+   "date": "2026-09-22",
    "equity": 101887.02,
    "spy": 761.69
   }
@@ -97,15 +102,17 @@
    "shares": 395,
    "ticker": "EML",
    "why": "MITAROTONDA JAMES A (Director)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-09-21",
+   "cost": 9998.45,
+   "entry": 3.43,
+   "opened": "2026-09-22",
+   "shares": 2915,
    "ticker": "BBD",
    "why": "da Cunha Paulo Roberto Simoes (Director)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }

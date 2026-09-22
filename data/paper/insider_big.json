@@ -1,5 +1,5 @@
 {
- "cash": 20326.16999999999,
+ "cash": 401.1299999999901,
  "closed": [],
  "marks": [
   {
@@ -29,6 +29,11 @@
   },
   {
    "date": "2026-09-21",
+   "equity": 99860.57,
+   "spy": 761.69
+  },
+  {
+   "date": "2026-09-22",
    "equity": 99860.57,
    "spy": 761.69
   }
@@ -97,20 +102,25 @@
    "shares": 165,
    "ticker": "FOX",
    "why": "MURDOCH LACHLAN K (Executive Chair, CEO)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-09-21",
+   "cost": 9940.8,
+   "entry": 82.84,
+   "opened": "2026-09-22",
+   "shares": 120,
    "ticker": "GSAT",
    "why": "Monroe James III (Director)"
   },
   {
-   "picked": "2026-09-21",
+   "cost": 9984.24,
+   "entry": 22.64,
+   "opened": "2026-09-22",
+   "shares": 441,
    "ticker": "GME",
    "why": "Cohen Ryan (President, CEO and Chairman)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }
