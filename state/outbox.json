@@ -2365,6 +2365,230 @@
    "text": "\ud83d\udfe2 BUY BBD $562K - Nunes Regina Helena (Director) - 9/18",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2135664/000129281426004644/0001292814-26-004644-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009740",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL SPCX $52M - Gwynne (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1768956/000195004726009740/0001950047-26-009740-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009743",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL HOOD $29.7M - Vladimir (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1871006/000195004726009743/0001950047-26-009743-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009739",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL CRWV $17.1M - Michael (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009739/0001950047-26-009739-index.htm"
+  },
+  {
+   "uid": "0001193125-26-397959:0",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL TEVA $14.4M - Mignone (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1258394/000119312526397959/0001193125-26-397959-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009737",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL P $11.4M - Colgrove Fam Charitable (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1651902/000195004726009737/0001950047-26-009737-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009738",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL AAPL $10.6M - Jennifer (Officer) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1780525/000195004726009738/0001950047-26-009738-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009741",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL CRWV $9.2M - Omnadora Capital Llc (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009741/0001950047-26-009741-index.htm"
+  },
+  {
+   "uid": "0001972481-26-000285",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL NET $8.8M - Ledbetter (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1477333/000197248126000285/0001972481-26-000285-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009752",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL PHVS $7M - Johannes Ger Chris (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2014983/000195004726009752/0001950047-26-009752-index.htm"
+  },
+  {
+   "uid": "0001794034-26-000006:1",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY OFIX $1.7M - Juniper Investment Company (10% Owner) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794034/000179403426000006/0001794034-26-000006-index.htm"
+  },
+  {
+   "uid": "0001193125-26-397677:0",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY BCBP $1.2M - Obrien (CEO) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1381048/000119312526397677/0001193125-26-397677-index.htm"
+  },
+  {
+   "uid": "0001794034-26-000006:0",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY OFIX $1M - Juniper Investment Company (10% Owner) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794034/000179403426000006/0001794034-26-000006-index.htm"
+  },
+  {
+   "uid": "0001332596-26-000008:2",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY BUKS $20K - Daly (Director) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000008/0001332596-26-000008-index.htm"
+  },
+  {
+   "uid": "0001332596-26-000008:1",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY BUKS $5K - Daly (Director) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000008/0001332596-26-000008-index.htm"
+  },
+  {
+   "uid": "0001213900-26-102137:0",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $799 - Monte (Director) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910629/000121390026102137/0001213900-26-102137-index.htm"
+  },
+  {
+   "uid": "0001213900-26-102144:0",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $500 - Booth - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1845014/000121390026102144/0001213900-26-102144-index.htm"
+  },
+  {
+   "uid": "20035434:0",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL Energy Northwest WA PW $500K-1M - Peters (Rep. CA50) - traded 8/13 (39d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:1",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL Enterprise CA $500K-1M - Peters (Rep. CA50) - traded 8/4 (48d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:2",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY Irvine Ranch CA WRSR U $100K-250K - Peters (Rep. CA50) - traded 8/20 (32d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:3",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY Kent Street O&M Holdin $100K-250K - Peters (Rep. CA50) - traded 8/12 (40d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:4",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL New York, NY City COMB $500K-1M - Peters (Rep. CA50) - traded 8/31 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:5",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL Palmdale CA Sch $50K-100K - Peters (Rep. CA50) - traded 8/3 (49d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:6",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY Petaluma CA WASTE SWR  $500K-1M - Peters (Rep. CA50) - traded 8/19 (33d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:7",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY ? $250K-500K - Peters (Rep. CA50) - traded 8/3 (49d ago) - security not machine-readable - open the filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:9",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY U.S. Treasury Bill $250K-500K - Peters (Rep. CA50) - traded 8/10 (42d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:10",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL U.S. Treasury Bill $50K-100K - Peters (Rep. CA50) - traded 8/13 (39d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:11",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL U.S. Treasury Bill $50K-100K - Peters (Rep. CA50) - traded 8/31 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:12",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY U.S. Treasury Bill $50K-100K - Peters (Rep. CA50) - traded 8/3 (49d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:13",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL U.S. Treasury Bill $100K-250K - Peters (Rep. CA50) - traded 8/5 (47d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:14",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udd34 SELL U.S. Treasury Bill $50K-100K - Peters (Rep. CA50) - traded 8/13 (39d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:15",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY UNIV CA PUB EDUC $500K-1M - Peters (Rep. CA50) - traded 8/13 (39d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
+  },
+  {
+   "uid": "20035434:16",
+   "queued_at": "2026-09-22T20:29:56.324761+00:00",
+   "text": "\ud83d\udfe2 BUY West VY Mission CMN ED $250K-500K - Peters (Rep. CA50) - traded 8/6 (46d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
   }
  ]
 }
