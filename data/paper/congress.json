@@ -1,5 +1,5 @@
 {
- "cash": 50020.61999999998,
+ "cash": 30234.03999999998,
  "closed": [],
  "marks": [
   {
@@ -83,20 +83,25 @@
    "shares": 697,
    "ticker": "TTD",
    "why": "Cisneros, Gilbert (Rep. CA31)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-09-23",
+   "cost": 9944.0,
+   "entry": 452.0,
+   "opened": "2026-09-23",
+   "shares": 22,
    "ticker": "TSM",
    "why": "Allen, Richard W. (Rep. GA12)"
   },
   {
-   "picked": "2026-09-23",
+   "cost": 9842.58,
+   "entry": 364.54,
+   "opened": "2026-09-23",
+   "shares": 27,
    "ticker": "AVGO",
    "why": "Allen, Richard W. (Rep. GA12)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "congress"
 }
