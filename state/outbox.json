@@ -2631,6 +2631,69 @@
    "text": "\ud83d\udfe2 BUY GPUS $4K - Ault (Exec Chair) - 9/18",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1212502/000121465926011871/0001214659-26-011871-index.htm"
+  },
+  {
+   "uid": "0001628280-26-063114:3",
+   "queued_at": "2026-09-23T01:32:18.114903+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $26.5M - Slootman (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063114/0001628280-26-063114-index.htm"
+  },
+  {
+   "uid": "0001628280-26-063114:4",
+   "queued_at": "2026-09-23T01:32:18.114903+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $14M - Slootman (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063114/0001628280-26-063114-index.htm"
+  },
+  {
+   "uid": "0001968270-26-000015:0",
+   "queued_at": "2026-09-23T01:32:18.114903+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $11.3M - Sentonas (Pres) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000196827026000015/0001968270-26-000015-index.htm"
+  },
+  {
+   "uid": "0001628280-26-063114:8",
+   "queued_at": "2026-09-23T01:32:18.114903+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $10.2M - Slootman (Director) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063114/0001628280-26-063114-index.htm"
+  },
+  {
+   "uid": "0002135135-26-000013",
+   "queued_at": "2026-09-23T01:32:18.114903+00:00",
+   "text": "\ud83d\udd34 SELL AUGO $9.4M - Kapitalo International Fun (Affiliate) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2135135/000213513526000013/0002135135-26-000013-index.htm"
+  },
+  {
+   "uid": "0002126752-26-000024",
+   "queued_at": "2026-09-23T01:32:18.114903+00:00",
+   "text": "\ud83d\udd34 SELL AUGO $7.7M - Kapitalo Master Fundo (Affiliate) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126752/000212675226000024/0002126752-26-000024-index.htm"
+  },
+  {
+   "uid": "0002126744-26-000012",
+   "queued_at": "2026-09-23T01:32:18.114903+00:00",
+   "text": "\ud83d\udd34 SELL AUGO $6.9M - Kapitalo Zeta Meridia (Affiliate) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126744/000212674426000012/0002126744-26-000012-index.htm"
+  },
+  {
+   "uid": "0001140361-26-037358:0",
+   "queued_at": "2026-09-23T01:32:18.114903+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $100K - Munro (COO) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2062693/000114036126037358/0001140361-26-037358-index.htm"
+  },
+  {
+   "uid": "0001140361-26-037356:0",
+   "queued_at": "2026-09-23T01:32:18.114903+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $100K - Dreyfuss (CFO) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2016208/000114036126037356/0001140361-26-037356-index.htm"
   }
  ]
 }
