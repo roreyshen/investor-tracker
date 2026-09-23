@@ -36,6 +36,11 @@
    "date": "2026-09-22",
    "equity": 98339.3,
    "spy": 761.69
+  },
+  {
+   "date": "2026-09-23",
+   "equity": 97701.64,
+   "spy": 773.38
   }
  ],
  "open": [
@@ -80,7 +85,18 @@
    "why": "Cisneros, Gilbert (Rep. CA31)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-09-23",
+   "ticker": "TSM",
+   "why": "Allen, Richard W. (Rep. GA12)"
+  },
+  {
+   "picked": "2026-09-23",
+   "ticker": "AVGO",
+   "why": "Allen, Richard W. (Rep. GA12)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "congress"
 }
