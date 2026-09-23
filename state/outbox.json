@@ -2743,6 +2743,104 @@
    "text": "\ud83d\udfe2 BUY GAM $46K - Grassi (Pres) - 9/22",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1313312/000004041726000050/0000040417-26-000050-index.htm"
+  },
+  {
+   "uid": "0001622058-26-000016:1",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udd34 SELL MEDP $30.8M - Troendle (Pres) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000162205826000016/0001622058-26-000016-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009767",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726009767/0001950047-26-009767-index.htm"
+  },
+  {
+   "uid": "0001622058-26-000016:0",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udd34 SELL MEDP $13.6M - Troendle (Pres) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000162205826000016/0001622058-26-000016-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009766",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udd34 SELL DDOG $10.7M - Alexis (Director) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783984/000195004726009766/0001950047-26-009766-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007091",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udd34 SELL BBY $10.7M - Scarlett (Officer) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1707469/000195917326007091/0001959173-26-007091-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009772",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udd34 SELL FSLY $9.2M - Per Artur Bergman (Director) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769490/000195004726009772/0001950047-26-009772-index.htm"
+  },
+  {
+   "uid": "0001794034-26-000007:1",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udfe2 BUY OFIX $1.7M - Juniper Investment Company (10% Owner) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794034/000179403426000007/0001794034-26-000007-index.htm"
+  },
+  {
+   "uid": "0001794034-26-000007:0",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udfe2 BUY OFIX $1M - Juniper Investment Company (10% Owner) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794034/000179403426000007/0001794034-26-000007-index.htm"
+  },
+  {
+   "uid": "20035492:0",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udfe2 BUY AVGO $1K-15K - Allen (Rep. GA12) - traded 8/12 (41d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf"
+  },
+  {
+   "uid": "20035492:1",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udd34 SELL ROL $15K-50K - Allen (Rep. GA12) - traded 8/12 (41d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf"
+  },
+  {
+   "uid": "20035492:2",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $1K-15K - Allen (Rep. GA12) - traded 8/12 (41d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf"
+  },
+  {
+   "uid": "20035489:2",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udd34 SELL Bank of Nova Scotia $500K-1M - Biggs (Rep. SC03) - traded 8/19 (34d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf"
+  },
+  {
+   "uid": "20035489:3",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udfe2 BUY Bank of Nova Scotia $500K-1M - Biggs (Rep. SC03) - traded 9/1 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf"
+  },
+  {
+   "uid": "20035499:0",
+   "queued_at": "2026-09-23T20:26:15.547377+00:00",
+   "text": "\ud83d\udd34 SELL AAPL $100K-250K - Sessions (Rep. TX17) - 9/22",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf"
   }
  ]
 }
