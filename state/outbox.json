@@ -2841,6 +2841,69 @@
    "text": "\ud83d\udd34 SELL AAPL $100K-250K - Sessions (Rep. TX17) - 9/22",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf"
+  },
+  {
+   "uid": "0000947871-26-000881:5",
+   "queued_at": "2026-09-23T23:04:20.353148+00:00",
+   "text": "\ud83d\udfe2 BUY ETRA $15M - Gordon (Director) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000881/0000947871-26-000881-index.htm"
+  },
+  {
+   "uid": "0000947871-26-000880:5",
+   "queued_at": "2026-09-23T23:04:20.353148+00:00",
+   "text": "\ud83d\udfe2 BUY ETRA $15M - Orbimed Advisors Llc (Director) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000880/0000947871-26-000880-index.htm"
+  },
+  {
+   "uid": "0000950103-26-014403:1",
+   "queued_at": "2026-09-23T23:04:20.353148+00:00",
+   "text": "\ud83d\udd34 SELL META $14.5M - Cox (Officer) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1607459/000095010326014403/0000950103-26-014403-index.htm"
+  },
+  {
+   "uid": "0000950103-26-014403:0",
+   "queued_at": "2026-09-23T23:04:20.353148+00:00",
+   "text": "\ud83d\udd34 SELL META $14M - Cox (Officer) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1607459/000095010326014403/0000950103-26-014403-index.htm"
+  },
+  {
+   "uid": "0001193125-26-399477:0",
+   "queued_at": "2026-09-23T23:04:20.353148+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $7.5M - Nippon Life Insurance (10% Owner) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526399477/0001193125-26-399477-index.htm"
+  },
+  {
+   "uid": "0002102304-26-000004:0",
+   "queued_at": "2026-09-23T23:04:20.353148+00:00",
+   "text": "\ud83d\udfe2 BUY cv $5M - Shen (10% Owner) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2102304/000210230426000004/0002102304-26-000004-index.htm"
+  },
+  {
+   "uid": "0000947871-26-000881:3",
+   "queued_at": "2026-09-23T23:04:20.353148+00:00",
+   "text": "\ud83d\udfe2 BUY ETRA $5M - Gordon (Director) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000881/0000947871-26-000881-index.htm"
+  },
+  {
+   "uid": "0000947871-26-000880:3",
+   "queued_at": "2026-09-23T23:04:20.353148+00:00",
+   "text": "\ud83d\udfe2 BUY ETRA $5M - Orbimed Advisors Llc (Director) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000880/0000947871-26-000880-index.htm"
+  },
+  {
+   "uid": "0001183254-26-000006:1",
+   "queued_at": "2026-09-23T23:04:20.353148+00:00",
+   "text": "\ud83d\udfe2 BUY KBDC $1.2M - Robo (Director) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1747172/000118325426000006/0001183254-26-000006-index.htm"
   }
  ]
 }
