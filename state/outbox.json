@@ -2715,6 +2715,34 @@
    "text": "\ud83d\udfe2 BUY ADC $68K - Erlich (Officer) - 9/21",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1747962/000174796226000007/0001747962-26-000007-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007084",
+   "queued_at": "2026-09-23T17:13:18.381566+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $17M - Dageville (Officer) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1821737/000195917326007084/0001959173-26-007084-index.htm"
+  },
+  {
+   "uid": "0001949846-26-000594",
+   "queued_at": "2026-09-23T17:13:18.381566+00:00",
+   "text": "\ud83d\udd34 SELL NTRA $8.2M - Sheena (Director) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1646649/000194984626000594/0001949846-26-000594-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007085",
+   "queued_at": "2026-09-23T17:13:18.381566+00:00",
+   "text": "\ud83d\udd34 SELL CLS $7.2M - Cooper (Officer) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1972963/000195917326007085/0001959173-26-007085-index.htm"
+  },
+  {
+   "uid": "0000040417-26-000050:0",
+   "queued_at": "2026-09-23T17:13:18.381566+00:00",
+   "text": "\ud83d\udfe2 BUY GAM $46K - Grassi (Pres) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1313312/000004041726000050/0000040417-26-000050-index.htm"
   }
  ]
 }
