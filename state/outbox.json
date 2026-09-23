@@ -2694,6 +2694,27 @@
    "text": "\ud83d\udfe2 BUY NONE $100K - Dreyfuss (CFO) - 9/18",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2016208/000114036126037356/0001140361-26-037356-index.htm"
+  },
+  {
+   "uid": "0001871006-26-000008:1",
+   "queued_at": "2026-09-23T12:15:38.240475+00:00",
+   "text": "\ud83d\udd34 SELL HOOD $31.2M - Tenev (CEO) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1871006/000187100626000008/0001871006-26-000008-index.htm"
+  },
+  {
+   "uid": "0001193125-26-398439:0",
+   "queued_at": "2026-09-23T12:15:38.240475+00:00",
+   "text": "\ud83d\udd34 SELL BEKE $18.1M - Shan (Director) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113852/000119312526398439/0001193125-26-398439-index.htm"
+  },
+  {
+   "uid": "0001747962-26-000007:0",
+   "queued_at": "2026-09-23T12:15:38.240475+00:00",
+   "text": "\ud83d\udfe2 BUY ADC $68K - Erlich (Officer) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1747962/000174796226000007/0001747962-26-000007-index.htm"
   }
  ]
 }
