@@ -2960,6 +2960,27 @@
    "text": "\ud83d\udd34 SELL QFNHF $5.3M - Andrew (Director) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
    "source": "form144",
    "url": "https://www.sec.gov/Archives/edgar/data/1741530/000110465926110102/0001104659-26-110102-index.htm"
+  },
+  {
+   "uid": "0001976408-26-000865:0",
+   "queued_at": "2026-09-24T17:18:30.687301+00:00",
+   "text": "\ud83d\udfe2 BUY NYAX $4.6M - Nechmad (Chair) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000865/0001976408-26-000865-index.htm"
+  },
+  {
+   "uid": "0000040417-26-000052:0",
+   "queued_at": "2026-09-24T17:18:30.687301+00:00",
+   "text": "\ud83d\udfe2 BUY GAM $228K - Davidson - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1215920/000004041726000052/0000040417-26-000052-index.htm"
+  },
+  {
+   "uid": "0000040417-26-000051:0",
+   "queued_at": "2026-09-24T17:18:30.687301+00:00",
+   "text": "\ud83d\udfe2 BUY GAM $114K - Stark (VP) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1315319/000004041726000051/0000040417-26-000051-index.htm"
   }
  ]
 }
