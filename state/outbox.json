@@ -2904,6 +2904,55 @@
    "text": "\ud83d\udfe2 BUY KBDC $1.2M - Robo (Director) - 9/23",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1747172/000118325426000006/0001183254-26-000006-index.htm"
+  },
+  {
+   "uid": "0001973727-26-000059",
+   "queued_at": "2026-09-24T01:24:22.600280+00:00",
+   "text": "\ud83d\udd34 SELL AVGO $225M - Gt Llc (Affiliate) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2059824/000197372726000059/0001973727-26-000059-index.htm"
+  },
+  {
+   "uid": "0001213900-26-102740",
+   "queued_at": "2026-09-24T01:24:22.600280+00:00",
+   "text": "\ud83d\udd34 SELL TRMD $173.2M - Ocm Njord Holdings (10%) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2002087/000121390026102740/0001213900-26-102740-index.htm"
+  },
+  {
+   "uid": "0001973727-26-000058",
+   "queued_at": "2026-09-24T01:24:22.600280+00:00",
+   "text": "\ud83d\udd34 SELL AVGO $25.8M - Samueli Foundation (Affiliate) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1996005/000197372726000058/0001973727-26-000058-index.htm"
+  },
+  {
+   "uid": "0001973727-26-000057",
+   "queued_at": "2026-09-24T01:24:22.600280+00:00",
+   "text": "\ud83d\udd34 SELL AVGO $25M - Investments Lp (Chair) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000197372726000057/0001973727-26-000057-index.htm"
+  },
+  {
+   "uid": "0001009165-26-000009:0",
+   "queued_at": "2026-09-24T01:24:22.600280+00:00",
+   "text": "\ud83d\udfe2 BUY CV $5M - Harari Eliyahou Et (10% Owner) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1378325/000100916526000009/0001009165-26-000009-index.htm"
+  },
+  {
+   "uid": "0001009165-26-000009:1",
+   "queued_at": "2026-09-24T01:24:22.600280+00:00",
+   "text": "\ud83d\udfe2 BUY CV $5M - Harari Eliyahou Et (10% Owner) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1378325/000100916526000009/0001009165-26-000009-index.htm"
+  },
+  {
+   "uid": "0001193125-26-399896:0",
+   "queued_at": "2026-09-24T01:24:22.600280+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $1000K - Lewinsohn (Pres) - 9/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2067955/000119312526399896/0001193125-26-399896-index.htm"
   }
  ]
 }
