@@ -3051,6 +3051,69 @@
    "text": "\ud83d\udfe2 BUY DKS $1000K - Gupta (CFO) - 9/22",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1772409/000177240926000009/0001772409-26-000009-index.htm"
+  },
+  {
+   "uid": "0001921094-26-001050",
+   "queued_at": "2026-09-24T23:30:04.638482+00:00",
+   "text": "\ud83d\udd34 SELL META $21.4M - Zuckerberg (Officer) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1548760/000192109426001050/0001921094-26-001050-index.htm"
+  },
+  {
+   "uid": "0001628280-26-063478:1",
+   "queued_at": "2026-09-24T23:30:04.638482+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $17M - Dageville (Director) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1821737/000162828026063478/0001628280-26-063478-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009796",
+   "queued_at": "2026-09-24T23:30:04.638482+00:00",
+   "text": "\ud83d\udd34 SELL PANW $13.8M - Dipak (Officer) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1852540/000195004726009796/0001950047-26-009796-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009799",
+   "queued_at": "2026-09-24T23:30:04.638482+00:00",
+   "text": "\ud83d\udd34 SELL DUOL $6.8M - Luis Von Ahn (Director) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1829259/000195004726009799/0001950047-26-009799-index.htm"
+  },
+  {
+   "uid": "0001213900-26-103146:0",
+   "queued_at": "2026-09-24T23:30:04.638482+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $5M - Blackstone Holdings (10% Owner) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2049733/000121390026103146/0001213900-26-103146-index.htm"
+  },
+  {
+   "uid": "0001213900-26-103145:0",
+   "queued_at": "2026-09-24T23:30:04.638482+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $5M - Blackstone Private Multi (10% Owner) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2149592/000121390026103145/0001213900-26-103145-index.htm"
+  },
+  {
+   "uid": "0001104659-26-110505:0",
+   "queued_at": "2026-09-24T23:30:04.638482+00:00",
+   "text": "\ud83d\udfe2 BUY HHH $1.6M - Grandisson (Exec Chair) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1981792/000110465926110505/0001104659-26-110505-index.htm"
+  },
+  {
+   "uid": "0001213900-26-103146:1",
+   "queued_at": "2026-09-24T23:30:04.638482+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $17K - Blackstone Holdings (10% Owner) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2049733/000121390026103146/0001213900-26-103146-index.htm"
+  },
+  {
+   "uid": "0001213900-26-103145:1",
+   "queued_at": "2026-09-24T23:30:04.638482+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $17K - Blackstone Private Multi (10% Owner) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2149592/000121390026103145/0001213900-26-103145-index.htm"
   }
  ]
 }
