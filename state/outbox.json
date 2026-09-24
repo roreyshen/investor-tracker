@@ -2981,6 +2981,76 @@
    "text": "\ud83d\udfe2 BUY GAM $114K - Stark (VP) - 9/23",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1315319/000004041726000051/0000040417-26-000051-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007107",
+   "queued_at": "2026-09-24T20:40:53.813590+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $125.5M - Podbere (Officer) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000195917326007107/0001959173-26-007107-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009794",
+   "queued_at": "2026-09-24T20:40:53.813590+00:00",
+   "text": "\ud83d\udd34 SELL GTLB $103.7M - Sytse Sijbrandij Revocable (Director) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1886022/000195004726009794/0001950047-26-009794-index.htm"
+  },
+  {
+   "uid": "0001871006-26-000010:1",
+   "queued_at": "2026-09-24T20:40:53.813590+00:00",
+   "text": "\ud83d\udd34 SELL HOOD $30M - Tenev (CEO) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1871006/000187100626000010/0001871006-26-000010-index.htm"
+  },
+  {
+   "uid": "0001628280-26-063378:8",
+   "queued_at": "2026-09-24T20:40:53.813590+00:00",
+   "text": "\ud83d\udd34 SELL SPCX $23.4M - Shotwell (Pres) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1768956/000162828026063378/0001628280-26-063378-index.htm"
+  },
+  {
+   "uid": "0001628280-26-063378:7",
+   "queued_at": "2026-09-24T20:40:53.813590+00:00",
+   "text": "\ud83d\udd34 SELL SPCX $22.3M - Shotwell (Pres) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1768956/000162828026063378/0001628280-26-063378-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009795",
+   "queued_at": "2026-09-24T20:40:53.813590+00:00",
+   "text": "\ud83d\udd34 SELL P $11M - Colgrove Fam Charitable (Director) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1651902/000195004726009795/0001950047-26-009795-index.htm"
+  },
+  {
+   "uid": "0001193125-26-401049:0",
+   "queued_at": "2026-09-24T20:40:53.813590+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $10.2M - Nippon Life Insurance (10% Owner) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526401049/0001193125-26-401049-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009789",
+   "queued_at": "2026-09-24T20:40:53.813590+00:00",
+   "text": "\ud83d\udd34 SELL NTAP $7.4M - George (Officer) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1586813/000195004726009789/0001950047-26-009789-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009793",
+   "queued_at": "2026-09-24T20:40:53.813590+00:00",
+   "text": "\ud83d\udd34 SELL P $5.3M - Ajay (Officer) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1897944/000195004726009793/0001950047-26-009793-index.htm"
+  },
+  {
+   "uid": "0001772409-26-000009:0",
+   "queued_at": "2026-09-24T20:40:53.813590+00:00",
+   "text": "\ud83d\udfe2 BUY DKS $1000K - Gupta (CFO) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1772409/000177240926000009/0001772409-26-000009-index.htm"
   }
  ]
 }
