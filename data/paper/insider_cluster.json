@@ -127,7 +127,13 @@
    "why": "da Cunha Paulo Roberto Simoes (Director)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-09-25",
+   "ticker": "RGCO",
+   "why": "Nester Paul W (President & CEO)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
