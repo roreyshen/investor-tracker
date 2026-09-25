@@ -3408,6 +3408,20 @@
    "text": "\ud83d\udfe2 BUY NONE $5M - Gamson (Director) - 7/21",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2119505/000119312526402861/0001193125-26-402861-index.htm"
+  },
+  {
+   "uid": "0001969223-26-001041",
+   "queued_at": "2026-09-25T23:59:18.062285+00:00",
+   "text": "\ud83d\udd34 SELL CACC $7.8M - Jill Foss Watson (Member of) - 9/25 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2137517/000196922326001041/0001969223-26-001041-index.htm"
+  },
+  {
+   "uid": "0002035244-26-000009:0",
+   "queued_at": "2026-09-25T23:59:18.062285+00:00",
+   "text": "\ud83d\udfe2 BUY CX $6.9M - Zambrano (Director) - 9/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2035244/000203524426000009/0002035244-26-000009-index.htm"
   }
  ]
 }
