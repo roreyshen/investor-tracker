@@ -1,34 +1,6 @@
 {
  "pending": [
   {
-   "uid": "20035444:0",
-   "queued_at": "2026-09-14T15:16:56.824060+00:00",
-   "text": "\ud83d\udd34 SELL GOOGL $250K-500K - Rose (Rep. TN06) - traded 6/3 (466d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035444.pdf"
-  },
-  {
-   "uid": "20035445:0",
-   "queued_at": "2026-09-14T15:16:56.824060+00:00",
-   "text": "\ud83d\udd34 SELL 2000140446 American Fu $500K-1M - Rose (Rep. TN06) - traded 6/3 (466d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035445.pdf"
-  },
-  {
-   "uid": "0001959173-26-006926",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udd34 SELL GOLD $5.9M - Benjamin (Director) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1591588/000195917326006926/0001959173-26-006926-index.htm"
-  },
-  {
-   "uid": "0001959173-26-006932",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udd34 SELL MRNA $5.8M - Hoge (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1760669/000195917326006932/0001959173-26-006932-index.htm"
-  },
-  {
    "uid": "f3dc67af-1a91-4d58-a98f-f5adec91ecd7:0",
    "queued_at": "2026-09-14T18:40:43.489096+00:00",
    "text": "\ud83d\udfe2 BUY Contour Venture Partne $250K-500K - Hagerty (Senator) - traded 1/23 (31d ago)",
@@ -3422,6 +3394,111 @@
    "text": "\ud83d\udfe2 BUY CX $6.9M - Zambrano (Director) - 9/25",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2035244/000203524426000009/0002035244-26-000009-index.htm"
+  },
+  {
+   "uid": "0001193125-26-403089:0",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $43.5M - Berkshire Hathaway Inc (10% Owner) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
+  },
+  {
+   "uid": "0001193125-26-403089:1",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $32.2M - Berkshire Hathaway Inc (10% Owner) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
+  },
+  {
+   "uid": "0001778610-26-000024:2",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $30M - Podbere (CFO) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
+  },
+  {
+   "uid": "0001193125-26-403089:3",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $25.4M - Berkshire Hathaway Inc (10% Owner) - 9/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
+  },
+  {
+   "uid": "0001193125-26-403089:2",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $19.7M - Berkshire Hathaway Inc (10% Owner) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
+  },
+  {
+   "uid": "0001778610-26-000024:0",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $19.2M - Podbere (CFO) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
+  },
+  {
+   "uid": "0001778610-26-000024:3",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $18.1M - Podbere (CFO) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
+  },
+  {
+   "uid": "0001778610-26-000024:5",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $16.3M - Podbere (CFO) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
+  },
+  {
+   "uid": "0001778610-26-000024:4",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $16.3M - Podbere (CFO) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
+  },
+  {
+   "uid": "0001778610-26-000024:1",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $16.2M - Podbere (CFO) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
+  },
+  {
+   "uid": "0001193125-26-403089:4",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $14M - Berkshire Hathaway Inc (10% Owner) - 9/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
+  },
+  {
+   "uid": "0001193125-26-403089:6",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $748K - Berkshire Hathaway Inc (10% Owner) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
+  },
+  {
+   "uid": "0001193125-26-403089:8",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $558K - Berkshire Hathaway Inc (10% Owner) - 9/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
+  },
+  {
+   "uid": "0001193125-26-403089:7",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $238K - Berkshire Hathaway Inc (10% Owner) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
+  },
+  {
+   "uid": "0001193125-26-403089:5",
+   "queued_at": "2026-09-26T04:26:08.165156+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $101K - Berkshire Hathaway Inc (10% Owner) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
   }
  ]
 }
