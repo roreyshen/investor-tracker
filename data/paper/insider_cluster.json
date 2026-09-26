@@ -1,5 +1,5 @@
 {
- "cash": 10120.730000000014,
+ "cash": 125.55000000001382,
  "closed": [],
  "marks": [
   {
@@ -51,6 +51,11 @@
    "date": "2026-09-25",
    "equity": 100373.91,
    "spy": 767.81
+  },
+  {
+   "date": "2026-09-26",
+   "equity": 99367.37,
+   "spy": 767.18
   }
  ],
  "open": [
@@ -125,15 +130,17 @@
    "shares": 2915,
    "ticker": "BBD",
    "why": "da Cunha Paulo Roberto Simoes (Director)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-09-25",
+   "cost": 9995.18,
+   "entry": 20.78,
+   "opened": "2026-09-26",
+   "shares": 481,
    "ticker": "RGCO",
    "why": "Nester Paul W (President & CEO)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
