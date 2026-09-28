@@ -1,48 +1,6 @@
 {
  "pending": [
   {
-   "uid": "83722654-25b1-499e-8ad5-4a1349d993a6:0",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udd34 SELL LOW $50K-100K - Hickenlooper (Senator) - traded 1/14 (23d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/83722654-25b1-499e-8ad5-4a1349d993a6/"
-  },
-  {
-   "uid": "83722654-25b1-499e-8ad5-4a1349d993a6:1",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udd34 SELL TJX $50K-100K - Hickenlooper (Senator) - traded 1/14 (23d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/83722654-25b1-499e-8ad5-4a1349d993a6/"
-  },
-  {
-   "uid": "83722654-25b1-499e-8ad5-4a1349d993a6:2",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY ETN $50K-100K - Hickenlooper (Senator) - traded 1/14 (23d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/83722654-25b1-499e-8ad5-4a1349d993a6/"
-  },
-  {
-   "uid": "83722654-25b1-499e-8ad5-4a1349d993a6:3",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY UBER $100K-250K - Hickenlooper (Senator) - traded 1/14 (23d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/83722654-25b1-499e-8ad5-4a1349d993a6/"
-  },
-  {
-   "uid": "98b3317b-2632-48c3-b636-d5555c4680ca:0",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udd34 SELL KENTUCKY ST PPTY & BLD $50K-100K - Mullin (Senator) - traded 1/20 (15d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/98b3317b-2632-48c3-b636-d5555c4680ca/"
-  },
-  {
-   "uid": "98b3317b-2632-48c3-b636-d5555c4680ca:10",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udd34 SELL IPS MULTI-SCH BLDG COR $50K-100K - Mullin (Senator) - traded 1/20 (15d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/98b3317b-2632-48c3-b636-d5555c4680ca/"
-  },
-  {
    "uid": "98b3317b-2632-48c3-b636-d5555c4680ca:15",
    "queued_at": "2026-09-14T18:40:43.489096+00:00",
    "text": "\ud83d\udd34 SELL CLEAR CREEK TEX INDPT  $50K-100K - Mullin (Senator) - traded 1/20 (15d ago)",
@@ -3499,6 +3457,48 @@
    "text": "\ud83d\udd34 SELL MH Built to Last LLC C $100K-250K - Blumenthal (Senator) - traded 8/19 (40d ago)",
    "source": "senate",
    "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "0001950047-26-009850",
+   "queued_at": "2026-09-28T21:53:11.593703+00:00",
+   "text": "\ud83d\udd34 SELL MPWR $40.3M - Michael (Officer) - 9/28 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1308676/000195004726009850/0001950047-26-009850-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009840",
+   "queued_at": "2026-09-28T21:53:11.593703+00:00",
+   "text": "\ud83d\udd34 SELL MDGL $25.8M - Paul (Director) - 9/28 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1236927/000195004726009840/0001950047-26-009840-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009844",
+   "queued_at": "2026-09-28T21:53:11.593703+00:00",
+   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 9/28 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726009844/0001950047-26-009844-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009841",
+   "queued_at": "2026-09-28T21:53:11.593703+00:00",
+   "text": "\ud83d\udd34 SELL KO $16.2M - Jennifer (Officer) - 9/28 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1703557/000195004726009841/0001950047-26-009841-index.htm"
+  },
+  {
+   "uid": "0001366074-26-000004:0",
+   "queued_at": "2026-09-28T21:53:11.593703+00:00",
+   "text": "\ud83d\udfe2 BUY INBX $329K - Lappe (CEO) - 9/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2007919/000136607426000004/0001366074-26-000004-index.htm"
+  },
+  {
+   "uid": "0001366074-26-000004:3",
+   "queued_at": "2026-09-28T21:53:11.593703+00:00",
+   "text": "\ud83d\udfe2 BUY INBX $305K - Lappe (CEO) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2007919/000136607426000004/0001366074-26-000004-index.htm"
   }
  ]
 }
