@@ -1,111 +1,6 @@
 {
  "pending": [
   {
-   "uid": "f3dc67af-1a91-4d58-a98f-f5adec91ecd7:0",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY Contour Venture Partne $250K-500K - Hagerty (Senator) - traded 1/23 (31d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f3dc67af-1a91-4d58-a98f-f5adec91ecd7/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:0",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY MARYLAND ST TRANSN AUT $250K-500K - Mccormick (Senator) - traded 1/30 (23d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:1",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY PENNSYLVANIA ST TPK CO $250K-500K - Mccormick (Senator) - traded 1/30 (23d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:2",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY MARYLAND ST TRANSN AUT $100K-250K - Mccormick (Senator) - traded 1/30 (23d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:3",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY PENNSYLVANIA INFRASTRU $100K-250K - Mccormick (Senator) - traded 1/29 (24d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:4",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY WALLENPAUPACK PA AREA  $100K-250K - Mccormick (Senator) - traded 1/28 (25d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:5",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY PENNSBURY PA SCH DIST  $100K-250K - Mccormick (Senator) - traded 1/28 (25d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:6",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY PENNSYLVANIA ST TPK CO $100K-250K - Mccormick (Senator) - traded 1/27 (26d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:7",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY PENNSYLVANIA ST GO Rat $250K-500K - Mccormick (Senator) - traded 1/26 (27d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:8",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY NEW GLARUS WIS SCH DIS $250K-500K - Mccormick (Senator) - traded 1/26 (27d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:9",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY KING CNTY WASH DB Rate $250K-500K - Mccormick (Senator) - traded 1/26 (27d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:10",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY DELAWARE VALLEY PA REG $100K-250K - Mccormick (Senator) - traded 1/26 (27d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:11",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udd34 SELL GS $1M-5M - Mccormick (Senator) - traded 1/23 (30d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "f977c281-48c1-4de0-af95-6765127f4720:12",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY MARYLAND ST GO Rate/Co $250K-500K - Mccormick (Senator) - traded 1/23 (30d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/"
-  },
-  {
-   "uid": "ab93dc59-4217-40a6-bee8-ba19deae027a:0",
-   "queued_at": "2026-09-14T18:40:43.489096+00:00",
-   "text": "\ud83d\udfe2 BUY ME St Health & Higher  $50K-100K - Collins (Senator) - traded 1/6 (38d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/ab93dc59-4217-40a6-bee8-ba19deae027a/"
-  },
-  {
    "uid": "83722654-25b1-499e-8ad5-4a1349d993a6:0",
    "queued_at": "2026-09-14T18:40:43.489096+00:00",
    "text": "\ud83d\udd34 SELL LOW $50K-100K - Hickenlooper (Senator) - traded 1/14 (23d ago)",
@@ -3499,6 +3394,111 @@
    "text": "\ud83d\udfe2 BUY LEN $101K - Berkshire Hathaway Inc (10% Owner) - 9/23",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
+  },
+  {
+   "uid": "0001193125-26-403355:0",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY DMRA $253K - Jarrett (Pres) - 9/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1800315/000119312526403355/0001193125-26-403355-index.htm"
+  },
+  {
+   "uid": "0001493152-26-044458:0",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY ANIX $19K - Kumar (CEO) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1191905/000149315226044458/0001493152-26-044458-index.htm"
+  },
+  {
+   "uid": "0001493152-26-044457:0",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY ANIX $14K - Baskies (Director) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1683567/000149315226044457/0001493152-26-044457-index.htm"
+  },
+  {
+   "uid": "0001213900-26-103844:0",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $500 - Staloch (Treasurer) - 9/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1867181/000121390026103844/0001213900-26-103844-index.htm"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:2",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY Not Fade Away LLC Comp $50K-100K - Blumenthal (Senator) - traded 9/11 (17d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:3",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY Not Fade Away LLC Comp $50K-100K - Blumenthal (Senator) - traded 9/11 (17d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:6",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY Not Fade Away LLC Comp $250K-500K - Blumenthal (Senator) - traded 9/11 (17d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:7",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY Not Fade Away LLC Comp $250K-500K - Blumenthal (Senator) - traded 9/11 (17d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:9",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY Days Between LLC Compa $250K-500K - Blumenthal (Senator) - traded 8/27 (32d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:11",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY Days Between LLC Compa $100K-250K - Blumenthal (Senator) - traded 8/27 (32d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:21",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udfe2 BUY MH Built to Last LLC C $50K-100K - Blumenthal (Senator) - traded 8/24 (35d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:27",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udd34 SELL MH Built to Last LLC C $50K-100K - Blumenthal (Senator) - traded 8/19 (40d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:28",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udd34 SELL MH Built to Last LLC C $50K-100K - Blumenthal (Senator) - traded 8/19 (40d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:31",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udd34 SELL MH Built to Last LLC C $250K-500K - Blumenthal (Senator) - traded 8/19 (40d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
+  },
+  {
+   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:32",
+   "queued_at": "2026-09-28T16:03:25.885412+00:00",
+   "text": "\ud83d\udd34 SELL MH Built to Last LLC C $100K-250K - Blumenthal (Senator) - traded 8/19 (40d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
   }
  ]
 }
