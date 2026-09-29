@@ -1,13 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001104659-26-107592:1",
-   "queued_at": "2026-09-15T00:38:51.337824+00:00",
-   "text": "\ud83d\udfe2 BUY RSG $21.8M - Cascade (10% Owner) - 9/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1060391/000110465926107592/0001104659-26-107592-index.htm"
-  },
-  {
    "uid": "0001193125-26-390998",
    "queued_at": "2026-09-15T00:38:51.337824+00:00",
    "text": "\ud83d\udd34 SELL DELL $15.4M - Silver Lake Partners (See Remarks) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3492,13 @@
    "text": "\ud83d\udd34 SELL BEKE $84.6M - Peng (CEO) - 9/25",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1890584/000119312526405896/0001193125-26-405896-index.htm"
+  },
+  {
+   "uid": "0001949846-26-000599",
+   "queued_at": "2026-09-29T19:35:54.792886+00:00",
+   "text": "\ud83d\udd34 SELL MATX $6.3M - Cox (Officer) - 9/29 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1206911/000194984626000599/0001949846-26-000599-index.htm"
   }
  ]
 }
