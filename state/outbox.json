@@ -1,13 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001104659-26-107592:0",
-   "queued_at": "2026-09-15T00:38:51.337824+00:00",
-   "text": "\ud83d\udfe2 BUY RSG $24M - Cascade (10% Owner) - 9/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1060391/000110465926107592/0001104659-26-107592-index.htm"
-  },
-  {
    "uid": "0001104659-26-107592:1",
    "queued_at": "2026-09-15T00:38:51.337824+00:00",
    "text": "\ud83d\udfe2 BUY RSG $21.8M - Cascade (10% Owner) - 9/10",
@@ -3499,6 +3492,13 @@
    "text": "\ud83d\udd34 SELL Greenbrier Hotel Corpo Over $50,000,000 - Justice (Senator) - traded 8/14 (45d ago)",
    "source": "senate",
    "url": "https://efdsearch.senate.gov/search/view/ptr/0a93a20c-2a0f-4979-80ca-cc2f61297527/"
+  },
+  {
+   "uid": "0001193125-26-405896:0",
+   "queued_at": "2026-09-29T14:22:22.103526+00:00",
+   "text": "\ud83d\udd34 SELL BEKE $84.6M - Peng (CEO) - 9/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1890584/000119312526405896/0001193125-26-405896-index.htm"
   }
  ]
 }
