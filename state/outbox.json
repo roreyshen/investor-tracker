@@ -1,503 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-392244",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL DELL $14.4M - Silver Lake Partners (See Remarks) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1737659/000119312526392244/0001193125-26-392244-index.htm"
-  },
-  {
-   "uid": "0001921094-26-001023",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL META $13.5M - Cox (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1607459/000192109426001023/0001921094-26-001023-index.htm"
-  },
-  {
-   "uid": "0001988271-26-000012",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL STX $12.5M - Morris (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1988271/000198827126000012/0001988271-26-000012-index.htm"
-  },
-  {
-   "uid": "0001493152-26-042736",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL SGLA $11.4M - Kuk (CEO) - 9/18 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1878651/000149315226042736/0001493152-26-042736-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009509",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL CRWV $8.9M - Omnadora Capital Llc (Director) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009509/0001950047-26-009509-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009528",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL TDG $8.9M - Joel (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1656109/000195004726009528/0001950047-26-009528-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009483",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL AMD $8.7M - Forrest (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1622864/000195004726009483/0001950047-26-009483-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009510",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL TVTX $6.7M - Peter (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1789617/000195004726009510/0001950047-26-009510-index.htm"
-  },
-  {
-   "uid": "0002014361-26-000036",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL PACS $6.6M - Hancock (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2014361/000201436126000036/0002014361-26-000036-index.htm"
-  },
-  {
-   "uid": "0002014361-26-000033",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL PACS $6.4M - Hancock (Officer) - 9/14 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2014361/000201436126000033/0002014361-26-000033-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009503",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL TVTX $6.3M - William (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1698262/000195004726009503/0001950047-26-009503-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009513",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL TVTX $6.3M - Eric (Director) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1763494/000195004726009513/0001950047-26-009513-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009468",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL SNPS $5.5M - Sassine (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1822289/000195004726009468/0001950047-26-009468-index.htm"
-  },
-  {
-   "uid": "0001104659-26-108023:0",
-   "queued_at": "2026-09-16T05:06:37.930778+00:00",
-   "text": "\ud83d\udd34 SELL FTK $60M - Profrac Gdm Llc (10% Owner) - 9/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2067153/000110465926108023/0001104659-26-108023-index.htm"
-  },
-  {
-   "uid": "0001104659-26-108024:0",
-   "queued_at": "2026-09-16T05:06:37.930778+00:00",
-   "text": "\ud83d\udfe2 BUY FTK $34.3M - Wilks (Director) - 9/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1696102/000110465926108024/0001104659-26-108024-index.htm"
-  },
-  {
-   "uid": "0001213900-26-100269:1",
-   "queued_at": "2026-09-16T05:06:37.930778+00:00",
-   "text": "\ud83d\udfe2 BUY NTHI $115K - Heshmatpour (Pres) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1979414/000121390026100269/0001213900-26-100269-index.htm"
-  },
-  {
-   "uid": "0001213900-26-100269:0",
-   "queued_at": "2026-09-16T05:06:37.930778+00:00",
-   "text": "\ud83d\udfe2 BUY NTHI $59K - Heshmatpour (Pres) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1979414/000121390026100269/0001213900-26-100269-index.htm"
-  },
-  {
-   "uid": "0001213900-26-100266:0",
-   "queued_at": "2026-09-16T05:06:37.930778+00:00",
-   "text": "\ud83d\udfe2 BUY NTHI $20K - Chen (CEO) - 9/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1998682/000121390026100266/0001213900-26-100266-index.htm"
-  },
-  {
-   "uid": "0001213900-26-100266:1",
-   "queued_at": "2026-09-16T05:06:37.930778+00:00",
-   "text": "\ud83d\udfe2 BUY NTHI $20K - Chen (CEO) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1998682/000121390026100266/0001213900-26-100266-index.htm"
-  },
-  {
-   "uid": "0001213900-26-100265:0",
-   "queued_at": "2026-09-16T05:06:37.930778+00:00",
-   "text": "\ud83d\udfe2 BUY NTHI $1K - Garnett (CFO) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1997371/000121390026100265/0001213900-26-100265-index.htm"
-  },
-  {
-   "uid": "0001105838-26-000008",
-   "queued_at": "2026-09-16T14:45:52.194053+00:00",
-   "text": "\ud83d\udd34 SELL TDGMW $47.6M - Robotti (Director) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1105838/000110583826000008/0001105838-26-000008-index.htm"
-  },
-  {
-   "uid": "0001140361-26-036761",
-   "queued_at": "2026-09-16T18:30:15.085080+00:00",
-   "text": "\ud83d\udd34 SELL FANG $1.9B - Sgf Fang Holdings (10%) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2080063/000114036126036761/0001140361-26-036761-index.htm"
-  },
-  {
-   "uid": "0000903939-26-000030:0",
-   "queued_at": "2026-09-16T18:30:15.085080+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $8M - Bankers Life Casualty (10% Owner) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2066579/000090393926000030/0000903939-26-000030-index.htm"
-  },
-  {
-   "uid": "0000314984-26-000042:1",
-   "queued_at": "2026-09-16T18:30:15.085080+00:00",
-   "text": "\ud83d\udfe2 BUY ARDC $6M - Thrivent Financial For (10% Owner) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1515324/000031498426000042/0000314984-26-000042-index.htm"
-  },
-  {
-   "uid": "0001193125-26-392735:0",
-   "queued_at": "2026-09-16T18:30:15.085080+00:00",
-   "text": "\ud83d\udfe2 BUY TLAC $2M - Three Lions Sponsor (Director) - 9/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2153072/000119312526392735/0001193125-26-392735-index.htm"
-  },
-  {
-   "uid": "0001969701-26-000006:0",
-   "queued_at": "2026-09-16T18:30:15.085080+00:00",
-   "text": "\ud83d\udfe2 BUY SBLK $424K - Spyrou (co CFO) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1969701/000196970126000006/0001969701-26-000006-index.htm"
-  },
-  {
-   "uid": "0001333848-26-000003:0",
-   "queued_at": "2026-09-16T18:30:15.085080+00:00",
-   "text": "\ud83d\udfe2 BUY SBLK $170K - Erhardt (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1386716/000133384826000003/0001333848-26-000003-index.htm"
-  },
-  {
-   "uid": "0002011929-26-000010:0",
-   "queued_at": "2026-09-16T18:30:15.085080+00:00",
-   "text": "\ud83d\udfe2 BUY SBLK $57K - Karellis (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2011929/000201192926000010/0002011929-26-000010-index.htm"
-  },
-  {
-   "uid": "0001973727-26-000056",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL HSY $125.2M - Hershey Trust Co (10%) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/938543/000197372726000056/0001973727-26-000056-index.htm"
-  },
-  {
-   "uid": "0001137789-26-000252:1",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL STX $75.6M - Mosley (CEO) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1388390/000113778926000252/0001137789-26-000252-index.htm"
-  },
-  {
-   "uid": "0001137789-26-000254:1",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL STX $38.6M - Romano (EVP & CFO) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1764650/000113778926000254/0001137789-26-000254-index.htm"
-  },
-  {
-   "uid": "0001969223-26-001025",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL ADBE $31.4M - Narayen Family Trust (Officer) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1224154/000196922326001025/0001969223-26-001025-index.htm"
-  },
-  {
-   "uid": "0001967940-26-000052",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL BBY $28M - Schulze (10%) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1006394/000196794026000052/0001967940-26-000052-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009594",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL DAVEW $20.3M - Yadin (Affiliate) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1921268/000195004726009594/0001950047-26-009594-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009566",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL TVTX $12.2M - Eric (Director) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1763494/000195004726009566/0001950047-26-009566-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009576",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL TVTX $10.8M - Peter (Officer) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1789617/000195004726009576/0001950047-26-009576-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393133:0",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $10.3M - Nippon Life Insurance (10% Owner) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526393133/0001193125-26-393133-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009577",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL TVTX $7.1M - William (Officer) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1698262/000195004726009577/0001950047-26-009577-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009546",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL CHYM $5.3M - Crosslink Ventures Vii (Director) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2047214/000195004726009546/0001950047-26-009546-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009578",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udd34 SELL GRND $5.1M - George (Director) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1833678/000195004726009578/0001950047-26-009578-index.htm"
-  },
-  {
-   "uid": "0001183254-26-000005:1",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY KBDC $4.4M - Robo (Director) - 9/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1747172/000118325426000005/0001183254-26-000005-index.htm"
-  },
-  {
-   "uid": "0001221359-26-000057:0",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY AAT $1.1M - Rady (Exec Chair) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1500217/000122135926000057/0001221359-26-000057-index.htm"
-  },
-  {
-   "uid": "0001628280-26-062285:1",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY EQPT $407K - Schlacks (Founder & CEO) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2091677/000162828026062285/0001628280-26-062285-index.htm"
-  },
-  {
-   "uid": "0001712189-26-000059:0",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY TH $250K - Archer (Pres) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1763054/000171218926000059/0001712189-26-000059-index.htm"
-  },
-  {
-   "uid": "0001104659-26-108263:0",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $39K - Ladd (Pres) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1901037/000110465926108263/0001104659-26-108263-index.htm"
-  },
-  {
-   "uid": "0001104659-26-108261:0",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $32K - Angelo - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1901037/000110465926108261/0001104659-26-108261-index.htm"
-  },
-  {
-   "uid": "0001746448-26-000009:0",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY GABC $20K - Bawel (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1746448/000174644826000009/0001746448-26-000009-index.htm"
-  },
-  {
-   "uid": "0002081604-26-000011:0",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY GABC $8K - Seger (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2081604/000208160426000011/0002081604-26-000011-index.htm"
-  },
-  {
-   "uid": "0001791771-26-000006:0",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY GABC $6K - Ryan (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1791771/000179177126000006/0001791771-26-000006-index.htm"
-  },
-  {
-   "uid": "0001104659-26-108262:0",
-   "queued_at": "2026-09-16T21:39:26.463630+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $6K - Huskinson (CFO, CCO and) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1901037/000110465926108262/0001104659-26-108262-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393369",
-   "queued_at": "2026-09-16T23:53:20.496449+00:00",
-   "text": "\ud83d\udd34 SELL DELL $28M - Silver Lake Partners (See Remarks) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526393369/0001193125-26-393369-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393372",
-   "queued_at": "2026-09-16T23:53:20.496449+00:00",
-   "text": "\ud83d\udd34 SELL DELL $25.5M - Sl (See Remarks) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1767114/000119312526393372/0001193125-26-393372-index.htm"
-  },
-  {
-   "uid": "0001242648-26-000032:0",
-   "queued_at": "2026-09-16T23:53:20.496449+00:00",
-   "text": "\ud83d\udd34 SELL SNDK $21.9M - Goeckeler (Chair) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000032/0001242648-26-000032-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393350",
-   "queued_at": "2026-09-16T23:53:20.496449+00:00",
-   "text": "\ud83d\udd34 SELL DELL $14.7M - Silver Lake Partners (See Remarks) - 9/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1737659/000119312526393350/0001193125-26-393350-index.htm"
-  },
-  {
-   "uid": "0001628280-26-062330:0",
-   "queued_at": "2026-09-16T23:53:20.496449+00:00",
-   "text": "\ud83d\udd34 SELL FOX $10.3M - Murdoch (Executive) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026062330/0001628280-26-062330-index.htm"
-  },
-  {
-   "uid": "0001628280-26-062330:1",
-   "queued_at": "2026-09-16T23:53:20.496449+00:00",
-   "text": "\ud83d\udfe2 BUY FOX $10.3M - Murdoch (Executive) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026062330/0001628280-26-062330-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393444:0",
-   "queued_at": "2026-09-17T03:44:32.811594+00:00",
-   "text": "\ud83d\udd34 SELL CHYM $47.1M - Dst Global Advisors (10% Owner) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2088581/000119312526393444/0001193125-26-393444-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393439:0",
-   "queued_at": "2026-09-17T03:44:32.811594+00:00",
-   "text": "\ud83d\udd34 SELL CHYM $47.1M - Dst Global Advisors (10% Owner) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2072430/000119312526393439/0001193125-26-393439-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393444:2",
-   "queued_at": "2026-09-17T03:44:32.811594+00:00",
-   "text": "\ud83d\udd34 SELL CHYM $24.2M - Dst Global Advisors (10% Owner) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2088581/000119312526393444/0001193125-26-393444-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393439:2",
-   "queued_at": "2026-09-17T03:44:32.811594+00:00",
-   "text": "\ud83d\udd34 SELL CHYM $24.2M - Dst Global Advisors (10% Owner) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2072430/000119312526393439/0001193125-26-393439-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393444:8",
-   "queued_at": "2026-09-17T03:44:32.811594+00:00",
-   "text": "\ud83d\udd34 SELL CHYM $14.3M - Dst Global Advisors (10% Owner) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2088581/000119312526393444/0001193125-26-393444-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393439:8",
-   "queued_at": "2026-09-17T03:44:32.811594+00:00",
-   "text": "\ud83d\udd34 SELL CHYM $14.3M - Dst Global Advisors (10% Owner) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2072430/000119312526393439/0001193125-26-393439-index.htm"
-  },
-  {
-   "uid": "0001213900-26-100673:0",
-   "queued_at": "2026-09-17T03:44:32.811594+00:00",
-   "text": "\ud83d\udfe2 BUY MNR $2M - Ward (See Remarks) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1980088/000121390026100673/0001213900-26-100673-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393652:0",
-   "queued_at": "2026-09-17T14:10:58.314490+00:00",
-   "text": "\ud83d\udd34 SELL UMC $170.8M - Liu (CFO & SVP) - 9/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2120081/000119312526393652/0001193125-26-393652-index.htm"
-  },
-  {
-   "uid": "0001193125-26-393652:1",
-   "queued_at": "2026-09-17T14:10:58.314490+00:00",
-   "text": "\ud83d\udd34 SELL UMC $58M - Liu (CFO & SVP) - 9/17",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2120081/000119312526393652/0001193125-26-393652-index.htm"
-  },
-  {
-   "uid": "0001628280-26-062396:0",
-   "queued_at": "2026-09-17T14:10:58.314490+00:00",
-   "text": "\ud83d\udfe2 BUY BORR $4.3M - Troim (Director) - 9/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026062396/0001628280-26-062396-index.htm"
-  },
-  {
-   "uid": "0002107497-26-000002:0",
-   "queued_at": "2026-09-17T14:10:58.314490+00:00",
-   "text": "\ud83d\udfe2 BUY SBLK $2.1M - Pappas - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2107497/000210749726000002/0002107497-26-000002-index.htm"
-  },
-  {
-   "uid": "0001528153-26-000015:0",
-   "queued_at": "2026-09-17T14:10:58.314490+00:00",
-   "text": "\ud83d\udfe2 BUY ADC $1.4M - Rakolta (Director) - 9/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1528153/000152815326000015/0001528153-26-000015-index.htm"
-  },
-  {
-   "uid": "0001348490-26-000006:0",
-   "queued_at": "2026-09-17T14:10:58.314490+00:00",
-   "text": "\ud83d\udfe2 BUY ADC $501K - Agree (Pres) - 9/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1348490/000134849026000006/0001348490-26-000006-index.htm"
-  },
-  {
-   "uid": "0001969292-26-000010:0",
-   "queued_at": "2026-09-17T14:10:58.314490+00:00",
-   "text": "\ud83d\udfe2 BUY SBLK $283K - Reskos (COO) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1969292/000196929226000010/0001969292-26-000010-index.htm"
-  },
-  {
-   "uid": "0002113812-26-000003:0",
-   "queued_at": "2026-09-17T18:15:49.316534+00:00",
-   "text": "\ud83d\udfe2 BUY SBLK $2.1M - Pappa (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2113812/000211381226000003/0002113812-26-000003-index.htm"
-  },
-  {
    "uid": "0002005037-26-000014:1",
    "queued_at": "2026-09-17T18:15:49.316534+00:00",
    "text": "\ud83d\udfe2 BUY SBLK $1.4M - Zagari (Director) - 9/15",
@@ -3499,6 +3002,503 @@
    "text": "\ud83d\udfe2 BUY NONE $11K - Boswell (CEO) - 9/28",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2011498/000119312526408818/0001193125-26-408818-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009890",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $64.2M - Michael (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000195004726009890/0001950047-26-009890-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409451:2",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $52.1M - Berkshire Hathaway Inc (10% Owner) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm"
+  },
+  {
+   "uid": "0001974078-26-000370",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udd34 SELL HNGE $47.7M - Insight Venture Partners (10%) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1710959/000197407826000370/0001974078-26-000370-index.htm"
+  },
+  {
+   "uid": "0001974078-26-000369",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udd34 SELL HNGE $39.1M - Insight Venture Partners (10%) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1710860/000197407826000369/0001974078-26-000369-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409206:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $25.1M - Nippon Life Insurance (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526409206/0001193125-26-409206-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409304:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $22.4M - Abu Dhabi Investment (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2042774/000119312526409304/0001193125-26-409304-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:17",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $20.2M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001213900-26-105358:7",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $18.1M - Hamilton Lane Advisors (10% Owner) - 7/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409127:15",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $17.7M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
+  },
+  {
+   "uid": "0001214659-26-012375:6",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udd34 SELL MPWR $14.8M - Hsing (CEO) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1308676/000121465926012375/0001214659-26-012375-index.htm"
+  },
+  {
+   "uid": "0001628280-26-064042:19",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udd34 SELL CBRS $13.4M - Mallick (COO) - 9/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2039572/000162828026064042/0001628280-26-064042-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409118:25",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $10.4M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409118/0001193125-26-409118-index.htm"
+  },
+  {
+   "uid": "0000947871-26-000911:10",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $10M - Gordon (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000094787126000911/0000947871-26-000911-index.htm"
+  },
+  {
+   "uid": "0000947871-26-000910:10",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $10M - Orbimed Advisors Llc (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1808744/000094787126000910/0000947871-26-000910-index.htm"
+  },
+  {
+   "uid": "0001213900-26-105358:3",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $9.6M - Hamilton Lane Advisors (10% Owner) - 4/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409127:11",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $9.6M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409118:27",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $9.3M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409118/0001193125-26-409118-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409127:9",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $8.7M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009883",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udd34 SELL PTGX $8.3M - Asif (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1921163/000195004726009883/0001950047-26-009883-index.htm"
+  },
+  {
+   "uid": "0001974078-26-000371",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udd34 SELL HNGE $7.6M - Insight Venture Partners (10%) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1710835/000197407826000371/0001974078-26-000371-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409127:13",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $7.4M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
+  },
+  {
+   "uid": "0001965301-26-000150",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udd34 SELL ROIV $7.3M - Venker (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1801917/000196530126000150/0001965301-26-000150-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409127:7",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $6.6M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009893",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udd34 SELL CRWV $5.8M - Brian (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2058067/000195004726009893/0001950047-26-009893-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:19",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $5.8M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:21",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $5.7M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409127:5",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $5.5M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
+  },
+  {
+   "uid": "0000947871-26-000911:4",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $5.1M - Gordon (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000094787126000911/0000947871-26-000911-index.htm"
+  },
+  {
+   "uid": "0000947871-26-000910:4",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $5.1M - Orbimed Advisors Llc (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1808744/000094787126000910/0000947871-26-000910-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:25",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $4.7M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001213900-26-105358:8",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $4M - Hamilton Lane Advisors (10% Owner) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:29",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $3.9M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:27",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $3.7M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409118:29",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $3.3M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409118/0001193125-26-409118-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:3",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $2.8M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:13",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $2.7M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001213900-26-105358:4",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $2.5M - Hamilton Lane Advisors (10% Owner) - 5/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:23",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $2.4M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409206:1",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $2.4M - Nippon Life Insurance (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526409206/0001193125-26-409206-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409118:17",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $2.3M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409118/0001193125-26-409118-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409127:19",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $1.7M - Baker Bros Advisors (Director) - 9/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409118:23",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $1.6M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409118/0001193125-26-409118-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409118:15",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $1.4M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409118/0001193125-26-409118-index.htm"
+  },
+  {
+   "uid": "0001045463-26-000018:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY PRTA $1.4M - Scully (10% Owner) - 9/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559053/000104546326000018/0001045463-26-000018-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409127:3",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $1.4M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409118:11",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $1.4M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409118/0001193125-26-409118-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:15",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $1.3M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409116:16",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $1.2M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409118:5",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $1.2M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409118/0001193125-26-409118-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409127:14",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KOD $1.1M - Baker Bros Advisors (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
+  },
+  {
+   "uid": "0000947871-26-000912:4",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $1M - Chimovits (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000094787126000912/0000947871-26-000912-index.htm"
+  },
+  {
+   "uid": "0000947871-26-000911:9",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $1M - Gordon (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000094787126000911/0000947871-26-000911-index.htm"
+  },
+  {
+   "uid": "0000947871-26-000910:9",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $1M - Orbimed Advisors Llc (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1808744/000094787126000910/0000947871-26-000910-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409451:1",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $1M - Berkshire Hathaway Inc (10% Owner) - 9/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004756:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1M - Di (Officer) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125956/000129281426004756/0001292814-26-004756-index.htm"
+  },
+  {
+   "uid": "0001213900-26-105358:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $1M - Hamilton Lane Advisors (10% Owner) - 4/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
+  },
+  {
+   "uid": "0001213900-26-105358:5",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $1000K - Hamilton Lane Advisors (10% Owner) - 5/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
+  },
+  {
+   "uid": "0001213900-26-105358:6",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $500K - Hamilton Lane Advisors (10% Owner) - 5/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409451:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $426K - Berkshire Hathaway Inc (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409451:4",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $321K - Berkshire Hathaway Inc (10% Owner) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm"
+  },
+  {
+   "uid": "0001213900-26-105358:1",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $250K - Hamilton Lane Advisors (10% Owner) - 4/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
+  },
+  {
+   "uid": "0001213900-26-105358:2",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $250K - Hamilton Lane Advisors (10% Owner) - 4/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
+  },
+  {
+   "uid": "0002102407-26-000005:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY PMPEX $150K - Woolley - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2102407/000210240726000005/0002102407-26-000005-index.htm"
+  },
+  {
+   "uid": "0001104659-26-112426:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KWY $25K - Horowitz (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1612424/000110465926112426/0001104659-26-112426-index.htm"
+  },
+  {
+   "uid": "0002102036-26-000003:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY PMPEX $14K - Samson - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2102036/000210203626000003/0002102036-26-000003-index.htm"
+  },
+  {
+   "uid": "0002102499-26-000002:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY PMPEX $10K - Hartt - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2102499/000210249926000002/0002102499-26-000002-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409451:3",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY LEN $8K - Berkshire Hathaway Inc (10% Owner) - 9/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm"
+  },
+  {
+   "uid": "0001104659-26-112426:1",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KWY $8K - Horowitz (Director) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1612424/000110465926112426/0001104659-26-112426-index.htm"
+  },
+  {
+   "uid": "0001628280-26-063980:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY DTIL $6K - Frankel (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1855726/000162828026063980/0001628280-26-063980-index.htm"
+  },
+  {
+   "uid": "0001072627-26-000056:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KWY $3K - Fitzgerald John Taylor (Pres) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1584349/000107262726000056/0001072627-26-000056-index.htm"
+  },
+  {
+   "uid": "0001072627-26-000055:0",
+   "queued_at": "2026-09-30T23:55:49.278167+00:00",
+   "text": "\ud83d\udfe2 BUY KWY $2K - Hansen (CFO & EVP) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1686017/000107262726000055/0001072627-26-000055-index.htm"
   }
  ]
 }

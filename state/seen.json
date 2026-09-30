@@ -308,663 +308,8 @@
   }
  },
  "house_etag": "\"a08be8b8db50dd1:0\"",
- "last_run": "2026-09-30T20:14:13.296413+00:00",
+ "last_run": "2026-09-30T23:55:49.280510+00:00",
  "recent_buys": [
-  {
-   "date": "2026-09-16",
-   "person": "RICCARDI CHRIS",
-   "ticker": "WVVI"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "de Oliveira Tulio Xavier",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Machado Silvana Rosa",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Paris Roberto de Jesus",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Hunsberger Mary Elizabeth",
-   "ticker": "CULP"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Mantarro Renata Geiser",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Fernandes Oswaldo Tadeu",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Tescarolo Marcos Valerio",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Bueno Julio Cesar",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Freiberger Fernando",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "CTT PHARMACEUTICAL HOLDINGS, INC.",
-   "ticker": "CTTH"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Ramalho Miranda Jose Augusto",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Richardson Gina A",
-   "ticker": "FMNB"
-  },
-  {
-   "date": "2026-09-17",
-   "person": "Ben-Avi David",
-   "ticker": "NYAX"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-   "ticker": "TPL"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Brossman Douglas S",
-   "ticker": "YORW"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Nagelberg Allison",
-   "ticker": "HKHC"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Nunes Regina Helena Jorge",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Marcilio Juliano Ribeiro",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Alvarez Rubens Aguiar",
-   "ticker": "BBD"
-  },
-  {
-   "date": "2026-09-15",
-   "person": "White Blaine Scott",
-   "ticker": "NWPP"
-  },
-  {
-   "date": "2026-09-17",
-   "person": "White Blaine Scott",
-   "ticker": "NWPP"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Cacioppo James",
-   "ticker": "JUSH"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "BULLS HERMAN E",
-   "ticker": "FLNC"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Collins Jonathan M.",
-   "ticker": "GCO"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Woodward Christopher C.",
-   "ticker": "VFF"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "von Heynitz Harald",
-   "ticker": "FLNC"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Cush C. David",
-   "ticker": "SAIC"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Saba Capital Management, L.P.",
-   "ticker": "MXF"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Booth Richard Whitaker",
-   "ticker": "NONE"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Klein Mark D",
-   "ticker": "NSLR"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "OBrien Thomas M",
-   "ticker": "BCBP"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Chaudhry Jawad",
-   "ticker": "BCBP"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Monte Mark David",
-   "ticker": "NONE"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Daly Joseph Patrick",
-   "ticker": "BUKS"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Daly Joseph Patrick",
-   "ticker": "BUKS"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Bridgford Richard Eugene",
-   "ticker": "BRID"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "TANNENBAUM LEONARD M",
-   "ticker": "AFCG"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "O'Dowd William IV",
-   "ticker": "DLPN"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Heilbron Jack Kendrick",
-   "ticker": "PPTINC"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "AJB Investment Fund II, LP (+3)",
-   "ticker": "JCTC"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "AJB Investment Fund II, LP (+3)",
-   "ticker": "JCTC"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "AJB Investment Fund II, LP (+3)",
-   "ticker": "JCTC"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Blacher Joshua",
-   "ticker": "BFRG"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Singh Vininder",
-   "ticker": "BFRG"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Labe James",
-   "ticker": "TPVG"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Hunt Bryan Cecil",
-   "ticker": "SEZL"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "AULT MILTON C III",
-   "ticker": "UUU"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "AULT MILTON C III",
-   "ticker": "GPUS"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Munro Lucy Lu",
-   "ticker": "NONE"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Goldthorpe Edward J.",
-   "ticker": "RWAY"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Goldthorpe Edward J.",
-   "ticker": "RWAY"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Dreyfuss Avraham",
-   "ticker": "NONE"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Endeavor Blockchain, LLC (+4)",
-   "ticker": "BGDE"
-  },
-  {
-   "date": "2026-09-17",
-   "person": "Kaplan Andrew Jay",
-   "ticker": "NTRP"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Erlich Craig",
-   "ticker": "ADC"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Dorsett Jason Christopher",
-   "ticker": "RTB"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-   "ticker": "TPL"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Batista de Lima Filho Pedro",
-   "ticker": "AXIA3"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Batista de Lima Filho Pedro",
-   "ticker": "AXIA3"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Batista de Lima Filho Pedro",
-   "ticker": "AXIA3"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Batista de Lima Filho Pedro",
-   "ticker": "AXIA3"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Batista de Lima Filho Pedro",
-   "ticker": "AXIA3"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Batista de Lima Filho Pedro",
-   "ticker": "AXIA3"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-   "ticker": "RCG"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Grassi Craig Anthony",
-   "ticker": "GAM"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Boulette David",
-   "ticker": "GOAI"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Floyd Justin Beck Hinton",
-   "ticker": "RCT"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Lux Steven F",
-   "ticker": "PAL"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Bitterman Robert J",
-   "ticker": "PHIO"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Mattson George N",
-   "ticker": "XOS"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "Juniper Investment Company, LLC (+2)",
-   "ticker": "OFIX"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Juniper Investment Company, LLC (+2)",
-   "ticker": "OFIX"
-  },
-  {
-   "date": "2026-08-12",
-   "person": "Allen, Richard W.",
-   "ticker": "AVGO"
-  },
-  {
-   "date": "2026-08-12",
-   "person": "Allen, Richard W.",
-   "ticker": "TSM"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Opaleye Management Inc.",
-   "ticker": "GRCE"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Opaleye Management Inc.",
-   "ticker": "GRCE"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "STEEL PARTNERS HOLDINGS L.P. (+6)",
-   "ticker": "SPRU"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Affeldt Eric",
-   "ticker": "AIAI"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "GORDON CARL L",
-   "ticker": "ETRA"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "GORDON CARL L",
-   "ticker": "ETRA"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "ORBIMED ADVISORS LLC (+2)",
-   "ticker": "ETRA"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "ORBIMED ADVISORS LLC (+2)",
-   "ticker": "ETRA"
-  },
-  {
-   "date": "2026-09-15",
-   "person": "Shen Ching Hang",
-   "ticker": "cv"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Winter Michael R",
-   "ticker": "ALNT"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Hartree Partners, LP",
-   "ticker": "HDSN"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Hartree Partners, LP",
-   "ticker": "HDSN"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Kayyem Jon Faiz",
-   "ticker": "INBX"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Lavan Robert M.",
-   "ticker": "LUCK"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Guicardi Neto Bruno",
-   "ticker": "CINT"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Guicardi Neto Bruno",
-   "ticker": "CINT"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Guicardi Neto Bruno",
-   "ticker": "CINT"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Gieselman Scott",
-   "ticker": "INR"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Gieselman Scott",
-   "ticker": "INR"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Villani Fiorenzo",
-   "ticker": "ALP"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "ROBO JAMES L",
-   "ticker": "KBDC"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "ROBO JAMES L",
-   "ticker": "KBDC"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Recker Frank Douglas",
-   "ticker": "DUOT"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "HOVSEPIAN RONALD W",
-   "ticker": "SKIL"
-  },
-  {
-   "date": "2026-08-31",
-   "person": "ALLEN PATRICK E",
-   "ticker": "TNC"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Alford Tony L (+1)",
-   "ticker": "LCU"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "HARARI ELIYAHOU ET AL",
-   "ticker": "CV"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "HARARI ELIYAHOU ET AL",
-   "ticker": "CV"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Kang Daniel",
-   "ticker": "DFDV"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Kang Daniel",
-   "ticker": "DFDV"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "MacDonald Ryan S",
-   "ticker": "BPRE"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Altman Peter",
-   "ticker": "BCDA"
-  },
-  {
-   "date": "2026-09-10",
-   "person": "Lewinsohn Jonathan",
-   "ticker": "NONE"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "DEVINCENZI ROBERT THOMAS",
-   "ticker": "UTI"
-  },
-  {
-   "date": "2026-09-18",
-   "person": "FONG GIFFORD",
-   "ticker": "PNRG"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "Endeavor Blockchain, LLC (+4)",
-   "ticker": "BGDE"
-  },
-  {
-   "date": "2026-09-24",
-   "person": "Nechmad Yair",
-   "ticker": "NYAX"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Ben-Avi David",
-   "ticker": "NYAX"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Ben-Avi David",
-   "ticker": "NYAX"
-  },
-  {
-   "date": "2026-09-24",
-   "person": "Ben-Avi David",
-   "ticker": "NYAX"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "HOUSEY WILLIAM A JR",
-   "ticker": "FTHY"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "HOUSEY WILLIAM A JR",
-   "ticker": "FTHY"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Parcher Charles A.",
-   "ticker": "CIVB"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Parcher Charles A.",
-   "ticker": "CIVB"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-   "ticker": "RCG"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-   "ticker": "TPL"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "DAVIDSON SPENCER",
-   "ticker": "GAM"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Saba Capital Management, L.P.",
-   "ticker": "GF"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Stark Eugene S",
-   "ticker": "GAM"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Kirkbride Cheryl M",
-   "ticker": "CSBB"
-  },
-  {
-   "date": "2026-09-22",
-   "person": "Saba Capital Management, L.P.",
-   "ticker": "MXF"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Saba Capital Management, L.P.",
-   "ticker": "MXF"
-  },
-  {
-   "date": "2026-09-23",
-   "person": "Li Bin (William)",
-   "ticker": "UXIN"
-  },
-  {
-   "date": "2026-09-21",
-   "person": "AULT MILTON C III",
-   "ticker": "UUU"
-  },
   {
    "date": "2026-09-22",
    "person": "AULT MILTON C III",
@@ -2309,9 +1654,664 @@
    "date": "2026-09-29",
    "person": "AJB Investment Fund II, LP (+3)",
    "ticker": "JCTC"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BERKSHIRE HATHAWAY INC (+1)",
+   "ticker": "LEN"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "BERKSHIRE HATHAWAY INC (+1)",
+   "ticker": "LEN"
+  },
+  {
+   "date": "2026-09-30",
+   "person": "BERKSHIRE HATHAWAY INC (+1)",
+   "ticker": "LEN"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "BERKSHIRE HATHAWAY INC (+1)",
+   "ticker": "LEN"
+  },
+  {
+   "date": "2026-09-30",
+   "person": "BERKSHIRE HATHAWAY INC (+1)",
+   "ticker": "LEN"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "Altman Peter",
+   "ticker": "BCDA"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "Bistricer Jacob",
+   "ticker": "CLPR"
+  },
+  {
+   "date": "2026-09-30",
+   "person": "SEID PAUL",
+   "ticker": "INLX"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "SEID PAUL",
+   "ticker": "INLX"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "Abu Dhabi Investment Authority (+3)",
+   "ticker": "NONE"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "Horowitz Joshua",
+   "ticker": "KWY"
+  },
+  {
+   "date": "2026-09-30",
+   "person": "Horowitz Joshua",
+   "ticker": "KWY"
+  },
+  {
+   "date": "2026-04-21",
+   "person": "HAMILTON LANE ADVISORS LLC",
+   "ticker": "NONE"
+  },
+  {
+   "date": "2026-04-21",
+   "person": "HAMILTON LANE ADVISORS LLC",
+   "ticker": "NONE"
+  },
+  {
+   "date": "2026-04-21",
+   "person": "HAMILTON LANE ADVISORS LLC",
+   "ticker": "NONE"
+  },
+  {
+   "date": "2026-04-24",
+   "person": "HAMILTON LANE ADVISORS LLC",
+   "ticker": "NONE"
+  },
+  {
+   "date": "2026-05-06",
+   "person": "HAMILTON LANE ADVISORS LLC",
+   "ticker": "NONE"
+  },
+  {
+   "date": "2026-05-14",
+   "person": "HAMILTON LANE ADVISORS LLC",
+   "ticker": "NONE"
+  },
+  {
+   "date": "2026-05-28",
+   "person": "HAMILTON LANE ADVISORS LLC",
+   "ticker": "NONE"
+  },
+  {
+   "date": "2026-07-29",
+   "person": "HAMILTON LANE ADVISORS LLC",
+   "ticker": "NONE"
+  },
+  {
+   "date": "2026-09-23",
+   "person": "HAMILTON LANE ADVISORS LLC",
+   "ticker": "NONE"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "Chimovits Erez",
+   "ticker": "ADRX"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "GORDON CARL L",
+   "ticker": "ADRX"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "GORDON CARL L",
+   "ticker": "ADRX"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "GORDON CARL L",
+   "ticker": "ADRX"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "ORBIMED ADVISORS LLC (+4)",
+   "ticker": "ADRX"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "ORBIMED ADVISORS LLC (+4)",
+   "ticker": "ADRX"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "ORBIMED ADVISORS LLC (+4)",
+   "ticker": "ADRX"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "SCULLY WILLIAM P",
+   "ticker": "PRTA"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "DEVINCENZI ROBERT THOMAS",
+   "ticker": "UTI"
+  },
+  {
+   "date": "2026-09-30",
+   "person": "Fitzgerald John Taylor Maloney",
+   "ticker": "KWY"
+  },
+  {
+   "date": "2026-09-30",
+   "person": "Hansen Kent A",
+   "ticker": "KWY"
+  },
+  {
+   "date": "2026-09-30",
+   "person": "CLARK CHRISTOPHER D",
+   "ticker": "RVT"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "Losyev Sergey",
+   "ticker": "ARR"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "Di Marcello Francesco",
+   "ticker": "BBD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "Di Marcello Francesco",
+   "ticker": "BBD"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "Di Marcello Francesco",
+   "ticker": "BBD"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "Di Marcello Francesco",
+   "ticker": "BBD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "Hartt Steven Knut",
+   "ticker": "PMPEX"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "TANNENBAUM LEONARD M",
+   "ticker": "AFCG"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "TANNENBAUM LEONARD M",
+   "ticker": "AFCG"
+  },
+  {
+   "date": "2026-09-30",
+   "person": "TANNENBAUM LEONARD M",
+   "ticker": "AFCG"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "Samson Ethan Isaac",
+   "ticker": "PMPEX"
+  },
+  {
+   "date": "2026-09-30",
+   "person": "Horne William B.",
+   "ticker": "GPUS"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "BAKER BROS. ADVISORS LP (+5)",
+   "ticker": "KOD"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "Woolley Peter Scott",
+   "ticker": "PMPEX"
+  },
+  {
+   "date": "2026-09-28",
+   "person": "Frankel Stanley",
+   "ticker": "DTIL"
+  },
+  {
+   "date": "2026-09-29",
+   "person": "BROWN BROTHERS HARRIMAN & CO (+1)",
+   "ticker": "BBASX"
   }
  ],
- "runs": 99,
+ "runs": 100,
  "seen": {
   "13f": {
    "0001172661-26-002336": 1789391529,
@@ -2676,6 +2676,8 @@
    "0001921094-26-001057": 1790723684,
    "0001921094-26-001058": 1790799249,
    "0001921094-26-001059": 1790799248,
+   "0001921094-26-001060": 1790812545,
+   "0001921094-26-001061": 1790812545,
    "0001921640-26-000014": 1789518403,
    "0001949846-26-000579": 1789391528,
    "0001949846-26-000580": 1789391528,
@@ -3221,6 +3223,23 @@
    "0001950047-26-009877": 1790799249,
    "0001950047-26-009878": 1790799248,
    "0001950047-26-009879": 1790799248,
+   "0001950047-26-009880": 1790812545,
+   "0001950047-26-009881": 1790812544,
+   "0001950047-26-009882": 1790812544,
+   "0001950047-26-009883": 1790812544,
+   "0001950047-26-009884": 1790812544,
+   "0001950047-26-009885": 1790812544,
+   "0001950047-26-009886": 1790812544,
+   "0001950047-26-009887": 1790812544,
+   "0001950047-26-009888": 1790812544,
+   "0001950047-26-009889": 1790812543,
+   "0001950047-26-009890": 1790812543,
+   "0001950047-26-009891": 1790812543,
+   "0001950047-26-009892": 1790812543,
+   "0001950047-26-009893": 1790812542,
+   "0001950047-26-009894": 1790812542,
+   "0001950047-26-009895": 1790812542,
+   "0001950047-26-009896": 1790812542,
    "0001957799-26-000174": 1789391528,
    "0001957799-26-000175": 1789594753,
    "0001957799-26-000176": 1789680579,
@@ -3265,6 +3284,8 @@
    "0001958244-26-000622": 1790033557,
    "0001958244-26-000624": 1790380756,
    "0001958244-26-000625": 1790723684,
+   "0001958244-26-000627": 1790812541,
+   "0001958244-26-000629": 1790812541,
    "0001959173-26-006863": 1789391528,
    "0001959173-26-006864": 1789391528,
    "0001959173-26-006865": 1789391528,
@@ -3558,6 +3579,8 @@
    "0001959173-26-007153": 1790799249,
    "0001959173-26-007154": 1790799248,
    "0001959173-26-007155": 1790799248,
+   "0001959173-26-007156": 1790812543,
+   "0001959173-26-007157": 1790812543,
    "0001964306-26-000436": 1789391528,
    "0001964306-26-000437": 1789391528,
    "0001964306-26-000438": 1789391528,
@@ -3592,6 +3615,8 @@
    "0001965301-26-000147": 1790108989,
    "0001965301-26-000148": 1790183595,
    "0001965301-26-000149": 1790204657,
+   "0001965301-26-000150": 1790812543,
+   "0001965301-26-000151": 1790812543,
    "0001966411-26-000001": 1789391528,
    "0001967940-26-000050": 1789391528,
    "0001967940-26-000051": 1789594757,
@@ -3641,6 +3666,7 @@
    "0001968582-26-001017": 1790380756,
    "0001968582-26-001019": 1790723687,
    "0001968582-26-001020": 1790723684,
+   "0001968582-26-001022": 1790812542,
    "0001969082-26-000007": 1789510571,
    "0001969223-26-001015": 1789391528,
    "0001969223-26-001016": 1789391528,
@@ -3715,6 +3741,10 @@
    "0001974078-26-000366": 1790370683,
    "0001974078-26-000367": 1790370683,
    "0001974078-26-000368": 1790723685,
+   "0001974078-26-000369": 1790812541,
+   "0001974078-26-000370": 1790812541,
+   "0001974078-26-000371": 1790812541,
+   "0001974078-26-000372": 1790812541,
    "0001974158-26-000102": 1789594759,
    "0001974158-26-000103": 1789680572,
    "0001974494-26-000293": 1789518414,
@@ -3725,6 +3755,9 @@
    "0001974494-26-000300": 1789583411,
    "0001974494-26-000302": 1789594762,
    "0001974494-26-000304": 1790270308,
+   "0001976363-26-000032": 1790812542,
+   "0001976363-26-000033": 1790812542,
+   "0001976363-26-000034": 1790812542,
    "0001976408-26-000841": 1789485097,
    "0001976408-26-000842": 1789485097,
    "0001976408-26-000844": 1789485097,
@@ -3953,6 +3986,7 @@
    "0000037472-26-000108": 1789695148,
    "0000037472-26-000110": 1789695148,
    "0000037472-26-000112": 1789695148,
+   "0000037785-26-000146": 1790812535,
    "0000037996-26-000180": 1789680552,
    "0000037996-26-000182": 1790282429,
    "0000038009-26-000073": 1789411217,
@@ -4088,6 +4122,7 @@
    "0000081205-26-000082": 1790611352,
    "0000081205-26-000083": 1790611353,
    "0000081205-26-000084": 1790781651,
+   "0000083293-26-000004": 1790812499,
    "0000088053-26-000744": 1789391517,
    "0000088053-26-000745": 1789391517,
    "0000088053-26-000752": 1789569926,
@@ -4266,6 +4301,10 @@
    "0000746458-26-000020": 1790799188,
    "0000746458-26-000021": 1790799188,
    "0000749251-26-000270": 1789510508,
+   "0000750577-26-000073": 1790812528,
+   "0000750577-26-000074": 1790812527,
+   "0000750577-26-000075": 1790812519,
+   "0000750577-26-000076": 1790812517,
    "0000751199-26-000091": 1790270287,
    "0000751199-26-000094": 1790781651,
    "0000752642-26-000108": 1789757862,
@@ -4481,6 +4520,12 @@
    "0000890926-26-000148": 1789518394,
    "0000891839-26-000409": 1790033497,
    "0000891839-26-000410": 1790033496,
+   "0000891839-26-000420": 1790812512,
+   "0000891839-26-000421": 1790812512,
+   "0000891839-26-000422": 1790812512,
+   "0000891839-26-000423": 1790812511,
+   "0000891839-26-000424": 1790812511,
+   "0000891839-26-000425": 1790812510,
    "0000893538-26-000130": 1789391517,
    "0000894189-26-025150": 1789391517,
    "0000894189-26-025151": 1789391517,
@@ -4664,8 +4709,10 @@
    "0000905148-26-004258": 1790195160,
    "0000905148-26-004271": 1790292589,
    "0000905148-26-004278": 1790645754,
+   "0000905148-26-004306": 1790812523,
    "0000906107-26-000077": 1789391517,
    "0000906107-26-000078": 1789391517,
+   "0000906304-26-000162": 1790812516,
    "0000907242-26-000021": 1790041611,
    "0000907654-26-000094": 1789518391,
    "0000907654-26-000095": 1789518391,
@@ -4683,6 +4730,8 @@
    "0000909832-26-000076": 1789423499,
    "0000909832-26-000078": 1789423497,
    "0000909832-26-000080": 1789423496,
+   "0000909832-26-000088": 1790812487,
+   "0000909832-26-000090": 1790812486,
    "0000911971-26-000055": 1789391517,
    "0000911971-26-000056": 1789391517,
    "0000911971-26-000058": 1789767230,
@@ -4739,6 +4788,7 @@
    "0000912938-26-000930": 1790370622,
    "0000912938-26-000931": 1790370620,
    "0000914190-26-000139": 1790292592,
+   "0000914190-26-000142": 1790812538,
    "0000914775-26-000009": 1790645704,
    "0000915913-26-000113": 1789594734,
    "0000915913-26-000114": 1789594734,
@@ -4759,6 +4809,7 @@
    "0000919574-26-006472": 1790292591,
    "0000919574-26-006476": 1790340459,
    "0000919574-26-006530": 1790645803,
+   "0000919574-26-006579": 1790812511,
    "0000919893-26-000004": 1790799189,
    "0000921895-26-002585": 1790033525,
    "0000921895-26-002590": 1789781872,
@@ -4790,6 +4841,7 @@
    "0000929638-26-003625": 1790231452,
    "0000929638-26-003634": 1790282425,
    "0000929638-26-003649": 1790645698,
+   "0000929638-26-003758": 1790812539,
    "0000930413-26-002871": 1789391517,
    "0000930413-26-002872": 1789391517,
    "0000930413-26-002873": 1789391517,
@@ -4877,6 +4929,7 @@
    "0000938071-26-000053": 1789423523,
    "0000938071-26-000057": 1790041611,
    "0000938071-26-000059": 1790300991,
+   "0000938071-26-000061": 1790812535,
    "0000939057-26-000234": 1790358520,
    "0000939057-26-000235": 1790358518,
    "0000939057-26-000236": 1790358515,
@@ -4885,6 +4938,11 @@
    "0000939057-26-000242": 1790645792,
    "0000939057-26-000246": 1790799198,
    "0000939057-26-000247": 1790799195,
+   "0000939057-26-000248": 1790812538,
+   "0000939057-26-000249": 1790812533,
+   "0000939057-26-000250": 1790812531,
+   "0000939057-26-000251": 1790812524,
+   "0000939057-26-000252": 1790812516,
    "0000940420-26-000024": 1789398998,
    "0000940420-26-000025": 1789398998,
    "0000940763-26-000004": 1790195158,
@@ -4924,6 +4982,9 @@
    "0000947871-26-000907": 1790710497,
    "0000947871-26-000908": 1790710489,
    "0000947871-26-000909": 1790710487,
+   "0000947871-26-000910": 1790812492,
+   "0000947871-26-000911": 1790812490,
+   "0000947871-26-000912": 1790812489,
    "0000949377-26-000095": 1790723659,
    "0000950103-26-013812": 1789391517,
    "0000950103-26-013813": 1789391517,
@@ -5656,6 +5717,16 @@
    "0000950103-26-014868": 1790799190,
    "0000950103-26-014870": 1790799188,
    "0000950103-26-014871": 1790799186,
+   "0000950103-26-014873": 1790812522,
+   "0000950103-26-014875": 1790812520,
+   "0000950103-26-014877": 1790812519,
+   "0000950103-26-014880": 1790812514,
+   "0000950103-26-014881": 1790812510,
+   "0000950103-26-014882": 1790812509,
+   "0000950103-26-014883": 1790812502,
+   "0000950103-26-014884": 1790812496,
+   "0000950103-26-014885": 1790812496,
+   "0000950103-26-014886": 1790812486,
    "0000950138-26-000028": 1790033506,
    "0000950138-26-000030": 1790645697,
    "0000950142-26-002543": 1789423555,
@@ -5667,6 +5738,7 @@
    "0000950142-26-002612": 1790645757,
    "0000950142-26-002614": 1790645735,
    "0000950142-26-002623": 1790723631,
+   "0000950142-26-002643": 1790812511,
    "0000950157-26-001015": 1789510525,
    "0000950157-26-001028": 1789688310,
    "0000950157-26-001049": 1790723590,
@@ -5684,6 +5756,7 @@
    "0001008886-26-000221": 1789602734,
    "0001009165-26-000009": 1790213049,
    "0001009759-26-000010": 1789391517,
+   "0001010178-26-000013": 1790812532,
    "0001010270-26-000002": 1790723648,
    "0001011438-26-000569": 1789423490,
    "0001011438-26-000572": 1789518393,
@@ -5707,6 +5780,7 @@
    "0001022408-26-000086": 1789594695,
    "0001022408-26-000088": 1789767235,
    "0001022408-26-000090": 1790292593,
+   "0001022804-26-000006": 1790812509,
    "0001023731-26-000151": 1789423489,
    "0001023731-26-000153": 1789423489,
    "0001023731-26-000156": 1789594698,
@@ -5743,6 +5817,7 @@
    "0001043337-26-000081": 1789391517,
    "0001045463-26-000016": 1790033503,
    "0001045463-26-000017": 1790723596,
+   "0001045463-26-000018": 1790812506,
    "0001046257-26-000250": 1789583388,
    "0001046257-26-000252": 1789583388,
    "0001047862-26-000145": 1789594735,
@@ -5794,12 +5869,20 @@
    "0001070423-26-000048": 1789594737,
    "0001070938-26-000018": 1789510526,
    "0001070938-26-000020": 1789594712,
+   "0001070938-26-000022": 1790812535,
    "0001071739-26-000174": 1789594708,
+   "0001071739-26-000180": 1790812527,
+   "0001071739-26-000181": 1790812526,
+   "0001071739-26-000182": 1790812526,
+   "0001071739-26-000183": 1790812526,
+   "0001071739-26-000184": 1790812526,
    "0001072613-26-000759": 1789510478,
    "0001072613-26-000773": 1789602733,
    "0001072613-26-000797": 1790098357,
    "0001072627-26-000053": 1789602789,
    "0001072627-26-000054": 1789602789,
+   "0001072627-26-000055": 1790812515,
+   "0001072627-26-000056": 1790812514,
    "0001075511-26-000009": 1789518389,
    "0001075736-26-000104": 1790723593,
    "0001075736-26-000107": 1790723593,
@@ -5872,6 +5955,7 @@
    "0001093557-26-000173": 1789423554,
    "0001093557-26-000178": 1789594729,
    "0001093557-26-000179": 1789594729,
+   "0001093557-26-000181": 1790812537,
    "0001094629-26-000003": 1790098389,
    "0001094718-26-000010": 1790213053,
    "0001094891-26-000286": 1789767205,
@@ -6510,6 +6594,27 @@
    "0001104659-26-112306": 1790799197,
    "0001104659-26-112309": 1790799196,
    "0001104659-26-112323": 1790799191,
+   "0001104659-26-112336": 1790812539,
+   "0001104659-26-112353": 1790812530,
+   "0001104659-26-112355": 1790812529,
+   "0001104659-26-112361": 1790812529,
+   "0001104659-26-112362": 1790812529,
+   "0001104659-26-112364": 1790812528,
+   "0001104659-26-112365": 1790812528,
+   "0001104659-26-112366": 1790812527,
+   "0001104659-26-112382": 1790812518,
+   "0001104659-26-112387": 1790812515,
+   "0001104659-26-112389": 1790812514,
+   "0001104659-26-112391": 1790812513,
+   "0001104659-26-112397": 1790812507,
+   "0001104659-26-112398": 1790812507,
+   "0001104659-26-112405": 1790812499,
+   "0001104659-26-112413": 1790812492,
+   "0001104659-26-112416": 1790812492,
+   "0001104659-26-112426": 1790812488,
+   "0001104659-26-112443": 1790812484,
+   "0001104659-26-112444": 1790812484,
+   "0001104659-26-112447": 1790812484,
    "0001105838-26-000010": 1789767211,
    "0001106469-26-000008": 1790799186,
    "0001106578-26-000139": 1789391517,
@@ -6525,6 +6630,7 @@
    "0001106578-26-000149": 1790370633,
    "0001106578-26-000150": 1790645735,
    "0001106578-26-000151": 1790723628,
+   "0001106578-26-000152": 1790812529,
    "0001108038-26-000006": 1789411226,
    "0001108524-26-000206": 1789602788,
    "0001108524-26-000208": 1789602757,
@@ -6533,6 +6639,7 @@
    "0001108524-26-000217": 1790204625,
    "0001108524-26-000220": 1790204625,
    "0001108524-26-000225": 1790213053,
+   "0001109441-26-000001": 1790812511,
    "0001111178-26-000004": 1790645699,
    "0001114357-26-000038": 1789781868,
    "0001114357-26-000040": 1790282425,
@@ -6954,6 +7061,30 @@
    "0001114446-26-006909": 1790723621,
    "0001114446-26-006910": 1790723621,
    "0001114446-26-006911": 1790723621,
+   "0001114446-26-006912": 1790812526,
+   "0001114446-26-006913": 1790812526,
+   "0001114446-26-006914": 1790812525,
+   "0001114446-26-006915": 1790812525,
+   "0001114446-26-006916": 1790812525,
+   "0001114446-26-006917": 1790812525,
+   "0001114446-26-006918": 1790812525,
+   "0001114446-26-006919": 1790812525,
+   "0001114446-26-006920": 1790812525,
+   "0001114446-26-006921": 1790812524,
+   "0001114446-26-006922": 1790812524,
+   "0001114446-26-006923": 1790812524,
+   "0001114446-26-006924": 1790812523,
+   "0001114446-26-006925": 1790812523,
+   "0001114446-26-006926": 1790812523,
+   "0001114446-26-006927": 1790812523,
+   "0001114446-26-006928": 1790812523,
+   "0001114446-26-006929": 1790812523,
+   "0001114446-26-006930": 1790812523,
+   "0001114446-26-006931": 1790812522,
+   "0001114446-26-006932": 1790812522,
+   "0001114446-26-006933": 1790812522,
+   "0001114446-26-006934": 1790812522,
+   "0001114446-26-006935": 1790812522,
    "0001116233-26-000003": 1789391517,
    "0001116268-26-000015": 1789680549,
    "0001122068-26-000003": 1789391517,
@@ -6973,6 +7104,8 @@
    "0001123292-26-001321": 1790118851,
    "0001123292-26-001323": 1790282424,
    "0001123292-26-001329": 1790645698,
+   "0001123292-26-001333": 1790812536,
+   "0001124459-26-000003": 1790812506,
    "0001124959-26-000028": 1790098378,
    "0001126328-26-000184": 1790723631,
    "0001126328-26-000186": 1790723630,
@@ -7061,6 +7194,7 @@
    "0001137360-26-000909": 1790098382,
    "0001137360-26-000917": 1790195166,
    "0001137360-26-000918": 1790195166,
+   "0001137360-26-000933": 1790812517,
    "0001137774-26-000194": 1789423516,
    "0001137774-26-000195": 1789423513,
    "0001137774-26-000196": 1789423511,
@@ -7336,7 +7470,9 @@
    "0001140361-26-038077": 1790799231,
    "0001140361-26-038087": 1790799218,
    "0001140361-26-038090": 1790799211,
+   "0001140361-26-038111": 1790812489,
    "0001142102-26-000003": 1789391517,
+   "0001143567-26-000026": 1790812537,
    "0001145766-26-000008": 1789594713,
    "0001156375-26-000054": 1789432715,
    "0001156899-26-000033": 1789423553,
@@ -7353,10 +7489,12 @@
    "0001162044-26-000828": 1790723637,
    "0001163212-26-000011": 1790022236,
    "0001164098-26-001660": 1790799234,
+   "0001164098-26-001662": 1790812531,
    "0001166003-26-000081": 1789510484,
    "0001166003-26-000082": 1789510483,
    "0001167368-26-000016": 1790645719,
    "0001168404-26-000048": 1789510485,
+   "0001168534-26-000009": 1790812485,
    "0001170817-26-000009": 1790098365,
    "0001171843-26-006009": 1789391517,
    "0001171843-26-006025": 1789391517,
@@ -7372,6 +7510,7 @@
    "0001171843-26-006253": 1790645748,
    "0001171843-26-006301": 1790781673,
    "0001171843-26-006302": 1790781672,
+   "0001172508-26-000008": 1790812516,
    "0001174610-26-000579": 1789654236,
    "0001174610-26-000581": 1790033488,
    "0001174610-26-000741": 1790270268,
@@ -7569,6 +7708,7 @@
    "0001180610-26-000009": 1789602743,
    "0001181629-26-000011": 1789423507,
    "0001182313-26-000011": 1789510511,
+   "0001183010-26-000066": 1790812488,
    "0001183231-26-000011": 1789680535,
    "0001183254-26-000005": 1789594705,
    "0001183254-26-000006": 1790204651,
@@ -7593,6 +7733,8 @@
    "0001185185-26-004397": 1790710495,
    "0001185185-26-004408": 1790723664,
    "0001185185-26-004409": 1790723663,
+   "0001185185-26-004447": 1790812494,
+   "0001188192-26-000008": 1790812535,
    "0001188563-26-000005": 1789423504,
    "0001188567-26-000015": 1789423503,
    "0001189770-26-000010": 1789594709,
@@ -9869,6 +10011,76 @@
    "0001193125-26-409053": 1790799187,
    "0001193125-26-409054": 1790799186,
    "0001193125-26-409059": 1790799186,
+   "0001193125-26-409065": 1790812538,
+   "0001193125-26-409067": 1790812537,
+   "0001193125-26-409068": 1790812537,
+   "0001193125-26-409077": 1790812536,
+   "0001193125-26-409080": 1790812536,
+   "0001193125-26-409081": 1790812536,
+   "0001193125-26-409082": 1790812536,
+   "0001193125-26-409083": 1790812536,
+   "0001193125-26-409084": 1790812535,
+   "0001193125-26-409085": 1790812535,
+   "0001193125-26-409086": 1790812535,
+   "0001193125-26-409089": 1790812535,
+   "0001193125-26-409090": 1790812534,
+   "0001193125-26-409091": 1790812534,
+   "0001193125-26-409092": 1790812534,
+   "0001193125-26-409097": 1790812533,
+   "0001193125-26-409098": 1790812533,
+   "0001193125-26-409099": 1790812533,
+   "0001193125-26-409100": 1790812533,
+   "0001193125-26-409101": 1790812532,
+   "0001193125-26-409105": 1790812532,
+   "0001193125-26-409106": 1790812532,
+   "0001193125-26-409108": 1790812532,
+   "0001193125-26-409110": 1790812531,
+   "0001193125-26-409115": 1790812531,
+   "0001193125-26-409116": 1790812530,
+   "0001193125-26-409118": 1790812530,
+   "0001193125-26-409119": 1790812530,
+   "0001193125-26-409120": 1790812530,
+   "0001193125-26-409123": 1790812529,
+   "0001193125-26-409127": 1790812529,
+   "0001193125-26-409134": 1790812528,
+   "0001193125-26-409137": 1790812527,
+   "0001193125-26-409153": 1790812521,
+   "0001193125-26-409155": 1790812520,
+   "0001193125-26-409158": 1790812520,
+   "0001193125-26-409161": 1790812520,
+   "0001193125-26-409163": 1790812520,
+   "0001193125-26-409165": 1790812519,
+   "0001193125-26-409170": 1790812518,
+   "0001193125-26-409171": 1790812518,
+   "0001193125-26-409172": 1790812518,
+   "0001193125-26-409177": 1790812518,
+   "0001193125-26-409183": 1790812517,
+   "0001193125-26-409189": 1790812516,
+   "0001193125-26-409193": 1790812514,
+   "0001193125-26-409197": 1790812514,
+   "0001193125-26-409200": 1790812513,
+   "0001193125-26-409201": 1790812513,
+   "0001193125-26-409205": 1790812513,
+   "0001193125-26-409206": 1790812513,
+   "0001193125-26-409208": 1790812512,
+   "0001193125-26-409211": 1790812512,
+   "0001193125-26-409228": 1790812510,
+   "0001193125-26-409231": 1790812507,
+   "0001193125-26-409241": 1790812502,
+   "0001193125-26-409247": 1790812499,
+   "0001193125-26-409250": 1790812496,
+   "0001193125-26-409255": 1790812494,
+   "0001193125-26-409256": 1790812494,
+   "0001193125-26-409257": 1790812492,
+   "0001193125-26-409262": 1790812492,
+   "0001193125-26-409271": 1790812490,
+   "0001193125-26-409272": 1790812490,
+   "0001193125-26-409273": 1790812490,
+   "0001193125-26-409304": 1790812488,
+   "0001193125-26-409380": 1790812484,
+   "0001193125-26-409383": 1790812483,
+   "0001193125-26-409437": 1790812483,
+   "0001193125-26-409451": 1790812483,
    "0001193202-26-000011": 1789423506,
    "0001193202-26-000012": 1789680541,
    "0001193805-26-001256": 1789781868,
@@ -9897,6 +10109,7 @@
    "0001203939-26-000008": 1790300990,
    "0001204816-26-000044": 1789602790,
    "0001204816-26-000047": 1790204640,
+   "0001204816-26-000049": 1790812517,
    "0001204975-26-000015": 1789391517,
    "0001206774-26-000531": 1790098373,
    "0001206774-26-000535": 1790270282,
@@ -9908,6 +10121,7 @@
    "0001209059-26-000008": 1789616664,
    "0001209181-26-000005": 1789432722,
    "0001209181-26-000007": 1789774531,
+   "0001209366-26-000008": 1790812534,
    "0001212809-26-000006": 1789391517,
    "0001212852-26-000005": 1790645746,
    "0001212969-26-000008": 1789594700,
@@ -10764,6 +10978,24 @@
    "0001213900-26-105219": 1790799190,
    "0001213900-26-105225": 1790799189,
    "0001213900-26-105226": 1790799189,
+   "0001213900-26-105235": 1790812539,
+   "0001213900-26-105239": 1790812538,
+   "0001213900-26-105255": 1790812534,
+   "0001213900-26-105265": 1790812531,
+   "0001213900-26-105281": 1790812524,
+   "0001213900-26-105287": 1790812521,
+   "0001213900-26-105293": 1790812520,
+   "0001213900-26-105295": 1790812519,
+   "0001213900-26-105301": 1790812515,
+   "0001213900-26-105304": 1790812513,
+   "0001213900-26-105312": 1790812511,
+   "0001213900-26-105317": 1790812510,
+   "0001213900-26-105323": 1790812507,
+   "0001213900-26-105333": 1790812494,
+   "0001213900-26-105349": 1790812490,
+   "0001213900-26-105351": 1790812490,
+   "0001213900-26-105358": 1790812489,
+   "0001213900-26-105393": 1790812483,
    "0001214212-26-000002": 1790723647,
    "0001214607-26-000017": 1790358544,
    "0001214659-26-011591": 1789391517,
@@ -10994,6 +11226,97 @@
    "0001214659-26-012272": 1790799202,
    "0001214659-26-012273": 1790799202,
    "0001214659-26-012274": 1790799201,
+   "0001214659-26-012280": 1790812530,
+   "0001214659-26-012285": 1790812507,
+   "0001214659-26-012286": 1790812508,
+   "0001214659-26-012287": 1790812508,
+   "0001214659-26-012288": 1790812508,
+   "0001214659-26-012289": 1790812509,
+   "0001214659-26-012290": 1790812509,
+   "0001214659-26-012291": 1790812509,
+   "0001214659-26-012292": 1790812509,
+   "0001214659-26-012293": 1790812508,
+   "0001214659-26-012294": 1790812508,
+   "0001214659-26-012295": 1790812508,
+   "0001214659-26-012296": 1790812509,
+   "0001214659-26-012297": 1790812508,
+   "0001214659-26-012298": 1790812508,
+   "0001214659-26-012299": 1790812505,
+   "0001214659-26-012300": 1790812505,
+   "0001214659-26-012301": 1790812505,
+   "0001214659-26-012302": 1790812505,
+   "0001214659-26-012303": 1790812505,
+   "0001214659-26-012304": 1790812505,
+   "0001214659-26-012305": 1790812505,
+   "0001214659-26-012306": 1790812505,
+   "0001214659-26-012307": 1790812504,
+   "0001214659-26-012308": 1790812504,
+   "0001214659-26-012309": 1790812504,
+   "0001214659-26-012310": 1790812504,
+   "0001214659-26-012311": 1790812504,
+   "0001214659-26-012312": 1790812504,
+   "0001214659-26-012313": 1790812504,
+   "0001214659-26-012314": 1790812504,
+   "0001214659-26-012315": 1790812503,
+   "0001214659-26-012316": 1790812503,
+   "0001214659-26-012317": 1790812503,
+   "0001214659-26-012318": 1790812503,
+   "0001214659-26-012319": 1790812503,
+   "0001214659-26-012320": 1790812503,
+   "0001214659-26-012321": 1790812503,
+   "0001214659-26-012322": 1790812503,
+   "0001214659-26-012323": 1790812502,
+   "0001214659-26-012324": 1790812501,
+   "0001214659-26-012325": 1790812501,
+   "0001214659-26-012326": 1790812501,
+   "0001214659-26-012327": 1790812501,
+   "0001214659-26-012328": 1790812501,
+   "0001214659-26-012329": 1790812501,
+   "0001214659-26-012330": 1790812501,
+   "0001214659-26-012331": 1790812501,
+   "0001214659-26-012332": 1790812500,
+   "0001214659-26-012333": 1790812500,
+   "0001214659-26-012334": 1790812500,
+   "0001214659-26-012335": 1790812500,
+   "0001214659-26-012336": 1790812500,
+   "0001214659-26-012337": 1790812500,
+   "0001214659-26-012338": 1790812500,
+   "0001214659-26-012339": 1790812500,
+   "0001214659-26-012340": 1790812499,
+   "0001214659-26-012341": 1790812498,
+   "0001214659-26-012342": 1790812498,
+   "0001214659-26-012343": 1790812498,
+   "0001214659-26-012344": 1790812498,
+   "0001214659-26-012345": 1790812498,
+   "0001214659-26-012346": 1790812498,
+   "0001214659-26-012347": 1790812497,
+   "0001214659-26-012348": 1790812497,
+   "0001214659-26-012349": 1790812497,
+   "0001214659-26-012350": 1790812497,
+   "0001214659-26-012351": 1790812497,
+   "0001214659-26-012352": 1790812497,
+   "0001214659-26-012353": 1790812497,
+   "0001214659-26-012354": 1790812497,
+   "0001214659-26-012355": 1790812496,
+   "0001214659-26-012356": 1790812496,
+   "0001214659-26-012357": 1790812496,
+   "0001214659-26-012358": 1790812496,
+   "0001214659-26-012359": 1790812496,
+   "0001214659-26-012360": 1790812494,
+   "0001214659-26-012361": 1790812495,
+   "0001214659-26-012362": 1790812495,
+   "0001214659-26-012363": 1790812495,
+   "0001214659-26-012364": 1790812495,
+   "0001214659-26-012365": 1790812494,
+   "0001214659-26-012366": 1790812494,
+   "0001214659-26-012367": 1790812493,
+   "0001214659-26-012368": 1790812493,
+   "0001214659-26-012369": 1790812493,
+   "0001214659-26-012370": 1790812493,
+   "0001214659-26-012371": 1790812493,
+   "0001214659-26-012372": 1790812493,
+   "0001214659-26-012373": 1790812493,
+   "0001214659-26-012375": 1790812492,
    "0001214736-26-000002": 1789411209,
    "0001214736-26-000003": 1790645720,
    "0001215315-26-000040": 1789391517,
@@ -11007,6 +11330,7 @@
    "0001219231-26-000008": 1790022236,
    "0001219789-26-000007": 1789510516,
    "0001219805-26-000007": 1789510517,
+   "0001220610-26-000005": 1790812521,
    "0001220632-26-000006": 1790041611,
    "0001220788-26-000004": 1790645787,
    "0001221213-26-000006": 1789423506,
@@ -11133,9 +11457,11 @@
    "0001227348-26-000009": 1789594735,
    "0001227454-26-000014": 1789423551,
    "0001227654-26-000062": 1789510490,
+   "0001227882-26-000008": 1790812486,
    "0001228621-26-000003": 1790370622,
    "0001228718-26-000007": 1789680544,
    "0001229265-26-000024": 1790108944,
+   "0001229575-26-000003": 1790812515,
    "0001230117-26-000004": 1789510472,
    "0001230831-26-000010": 1789668921,
    "0001231235-26-000003": 1789391517,
@@ -11149,12 +11475,14 @@
    "0001231919-26-001201": 1790033461,
    "0001231919-26-001224": 1790282418,
    "0001231919-26-001406": 1790734179,
+   "0001231919-26-001416": 1790812516,
    "0001232819-26-000004": 1790723597,
    "0001232906-26-000004": 1790645749,
    "0001233126-26-000013": 1789423506,
    "0001233164-26-000004": 1789680543,
    "0001233171-26-000012": 1789602788,
    "0001233565-26-000006": 1789510547,
+   "0001233565-26-000008": 1790812489,
    "0001234048-26-000002": 1789391517,
    "0001234544-26-000001": 1790033487,
    "0001234544-26-000002": 1790127119,
@@ -11200,12 +11528,15 @@
    "0001254639-26-000006": 1789510488,
    "0001254781-26-000026": 1790127119,
    "0001256520-26-000004": 1789510541,
+   "0001256983-26-000003": 1790812516,
    "0001257287-26-000005": 1790358525,
    "0001258134-26-000004": 1790723611,
+   "0001258134-26-000007": 1790812489,
    "0001258248-26-000014": 1789680537,
    "0001258394-26-000018": 1790118859,
    "0001261333-26-000101": 1789510474,
    "0001261838-26-000004": 1789594732,
+   "0001261838-26-000005": 1790812515,
    "0001262388-26-000018": 1790108949,
    "0001262742-26-000014": 1789569932,
    "0001263136-26-000014": 1790204628,
@@ -11242,6 +11573,7 @@
    "0001281986-26-000020": 1789423541,
    "0001282208-26-000006": 1790292592,
    "0001283303-26-000010": 1789713674,
+   "0001283420-26-000002": 1790812522,
    "0001283661-26-000016": 1789535190,
    "0001283699-26-000114": 1789432717,
    "0001283699-26-000116": 1789432717,
@@ -11301,6 +11633,7 @@
    "0001292814-26-004736": 1790723628,
    "0001292814-26-004738": 1790723608,
    "0001292814-26-004742": 1790723601,
+   "0001292814-26-004756": 1790812521,
    "0001294192-26-000007": 1789774537,
    "0001294280-26-000006": 1790006368,
    "0001294280-26-000007": 1790781660,
@@ -11384,9 +11717,12 @@
    "0001343297-26-000006": 1789391517,
    "0001344017-26-000006": 1789594734,
    "0001347444-26-000004": 1790723614,
+   "0001347444-26-000006": 1790812488,
+   "0001347444-26-000008": 1790812487,
    "0001347535-26-000011": 1789423550,
    "0001348489-26-000019": 1789423541,
    "0001348490-26-000006": 1789654248,
+   "0001348889-26-000012": 1790812532,
    "0001349297-26-000006": 1789432722,
    "0001349297-26-000008": 1789688311,
    "0001349297-26-000010": 1789774532,
@@ -11411,6 +11747,7 @@
    "0001370014-26-000004": 1790645781,
    "0001370939-26-000011": 1789423514,
    "0001371285-26-000201": 1789518393,
+   "0001371285-26-000203": 1790812483,
    "0001372514-26-000085": 1789713673,
    "0001373161-26-000008": 1790292581,
    "0001375800-26-000006": 1789688308,
@@ -11432,6 +11769,7 @@
    "0001395064-26-000340": 1789535190,
    "0001395188-26-000010": 1789594692,
    "0001395188-26-000012": 1789688321,
+   "0001395643-26-000018": 1790812486,
    "0001398249-26-000009": 1789423514,
    "0001398344-26-016889": 1789391517,
    "0001398344-26-016894": 1789391517,
@@ -11511,6 +11849,8 @@
    "0001398344-26-017601": 1790799204,
    "0001398344-26-017609": 1790799198,
    "0001398344-26-017612": 1790799193,
+   "0001398344-26-017624": 1790812524,
+   "0001398344-26-017634": 1790812514,
    "0001400954-26-000009": 1789423527,
    "0001400954-26-000011": 1790118825,
    "0001400956-26-000011": 1789423526,
@@ -11598,6 +11938,7 @@
    "0001432353-26-000745": 1790710544,
    "0001432353-26-000749": 1790710478,
    "0001432364-26-000028": 1789398996,
+   "0001432364-26-000029": 1790812491,
    "0001433254-26-000008": 1790632297,
    "0001434806-26-000002": 1790645748,
    "0001436125-26-000009": 1789423492,
@@ -11830,6 +12171,10 @@
    "0001437749-26-031596": 1790799191,
    "0001437749-26-031597": 1790799191,
    "0001437749-26-031600": 1790799186,
+   "0001437749-26-031619": 1790812491,
+   "0001437749-26-031626": 1790812487,
+   "0001437749-26-031634": 1790812484,
+   "0001437749-26-031638": 1790812483,
    "0001441238-26-000003": 1790723601,
    "0001441386-26-000007": 1789423494,
    "0001444157-26-000026": 1790108972,
@@ -11994,6 +12339,7 @@
    "0001455465-26-000003": 1789411212,
    "0001456817-26-000013": 1789602733,
    "0001456817-26-000015": 1789767227,
+   "0001456823-26-000010": 1790812485,
    "0001457561-26-000008": 1789510517,
    "0001458560-26-000006": 1790033488,
    "0001462385-26-000008": 1789391517,
@@ -12058,6 +12404,9 @@
    "0001477932-26-005811": 1790380735,
    "0001477932-26-005831": 1790645770,
    "0001477932-26-005918": 1790781669,
+   "0001477932-26-005933": 1790812526,
+   "0001477932-26-005935": 1790812513,
+   "0001477932-26-005936": 1790812512,
    "0001479079-26-000043": 1790108956,
    "0001479599-26-000007": 1789654244,
    "0001483410-26-000005": 1789713673,
@@ -12069,6 +12418,7 @@
    "0001489550-26-000012": 1789767206,
    "0001489550-26-000013": 1790204642,
    "0001489550-26-000014": 1790396761,
+   "0001489550-26-000015": 1790812483,
    "0001491981-26-000005": 1790645770,
    "0001492890-26-000005": 1789423505,
    "0001493152-26-042324": 1789391517,
@@ -12376,6 +12726,12 @@
    "0001493152-26-045051": 1790781663,
    "0001493152-26-045053": 1790781656,
    "0001493152-26-045094": 1790799195,
+   "0001493152-26-045110": 1790812538,
+   "0001493152-26-045135": 1790812509,
+   "0001493152-26-045140": 1790812506,
+   "0001493152-26-045147": 1790812502,
+   "0001493152-26-045149": 1790812498,
+   "0001493152-26-045167": 1790812487,
    "0001493580-26-000010": 1790691735,
    "0001494479-26-000008": 1789391517,
    "0001495443-26-000007": 1790645693,
@@ -12446,6 +12802,7 @@
    "0001517413-26-000294": 1790033489,
    "0001517413-26-000296": 1790204648,
    "0001517413-26-000298": 1790370619,
+   "0001517413-26-000300": 1790812491,
    "0001518594-26-000008": 1790118827,
    "0001518884-26-000003": 1789423552,
    "0001520138-26-000389": 1789391517,
@@ -12574,6 +12931,7 @@
    "0001543789-26-000012": 1790611368,
    "0001543895-26-000004": 1789391517,
    "0001544030-26-000012": 1790292583,
+   "0001544353-26-000001": 1790812521,
    "0001544635-26-000025": 1789594735,
    "0001546374-26-000008": 1790033484,
    "0001546628-26-000002": 1789668899,
@@ -12582,6 +12940,7 @@
    "0001551306-26-000154": 1789774533,
    "0001551306-26-000156": 1790033477,
    "0001551306-26-000158": 1790645735,
+   "0001551895-26-000005": 1790812518,
    "0001552781-26-000481": 1789391517,
    "0001552781-26-000493": 1789668925,
    "0001552781-26-000495": 1789688323,
@@ -12608,6 +12967,7 @@
    "0001559495-26-000065": 1790183559,
    "0001559495-26-000067": 1790183559,
    "0001559495-26-000069": 1790183558,
+   "0001560811-26-000012": 1790812537,
    "0001561290-26-000013": 1789391517,
    "0001561550-26-000309": 1789510505,
    "0001561550-26-000310": 1789510505,
@@ -12624,6 +12984,7 @@
    "0001563556-26-000006": 1790645755,
    "0001563717-26-000004": 1789680530,
    "0001563798-26-000004": 1789510498,
+   "0001564301-26-000010": 1790812499,
    "0001564954-26-000012": 1789616661,
    "0001565381-26-000007": 1790645725,
    "0001565687-26-000109": 1790195161,
@@ -12715,9 +13076,21 @@
    "0001580642-26-006590": 1790799196,
    "0001580642-26-006592": 1790799193,
    "0001580642-26-006593": 1790799188,
+   "0001580642-26-006596": 1790812529,
+   "0001580642-26-006597": 1790812528,
+   "0001580642-26-006598": 1790812528,
+   "0001580642-26-006599": 1790812528,
+   "0001580642-26-006600": 1790812527,
+   "0001580642-26-006601": 1790812527,
+   "0001580642-26-006603": 1790812521,
+   "0001580642-26-006604": 1790812518,
+   "0001580642-26-006605": 1790812517,
+   "0001580642-26-006606": 1790812502,
+   "0001580642-26-006607": 1790812495,
    "0001580693-26-000002": 1790723647,
    "0001581760-26-000162": 1789616661,
    "0001581760-26-000165": 1790204642,
+   "0001582683-26-000008": 1790812533,
    "0001584119-26-000026": 1789423541,
    "0001584601-26-000013": 1789510520,
    "0001585322-26-000010": 1789391517,
@@ -12787,6 +13160,8 @@
    "0001592900-26-004518": 1790799224,
    "0001592900-26-004519": 1790799224,
    "0001592900-26-004520": 1790799223,
+   "0001592900-26-004538": 1790812531,
+   "0001592900-26-004551": 1790812511,
    "0001592970-26-000014": 1790723589,
    "0001593516-26-000006": 1790358559,
    "0001593538-26-000039": 1790370621,
@@ -12826,6 +13201,7 @@
    "0001610717-26-000421": 1790282417,
    "0001610717-26-000422": 1790282416,
    "0001610717-26-000423": 1790645751,
+   "0001610853-26-000010": 1790812491,
    "0001611331-26-000028": 1790292595,
    "0001612263-26-000018": 1789391517,
    "0001612508-26-000009": 1789767224,
@@ -13367,6 +13743,15 @@
    "0001628280-26-063883": 1790734179,
    "0001628280-26-063931": 1790799235,
    "0001628280-26-063969": 1790799189,
+   "0001628280-26-063980": 1790812537,
+   "0001628280-26-063983": 1790812536,
+   "0001628280-26-063985": 1790812536,
+   "0001628280-26-064000": 1790812530,
+   "0001628280-26-064003": 1790812527,
+   "0001628280-26-064013": 1790812519,
+   "0001628280-26-064040": 1790812484,
+   "0001628280-26-064042": 1790812484,
+   "0001628280-26-064044": 1790812484,
    "0001628873-26-000095": 1789391517,
    "0001628873-26-000103": 1790799198,
    "0001628873-26-000104": 1790799198,
@@ -13405,6 +13790,7 @@
    "0001643155-26-000005": 1789510477,
    "0001643653-26-000018": 1789510486,
    "0001645326-26-000014": 1789688313,
+   "0001645593-26-000001": 1790812521,
    "0001646382-26-000019": 1789391517,
    "0001646382-26-000021": 1789616659,
    "0001646563-26-000007": 1789569931,
@@ -13470,12 +13856,14 @@
    "0001662210-26-000015": 1789535189,
    "0001662661-26-000006": 1789594712,
    "0001662972-26-000136": 1789594722,
+   "0001662982-26-000004": 1790812506,
    "0001662991-26-000156": 1789423491,
    "0001662991-26-000158": 1790118855,
    "0001662991-26-000161": 1790292591,
    "0001662991-26-000162": 1790292591,
    "0001663450-26-000002": 1790723641,
    "0001663450-26-000005": 1790723632,
+   "0001663450-26-000008": 1790812510,
    "0001663577-26-000271": 1789411197,
    "0001663577-26-000305": 1790108949,
    "0001663577-26-000313": 1790710540,
@@ -13508,6 +13896,8 @@
    "0001673358-26-000147": 1790006378,
    "0001673358-26-000149": 1790006378,
    "0001673358-26-000152": 1790061785,
+   "0001673488-26-000001": 1790812522,
+   "0001674236-26-000024": 1790812517,
    "0001675163-26-000008": 1790098377,
    "0001675424-26-000002": 1789411211,
    "0001675457-26-000015": 1790723589,
@@ -13568,6 +13958,7 @@
    "0001683168-26-007483": 1790723663,
    "0001683168-26-007488": 1790723597,
    "0001683168-26-007499": 1790799193,
+   "0001683607-26-000016": 1790812527,
    "0001685768-26-000003": 1790396761,
    "0001685994-26-000009": 1790370643,
    "0001686308-26-000007": 1789391517,
@@ -13693,6 +14084,7 @@
    "0001724097-26-000010": 1789510486,
    "0001724169-26-000043": 1790108958,
    "0001726903-26-000002": 1790723619,
+   "0001726903-26-000006": 1790812499,
    "0001726955-26-000010": 1789616663,
    "0001727074-26-000138": 1790370644,
    "0001727227-26-000006": 1789423538,
@@ -13710,6 +14102,12 @@
    "0001731122-26-001242": 1789449849,
    "0001731122-26-001265": 1789774541,
    "0001731122-26-001296": 1790667075,
+   "0001732716-26-000018": 1790812488,
+   "0001733117-26-000010": 1790812488,
+   "0001733121-26-000020": 1790812489,
+   "0001733123-26-000008": 1790812488,
+   "0001733127-26-000015": 1790812488,
+   "0001733285-26-000010": 1790812487,
    "0001733998-26-000143": 1790033461,
    "0001734563-26-000019": 1789423498,
    "0001736332-26-000002": 1789767226,
@@ -13720,9 +14118,11 @@
    "0001737388-26-000007": 1789594712,
    "0001738827-26-000041": 1789510490,
    "0001739445-26-000141": 1790645700,
+   "0001739445-26-000143": 1790812499,
    "0001739515-26-000011": 1789391517,
    "0001741576-26-000010": 1789774537,
    "0001741955-26-000008": 1790292580,
+   "0001745268-26-000010": 1790812487,
    "0001746448-26-000009": 1789594728,
    "0001747962-26-000007": 1790165710,
    "0001748095-26-000011": 1790282420,
@@ -13824,6 +14224,7 @@
    "0001771146-26-001889": 1790723644,
    "0001771146-26-001895": 1790781646,
    "0001771146-26-001897": 1790781645,
+   "0001771398-26-000005": 1790812534,
    "0001772409-26-000009": 1790282421,
    "0001772447-26-000020": 1789594691,
    "0001772458-26-000005": 1789594724,
@@ -13876,9 +14277,11 @@
    "0001784996-26-000086": 1789423498,
    "0001784996-26-000088": 1789510470,
    "0001784996-26-000095": 1790033476,
+   "0001784996-26-000097": 1790812519,
    "0001785452-26-000013": 1790645695,
    "0001785783-26-000015": 1790033461,
    "0001789617-26-000004": 1789713674,
+   "0001790695-26-000016": 1790812485,
    "0001791771-26-000006": 1789594727,
    "0001791800-26-000010": 1789391517,
    "0001791883-26-000003": 1789423526,
@@ -13888,9 +14291,11 @@
    "0001794034-26-000007": 1790195166,
    "0001794156-26-000029": 1789688320,
    "0001794968-26-000002": 1789680528,
+   "0001796490-26-000008": 1790812487,
    "0001796536-26-000009": 1790645750,
    "0001796825-26-000018": 1789602743,
    "0001796999-26-000002": 1789680538,
+   "0001797318-26-000120": 1790812513,
    "0001797672-26-000006": 1790033479,
    "0001799461-26-000007": 1790380739,
    "0001799461-26-000009": 1790723650,
@@ -13924,6 +14329,7 @@
    "0001810231-26-000016": 1789518393,
    "0001810417-26-000021": 1789391517,
    "0001810417-26-000023": 1789767233,
+   "0001814022-26-000002": 1790812532,
    "0001814053-26-000003": 1790710517,
    "0001814152-26-000008": 1790799186,
    "0001814238-26-000017": 1790282429,
@@ -13992,6 +14398,7 @@
    "0001823608-26-000194": 1789688312,
    "0001823742-26-000005": 1790645721,
    "0001823952-26-000022": 1789695150,
+   "0001824484-26-000014": 1790812538,
    "0001825185-26-000003": 1790723600,
    "0001825354-26-000005": 1789391517,
    "0001825354-26-000008": 1789391517,
@@ -14001,6 +14408,7 @@
    "0001826470-26-000073": 1790282430,
    "0001826731-26-000010": 1789432722,
    "0001827369-26-000007": 1789518390,
+   "0001828123-26-000008": 1790812487,
    "0001828972-26-000141": 1789432715,
    "0001828972-26-000142": 1789432715,
    "0001829126-26-010018": 1789391517,
@@ -14088,6 +14496,7 @@
    "0001829126-26-010588": 1790734180,
    "0001829126-26-010590": 1790734179,
    "0001829126-26-010595": 1790781675,
+   "0001829340-26-000009": 1790812485,
    "0001830043-26-000108": 1789391517,
    "0001830165-26-000034": 1790799244,
    "0001831631-26-000107": 1789594713,
@@ -14111,6 +14520,7 @@
    "0001836876-26-000011": 1789680524,
    "0001837229-26-000014": 1789423505,
    "0001837336-26-000039": 1789594692,
+   "0001838139-26-000026": 1790812528,
    "0001838934-26-000020": 1789680543,
    "0001839066-26-000045": 1789518389,
    "0001839066-26-000047": 1789767232,
@@ -15625,12 +16035,21 @@
    "0001839882-26-048408": 1790799194,
    "0001839882-26-048409": 1790799193,
    "0001839882-26-048412": 1790799189,
+   "0001839882-26-048415": 1790812539,
+   "0001839882-26-048416": 1790812538,
+   "0001839882-26-048423": 1790812524,
+   "0001839882-26-048424": 1790812520,
+   "0001839882-26-048425": 1790812518,
+   "0001839882-26-048426": 1790812514,
+   "0001839882-26-048429": 1790812512,
+   "0001839882-26-048442": 1790812489,
    "0001839931-26-000002": 1790118826,
    "0001840485-26-000008": 1790041609,
    "0001840706-26-000309": 1789423555,
    "0001840706-26-000310": 1789423555,
    "0001840706-26-000317": 1790108960,
    "0001840706-26-000318": 1790108960,
+   "0001841752-26-000022": 1790812502,
    "0001841761-26-000098": 1789391517,
    "0001841761-26-000100": 1789498935,
    "0001842003-26-000014": 1789423542,
@@ -15712,6 +16131,7 @@
    "0001870837-26-000004": 1790723597,
    "0001870914-26-000025": 1789423528,
    "0001870974-26-000012": 1790195158,
+   "0001870974-26-000014": 1790812538,
    "0001870987-26-000027": 1789594701,
    "0001871006-26-000008": 1790165709,
    "0001871006-26-000010": 1790282415,
@@ -15731,6 +16151,7 @@
    "0001882764-26-000008": 1790033475,
    "0001882909-26-000004": 1789695148,
    "0001883313-26-000067": 1789774540,
+   "0001883732-26-000016": 1790812486,
    "0001884781-26-000005": 1790358528,
    "0001884996-26-000023": 1789391517,
    "0001885266-26-000002": 1789767223,
@@ -15778,6 +16199,8 @@
    "0001901355-26-000007": 1789510472,
    "0001901357-26-000002": 1789510471,
    "0001901366-26-000007": 1789510472,
+   "0001901420-26-000008": 1790812486,
+   "0001901839-26-000005": 1790812516,
    "0001902368-26-000008": 1789713674,
    "0001902385-26-000009": 1789510469,
    "0001902733-26-000107": 1789680543,
@@ -17893,6 +18316,25 @@
    "0001918704-26-029784": 1790799187,
    "0001918704-26-029785": 1790799187,
    "0001918704-26-029788": 1790799185,
+   "0001918704-26-029789": 1790812534,
+   "0001918704-26-029790": 1790812534,
+   "0001918704-26-029791": 1790812531,
+   "0001918704-26-029792": 1790812526,
+   "0001918704-26-029793": 1790812524,
+   "0001918704-26-029795": 1790812520,
+   "0001918704-26-029796": 1790812519,
+   "0001918704-26-029797": 1790812517,
+   "0001918704-26-029798": 1790812517,
+   "0001918704-26-029799": 1790812516,
+   "0001918704-26-029800": 1790812515,
+   "0001918704-26-029801": 1790812506,
+   "0001918704-26-029802": 1790812502,
+   "0001918704-26-029803": 1790812495,
+   "0001918704-26-029804": 1790812492,
+   "0001918704-26-029805": 1790812491,
+   "0001918704-26-029806": 1790812491,
+   "0001918704-26-029807": 1790812490,
+   "0001918704-26-029808": 1790812489,
    "0001919198-26-000011": 1789510498,
    "0001919348-26-000002": 1790292585,
    "0001919883-26-000002": 1789423550,
@@ -17914,8 +18356,10 @@
    "0001922054-26-000007": 1789391517,
    "0001923231-26-000009": 1789423528,
    "0001923467-26-000006": 1789594709,
+   "0001923830-26-000008": 1790812485,
    "0001924027-26-000004": 1789767228,
    "0001924613-26-000042": 1789767234,
+   "0001926488-26-000012": 1790812486,
    "0001927648-26-000005": 1790195157,
    "0001927831-26-000022": 1789432723,
    "0001928634-26-000004": 1790358526,
@@ -17926,6 +18370,7 @@
    "0001932678-26-000002": 1790723592,
    "0001932878-26-000004": 1789423537,
    "0001932967-26-000007": 1789423495,
+   "0001933694-26-000009": 1790812485,
    "0001934200-26-000009": 1789602721,
    "0001934200-26-000011": 1790213052,
    "0001934848-26-000009": 1789510469,
@@ -18112,9 +18557,12 @@
    "0001991005-26-000004": 1789391517,
    "0001991005-26-000006": 1789498940,
    "0001991536-26-000013": 1790118832,
+   "0001992104-26-000425": 1790812491,
+   "0001992104-26-000426": 1790812490,
    "0001992808-26-000027": 1789767222,
    "0001992979-26-000004": 1790108953,
    "0001993684-26-000008": 1789510509,
+   "0001993776-26-000008": 1790812533,
    "0001994121-26-000004": 1789688319,
    "0001994152-26-000018": 1789423555,
    "0001994334-26-000014": 1789654240,
@@ -18282,6 +18730,24 @@
    "0001999371-26-021639": 1790799206,
    "0001999371-26-021641": 1790799205,
    "0001999371-26-021647": 1790799195,
+   "0001999371-26-021658": 1790812531,
+   "0001999371-26-021662": 1790812515,
+   "0001999371-26-021664": 1790812514,
+   "0001999371-26-021666": 1790812512,
+   "0001999371-26-021668": 1790812511,
+   "0001999371-26-021671": 1790812510,
+   "0001999371-26-021674": 1790812510,
+   "0001999371-26-021678": 1790812507,
+   "0001999371-26-021679": 1790812507,
+   "0001999371-26-021682": 1790812506,
+   "0001999371-26-021683": 1790812506,
+   "0001999371-26-021685": 1790812506,
+   "0001999371-26-021688": 1790812502,
+   "0001999371-26-021691": 1790812498,
+   "0001999371-26-021692": 1790812495,
+   "0001999371-26-021694": 1790812493,
+   "0001999371-26-021697": 1790812492,
+   "0001999371-26-021698": 1790812491,
    "0002000932-26-000018": 1790022236,
    "0002001011-26-000140": 1789423516,
    "0002001011-26-000142": 1790292586,
@@ -18330,6 +18796,7 @@
    "0002016236-26-000004": 1789391517,
    "0002016329-26-000008": 1790006354,
    "0002016813-26-000020": 1790370639,
+   "0002016863-26-000011": 1790812519,
    "0002016900-26-000042": 1790270294,
    "0002017581-26-000003": 1789594723,
    "0002017618-26-000004": 1789767230,
@@ -18342,6 +18809,7 @@
    "0002021289-26-000010": 1789688309,
    "0002021774-26-000011": 1789510513,
    "0002021896-26-000010": 1789423511,
+   "0002021913-26-000010": 1790812485,
    "0002022060-26-000005": 1789391517,
    "0002022145-26-000006": 1790098377,
    "0002022636-26-000002": 1789680528,
@@ -18351,6 +18819,7 @@
    "0002025901-26-000007": 1789510474,
    "0002025968-26-000010": 1790691735,
    "0002025977-26-000008": 1790006368,
+   "0002026033-26-000009": 1790812485,
    "0002026373-26-000010": 1790041609,
    "0002026961-26-000004": 1789423551,
    "0002026961-26-000006": 1789510531,
@@ -18411,10 +18880,13 @@
    "0002050370-26-000006": 1789423509,
    "0002050857-26-000016": 1789680546,
    "0002051034-26-000008": 1789602793,
+   "0002051270-26-000012": 1790812537,
+   "0002051514-26-000013": 1790812537,
    "0002051813-26-000012": 1790108956,
    "0002052363-26-000054": 1789432719,
    "0002052698-26-000004": 1789423551,
    "0002052698-26-000006": 1789510531,
+   "0002052799-26-000013": 1790812486,
    "0002053652-26-000008": 1789510487,
    "0002053652-26-000009": 1789688317,
    "0002053652-26-000010": 1790118845,
@@ -18504,6 +18976,7 @@
    "0002075568-26-000003": 1790204640,
    "0002075704-26-000034": 1789680531,
    "0002076000-26-000015": 1789594707,
+   "0002076120-26-000008": 1790812532,
    "0002077810-26-000305": 1789391517,
    "0002078265-26-000373": 1789391517,
    "0002078265-26-000374": 1789391517,
@@ -18537,6 +19010,9 @@
    "0002078265-26-000407": 1790645707,
    "0002078265-26-000408": 1790632321,
    "0002078265-26-000415": 1790723605,
+   "0002078265-26-000417": 1790812510,
+   "0002078265-26-000418": 1790812507,
+   "0002078265-26-000419": 1790812499,
    "0002078454-26-000014": 1789518393,
    "0002078512-26-000004": 1789569929,
    "0002078559-26-000010": 1789518392,
@@ -18608,9 +19084,12 @@
    "0002095080-26-000011": 1789510480,
    "0002097065-26-000005": 1790195158,
    "0002100129-26-000008": 1789391517,
+   "0002102036-26-000003": 1790812529,
    "0002102304-26-000003": 1789774535,
    "0002102304-26-000004": 1790204630,
    "0002102304-26-000005": 1790204624,
+   "0002102407-26-000005": 1790812533,
+   "0002102499-26-000002": 1790812525,
    "0002104339-26-000008": 1789594721,
    "0002104444-26-000011": 1789668918,
    "0002105218-26-000010": 1789680553,
@@ -18658,6 +19137,7 @@
    "0002117905-26-000042": 1790204641,
    "0002117905-26-000043": 1790282415,
    "0002117905-26-000044": 1790611349,
+   "0002117905-26-000045": 1790812539,
    "0002118769-26-000002": 1789485090,
    "0002119666-26-000006": 1790370641,
    "0002119764-26-000024": 1790081155,
@@ -18676,6 +19156,7 @@
    "0002123975-26-000021": 1790118837,
    "0002123975-26-000023": 1790282418,
    "0002123975-26-000025": 1790645699,
+   "0002123975-26-000027": 1790812530,
    "0002124457-26-000002": 1789485089,
    "0002124509-26-000004": 1789423489,
    "0002124509-26-000008": 1789774536,
@@ -18718,6 +19199,7 @@
    "0002147680-26-000012": 1790723637,
    "0002147950-26-000008": 1790033472,
    "0002148276-26-000002": 1789680532,
+   "0002148361-26-000004": 1790812521,
    "0002148570-26-000003": 1790033486,
    "0002149579-26-000004": 1790108963,
    "0002150456-26-000004": 1790118824,
