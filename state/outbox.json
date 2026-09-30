@@ -1,55 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001764650-26-000011",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL STX $40.5M - Romano (Officer) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1764650/000176465026000011/0001764650-26-000011-index.htm"
-  },
-  {
-   "uid": "0001193125-26-392240",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL DELL $27.5M - Silver Lake Partners (See Remarks) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526392240/0001193125-26-392240-index.htm"
-  },
-  {
-   "uid": "0001193125-26-392234",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL DELL $25.1M - Sl (See Remarks) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1767114/000119312526392234/0001193125-26-392234-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009529",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL RDDT $19.7M - Xyz Revocable Trust (Director) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1827011/000195004726009529/0001950047-26-009529-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009511",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726009511/0001950047-26-009511-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009514",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL CRWV $16.6M - Michael (Director) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009514/0001950047-26-009514-index.htm"
-  },
-  {
-   "uid": "0001648401-26-000009:2",
-   "queued_at": "2026-09-16T00:27:02.051886+00:00",
-   "text": "\ud83d\udd34 SELL HPE $15.1M - Neri (Pres) - 9/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1648401/000164840126000009/0001648401-26-000009-index.htm"
-  },
-  {
    "uid": "0001193125-26-392244",
    "queued_at": "2026-09-16T00:27:02.051886+00:00",
    "text": "\ud83d\udd34 SELL DELL $14.4M - Silver Lake Partners (See Remarks) - 9/15 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3450,55 @@
    "text": "\ud83d\udfe2 BUY FUL $2K - Zaheer (Director) - 9/29",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1919136/000122520826008011/0001225208-26-008011-index.htm"
+  },
+  {
+   "uid": "0001969223-26-001043",
+   "queued_at": "2026-09-30T20:14:13.293442+00:00",
+   "text": "\ud83d\udd34 SELL BATRB $9.5M - Schiller (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1958140/000196922326001043/0001969223-26-001043-index.htm"
+  },
+  {
+   "uid": "0001950047-26-009879",
+   "queued_at": "2026-09-30T20:14:13.293442+00:00",
+   "text": "\ud83d\udd34 SELL CRWV $6.9M - Michael (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009879/0001950047-26-009879-index.htm"
+  },
+  {
+   "uid": "0001183254-26-000008:0",
+   "queued_at": "2026-09-30T20:14:13.293442+00:00",
+   "text": "\ud83d\udfe2 BUY KBDC $1.9M - Robo (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1747172/000118325426000008/0001183254-26-000008-index.htm"
+  },
+  {
+   "uid": "0001225208-26-008020:0",
+   "queued_at": "2026-09-30T20:14:13.293442+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $250K - Kencel (Pres) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1911066/000122520826008020/0001225208-26-008020-index.htm"
+  },
+  {
+   "uid": "0001225208-26-008020:1",
+   "queued_at": "2026-09-30T20:14:13.293442+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $250K - Kencel (Pres) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1911066/000122520826008020/0001225208-26-008020-index.htm"
+  },
+  {
+   "uid": "0001193125-26-408806:0",
+   "queued_at": "2026-09-30T20:14:13.293442+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $22K - Comer (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2018376/000119312526408806/0001193125-26-408806-index.htm"
+  },
+  {
+   "uid": "0001193125-26-408818:0",
+   "queued_at": "2026-09-30T20:14:13.293442+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $11K - Boswell (CEO) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2011498/000119312526408818/0001193125-26-408818-index.htm"
   }
  ]
 }
