@@ -1,48 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001623534-26-000006:1",
-   "queued_at": "2026-09-15T22:16:20.547316+00:00",
-   "text": "\ud83d\udd34 SELL ROST $11.3M - Conroy (CEO) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1623534/000162353426000006/0001623534-26-000006-index.htm"
-  },
-  {
-   "uid": "0001193125-26-391947:0",
-   "queued_at": "2026-09-15T22:16:20.547316+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $5.9M - Nippon Life Insurance (10% Owner) - 9/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526391947/0001193125-26-391947-index.htm"
-  },
-  {
-   "uid": "0001193125-26-392111:0",
-   "queued_at": "2026-09-15T22:16:20.547316+00:00",
-   "text": "\ud83d\udfe2 BUY CARL $3M - Presidio Management Group (10% Owner) - 7/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1794546/000119312526392111/0001193125-26-392111-index.htm"
-  },
-  {
-   "uid": "0000821002-26-000041:0",
-   "queued_at": "2026-09-15T22:16:20.547316+00:00",
-   "text": "\ud83d\udfe2 BUY GIII $1.1M - Goldfarb (CEO) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1007772/000082100226000041/0000821002-26-000041-index.htm"
-  },
-  {
-   "uid": "0001352090-26-000007:0",
-   "queued_at": "2026-09-15T22:16:20.547316+00:00",
-   "text": "\ud83d\udfe2 BUY COO $539K - Kurzius (Director) - 9/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1352090/000135209026000007/0001352090-26-000007-index.htm"
-  },
-  {
-   "uid": "0001104659-26-107867:0",
-   "queued_at": "2026-09-15T22:16:20.547316+00:00",
-   "text": "\ud83d\udfe2 BUY RWT $384K - Abate (CEO) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1453409/000110465926107867/0001104659-26-107867-index.htm"
-  },
-  {
    "uid": "0001413087-26-000007:0",
    "queued_at": "2026-09-15T22:16:20.547316+00:00",
    "text": "\ud83d\udfe2 BUY COO $379K - Rosebrough (Director) - 9/11",
@@ -3499,6 +3457,48 @@
    "text": "\ud83d\udfe2 BUY BPRE $1.3M - Kamfar (Director) - 9/22",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426017538/0001398344-26-017538-index.htm"
+  },
+  {
+   "uid": "0001193125-26-408064:3",
+   "queued_at": "2026-09-30T02:09:47.215103+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $10.1M - One Capital Management (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1853723/000119312526408064/0001193125-26-408064-index.htm"
+  },
+  {
+   "uid": "0001193125-26-408064:8",
+   "queued_at": "2026-09-30T02:09:47.215103+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $10.1M - One Capital Management (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1853723/000119312526408064/0001193125-26-408064-index.htm"
+  },
+  {
+   "uid": "0001193125-26-408061:3",
+   "queued_at": "2026-09-30T02:09:47.215103+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $10.1M - George (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000119312526408061/0001193125-26-408061-index.htm"
+  },
+  {
+   "uid": "0001193125-26-408061:8",
+   "queued_at": "2026-09-30T02:09:47.215103+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $10.1M - George (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000119312526408061/0001193125-26-408061-index.htm"
+  },
+  {
+   "uid": "0001193125-26-408064:5",
+   "queued_at": "2026-09-30T02:09:47.215103+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $7.1M - One Capital Management (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1853723/000119312526408064/0001193125-26-408064-index.htm"
+  },
+  {
+   "uid": "0001193125-26-408061:5",
+   "queued_at": "2026-09-30T02:09:47.215103+00:00",
+   "text": "\ud83d\udfe2 BUY ADRX $7.1M - George (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000119312526408061/0001193125-26-408061-index.htm"
   }
  ]
 }
