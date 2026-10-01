@@ -1,160 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0002005037-26-000014:1",
-   "queued_at": "2026-09-17T18:15:49.316534+00:00",
-   "text": "\ud83d\udfe2 BUY SBLK $1.4M - Zagari (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2005037/000200503726000014/0002005037-26-000014-index.htm"
-  },
-  {
-   "uid": "0002005037-26-000014:0",
-   "queued_at": "2026-09-17T18:15:49.316534+00:00",
-   "text": "\ud83d\udfe2 BUY SBLK $283K - Zagari (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2005037/000200503726000014/0002005037-26-000014-index.htm"
-  },
-  {
-   "uid": "0001978604-26-000008:0",
-   "queued_at": "2026-09-17T18:15:49.316534+00:00",
-   "text": "\ud83d\udfe2 BUY SBLK $85K - Plakantonaki (Officer) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1978604/000197860426000008/0001978604-26-000008-index.htm"
-  },
-  {
-   "uid": "0001140361-26-037010:0",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL FANG $1.9B - Sgf Fang Holdings (10% Owner) - 9/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2080063/000114036126037010/0001140361-26-037010-index.htm"
-  },
-  {
-   "uid": "0001140361-26-037009:0",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL FANG $1.9B - Sgf Fang Holdings (10% Owner) - 9/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2080063/000114036126037009/0001140361-26-037009-index.htm"
-  },
-  {
-   "uid": "0001104659-26-108585:0",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL INGM $53.5M - Platinum Equity Llc (10% Owner) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2080996/000110465926108585/0001104659-26-108585-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009626",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL SNDK $51.4M - David (Director) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000195004726009626/0001950047-26-009626-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007035",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL TWST $44.7M - Leproust (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1753655/000195917326007035/0001959173-26-007035-index.htm"
-  },
-  {
-   "uid": "0001315082-26-000002",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL SION $21.8M - Ra Capital Healthcare (Director) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2036042/000131508226000002/0001315082-26-000002-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007028",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL DELL $14M - Kennedy (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2086800/000195917326007028/0001959173-26-007028-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009640",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL CAI $12.1M - Brian (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2071959/000195004726009640/0001950047-26-009640-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009600",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL STNG $11.1M - Cameron (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1979195/000195004726009600/0001950047-26-009600-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009653",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL PHVS $10.5M - Schoodic Management Bv (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1830487/000195004726009653/0001950047-26-009653-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007033",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL TWST $9.3M - Leproust (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1753655/000195917326007033/0001959173-26-007033-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009606",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL PANW $7.5M - Goetz Irr Childrens (Director) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1327567/000195004726009606/0001950047-26-009606-index.htm"
-  },
-  {
-   "uid": "0001193125-26-394389:0",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $7.4M - Nippon Life Insurance (10% Owner) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526394389/0001193125-26-394389-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009654",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL PHVS $7M - Johannes Ger Chris (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2014983/000195004726009654/0001950047-26-009654-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009642",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udd34 SELL TVTX $6.9M - Eric (Director) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1763494/000195004726009642/0001950047-26-009642-index.htm"
-  },
-  {
-   "uid": "0001213900-26-101014:0",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udfe2 BUY BWMX $732K - Campos (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1834688/000121390026101014/0001213900-26-101014-index.htm"
-  },
-  {
-   "uid": "0001213900-26-101014:1",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udfe2 BUY BWMX $575K - Campos (Director) - 9/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1834688/000121390026101014/0001213900-26-101014-index.htm"
-  },
-  {
-   "uid": "0001213900-26-101012:0",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udfe2 BUY BWMX $492K - Chevallier (CEO) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2120042/000121390026101012/0001213900-26-101012-index.htm"
-  },
-  {
-   "uid": "0001213900-26-101012:1",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udfe2 BUY BWMX $247K - Chevallier (CEO) - 9/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2120042/000121390026101012/0001213900-26-101012-index.htm"
-  },
-  {
    "uid": "0001213900-26-101015:0",
    "queued_at": "2026-09-17T21:29:43.593921+00:00",
    "text": "\ud83d\udfe2 BUY BWMX $247K - Chevallier (MD) - 9/16",
@@ -3499,6 +3345,160 @@
    "text": "\ud83d\udfe2 BUY KWY $2K - Hansen (CFO & EVP) - 9/30",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1686017/000107262726000055/0001072627-26-000055-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:3",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $8.4M - Conifer Management (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:2",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $8.3M - Conifer Management (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:16",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $6.9M - Conifer Management (10% Owner) - 9/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0001104659-26-112487:2",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $5M - Uaw Chrysler Retirees (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1844684/000110465926112487/0001104659-26-112487-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:5",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $4.7M - Conifer Management (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:26",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $4M - Conifer Management (10% Owner) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:27",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $4M - Conifer Management (10% Owner) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:4",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $3.8M - Conifer Management (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:22",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $3.5M - Conifer Management (10% Owner) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:15",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $3.5M - Conifer Management (10% Owner) - 9/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:12",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $3.1M - Conifer Management (10% Owner) - 9/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0001104659-26-112487:1",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $3M - Uaw Chrysler Retirees (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1844684/000110465926112487/0001104659-26-112487-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:0",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $3M - Conifer Management (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:23",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $3M - Conifer Management (10% Owner) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0001398344-26-017661:2",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $1.9M - Kamfar (Director) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426017661/0001398344-26-017661-index.htm"
+  },
+  {
+   "uid": "0001104659-26-112487:0",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $1.9M - Uaw Chrysler Retirees (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1844684/000110465926112487/0001104659-26-112487-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:7",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1.9M - Conifer Management (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0001398344-26-017661:1",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $1.7M - Kamfar (Director) - 9/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426017661/0001398344-26-017661-index.htm"
+  },
+  {
+   "uid": "0001398344-26-017661:0",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $1.7M - Kamfar (Director) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426017661/0001398344-26-017661-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:25",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1.3M - Conifer Management (10% Owner) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:17",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1M - Conifer Management (10% Owner) - 9/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004310:9",
+   "queued_at": "2026-10-01T04:30:33.588560+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1M - Conifer Management (10% Owner) - 9/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
   }
  ]
 }
