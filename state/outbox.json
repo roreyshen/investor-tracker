@@ -1,27 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001322325-26-000004:0",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udfe2 BUY RVSB $10K - Sherman (Pres) - 9/17",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1322325/000132232526000004/0001322325-26-000004-index.htm"
-  },
-  {
-   "uid": "0001332596-26-000006:2",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udfe2 BUY BUKS $4K - Daly (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000006/0001332596-26-000006-index.htm"
-  },
-  {
-   "uid": "0001332596-26-000006:1",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udfe2 BUY BUKS $2K - Daly (Director) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000006/0001332596-26-000006-index.htm"
-  },
-  {
    "uid": "0001332596-26-000006:0",
    "queued_at": "2026-09-17T21:29:43.593921+00:00",
    "text": "\ud83d\udfe2 BUY BUKS $374 - Daly (Director) - 9/15",
@@ -3499,6 +3478,27 @@
    "text": "\ud83d\udfe2 BUY GPUS $5M - Ault (Exec Chair) - 9/30",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1734770/000121465926012383/0001214659-26-012383-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007179",
+   "queued_at": "2026-10-01T17:24:25.464390+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $5.1M - Kleinerman (Officer) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1979088/000195917326007179/0001959173-26-007179-index.htm"
+  },
+  {
+   "uid": "0001193125-26-409999:0",
+   "queued_at": "2026-10-01T17:24:25.464390+00:00",
+   "text": "\ud83d\udfe2 BUY XENE $1.1M - Mortimer (Pres) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1619961/000119312526409999/0001193125-26-409999-index.htm"
+  },
+  {
+   "uid": "0001193125-26-410001:0",
+   "queued_at": "2026-10-01T17:24:25.464390+00:00",
+   "text": "\ud83d\udfe2 BUY XENE $560K - Kelly (CFO) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1582313/000119312526410001/0001193125-26-410001-index.htm"
   }
  ]
 }
