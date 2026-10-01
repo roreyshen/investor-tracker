@@ -1,13 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001213900-26-101015:0",
-   "queued_at": "2026-09-17T21:29:43.593921+00:00",
-   "text": "\ud83d\udfe2 BUY BWMX $247K - Chevallier (MD) - 9/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2119899/000121390026101015/0001213900-26-101015-index.htm"
-  },
-  {
    "uid": "0001322325-26-000004:0",
    "queued_at": "2026-09-17T21:29:43.593921+00:00",
    "text": "\ud83d\udfe2 BUY RVSB $10K - Sherman (Pres) - 9/17",
@@ -3499,6 +3492,13 @@
    "text": "\ud83d\udfe2 BUY GPI $1M - Conifer Management (10% Owner) - 9/28",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
+  },
+  {
+   "uid": "0001214659-26-012383:2",
+   "queued_at": "2026-10-01T11:11:40.569134+00:00",
+   "text": "\ud83d\udfe2 BUY GPUS $5M - Ault (Exec Chair) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1734770/000121465926012383/0001214659-26-012383-index.htm"
   }
  ]
 }
