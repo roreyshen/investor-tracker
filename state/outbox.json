@@ -1,62 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001214659-26-011836:1",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY GPUS $5K - Ault (Exec Chair) - 9/17",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1734770/000121465926011836/0001214659-26-011836-index.htm"
-  },
-  {
-   "uid": "0001214659-26-011836:0",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY GPUS $2K - Ault (Exec Chair) - 9/17",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1734770/000121465926011836/0001214659-26-011836-index.htm"
-  },
-  {
-   "uid": "0001193125-26-397059:2",
-   "queued_at": "2026-09-22T01:46:58.232096+00:00",
-   "text": "\ud83d\udfe2 BUY LEN, LEN.B $93.1M - Berkshire Hathaway Inc (10% Owner) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/0001193125-26-397059-index.htm"
-  },
-  {
-   "uid": "0001193125-26-397059:7",
-   "queued_at": "2026-09-22T01:46:58.232096+00:00",
-   "text": "\ud83d\udfe2 BUY LEN, LEN.B $37.7M - Berkshire Hathaway Inc (10% Owner) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/0001193125-26-397059-index.htm"
-  },
-  {
-   "uid": "0001193125-26-397059:1",
-   "queued_at": "2026-09-22T01:46:58.232096+00:00",
-   "text": "\ud83d\udfe2 BUY LEN, LEN.B $32.6M - Berkshire Hathaway Inc (10% Owner) - 9/17",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/0001193125-26-397059-index.htm"
-  },
-  {
-   "uid": "0001896497-26-000009:0",
-   "queued_at": "2026-09-22T01:46:58.232096+00:00",
-   "text": "\ud83d\udfe2 BUY GRAB $29.9M - Tan Anthony Ping (CEO) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1896497/000189649726000009/0001896497-26-000009-index.htm"
-  },
-  {
-   "uid": "0001193125-26-397059:0",
-   "queued_at": "2026-09-22T01:46:58.232096+00:00",
-   "text": "\ud83d\udfe2 BUY LEN, LEN.B $21M - Berkshire Hathaway Inc (10% Owner) - 9/17",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/0001193125-26-397059-index.htm"
-  },
-  {
-   "uid": "0001193125-26-397059:6",
-   "queued_at": "2026-09-22T01:46:58.232096+00:00",
-   "text": "\ud83d\udfe2 BUY LEN, LEN.B $12.4M - Berkshire Hathaway Inc (10% Owner) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/0001193125-26-397059-index.htm"
-  },
-  {
    "uid": "0000950103-26-014283",
    "queued_at": "2026-09-22T01:46:58.232096+00:00",
    "text": "\ud83d\udd34 SELL CRWD $11.8M - Michael (Officer) - 9/21 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3443,62 @@
    "text": "\ud83d\udfe2 BUY NYAX $446K - Nechmad (Chair) - 9/30",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000880/0001976408-26-000880-index.htm"
+  },
+  {
+   "uid": "0001422493-26-000014:0",
+   "queued_at": "2026-10-02T19:20:44.332518+00:00",
+   "text": "\ud83d\udfe2 BUY MPB $10K - De (Director) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1422493/000142249326000014/0001422493-26-000014-index.htm"
+  },
+  {
+   "uid": "0001749416-26-000010:0",
+   "queued_at": "2026-10-02T19:20:44.332518+00:00",
+   "text": "\ud83d\udfe2 BUY MPB $10K - Evans (Director) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1749416/000174941626000010/0001749416-26-000010-index.htm"
+  },
+  {
+   "uid": "0001104659-26-113107:0",
+   "queued_at": "2026-10-02T19:20:44.332518+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $5K - Wingertzahn (Director) - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1982144/000110465926113107/0001104659-26-113107-index.htm"
+  },
+  {
+   "uid": "0001749279-26-000010:0",
+   "queued_at": "2026-10-02T19:20:44.332518+00:00",
+   "text": "\ud83d\udfe2 BUY MPB $2K - Frank (Director) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1749279/000174927926000010/0001749279-26-000010-index.htm"
+  },
+  {
+   "uid": "0001769745-26-000010:0",
+   "queued_at": "2026-10-02T19:20:44.332518+00:00",
+   "text": "\ud83d\udfe2 BUY MPB $2K - Brumbaugh (Director) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769745/000176974526000010/0001769745-26-000010-index.htm"
+  },
+  {
+   "uid": "0001278504-26-000010:0",
+   "queued_at": "2026-10-02T19:20:44.332518+00:00",
+   "text": "\ud83d\udfe2 BUY MPB $2K - Mowery (Director) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1278504/000127850426000010/0001278504-26-000010-index.htm"
+  },
+  {
+   "uid": "0001511696-26-000010:0",
+   "queued_at": "2026-10-02T19:20:44.332518+00:00",
+   "text": "\ud83d\udfe2 BUY MPB $496 - Abel (Director) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1511696/000151169626000010/0001511696-26-000010-index.htm"
+  },
+  {
+   "uid": "20035555:1",
+   "queued_at": "2026-10-02T19:20:44.332518+00:00",
+   "text": "\ud83d\udfe2 BUY Indiana ST 5.00% 02/01 $50K-100K - Beyer (Rep. VA08) - traded 9/15 (16d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035555.pdf"
   }
  ]
 }
