@@ -1,41 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0000905148-26-004241:13",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $1.7M - Conifer Management (10% Owner) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004241:1",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $1.5M - Conifer Management (10% Owner) - 9/17",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
-  },
-  {
-   "uid": "0000912282-26-001293:0",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY CYBN $1.3M - Halstead (CEO) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1833141/000091228226001293/0000912282-26-001293-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004241:10",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $1.3M - Conifer Management (10% Owner) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004241:8",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $1.1M - Conifer Management (10% Owner) - 9/17",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004241/0000905148-26-004241-index.htm"
-  },
-  {
    "uid": "0001292814-26-004625:0",
    "queued_at": "2026-09-21T23:32:45.539049+00:00",
    "text": "\ud83d\udfe2 BUY BBD $843K - Da Cunha Paulo (Director) - 9/18",
@@ -3499,6 +3464,41 @@
    "text": "\ud83d\udd34 SELL JPM $15K-50K - Whitehouse (Senator) - traded 9/4 (27d ago)",
    "source": "senate",
    "url": "https://efdsearch.senate.gov/search/view/ptr/6bf3b6f7-9e1b-499a-bd5a-990292ce2e72/"
+  },
+  {
+   "uid": "0000950142-26-002664",
+   "queued_at": "2026-10-02T01:21:39.213945+00:00",
+   "text": "\ud83d\udd34 SELL TH $153.9M - Arrow Holdings (10%) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1767017/000095014226002664/0000950142-26-002664-index.htm"
+  },
+  {
+   "uid": "0000950142-26-002665",
+   "queued_at": "2026-10-02T01:21:39.213945+00:00",
+   "text": "\ud83d\udd34 SELL TH $48.5M - Mfa (10%) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1766340/000095014226002665/0000950142-26-002665-index.htm"
+  },
+  {
+   "uid": "0001817646-26-000028:1",
+   "queued_at": "2026-10-02T01:21:39.213945+00:00",
+   "text": "\ud83d\udfe2 BUY AVR $2.5M - Capital Pty Ltd (10% Owner) - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2011514/000181764626000028/0001817646-26-000028-index.htm"
+  },
+  {
+   "uid": "0001104659-26-112945:0",
+   "queued_at": "2026-10-02T01:21:39.213945+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $39K - Ladd (Pres) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1901037/000110465926112945/0001104659-26-112945-index.htm"
+  },
+  {
+   "uid": "0001104659-26-112944:0",
+   "queued_at": "2026-10-02T01:21:39.213945+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $6K - Huskinson (CFO, CCO and) - 9/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1901037/000110465926112944/0001104659-26-112944-index.htm"
   }
  ]
 }
