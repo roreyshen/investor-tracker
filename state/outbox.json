@@ -1,34 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001292814-26-004625:0",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $843K - Da Cunha Paulo (Director) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126534/000129281426004625/0001292814-26-004625-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004619:0",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $784K - Panico (Officer) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2125974/000129281426004619/0001292814-26-004619-index.htm"
-  },
-  {
-   "uid": "0001758710-26-000004:0",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY RWT $20K - Macomber (Officer) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1758710/000175871026000004/0001758710-26-000004-index.htm"
-  },
-  {
-   "uid": "0001332596-26-000007:0",
-   "queued_at": "2026-09-21T23:32:45.539049+00:00",
-   "text": "\ud83d\udfe2 BUY BUKS $16K - Daly (Director) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000007/0001332596-26-000007-index.htm"
-  },
-  {
    "uid": "0001214659-26-011836:1",
    "queued_at": "2026-09-21T23:32:45.539049+00:00",
    "text": "\ud83d\udfe2 BUY GPUS $5K - Ault (Exec Chair) - 9/17",
@@ -3499,6 +3471,34 @@
    "text": "\ud83d\udfe2 BUY NONE $6K - Huskinson (CFO, CCO and) - 9/15",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1901037/000110465926112944/0001104659-26-112944-index.htm"
+  },
+  {
+   "uid": "0001193125-26-411206:0",
+   "queued_at": "2026-10-02T14:01:41.390488+00:00",
+   "text": "\ud83d\udd34 SELL BABA $12M - Jiang (Officer) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114927/000119312526411206/0001193125-26-411206-index.htm"
+  },
+  {
+   "uid": "0001976408-26-000880:2",
+   "queued_at": "2026-10-02T14:01:41.390488+00:00",
+   "text": "\ud83d\udfe2 BUY NYAX $889K - Nechmad (Chair) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000880/0001976408-26-000880-index.htm"
+  },
+  {
+   "uid": "0001976408-26-000880:1",
+   "queued_at": "2026-10-02T14:01:41.390488+00:00",
+   "text": "\ud83d\udfe2 BUY NYAX $777K - Nechmad (Chair) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000880/0001976408-26-000880-index.htm"
+  },
+  {
+   "uid": "0001976408-26-000880:0",
+   "queued_at": "2026-10-02T14:01:41.390488+00:00",
+   "text": "\ud83d\udfe2 BUY NYAX $446K - Nechmad (Chair) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000880/0001976408-26-000880-index.htm"
   }
  ]
 }
