@@ -1,41 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001292814-26-004642:0",
-   "queued_at": "2026-09-22T17:33:55.130472+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $1.1M - Marcilio (Officer) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126140/000129281426004642/0001292814-26-004642-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004664:0",
-   "queued_at": "2026-09-22T17:33:55.130472+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $1.1M - Favarao (Officer) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2122593/000129281426004664/0001292814-26-004664-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004652:0",
-   "queued_at": "2026-09-22T17:33:55.130472+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $1M - Tescarolo (Officer) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2125962/000129281426004652/0001292814-26-004652-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004650:0",
-   "queued_at": "2026-09-22T17:33:55.130472+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $1M - Bueno (Officer) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2122582/000129281426004650/0001292814-26-004650-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004662:0",
-   "queued_at": "2026-09-22T17:33:55.130472+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $997K - De Oliveira Tulio (Officer) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126527/000129281426004662/0001292814-26-004662-index.htm"
-  },
-  {
    "uid": "0001292814-26-004656:0",
    "queued_at": "2026-09-22T17:33:55.130472+00:00",
    "text": "\ud83d\udfe2 BUY BBD $985K - Mantarro (Officer) - 9/18",
@@ -3499,6 +3464,41 @@
    "text": "\ud83d\udfe2 BUY N/A amount undisclosed - Tiedemann Advisors Llc (10% Owner) - 10/1",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2046647/000091957426006648/0000919574-26-006648-index.htm"
+  },
+  {
+   "uid": "0000950103-26-015176:5",
+   "queued_at": "2026-10-03T01:57:38.749779+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $16.4M - Sentonas (Pres) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000095010326015176/0000950103-26-015176-index.htm"
+  },
+  {
+   "uid": "0000950103-26-015176:4",
+   "queued_at": "2026-10-03T01:57:38.749779+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $14.2M - Sentonas (Pres) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000095010326015176/0000950103-26-015176-index.htm"
+  },
+  {
+   "uid": "0001433644-26-000017:6",
+   "queued_at": "2026-10-03T01:57:38.749779+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $11.7M - Speiser (Director) - 10/2",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000143364426000017/0001433644-26-000017-index.htm"
+  },
+  {
+   "uid": "0000950103-26-015176:6",
+   "queued_at": "2026-10-03T01:57:38.749779+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $11.2M - Sentonas (Pres) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000095010326015176/0000950103-26-015176-index.htm"
+  },
+  {
+   "uid": "0000950103-26-015176:3",
+   "queued_at": "2026-10-03T01:57:38.749779+00:00",
+   "text": "\ud83d\udd34 SELL CRWD $10.7M - Sentonas (Pres) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000095010326015176/0000950103-26-015176-index.htm"
   }
  ]
 }
