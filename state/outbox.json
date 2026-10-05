@@ -1,90 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001292814-26-004656:0",
-   "queued_at": "2026-09-22T17:33:55.130472+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $985K - Mantarro (Officer) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126532/000129281426004656/0001292814-26-004656-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004648:0",
-   "queued_at": "2026-09-22T17:33:55.130472+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $891K - Freiberger (Officer) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2125967/000129281426004648/0001292814-26-004648-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004638:0",
-   "queued_at": "2026-09-22T17:33:55.130472+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $843K - Alvarez (Director) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126531/000129281426004638/0001292814-26-004638-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004666:0",
-   "queued_at": "2026-09-22T17:33:55.130472+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $562K - Caffarelli (Director) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2116145/000129281426004666/0001292814-26-004666-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004644:0",
-   "queued_at": "2026-09-22T17:33:55.130472+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $562K - Nunes Regina Helena (Director) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2135664/000129281426004644/0001292814-26-004644-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009740",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udd34 SELL SPCX $52M - Gwynne (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1768956/000195004726009740/0001950047-26-009740-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009743",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udd34 SELL HOOD $29.7M - Vladimir (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1871006/000195004726009743/0001950047-26-009743-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009739",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udd34 SELL CRWV $17.1M - Michael (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009739/0001950047-26-009739-index.htm"
-  },
-  {
-   "uid": "0001193125-26-397959:0",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udd34 SELL TEVA $14.4M - Mignone (Director) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1258394/000119312526397959/0001193125-26-397959-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009737",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udd34 SELL P $11.4M - Colgrove Fam Charitable (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1651902/000195004726009737/0001950047-26-009737-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009738",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udd34 SELL AAPL $10.6M - Jennifer (Officer) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1780525/000195004726009738/0001950047-26-009738-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009741",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udd34 SELL CRWV $9.2M - Omnadora Capital Llc (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009741/0001950047-26-009741-index.htm"
-  },
-  {
    "uid": "0001972481-26-000285",
    "queued_at": "2026-09-22T20:29:56.324761+00:00",
    "text": "\ud83d\udd34 SELL NET $8.8M - Ledbetter (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3415,90 @@
    "text": "\ud83d\udd34 SELL CRWD $10.7M - Sentonas (Pres) - 9/30",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1968270/000095010326015176/0000950103-26-015176-index.htm"
+  },
+  {
+   "uid": "0001949846-26-000605",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udd34 SELL IBRX $7.7M - Simon (Officer) - 10/5 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1647994/000194984626000605/0001949846-26-000605-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004850:11",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $5.8M - Alvarez (Director) - 8/31",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004850:10",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $5.3M - Alvarez (Director) - 8/31",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004850:9",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $5M - Alvarez (Director) - 8/31",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004850:8",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $4M - Alvarez (Director) - 8/31",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004850:7",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $3.7M - Alvarez (Director) - 8/31",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004850:6",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $3.2M - Alvarez (Director) - 8/31",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004850:5",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $3M - Alvarez (Director) - 8/31",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004850:4",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1.6M - Alvarez (Director) - 8/31",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004850:3",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1M - Alvarez (Director) - 8/31",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
+  },
+  {
+   "uid": "0001213900-26-106613:0",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY VCIG $313K - Hoo (Director) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1930510/000121390026106613/0001213900-26-106613-index.htm"
+  },
+  {
+   "uid": "20035553:0",
+   "queued_at": "2026-10-05T14:40:00.306695+00:00",
+   "text": "\ud83d\udfe2 BUY REOF XXX, LLC $500K-1M - Pelosi (Rep. CA11) - traded 9/8 (24d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035553.pdf"
   }
  ]
 }
