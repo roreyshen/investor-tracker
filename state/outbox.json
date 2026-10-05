@@ -1,76 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001972481-26-000285",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udd34 SELL NET $8.8M - Ledbetter (Director) - 9/22 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1477333/000197248126000285/0001972481-26-000285-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009752",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udd34 SELL PHVS $7M - Johannes Ger Chris (Officer) - 9/17 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2014983/000195004726009752/0001950047-26-009752-index.htm"
-  },
-  {
-   "uid": "0001794034-26-000006:1",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udfe2 BUY OFIX $1.7M - Juniper Investment Company (10% Owner) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1794034/000179403426000006/0001794034-26-000006-index.htm"
-  },
-  {
-   "uid": "0001193125-26-397677:0",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udfe2 BUY BCBP $1.2M - Obrien (CEO) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1381048/000119312526397677/0001193125-26-397677-index.htm"
-  },
-  {
-   "uid": "0001794034-26-000006:0",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udfe2 BUY OFIX $1M - Juniper Investment Company (10% Owner) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1794034/000179403426000006/0001794034-26-000006-index.htm"
-  },
-  {
-   "uid": "0001332596-26-000008:2",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udfe2 BUY BUKS $20K - Daly (Director) - 9/22",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000008/0001332596-26-000008-index.htm"
-  },
-  {
-   "uid": "0001332596-26-000008:1",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udfe2 BUY BUKS $5K - Daly (Director) - 9/22",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1332596/000133259626000008/0001332596-26-000008-index.htm"
-  },
-  {
-   "uid": "0001213900-26-102137:0",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $799 - Monte (Director) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1910629/000121390026102137/0001213900-26-102137-index.htm"
-  },
-  {
-   "uid": "0001213900-26-102144:0",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $500 - Booth - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1845014/000121390026102144/0001213900-26-102144-index.htm"
-  },
-  {
-   "uid": "20035434:0",
-   "queued_at": "2026-09-22T20:29:56.324761+00:00",
-   "text": "\ud83d\udd34 SELL Energy Northwest WA PW $500K-1M - Peters (Rep. CA50) - traded 8/13 (39d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
-  },
-  {
    "uid": "20035434:1",
    "queued_at": "2026-09-22T20:29:56.324761+00:00",
    "text": "\ud83d\udd34 SELL Enterprise CA $500K-1M - Peters (Rep. CA50) - traded 8/4 (48d ago)",
@@ -3499,6 +3429,76 @@
    "text": "\ud83d\udfe2 BUY REOF XXX, LLC $500K-1M - Pelosi (Rep. CA11) - traded 9/8 (24d ago)",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035553.pdf"
+  },
+  {
+   "uid": "0000950142-26-002685:0",
+   "queued_at": "2026-10-05T21:42:03.462230+00:00",
+   "text": "\ud83d\udd34 SELL TH $202.4M - Tdr Capital Investments (10% Owner) - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2024710/000095014226002685/0000950142-26-002685-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010048",
+   "queued_at": "2026-10-05T21:42:03.462230+00:00",
+   "text": "\ud83d\udd34 SELL NBIS $121.4M - Ophir (Director) - 10/5 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000195004726010048/0001950047-26-010048-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010031",
+   "queued_at": "2026-10-05T21:42:03.462230+00:00",
+   "text": "\ud83d\udd34 SELL HOOD $42.3M - Vladimir (Director) - 10/5 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1871006/000195004726010031/0001950047-26-010031-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010046",
+   "queued_at": "2026-10-05T21:42:03.462230+00:00",
+   "text": "\ud83d\udd34 SELL VEEV $37.1M - Thomas (Officer) - 10/5 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1788226/000195004726010046/0001950047-26-010046-index.htm"
+  },
+  {
+   "uid": "0001734563-26-000021:1",
+   "queued_at": "2026-10-05T21:42:03.462230+00:00",
+   "text": "\ud83d\udd34 SELL DBX $12M - Houston (Co-CEO) - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1734563/000173456326000021/0001734563-26-000021-index.htm"
+  },
+  {
+   "uid": "0001193125-26-414288:0",
+   "queued_at": "2026-10-05T21:42:03.462230+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $5M - Nippon Life Insurance (10% Owner) - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526414288/0001193125-26-414288-index.htm"
+  },
+  {
+   "uid": "0001193125-26-414288:1",
+   "queued_at": "2026-10-05T21:42:03.462230+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $4M - Nippon Life Insurance (10% Owner) - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526414288/0001193125-26-414288-index.htm"
+  },
+  {
+   "uid": "0001213900-26-106873:0",
+   "queued_at": "2026-10-05T21:42:03.462230+00:00",
+   "text": "\ud83d\udfe2 BUY N/A $512K - Zook - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2128311/000121390026106873/0001213900-26-106873-index.htm"
+  },
+  {
+   "uid": "0001213900-26-106875:0",
+   "queued_at": "2026-10-05T21:42:03.462230+00:00",
+   "text": "\ud83d\udfe2 BUY N/A $341K - Lindholm - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2128311/000121390026106875/0001213900-26-106875-index.htm"
+  },
+  {
+   "uid": "0001580642-26-006734:0",
+   "queued_at": "2026-10-05T21:42:03.462230+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $100K - Jacobs (Secretary of) - traded 10/2 (365d ago)",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2115681/000158064226006734/0001580642-26-006734-index.htm"
   }
  ]
 }
