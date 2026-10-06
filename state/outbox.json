@@ -1,104 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001959173-26-007085",
-   "queued_at": "2026-09-23T17:13:18.381566+00:00",
-   "text": "\ud83d\udd34 SELL CLS $7.2M - Cooper (Officer) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1972963/000195917326007085/0001959173-26-007085-index.htm"
-  },
-  {
-   "uid": "0000040417-26-000050:0",
-   "queued_at": "2026-09-23T17:13:18.381566+00:00",
-   "text": "\ud83d\udfe2 BUY GAM $46K - Grassi (Pres) - 9/22",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1313312/000004041726000050/0000040417-26-000050-index.htm"
-  },
-  {
-   "uid": "0001622058-26-000016:1",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udd34 SELL MEDP $30.8M - Troendle (Pres) - 9/22",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000162205826000016/0001622058-26-000016-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009767",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726009767/0001950047-26-009767-index.htm"
-  },
-  {
-   "uid": "0001622058-26-000016:0",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udd34 SELL MEDP $13.6M - Troendle (Pres) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000162205826000016/0001622058-26-000016-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009766",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udd34 SELL DDOG $10.7M - Alexis (Director) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1783984/000195004726009766/0001950047-26-009766-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007091",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udd34 SELL BBY $10.7M - Scarlett (Officer) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1707469/000195917326007091/0001959173-26-007091-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009772",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udd34 SELL FSLY $9.2M - Per Artur Bergman (Director) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769490/000195004726009772/0001950047-26-009772-index.htm"
-  },
-  {
-   "uid": "0001794034-26-000007:1",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udfe2 BUY OFIX $1.7M - Juniper Investment Company (10% Owner) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1794034/000179403426000007/0001794034-26-000007-index.htm"
-  },
-  {
-   "uid": "0001794034-26-000007:0",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udfe2 BUY OFIX $1M - Juniper Investment Company (10% Owner) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1794034/000179403426000007/0001794034-26-000007-index.htm"
-  },
-  {
-   "uid": "20035492:0",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udfe2 BUY AVGO $1K-15K - Allen (Rep. GA12) - traded 8/12 (41d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf"
-  },
-  {
-   "uid": "20035492:1",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udd34 SELL ROL $15K-50K - Allen (Rep. GA12) - traded 8/12 (41d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf"
-  },
-  {
-   "uid": "20035492:2",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udfe2 BUY TSM $1K-15K - Allen (Rep. GA12) - traded 8/12 (41d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf"
-  },
-  {
-   "uid": "20035489:2",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udd34 SELL Bank of Nova Scotia $500K-1M - Biggs (Rep. SC03) - traded 8/19 (34d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf"
-  },
-  {
    "uid": "20035489:3",
    "queued_at": "2026-09-23T20:26:15.547377+00:00",
    "text": "\ud83d\udfe2 BUY Bank of Nova Scotia $500K-1M - Biggs (Rep. SC03) - traded 9/1 (21d ago)",
@@ -3499,6 +3401,104 @@
    "text": "\ud83d\udfe2 BUY AVR $1.8M - Capital Pty Ltd (10% Owner) - 10/2",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2011514/000181764626000029/0001817646-26-000029-index.htm"
+  },
+  {
+   "uid": "0002069861-26-000007:0",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL RITE $106.7M - Hendricks (10% Owner) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2069861/000206986126000007/0002069861-26-000007-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007299",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL ANET $97.6M - Ullal (Officer) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605809/000195917326007299/0001959173-26-007299-index.htm"
+  },
+  {
+   "uid": "0001513845-26-000126:4",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL NBIS $25.1M - Nave (COO) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
+  },
+  {
+   "uid": "0001969223-26-001065",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL TT $23.1M - Regnery (Officer) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1715932/000196922326001065/0001969223-26-001065-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010077",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726010077/0001950047-26-010077-index.htm"
+  },
+  {
+   "uid": "0001513845-26-000126:5",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL NBIS $17.4M - Nave (COO) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
+  },
+  {
+   "uid": "0001513845-26-000126:1",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL NBIS $14.2M - Nave (COO) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
+  },
+  {
+   "uid": "0001513845-26-000126:2",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL NBIS $13.2M - Nave (COO) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
+  },
+  {
+   "uid": "0001513845-26-000126:7",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL NBIS $11.6M - Nave (COO) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
+  },
+  {
+   "uid": "0001513845-26-000126:8",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL NBIS $11.5M - Nave (COO) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
+  },
+  {
+   "uid": "0001513845-26-000126:3",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL NBIS $11.4M - Nave (COO) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
+  },
+  {
+   "uid": "0001969223-26-001064",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udd34 SELL CACC $8M - Eidolon Corvid Trust (Member of) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2137517/000196922326001064/0001969223-26-001064-index.htm"
+  },
+  {
+   "uid": "0001460471-26-000005:0",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udfe2 BUY SAH $1.3M - Rusnak (10% Owner) - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1460471/000146047126000005/0001460471-26-000005-index.htm"
+  },
+  {
+   "uid": "0001136478-26-000010:0",
+   "queued_at": "2026-10-06T20:31:38.838447+00:00",
+   "text": "\ud83d\udfe2 BUY NXH $1M - Lemonis (Exec Chair) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1136478/000113647826000010/0001136478-26-000010-index.htm"
   }
  ]
 }
