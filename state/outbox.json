@@ -1,27 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001747962-26-000007:0",
-   "queued_at": "2026-09-23T12:15:38.240475+00:00",
-   "text": "\ud83d\udfe2 BUY ADC $68K - Erlich (Officer) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1747962/000174796226000007/0001747962-26-000007-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007084",
-   "queued_at": "2026-09-23T17:13:18.381566+00:00",
-   "text": "\ud83d\udd34 SELL SNOW $17M - Dageville (Officer) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1821737/000195917326007084/0001959173-26-007084-index.htm"
-  },
-  {
-   "uid": "0001949846-26-000594",
-   "queued_at": "2026-09-23T17:13:18.381566+00:00",
-   "text": "\ud83d\udd34 SELL NTRA $8.2M - Sheena (Director) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1646649/000194984626000594/0001949846-26-000594-index.htm"
-  },
-  {
    "uid": "0001959173-26-007085",
    "queued_at": "2026-09-23T17:13:18.381566+00:00",
    "text": "\ud83d\udd34 SELL CLS $7.2M - Cooper (Officer) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3478,27 @@
    "text": "\ud83d\udfe2 BUY LEN $8K - Berkshire Hathaway Inc (10% Owner) - 10/1",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/0001193125-26-414744-index.htm"
+  },
+  {
+   "uid": "0001628280-26-065174:0",
+   "queued_at": "2026-10-06T15:28:02.978474+00:00",
+   "text": "\ud83d\udfe2 BUY BORR $6.2M - Troim (Director) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026065174/0001628280-26-065174-index.htm"
+  },
+  {
+   "uid": "0001817646-26-000029:1",
+   "queued_at": "2026-10-06T15:28:02.978474+00:00",
+   "text": "\ud83d\udfe2 BUY AVR $4.9M - Capital Pty Ltd (10% Owner) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2011514/000181764626000029/0001817646-26-000029-index.htm"
+  },
+  {
+   "uid": "0001817646-26-000029:0",
+   "queued_at": "2026-10-06T15:28:02.978474+00:00",
+   "text": "\ud83d\udfe2 BUY AVR $1.8M - Capital Pty Ltd (10% Owner) - 10/2",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2011514/000181764626000029/0001817646-26-000029-index.htm"
   }
  ]
 }
