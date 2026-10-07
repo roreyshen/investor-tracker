@@ -1,111 +1,6 @@
 {
  "pending": [
   {
-   "uid": "20035489:3",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udfe2 BUY Bank of Nova Scotia $500K-1M - Biggs (Rep. SC03) - traded 9/1 (21d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf"
-  },
-  {
-   "uid": "20035499:0",
-   "queued_at": "2026-09-23T20:26:15.547377+00:00",
-   "text": "\ud83d\udd34 SELL AAPL $100K-250K - Sessions (Rep. TX17) - 9/22",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf"
-  },
-  {
-   "uid": "0000947871-26-000881:5",
-   "queued_at": "2026-09-23T23:04:20.353148+00:00",
-   "text": "\ud83d\udfe2 BUY ETRA $15M - Gordon (Director) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000881/0000947871-26-000881-index.htm"
-  },
-  {
-   "uid": "0000947871-26-000880:5",
-   "queued_at": "2026-09-23T23:04:20.353148+00:00",
-   "text": "\ud83d\udfe2 BUY ETRA $15M - Orbimed Advisors Llc (Director) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000880/0000947871-26-000880-index.htm"
-  },
-  {
-   "uid": "0000950103-26-014403:1",
-   "queued_at": "2026-09-23T23:04:20.353148+00:00",
-   "text": "\ud83d\udd34 SELL META $14.5M - Cox (Officer) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1607459/000095010326014403/0000950103-26-014403-index.htm"
-  },
-  {
-   "uid": "0000950103-26-014403:0",
-   "queued_at": "2026-09-23T23:04:20.353148+00:00",
-   "text": "\ud83d\udd34 SELL META $14M - Cox (Officer) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1607459/000095010326014403/0000950103-26-014403-index.htm"
-  },
-  {
-   "uid": "0001193125-26-399477:0",
-   "queued_at": "2026-09-23T23:04:20.353148+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $7.5M - Nippon Life Insurance (10% Owner) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526399477/0001193125-26-399477-index.htm"
-  },
-  {
-   "uid": "0002102304-26-000004:0",
-   "queued_at": "2026-09-23T23:04:20.353148+00:00",
-   "text": "\ud83d\udfe2 BUY cv $5M - Shen (10% Owner) - 9/15",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2102304/000210230426000004/0002102304-26-000004-index.htm"
-  },
-  {
-   "uid": "0000947871-26-000881:3",
-   "queued_at": "2026-09-23T23:04:20.353148+00:00",
-   "text": "\ud83d\udfe2 BUY ETRA $5M - Gordon (Director) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000881/0000947871-26-000881-index.htm"
-  },
-  {
-   "uid": "0000947871-26-000880:3",
-   "queued_at": "2026-09-23T23:04:20.353148+00:00",
-   "text": "\ud83d\udfe2 BUY ETRA $5M - Orbimed Advisors Llc (Director) - 9/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000880/0000947871-26-000880-index.htm"
-  },
-  {
-   "uid": "0001183254-26-000006:1",
-   "queued_at": "2026-09-23T23:04:20.353148+00:00",
-   "text": "\ud83d\udfe2 BUY KBDC $1.2M - Robo (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1747172/000118325426000006/0001183254-26-000006-index.htm"
-  },
-  {
-   "uid": "0001973727-26-000059",
-   "queued_at": "2026-09-24T01:24:22.600280+00:00",
-   "text": "\ud83d\udd34 SELL AVGO $225M - Gt Llc (Affiliate) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2059824/000197372726000059/0001973727-26-000059-index.htm"
-  },
-  {
-   "uid": "0001213900-26-102740",
-   "queued_at": "2026-09-24T01:24:22.600280+00:00",
-   "text": "\ud83d\udd34 SELL TRMD $173.2M - Ocm Njord Holdings (10%) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2002087/000121390026102740/0001213900-26-102740-index.htm"
-  },
-  {
-   "uid": "0001973727-26-000058",
-   "queued_at": "2026-09-24T01:24:22.600280+00:00",
-   "text": "\ud83d\udd34 SELL AVGO $25.8M - Samueli Foundation (Affiliate) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1996005/000197372726000058/0001973727-26-000058-index.htm"
-  },
-  {
-   "uid": "0001973727-26-000057",
-   "queued_at": "2026-09-24T01:24:22.600280+00:00",
-   "text": "\ud83d\udd34 SELL AVGO $25M - Investments Lp (Chair) - 9/23 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000197372726000057/0001973727-26-000057-index.htm"
-  },
-  {
    "uid": "0001009165-26-000009:0",
    "queued_at": "2026-09-24T01:24:22.600280+00:00",
    "text": "\ud83d\udfe2 BUY CV $5M - Harari Eliyahou Et (10% Owner) - 9/18",
@@ -3499,6 +3394,111 @@
    "text": "\ud83d\udfe2 BUY NXH $1M - Lemonis (Exec Chair) - 10/6",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1136478/000113647826000010/0001136478-26-000010-index.htm"
+  },
+  {
+   "uid": "0001123292-26-001368:0",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udd34 SELL ESTC $135.2M - Schuurman (Director) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1753439/000112329226001368/0001123292-26-001368-index.htm"
+  },
+  {
+   "uid": "0001193125-26-415871",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udd34 SELL CBL $68.2M - Canyon Capital Advisors (IA to Funds) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1074034/000119312526415871/0001193125-26-415871-index.htm"
+  },
+  {
+   "uid": "0001493152-26-045958:0",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $42.1M - Goldentree Asset Managemen (10% Owner) - 9/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1567892/000149315226045958/0001493152-26-045958-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010090",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udd34 SELL NTNX $23.9M - Rajiv (Officer) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1618732/000195004726010090/0001950047-26-010090-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010086",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udd34 SELL LUXE $16.9M - Michael (Officer) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1986276/000195004726010086/0001950047-26-010086-index.htm"
+  },
+  {
+   "uid": "0001866222-26-000043:1",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udd34 SELL S $13.3M - Weingarten (Pres) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1866222/000186622226000043/0001866222-26-000043-index.htm"
+  },
+  {
+   "uid": "0001217081-26-000013",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udd34 SELL GAP $11.9M - William (Director) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1217081/000121708126000013/0001217081-26-000013-index.htm"
+  },
+  {
+   "uid": "0001193125-26-415632:0",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $6.4M - Nippon Life Insurance (10% Owner) - 10/2",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526415632/0001193125-26-415632-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004379",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udd34 SELL KNTK $5.1M - Isq Global Fund (10%) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1904934/000090514826004379/0000905148-26-004379-index.htm"
+  },
+  {
+   "uid": "0001193125-26-415861:1",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udfe2 BUY PSUS $4.5M - Israel (Officer) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2002660/000119312526415861/0001193125-26-415861-index.htm"
+  },
+  {
+   "uid": "0001493152-26-045954:0",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udfe2 BUY QVCG $3.5M - Goldentree Asset Managemen (10% Owner) - 10/2",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1435627/000149315226045954/0001493152-26-045954-index.htm"
+  },
+  {
+   "uid": "0001213900-26-107316:0",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udfe2 BUY AXIA3 $3M - Batista De Lima (Director) - 10/2",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2121444/000121390026107316/0001213900-26-107316-index.htm"
+  },
+  {
+   "uid": "0001193125-26-415861:0",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udfe2 BUY PSUS $2.9M - Israel (Officer) - 10/2",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2002660/000119312526415861/0001193125-26-415861-index.htm"
+  },
+  {
+   "uid": "0001193125-26-415861:2",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udfe2 BUY PSUS $2.2M - Israel (Officer) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2002660/000119312526415861/0001193125-26-415861-index.htm"
+  },
+  {
+   "uid": "0001460471-26-000006:0",
+   "queued_at": "2026-10-07T00:09:56.050944+00:00",
+   "text": "\ud83d\udfe2 BUY SAH $1.7M - Rusnak (10% Owner) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1460471/000146047126000006/0001460471-26-000006-index.htm"
   }
  ]
 }
