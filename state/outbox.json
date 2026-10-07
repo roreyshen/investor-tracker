@@ -1,27 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001921094-26-001050",
-   "queued_at": "2026-09-24T23:30:04.638482+00:00",
-   "text": "\ud83d\udd34 SELL META $21.4M - Zuckerberg (Officer) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1548760/000192109426001050/0001921094-26-001050-index.htm"
-  },
-  {
-   "uid": "0001628280-26-063478:1",
-   "queued_at": "2026-09-24T23:30:04.638482+00:00",
-   "text": "\ud83d\udd34 SELL SNOW $17M - Dageville (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1821737/000162828026063478/0001628280-26-063478-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009796",
-   "queued_at": "2026-09-24T23:30:04.638482+00:00",
-   "text": "\ud83d\udd34 SELL PANW $13.8M - Dipak (Officer) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1852540/000195004726009796/0001950047-26-009796-index.htm"
-  },
-  {
    "uid": "0001950047-26-009799",
    "queued_at": "2026-09-24T23:30:04.638482+00:00",
    "text": "\ud83d\udd34 SELL DUOL $6.8M - Luis Von Ahn (Director) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3478,27 @@
    "text": "\ud83d\udfe2 BUY AGMB $17K - Kemula Pierre Thadee (CFO) - 10/6",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2119332/000211933226000001/0002119332-26-000001-index.htm"
+  },
+  {
+   "uid": "0001756041-26-000003:0",
+   "queued_at": "2026-10-07T19:22:18.445054+00:00",
+   "text": "\ud83d\udd34 SELL N/A $30M - Partners Group Private - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1756041/000175604126000003/0001756041-26-000003-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007302",
+   "queued_at": "2026-10-07T19:22:18.445054+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $16.7M - Dageville (Officer) - 10/7 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1821737/000195917326007302/0001959173-26-007302-index.htm"
+  },
+  {
+   "uid": "0001580642-26-006778:0",
+   "queued_at": "2026-10-07T19:22:18.445054+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $10K - Stoller (Director) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2066993/000158064226006778/0001580642-26-006778-index.htm"
   }
  ]
 }
