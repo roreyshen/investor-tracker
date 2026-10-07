@@ -1,69 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001009165-26-000009:0",
-   "queued_at": "2026-09-24T01:24:22.600280+00:00",
-   "text": "\ud83d\udfe2 BUY CV $5M - Harari Eliyahou Et (10% Owner) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1378325/000100916526000009/0001009165-26-000009-index.htm"
-  },
-  {
-   "uid": "0001009165-26-000009:1",
-   "queued_at": "2026-09-24T01:24:22.600280+00:00",
-   "text": "\ud83d\udfe2 BUY CV $5M - Harari Eliyahou Et (10% Owner) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1378325/000100916526000009/0001009165-26-000009-index.htm"
-  },
-  {
-   "uid": "0001193125-26-399896:0",
-   "queued_at": "2026-09-24T01:24:22.600280+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $1000K - Lewinsohn (Pres) - 9/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2067955/000119312526399896/0001193125-26-399896-index.htm"
-  },
-  {
-   "uid": "0001104659-26-110102",
-   "queued_at": "2026-09-24T12:14:22.029805+00:00",
-   "text": "\ud83d\udd34 SELL QFNHF $5.3M - Andrew (Director) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1741530/000110465926110102/0001104659-26-110102-index.htm"
-  },
-  {
-   "uid": "0001976408-26-000865:0",
-   "queued_at": "2026-09-24T17:18:30.687301+00:00",
-   "text": "\ud83d\udfe2 BUY NYAX $4.6M - Nechmad (Chair) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000865/0001976408-26-000865-index.htm"
-  },
-  {
-   "uid": "0000040417-26-000052:0",
-   "queued_at": "2026-09-24T17:18:30.687301+00:00",
-   "text": "\ud83d\udfe2 BUY GAM $228K - Davidson - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1215920/000004041726000052/0000040417-26-000052-index.htm"
-  },
-  {
-   "uid": "0000040417-26-000051:0",
-   "queued_at": "2026-09-24T17:18:30.687301+00:00",
-   "text": "\ud83d\udfe2 BUY GAM $114K - Stark (VP) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1315319/000004041726000051/0000040417-26-000051-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007107",
-   "queued_at": "2026-09-24T20:40:53.813590+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $125.5M - Podbere (Officer) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000195917326007107/0001959173-26-007107-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009794",
-   "queued_at": "2026-09-24T20:40:53.813590+00:00",
-   "text": "\ud83d\udd34 SELL GTLB $103.7M - Sytse Sijbrandij Revocable (Director) - 9/24 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1886022/000195004726009794/0001950047-26-009794-index.htm"
-  },
-  {
    "uid": "0001871006-26-000010:1",
    "queued_at": "2026-09-24T20:40:53.813590+00:00",
    "text": "\ud83d\udd34 SELL HOOD $30M - Tenev (CEO) - 9/22",
@@ -3499,6 +3436,69 @@
    "text": "\ud83d\udfe2 BUY SAH $1.7M - Rusnak (10% Owner) - 10/5",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1460471/000146047126000006/0001460471-26-000006-index.htm"
+  },
+  {
+   "uid": "0001193125-26-416053:4",
+   "queued_at": "2026-10-07T06:00:01.556012+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $251.8M - Gic Private Ltd (10% Owner) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046386/000119312526416053/0001193125-26-416053-index.htm"
+  },
+  {
+   "uid": "0001193125-26-416053:1",
+   "queued_at": "2026-10-07T06:00:01.556012+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $245.4M - Gic Private Ltd (10% Owner) - 10/2",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046386/000119312526416053/0001193125-26-416053-index.htm"
+  },
+  {
+   "uid": "0001193125-26-416053:0",
+   "queued_at": "2026-10-07T06:00:01.556012+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $90.9M - Gic Private Ltd (10% Owner) - 10/2",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046386/000119312526416053/0001193125-26-416053-index.htm"
+  },
+  {
+   "uid": "0001193125-26-416053:3",
+   "queued_at": "2026-10-07T06:00:01.556012+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $73.2M - Gic Private Ltd (10% Owner) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046386/000119312526416053/0001193125-26-416053-index.htm"
+  },
+  {
+   "uid": "0001193125-26-416053:2",
+   "queued_at": "2026-10-07T06:00:01.556012+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $60.4M - Gic Private Ltd (10% Owner) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046386/000119312526416053/0001193125-26-416053-index.htm"
+  },
+  {
+   "uid": "0001193125-26-415995",
+   "queued_at": "2026-10-07T06:00:01.556012+00:00",
+   "text": "\ud83d\udd34 SELL DELL $28M - Silver Lake Partners (See Remarks) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526415995/0001193125-26-415995-index.htm"
+  },
+  {
+   "uid": "0001193125-26-415991",
+   "queued_at": "2026-10-07T06:00:01.556012+00:00",
+   "text": "\ud83d\udd34 SELL DELL $25.6M - Sl (See Remarks) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1767114/000119312526415991/0001193125-26-415991-index.htm"
+  },
+  {
+   "uid": "0001193125-26-415996",
+   "queued_at": "2026-10-07T06:00:01.556012+00:00",
+   "text": "\ud83d\udd34 SELL DELL $14.7M - Silver Lake Partners (See Remarks) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1737659/000119312526415996/0001193125-26-415996-index.htm"
+  },
+  {
+   "uid": "0000919574-26-006685:2",
+   "queued_at": "2026-10-07T06:00:01.556012+00:00",
+   "text": "\ud83d\udfe2 BUY LWAY $1M - Divisadero Street Capital (10% Owner) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2135889/000091957426006685/0000919574-26-006685-index.htm"
   }
  ]
 }
