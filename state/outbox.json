@@ -1,174 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-403089:1",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $32.2M - Berkshire Hathaway Inc (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
-  },
-  {
-   "uid": "0001778610-26-000024:2",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $30M - Podbere (CFO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
-  },
-  {
-   "uid": "0001193125-26-403089:3",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $25.4M - Berkshire Hathaway Inc (10% Owner) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
-  },
-  {
-   "uid": "0001193125-26-403089:2",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $19.7M - Berkshire Hathaway Inc (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
-  },
-  {
-   "uid": "0001778610-26-000024:0",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $19.2M - Podbere (CFO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
-  },
-  {
-   "uid": "0001778610-26-000024:3",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $18.1M - Podbere (CFO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
-  },
-  {
-   "uid": "0001778610-26-000024:5",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $16.3M - Podbere (CFO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
-  },
-  {
-   "uid": "0001778610-26-000024:4",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $16.3M - Podbere (CFO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
-  },
-  {
-   "uid": "0001778610-26-000024:1",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $16.2M - Podbere (CFO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1778610/000177861026000024/0001778610-26-000024-index.htm"
-  },
-  {
-   "uid": "0001193125-26-403089:4",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $14M - Berkshire Hathaway Inc (10% Owner) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
-  },
-  {
-   "uid": "0001193125-26-403089:6",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $748K - Berkshire Hathaway Inc (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
-  },
-  {
-   "uid": "0001193125-26-403089:8",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $558K - Berkshire Hathaway Inc (10% Owner) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
-  },
-  {
-   "uid": "0001193125-26-403089:7",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $238K - Berkshire Hathaway Inc (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
-  },
-  {
-   "uid": "0001193125-26-403089:5",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $101K - Berkshire Hathaway Inc (10% Owner) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
-  },
-  {
-   "uid": "0001193125-26-403355:0",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY DMRA $253K - Jarrett (Pres) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1800315/000119312526403355/0001193125-26-403355-index.htm"
-  },
-  {
-   "uid": "0001493152-26-044458:0",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY ANIX $19K - Kumar (CEO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1191905/000149315226044458/0001493152-26-044458-index.htm"
-  },
-  {
-   "uid": "0001493152-26-044457:0",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY ANIX $14K - Baskies (Director) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1683567/000149315226044457/0001493152-26-044457-index.htm"
-  },
-  {
-   "uid": "0001213900-26-103844:0",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $500 - Staloch (Treasurer) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1867181/000121390026103844/0001213900-26-103844-index.htm"
-  },
-  {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:2",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY Not Fade Away LLC Comp $50K-100K - Blumenthal (Senator) - traded 9/11 (17d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:3",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY Not Fade Away LLC Comp $50K-100K - Blumenthal (Senator) - traded 9/11 (17d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:6",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY Not Fade Away LLC Comp $250K-500K - Blumenthal (Senator) - traded 9/11 (17d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:7",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY Not Fade Away LLC Comp $250K-500K - Blumenthal (Senator) - traded 9/11 (17d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:9",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY Days Between LLC Compa $250K-500K - Blumenthal (Senator) - traded 8/27 (32d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:11",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY Days Between LLC Compa $100K-250K - Blumenthal (Senator) - traded 8/27 (32d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
    "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:21",
    "queued_at": "2026-09-28T16:03:25.885412+00:00",
    "text": "\ud83d\udfe2 BUY MH Built to Last LLC C $50K-100K - Blumenthal (Senator) - traded 8/24 (35d ago)",
@@ -3499,6 +3331,174 @@
    "text": "\ud83d\udfe2 BUY NONE $500 - Booth - 10/7",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1845014/000143510926000150/0001435109-26-000150-index.htm"
+  },
+  {
+   "uid": "0001193125-26-418127:0",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udd34 SELL CBL $68.2M - Canyon Capital Advisors - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1766767/000119312526418127/0001193125-26-418127-index.htm"
+  },
+  {
+   "uid": "0001628280-26-065454:1",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udd34 SELL TT $23.1M - Regnery (Chair and CEO) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1715932/000162828026065454/0001628280-26-065454-index.htm"
+  },
+  {
+   "uid": "0001821737-26-000016:0",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $16.7M - Dageville (Director) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1821737/000182173726000016/0001821737-26-000016-index.htm"
+  },
+  {
+   "uid": "0001193125-26-418024:0",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udd34 SELL NTNX $13.2M - Ramaswami (CEO) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1618732/000119312526418024/0001193125-26-418024-index.htm"
+  },
+  {
+   "uid": "0001193125-26-418024:1",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udd34 SELL NTNX $10.7M - Ramaswami (CEO) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1618732/000119312526418024/0001193125-26-418024-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004407",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udd34 SELL KNTK $6.5M - Isq Global Fund (10%) - 10/8 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1904934/000090514826004407/0000905148-26-004407-index.htm"
+  },
+  {
+   "uid": "0001193125-26-417973:0",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $4.1M - Nippon Life Insurance (10% Owner) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526417973/0001193125-26-417973-index.htm"
+  },
+  {
+   "uid": "0001493152-26-046380:0",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY NRXS $9K - Henrichs (CFO) - 10/8",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1959954/000149315226046380/0001493152-26-046380-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:6",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $2K - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:0",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $2K - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:8",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $2K - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001493152-26-046381:0",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY NRXS $2K - Carrico (CRO, CCO, CPO) - 10/8",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1959325/000149315226046381/0001493152-26-046381-index.htm"
+  },
+  {
+   "uid": "0001493152-26-046382:0",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY NRXS $1K - Carrico (CEO) - 10/8",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1959279/000149315226046382/0001493152-26-046382-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:11",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $886 - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:1",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $673 - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:10",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $662 - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:2",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $573 - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:9",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $421 - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:7",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $406 - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:5",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $164 - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:4",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $117 - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "0001199835-26-000371:3",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udfe2 BUY WVVI $2 - Osborn (CEO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071307/000119983526000371/0001199835-26-000371-index.htm"
+  },
+  {
+   "uid": "20035590:0",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udd34 SELL AMAT $1K-15K - Gottheimer (Rep. NJ05) - traded 9/15 (22d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035590.pdf"
+  },
+  {
+   "uid": "20035590:1",
+   "queued_at": "2026-10-08T22:30:10.018741+00:00",
+   "text": "\ud83d\udd34 SELL MCD $1K-15K - Gottheimer (Rep. NJ05) - traded 9/25 (12d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035590.pdf"
   }
  ]
 }
