@@ -1,104 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-401370:0",
-   "queued_at": "2026-09-25T01:50:03.612872+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $50K - Gardiner (Officer) - 9/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2118751/000119312526401370/0001193125-26-401370-index.htm"
-  },
-  {
-   "uid": "0001193125-26-401359:0",
-   "queued_at": "2026-09-25T01:50:03.612872+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $50K - Uffner (CLO) - 9/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2118040/000119312526401359/0001193125-26-401359-index.htm"
-  },
-  {
-   "uid": "0001193125-26-401356:0",
-   "queued_at": "2026-09-25T01:50:03.612872+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $50K - Jaffe (COO) - 9/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2105120/000119312526401356/0001193125-26-401356-index.htm"
-  },
-  {
-   "uid": "0001493152-26-044229:0",
-   "queued_at": "2026-09-25T12:48:04.359523+00:00",
-   "text": "\ud83d\udfe2 BUY NCT $650K - Zhu (Chair) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2071210/000149315226044229/0001493152-26-044229-index.htm"
-  },
-  {
-   "uid": "0001183254-26-000007:0",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY KBDC $1.4M - Robo (Director) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1747172/000118325426000007/0001183254-26-000007-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031181:1",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY HRGN $380K - He (CEO) - 9/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1728598/000143774926031181/0001437749-26-031181-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031183:0",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $21K - Williamson (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1238836/000143774926031183/0001437749-26-031183-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031185:0",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $21K - Johnston (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1280855/000143774926031185/0001437749-26-031185-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031183:1",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $7K - Williamson (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1238836/000143774926031183/0001437749-26-031183-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031188:0",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $6K - Nester (Pres) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1549797/000143774926031188/0001437749-26-031188-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031183:2",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $5K - Williamson (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1238836/000143774926031183/0001437749-26-031183-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031183:3",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $5K - Williamson (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1238836/000143774926031183/0001437749-26-031183-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031183:4",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $5K - Williamson (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1238836/000143774926031183/0001437749-26-031183-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031183:6",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $5K - Williamson (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1238836/000143774926031183/0001437749-26-031183-index.htm"
-  },
-  {
    "uid": "0001437749-26-031183:5",
    "queued_at": "2026-09-25T17:50:04.853241+00:00",
    "text": "\ud83d\udfe2 BUY RGCO $4K - Williamson (Director) - 9/23",
@@ -3499,6 +3401,104 @@
    "text": "\ud83d\udfe2 BUY CRBG $2.3M - Nippon Life Insurance (10% Owner) - 10/5",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526417005/0001193125-26-417005-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000677:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $5K - Chin (EVP and Co-COO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2117998/000104617926000677/0001046179-26-000677-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000686:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $5K - Hou (SVP and) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113680/000104617926000686/0001046179-26-000686-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000675:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Fang (SVP and GC) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113698/000104617926000675/0001046179-26-000675-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000685:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Hsu (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114031/000104617926000685/0001046179-26-000685-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000678:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Cao (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113031/000104617926000678/0001046179-26-000678-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000676:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Chang (SVP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113710/000104617926000676/0001046179-26-000676-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000690:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Jang (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113688/000104617926000690/0001046179-26-000690-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000679:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Chuang (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114030/000104617926000679/0001046179-26-000679-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000674:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Chuang (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114029/000104617926000674/0001046179-26-000674-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000684:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $3K - He (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113771/000104617926000684/0001046179-26-000684-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000673:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $3K - Chen (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114027/000104617926000673/0001046179-26-000673-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000692:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $3K - Hwang (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114064/000104617926000692/0001046179-26-000692-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000672:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $2K - Chen (Controller) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114026/000104617926000672/0001046179-26-000672-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000691:0",
+   "queued_at": "2026-10-08T10:23:32.983237+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $2K - Huang (SVP and CFO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113699/000104617926000691/0001046179-26-000691-index.htm"
   }
  ]
 }
