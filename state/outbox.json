@@ -1,174 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001437749-26-031183:5",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $4K - Williamson (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1238836/000143774926031183/0001437749-26-031183-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031183:8",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $2K - Williamson (Director) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1238836/000143774926031183/0001437749-26-031183-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031183:7",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $2K - Williamson (Director) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1238836/000143774926031183/0001437749-26-031183-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031185:1",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $1K - Johnston (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1280855/000143774926031185/0001437749-26-031185-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031183:9",
-   "queued_at": "2026-09-25T17:50:04.853241+00:00",
-   "text": "\ud83d\udfe2 BUY RGCO $62 - Williamson (Director) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1238836/000143774926031183/0001437749-26-031183-index.htm"
-  },
-  {
-   "uid": "0001104659-26-110983:9",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL AVGO $81.8M - Samueli (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/0001104659-26-110983-index.htm"
-  },
-  {
-   "uid": "0001104659-26-110983:8",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL AVGO $66.3M - Samueli (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/0001104659-26-110983-index.htm"
-  },
-  {
-   "uid": "0001193125-26-402876:0",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $30.9M - Cs Re Holdings (10% Owner) - 7/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2148516/000119312526402876/0001193125-26-402876-index.htm"
-  },
-  {
-   "uid": "0001193125-26-402836:0",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $30.9M - Lifshin (Director) - 7/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2141763/000119312526402836/0001193125-26-402836-index.htm"
-  },
-  {
-   "uid": "0001104659-26-110983:10",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL AVGO $30.4M - Samueli (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/0001104659-26-110983-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009828",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL CBRS $24.8M - Sean (Officer) - 9/25 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2132472/000195004726009828/0001950047-26-009828-index.htm"
-  },
-  {
-   "uid": "0001104659-26-110983:11",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL AVGO $18.2M - Samueli (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/0001104659-26-110983-index.htm"
-  },
-  {
-   "uid": "0001622058-26-000018:1",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL MEDP $17.3M - Troendle (Pres) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000162205826000018/0001622058-26-000018-index.htm"
-  },
-  {
-   "uid": "0001104659-26-110983:12",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL AVGO $16M - Samueli (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/0001104659-26-110983-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007116",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL ANET $13.2M - Ullal (Officer) - 9/25 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1605809/000195917326007116/0001959173-26-007116-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009821",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL P $12.2M - Colgrove Fam Charitable (Director) - 9/25 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1651902/000195004726009821/0001950047-26-009821-index.htm"
-  },
-  {
-   "uid": "0001104659-26-110960:0",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL RDW $10.5M - Ae Red Holdings (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1881294/000110465926110960/0001104659-26-110960-index.htm"
-  },
-  {
-   "uid": "0001622058-26-000018:0",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL MEDP $10.1M - Troendle (Pres) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000162205826000018/0001622058-26-000018-index.htm"
-  },
-  {
-   "uid": "0001193125-26-402895:0",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $7.5M - Nippon Life Insurance (10% Owner) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526402895/0001193125-26-402895-index.htm"
-  },
-  {
-   "uid": "0001969223-26-001037",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udd34 SELL CACC $6.7M - Jill Foss Watson (Stakeholder) - 9/25 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1568982/000196922326001037/0001969223-26-001037-index.htm"
-  },
-  {
-   "uid": "0001193125-26-402861:0",
-   "queued_at": "2026-09-25T21:11:25.758192+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $5M - Gamson (Director) - 7/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2119505/000119312526402861/0001193125-26-402861-index.htm"
-  },
-  {
-   "uid": "0001969223-26-001041",
-   "queued_at": "2026-09-25T23:59:18.062285+00:00",
-   "text": "\ud83d\udd34 SELL CACC $7.8M - Jill Foss Watson (Member of) - 9/25 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2137517/000196922326001041/0001969223-26-001041-index.htm"
-  },
-  {
-   "uid": "0002035244-26-000009:0",
-   "queued_at": "2026-09-25T23:59:18.062285+00:00",
-   "text": "\ud83d\udfe2 BUY CX $6.9M - Zambrano (Director) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2035244/000203524426000009/0002035244-26-000009-index.htm"
-  },
-  {
-   "uid": "0001193125-26-403089:0",
-   "queued_at": "2026-09-26T04:26:08.165156+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $43.5M - Berkshire Hathaway Inc (10% Owner) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/0001193125-26-403089-index.htm"
-  },
-  {
    "uid": "0001193125-26-403089:1",
    "queued_at": "2026-09-26T04:26:08.165156+00:00",
    "text": "\ud83d\udfe2 BUY LEN $32.2M - Berkshire Hathaway Inc (10% Owner) - 9/24",
@@ -3499,6 +3331,174 @@
    "text": "\ud83d\udfe2 BUY TSM $2K - Huang (SVP and CFO) - 10/7",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2113699/000104617926000691/0001046179-26-000691-index.htm"
+  },
+  {
+   "uid": "0002029760-26-000010:5",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY COE $14.1M - Huang (CEO) - 9/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000010/0002029760-26-000010-index.htm"
+  },
+  {
+   "uid": "0002029760-26-000010:3",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY COE $10.3M - Huang (CEO) - 9/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000010/0002029760-26-000010-index.htm"
+  },
+  {
+   "uid": "0001628280-26-065416:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY BORR $5.4M - Troim (Director) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026065416/0001628280-26-065416-index.htm"
+  },
+  {
+   "uid": "0002029760-26-000010:2",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY COE $4.4M - Huang (CEO) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000010/0002029760-26-000010-index.htm"
+  },
+  {
+   "uid": "0002029760-26-000010:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY COE $3.5M - Huang (CEO) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2029760/000202976026000010/0002029760-26-000010-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000715:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $11K - Wei (Chair) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113717/000104617926000715/0001046179-26-000715-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000709:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $5K - Mii (EVP and Co-COO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113729/000104617926000709/0001046179-26-000709-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000722:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $5K - Zhang (SVP and) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2115263/000104617926000722/0001046179-26-000722-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000716:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Wu (SVP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113784/000104617926000716/0001046179-26-000716-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000723:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Yeap (SVP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113762/000104617926000723/0001046179-26-000723-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000710:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Wang (SVP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2118010/000104617926000710/0001046179-26-000710-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000697:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Lee (SVP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113739/000104617926000697/0001046179-26-000697-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000721:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Yoo (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113775/000104617926000721/0001046179-26-000721-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000703:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Lu (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114032/000104617926000703/0001046179-26-000703-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000696:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $4K - Ku (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2135989/000104617926000696/0001046179-26-000696-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000702:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $3K - Lin (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114025/000104617926000702/0001046179-26-000702-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000698:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $3K - Lin Chris Horng (VP and CIO) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113756/000104617926000698/0001046179-26-000698-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000724:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $3K - Yuan (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114024/000104617926000724/0001046179-26-000724-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000708:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $3K - Tien (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114023/000104617926000708/0001046179-26-000708-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000714:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $3K - Wu (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2136731/000104617926000714/0001046179-26-000714-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000704:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $3K - Lu (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2135942/000104617926000704/0001046179-26-000704-index.htm"
+  },
+  {
+   "uid": "0001213900-26-107756:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $1,000 - Hall (Secretary) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1885551/000121390026107756/0001213900-26-107756-index.htm"
+  },
+  {
+   "uid": "0001046179-26-000708:1",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $556 - Tien (VP) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2114023/000104617926000708/0001046179-26-000708-index.htm"
+  },
+  {
+   "uid": "0001435109-26-000150:0",
+   "queued_at": "2026-10-08T17:31:18.228735+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $500 - Booth - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1845014/000143510926000150/0001435109-26-000150-index.htm"
   }
  ]
 }
