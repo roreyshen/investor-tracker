@@ -1,62 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001366074-26-000004:3",
-   "queued_at": "2026-09-28T21:53:11.593703+00:00",
-   "text": "\ud83d\udfe2 BUY INBX $305K - Lappe (CEO) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2007919/000136607426000004/0001366074-26-000004-index.htm"
-  },
-  {
-   "uid": "0001193125-26-405348:0",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL INNV $92.5M - Tco Group Holdings (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1844765/000119312526405348/0001193125-26-405348-index.htm"
-  },
-  {
-   "uid": "0001193125-26-405347:0",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL INNV $92.5M - Ignite Aggregator Lp (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1848852/000119312526405347/0001193125-26-405347-index.htm"
-  },
-  {
-   "uid": "0001653482-26-000170:0",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL GTLB $40.9M - Sijbrandij (Director) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1886022/000165348226000170/0001653482-26-000170-index.htm"
-  },
-  {
-   "uid": "0001653482-26-000170:3",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL GTLB $20.4M - Sijbrandij (Director) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1886022/000165348226000170/0001653482-26-000170-index.htm"
-  },
-  {
-   "uid": "0001653482-26-000170:5",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL GTLB $13.6M - Sijbrandij (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1886022/000165348226000170/0001653482-26-000170-index.htm"
-  },
-  {
-   "uid": "0001653482-26-000170:2",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL GTLB $13.3M - Sijbrandij (Director) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1886022/000165348226000170/0001653482-26-000170-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004278:1",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $10.5M - Conifer Management (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004278/0000905148-26-004278-index.htm"
-  },
-  {
    "uid": "0001193125-26-405404:0",
    "queued_at": "2026-09-29T01:37:00.707141+00:00",
    "text": "\ud83d\udfe2 BUY CRBG $8.8M - Nippon Life Insurance (10% Owner) - 9/24",
@@ -3499,6 +3443,62 @@
    "text": "\ud83d\udfe2 BUY AGMB $44K - Epstein (Director) - 10/8",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2020932/000144582626000014/0001445826-26-000014-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007324",
+   "queued_at": "2026-10-09T21:19:45.829414+00:00",
+   "text": "\ud83d\udd34 SELL ANET $28.3M - Ullal (Officer) - 10/9 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605809/000195917326007324/0001959173-26-007324-index.htm"
+  },
+  {
+   "uid": "0001193125-26-419124:0",
+   "queued_at": "2026-10-09T21:19:45.829414+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $20.9M - Nippon Life Insurance (10% Owner) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526419124/0001193125-26-419124-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010150",
+   "queued_at": "2026-10-09T21:19:45.829414+00:00",
+   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 10/9 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726010150/0001950047-26-010150-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010136",
+   "queued_at": "2026-10-09T21:19:45.829414+00:00",
+   "text": "\ud83d\udd34 SELL JCI $8.8M - Lei (Officer) - 10/9 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652579/000195004726010136/0001950047-26-010136-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010139",
+   "queued_at": "2026-10-09T21:19:45.829414+00:00",
+   "text": "\ud83d\udd34 SELL ZS $5.4M - Adam (Officer) - 10/9 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2040014/000195004726010139/0001950047-26-010139-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010142",
+   "queued_at": "2026-10-09T21:19:45.829414+00:00",
+   "text": "\ud83d\udd34 SELL AFRM $5.1M - Robert (Officer) - 10/9 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000195004726010142/0001950047-26-010142-index.htm"
+  },
+  {
+   "uid": "0001213900-26-108531:3",
+   "queued_at": "2026-10-09T21:19:45.829414+00:00",
+   "text": "\ud83d\udfe2 BUY OPTU $1.1M - Subin (10% Owner) - 8/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2159232/000121390026108531/0001213900-26-108531-index.htm"
+  },
+  {
+   "uid": "9116376",
+   "queued_at": "2026-10-09T21:19:45.829414+00:00",
+   "text": "\u26aa OTHER ? amount undisclosed - Khanna (Rep. CA17) - scanned paper filing - open the PDF for details",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116376.pdf"
   }
  ]
 }
