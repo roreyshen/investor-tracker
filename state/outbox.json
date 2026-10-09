@@ -1,41 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001950047-26-009850",
-   "queued_at": "2026-09-28T21:53:11.593703+00:00",
-   "text": "\ud83d\udd34 SELL MPWR $40.3M - Michael (Officer) - 9/28 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1308676/000195004726009850/0001950047-26-009850-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009840",
-   "queued_at": "2026-09-28T21:53:11.593703+00:00",
-   "text": "\ud83d\udd34 SELL MDGL $25.8M - Paul (Director) - 9/28 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1236927/000195004726009840/0001950047-26-009840-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009844",
-   "queued_at": "2026-09-28T21:53:11.593703+00:00",
-   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 9/28 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726009844/0001950047-26-009844-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009841",
-   "queued_at": "2026-09-28T21:53:11.593703+00:00",
-   "text": "\ud83d\udd34 SELL KO $16.2M - Jennifer (Officer) - 9/28 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1703557/000195004726009841/0001950047-26-009841-index.htm"
-  },
-  {
-   "uid": "0001366074-26-000004:0",
-   "queued_at": "2026-09-28T21:53:11.593703+00:00",
-   "text": "\ud83d\udfe2 BUY INBX $329K - Lappe (CEO) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2007919/000136607426000004/0001366074-26-000004-index.htm"
-  },
-  {
    "uid": "0001366074-26-000004:3",
    "queued_at": "2026-09-28T21:53:11.593703+00:00",
    "text": "\ud83d\udfe2 BUY INBX $305K - Lappe (CEO) - 9/28",
@@ -3499,6 +3464,41 @@
    "text": "\ud83d\udfe2 BUY AVR $2M - Capital Pty Ltd (10% Owner) - 10/6",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2011514/000181764626000032/0001817646-26-000032-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004880:5",
+   "queued_at": "2026-10-09T16:37:00.765257+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $29.5M - Alvarez (Director) - 9/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2126531/000129281426004880/0001292814-26-004880-index.htm"
+  },
+  {
+   "uid": "0001193125-26-418446:0",
+   "queued_at": "2026-10-09T16:37:00.765257+00:00",
+   "text": "\ud83d\udfe2 BUY GGR $26.5M - Yin (Director) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1916103/000119312526418446/0001193125-26-418446-index.htm"
+  },
+  {
+   "uid": "0001193125-26-418446:1",
+   "queued_at": "2026-10-09T16:37:00.765257+00:00",
+   "text": "\ud83d\udfe2 BUY GGR $8.6M - Yin (Director) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1916103/000119312526418446/0001193125-26-418446-index.htm"
+  },
+  {
+   "uid": "0001045463-26-000020:0",
+   "queued_at": "2026-10-09T16:37:00.765257+00:00",
+   "text": "\ud83d\udfe2 BUY PRTA $1.1M - Scully (10% Owner) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559053/000104546326000020/0001045463-26-000020-index.htm"
+  },
+  {
+   "uid": "0001445826-26-000014:0",
+   "queued_at": "2026-10-09T16:37:00.765257+00:00",
+   "text": "\ud83d\udfe2 BUY AGMB $44K - Epstein (Director) - 10/8",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2020932/000144582626000014/0001445826-26-000014-index.htm"
   }
  ]
 }
