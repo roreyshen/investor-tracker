@@ -1,41 +1,6 @@
 {
  "pending": [
   {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:21",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udfe2 BUY MH Built to Last LLC C $50K-100K - Blumenthal (Senator) - traded 8/24 (35d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:27",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udd34 SELL MH Built to Last LLC C $50K-100K - Blumenthal (Senator) - traded 8/19 (40d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:28",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udd34 SELL MH Built to Last LLC C $50K-100K - Blumenthal (Senator) - traded 8/19 (40d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:31",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udd34 SELL MH Built to Last LLC C $250K-500K - Blumenthal (Senator) - traded 8/19 (40d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
-   "uid": "9e2ff733-aeac-4ce8-872c-3d6b7913da88:32",
-   "queued_at": "2026-09-28T16:03:25.885412+00:00",
-   "text": "\ud83d\udd34 SELL MH Built to Last LLC C $100K-250K - Blumenthal (Senator) - traded 8/19 (40d ago)",
-   "source": "senate",
-   "url": "https://efdsearch.senate.gov/search/view/ptr/9e2ff733-aeac-4ce8-872c-3d6b7913da88/"
-  },
-  {
    "uid": "0001950047-26-009850",
    "queued_at": "2026-09-28T21:53:11.593703+00:00",
    "text": "\ud83d\udd34 SELL MPWR $40.3M - Michael (Officer) - 9/28 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3464,41 @@
    "text": "\ud83d\udd34 SELL MCD $1K-15K - Gottheimer (Rep. NJ05) - traded 9/25 (12d ago)",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035590.pdf"
+  },
+  {
+   "uid": "0001596532-26-000240:7",
+   "queued_at": "2026-10-09T02:29:46.429105+00:00",
+   "text": "\ud83d\udd34 SELL ANET $55M - Ullal (CEO and) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000240/0001596532-26-000240-index.htm"
+  },
+  {
+   "uid": "0001596532-26-000240:6",
+   "queued_at": "2026-10-09T02:29:46.429105+00:00",
+   "text": "\ud83d\udd34 SELL ANET $13.9M - Ullal (CEO and) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000240/0001596532-26-000240-index.htm"
+  },
+  {
+   "uid": "0001596532-26-000240:1",
+   "queued_at": "2026-10-09T02:29:46.429105+00:00",
+   "text": "\ud83d\udd34 SELL ANET $11M - Ullal (CEO and) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000240/0001596532-26-000240-index.htm"
+  },
+  {
+   "uid": "0001596532-26-000240:4",
+   "queued_at": "2026-10-09T02:29:46.429105+00:00",
+   "text": "\ud83d\udd34 SELL ANET $11M - Ullal (CEO and) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000240/0001596532-26-000240-index.htm"
+  },
+  {
+   "uid": "0001817646-26-000032:0",
+   "queued_at": "2026-10-09T02:29:46.429105+00:00",
+   "text": "\ud83d\udfe2 BUY AVR $2M - Capital Pty Ltd (10% Owner) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2011514/000181764626000032/0001817646-26-000032-index.htm"
   }
  ]
 }
