@@ -1,41 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0000905148-26-004278:11",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $3.4M - Conifer Management (10% Owner) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004278/0000905148-26-004278-index.htm"
-  },
-  {
-   "uid": "0000950103-26-014647:4",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL META $3.4M - Zuckerberg (COB and CEO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1548760/000095010326014647/0000950103-26-014647-index.htm"
-  },
-  {
-   "uid": "0001225208-26-007970:0",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udfe2 BUY LLYVK $2.9M - Malone (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2078416/000122520826007970/0001225208-26-007970-index.htm"
-  },
-  {
-   "uid": "0000950103-26-014647:2",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL META $2M - Zuckerberg (COB and CEO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1548760/000095010326014647/0000950103-26-014647-index.htm"
-  },
-  {
-   "uid": "0000950103-26-014647:9",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL META $1.7M - Zuckerberg (COB and CEO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1548760/000095010326014647/0000950103-26-014647-index.htm"
-  },
-  {
    "uid": "0000950103-26-014647:1",
    "queued_at": "2026-09-29T01:37:00.707141+00:00",
    "text": "\ud83d\udd34 SELL META $1.6M - Zuckerberg (COB and CEO) - 9/24",
@@ -3499,6 +3464,41 @@
    "text": "\ud83d\udd34 SELL PAGS $5.4M - Magnani (Director) - 10/9 - intends to sell (Form 144 notice, filed before the sale)",
    "source": "form144",
    "url": "https://www.sec.gov/Archives/edgar/data/2120783/000155485526002102/0001554855-26-002102-index.htm"
+  },
+  {
+   "uid": "0001628280-26-065571:0",
+   "queued_at": "2026-10-10T07:07:56.087907+00:00",
+   "text": "\ud83d\udfe2 BUY REF $3M - Coyle (Director) - 7/31",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2142660/000162828026065571/0001628280-26-065571-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018110:1",
+   "queued_at": "2026-10-10T07:07:56.087907+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $2.4M - Kamfar (Director) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018110/0001398344-26-018110-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018110:3",
+   "queued_at": "2026-10-10T07:07:56.087907+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $2.3M - Kamfar (Director) - 10/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018110/0001398344-26-018110-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018110:2",
+   "queued_at": "2026-10-10T07:07:56.087907+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $2M - Kamfar (Director) - 10/8",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018110/0001398344-26-018110-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018110:0",
+   "queued_at": "2026-10-10T07:07:56.087907+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $1.9M - Kamfar (Director) - 10/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018110/0001398344-26-018110-index.htm"
   }
  ]
 }
