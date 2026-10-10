@@ -1,48 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-405404:0",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $8.8M - Nippon Life Insurance (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526405404/0001193125-26-405404-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004278:10",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $7.7M - Conifer Management (10% Owner) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004278/0000905148-26-004278-index.htm"
-  },
-  {
-   "uid": "0000950103-26-014647:3",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL META $5.9M - Zuckerberg (COB and CEO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1548760/000095010326014647/0000950103-26-014647-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004278:0",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $4.4M - Conifer Management (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004278/0000905148-26-004278-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004278:2",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $3.7M - Conifer Management (10% Owner) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004278/0000905148-26-004278-index.htm"
-  },
-  {
-   "uid": "0000950103-26-014647:8",
-   "queued_at": "2026-09-29T01:37:00.707141+00:00",
-   "text": "\ud83d\udd34 SELL META $3.7M - Zuckerberg (COB and CEO) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1548760/000095010326014647/0000950103-26-014647-index.htm"
-  },
-  {
    "uid": "0000905148-26-004278:11",
    "queued_at": "2026-09-29T01:37:00.707141+00:00",
    "text": "\ud83d\udfe2 BUY GPI $3.4M - Conifer Management (10% Owner) - 9/25",
@@ -3499,6 +3457,48 @@
    "text": "\u26aa OTHER ? amount undisclosed - Khanna (Rep. CA17) - scanned paper filing - open the PDF for details",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116376.pdf"
+  },
+  {
+   "uid": "0001493152-26-046636:0",
+   "queued_at": "2026-10-10T01:07:02.523238+00:00",
+   "text": "\ud83d\udd34 SELL IHT $2.2B - Wirth (Pres) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1055365/000149315226046636/0001493152-26-046636-index.htm"
+  },
+  {
+   "uid": "0001193125-26-419263",
+   "queued_at": "2026-10-10T01:07:02.523238+00:00",
+   "text": "\ud83d\udd34 SELL DELL $28M - Silver Lake Partners (See Remarks) - 10/9 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526419263/0001193125-26-419263-index.htm"
+  },
+  {
+   "uid": "0001193125-26-419262",
+   "queued_at": "2026-10-10T01:07:02.523238+00:00",
+   "text": "\ud83d\udd34 SELL DELL $25.5M - Sl (See Remarks) - 10/9 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1767114/000119312526419262/0001193125-26-419262-index.htm"
+  },
+  {
+   "uid": "0001596532-26-000242:2",
+   "queued_at": "2026-10-10T01:07:02.523238+00:00",
+   "text": "\ud83d\udd34 SELL ANET $15M - Ullal (CEO and) - 10/7",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000242/0001596532-26-000242-index.htm"
+  },
+  {
+   "uid": "0001193125-26-419264",
+   "queued_at": "2026-10-10T01:07:02.523238+00:00",
+   "text": "\ud83d\udd34 SELL DELL $14.6M - Silver Lake Partners (See Remarks) - 10/9 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1737659/000119312526419264/0001193125-26-419264-index.htm"
+  },
+  {
+   "uid": "0001554855-26-002102",
+   "queued_at": "2026-10-10T01:07:02.523238+00:00",
+   "text": "\ud83d\udd34 SELL PAGS $5.4M - Magnani (Director) - 10/9 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2120783/000155485526002102/0001554855-26-002102-index.htm"
   }
  ]
 }
