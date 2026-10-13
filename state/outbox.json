@@ -1,69 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001728451-26-000004:0",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udd34 SELL BRK.A $20M - Jain (Chair) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1728451/000172845126000004/0001728451-26-000004-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009859",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udd34 SELL CRWV $17M - Michael (Director) - 9/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009859/0001950047-26-009859-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009869",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udd34 SELL NTAP $10.5M - George (Officer) - 9/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1586813/000195004726009869/0001950047-26-009869-index.htm"
-  },
-  {
-   "uid": "0000921895-26-002670:0",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udfe2 BUY GME $10.5M - Cohen (Chair) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1767470/000092189526002670/0000921895-26-002670-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009860",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udd34 SELL CRWV $9.2M - Omnadora Capital Llc (Director) - 9/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009860/0001950047-26-009860-index.htm"
-  },
-  {
-   "uid": "0001193125-26-407924",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udd34 SELL BMBL $8.3M - Bx Buzz Ml (See Remarks) - 9/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1870649/000119312526407924/0001193125-26-407924-index.htm"
-  },
-  {
-   "uid": "0001973727-26-000061",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udd34 SELL TTWO $8.1M - Gordon (Director) - 9/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1229590/000197372726000061/0001973727-26-000061-index.htm"
-  },
-  {
-   "uid": "0000921895-26-002677:0",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udfe2 BUY COUR $6.7M - Pale Fire Capital (10% Owner) - 9/25",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2055254/000092189526002677/0000921895-26-002677-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009861",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udd34 SELL CBRS $6.4M - Robert (Officer) - 9/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2021728/000195004726009861/0001950047-26-009861-index.htm"
-  },
-  {
    "uid": "0001193125-26-407918",
    "queued_at": "2026-09-29T23:14:49.818879+00:00",
    "text": "\ud83d\udd34 SELL BMBL $6.3M - Bx Buzz Ml (See Remarks) - 9/29 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3436,69 @@
    "text": "\ud83d\udfe2 BUY NONE $23 - Jenkins - 10/9",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1800663/000121390026108892/0001213900-26-108892-index.htm"
+  },
+  {
+   "uid": "0001193125-26-420726",
+   "queued_at": "2026-10-13T23:56:04.835086+00:00",
+   "text": "\ud83d\udd34 SELL PANW $201.4M - Nikesh (Officer) - 10/12 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1468233/000119312526420726/0001193125-26-420726-index.htm"
+  },
+  {
+   "uid": "0001493152-26-046898:0",
+   "queued_at": "2026-10-13T23:56:04.835086+00:00",
+   "text": "\ud83d\udd34 SELL SBET $47.6M - Lubin (Director) - 10/8",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2071490/000149315226046898/0001493152-26-046898-index.htm"
+  },
+  {
+   "uid": "0001596532-26-000244:5",
+   "queued_at": "2026-10-13T23:56:04.835086+00:00",
+   "text": "\ud83d\udd34 SELL ANET $20.2M - Ullal (CEO and) - 10/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605809/000159653226000244/0001596532-26-000244-index.htm"
+  },
+  {
+   "uid": "20035622:10",
+   "queued_at": "2026-10-13T23:56:04.835086+00:00",
+   "text": "\ud83d\udfe2 BUY California Community C $250K-500K - Cisneros (Rep. CA31) - traded 9/24 (18d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+  },
+  {
+   "uid": "20035622:11",
+   "queued_at": "2026-10-13T23:56:04.835086+00:00",
+   "text": "\ud83d\udd34 SELL California Community C $250K-500K - Cisneros (Rep. CA31) - traded 9/22 (20d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+  },
+  {
+   "uid": "20035622:17",
+   "queued_at": "2026-10-13T23:56:04.835086+00:00",
+   "text": "\ud83d\udd34 SELL El Camino CA Community $100K-250K - Cisneros (Rep. CA31) - traded 9/21 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+  },
+  {
+   "uid": "20035622:24",
+   "queued_at": "2026-10-13T23:56:04.835086+00:00",
+   "text": "\ud83d\udd34 SELL Imperial, CA, Irrigati $100K-250K - Cisneros (Rep. CA31) - traded 9/29 (13d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+  },
+  {
+   "uid": "20035622:25",
+   "queued_at": "2026-10-13T23:56:04.835086+00:00",
+   "text": "\ud83d\udfe2 BUY Indiana Finance Author $250K-500K - Cisneros (Rep. CA31) - traded 9/29 (13d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+  },
+  {
+   "uid": "20035622:46",
+   "queued_at": "2026-10-13T23:56:04.835086+00:00",
+   "text": "\ud83d\udfe2 BUY TSM $1K-15K - Cisneros (Rep. CA31) - traded 9/22 (20d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
   }
  ]
 }
