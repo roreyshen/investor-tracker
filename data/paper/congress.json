@@ -1,5 +1,5 @@
 {
- "cash": 30234.03999999998,
+ "cash": 322.49999999997635,
  "closed": [],
  "marks": [
   {
@@ -179,25 +179,33 @@
    "shares": 27,
    "ticker": "AVGO",
    "why": "Allen, Richard W. (Rep. GA12)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-10-14",
+   "cost": 9968.37,
+   "entry": 43.53,
+   "opened": "2026-10-14",
+   "shares": 229,
    "ticker": "VZ",
    "why": "Cisneros, Gilbert (Rep. CA31)"
   },
   {
-   "picked": "2026-10-14",
+   "cost": 9990.0,
+   "entry": 16.65,
+   "opened": "2026-10-14",
+   "shares": 600,
    "ticker": "TNDM",
    "why": "Cisneros, Gilbert (Rep. CA31)"
   },
   {
-   "picked": "2026-10-14",
+   "cost": 9953.17,
+   "entry": 102.61,
+   "opened": "2026-10-14",
+   "shares": 97,
    "ticker": "ABT",
    "why": "Cisneros, Gilbert (Rep. CA31)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "congress"
 }
