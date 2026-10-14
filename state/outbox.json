@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001398344-26-017550:0",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udfe2 BUY BPRE $1.9M - Kamfar (Director) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426017550/0001398344-26-017550-index.htm"
-  },
-  {
-   "uid": "0001398344-26-017550:2",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udfe2 BUY BPRE $1.4M - Kamfar (Director) - 9/24",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426017550/0001398344-26-017550-index.htm"
-  },
-  {
    "uid": "0001398344-26-017538:1",
    "queued_at": "2026-09-29T23:14:49.818879+00:00",
    "text": "\ud83d\udfe2 BUY BPRE $1.3M - Kamfar (Director) - 9/22",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udd34 SELL TALO $29.5M - Control Empresarial De (10% Owner) - 10/9",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1724965/000114036126039478/0001140361-26-039478-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007363",
+   "queued_at": "2026-10-14T14:37:01.255307+00:00",
+   "text": "\ud83d\udd34 SELL MRNA $8.4M - Hoge (Officer) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1760669/000195917326007363/0001959173-26-007363-index.htm"
+  },
+  {
+   "uid": "0001949846-26-000610",
+   "queued_at": "2026-10-14T14:37:01.255307+00:00",
+   "text": "\ud83d\udd34 SELL PACS $5M - Jergensen (Officer) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2014275/000194984626000610/0001949846-26-000610-index.htm"
   }
  ]
 }
