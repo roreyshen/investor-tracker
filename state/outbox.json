@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001398344-26-017538:1",
-   "queued_at": "2026-09-29T23:14:49.818879+00:00",
-   "text": "\ud83d\udfe2 BUY BPRE $1.3M - Kamfar (Director) - 9/22",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426017538/0001398344-26-017538-index.htm"
-  },
-  {
-   "uid": "0001193125-26-408064:3",
-   "queued_at": "2026-09-30T02:09:47.215103+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $10.1M - One Capital Management (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1853723/000119312526408064/0001193125-26-408064-index.htm"
-  },
-  {
    "uid": "0001193125-26-408064:8",
    "queued_at": "2026-09-30T02:09:47.215103+00:00",
    "text": "\ud83d\udfe2 BUY ADRX $10.1M - One Capital Management (10% Owner) - 9/28",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udd34 SELL PACS $5M - Jergensen (Officer) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
    "source": "form144",
    "url": "https://www.sec.gov/Archives/edgar/data/2014275/000194984626000610/0001949846-26-000610-index.htm"
+  },
+  {
+   "uid": "0001628280-26-065849:0",
+   "queued_at": "2026-10-14T18:55:35.461115+00:00",
+   "text": "\ud83d\udfe2 BUY BORR $7.4M - Troim (Director) - 10/13",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026065849/0001628280-26-065849-index.htm"
+  },
+  {
+   "uid": "0001493152-26-046945:0",
+   "queued_at": "2026-10-14T18:55:35.461115+00:00",
+   "text": "\ud83d\udfe2 BUY TDIC $600K - Seto (CEO) - 10/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125603/000149315226046945/0001493152-26-046945-index.htm"
   }
  ]
 }
