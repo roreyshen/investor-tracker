@@ -116,6 +116,11 @@
    "date": "2026-10-13",
    "equity": 95529.51,
    "spy": 778.57
+  },
+  {
+   "date": "2026-10-14",
+   "equity": 95529.51,
+   "spy": 778.1
   }
  ],
  "open": [
@@ -176,7 +181,23 @@
    "why": "Allen, Richard W. (Rep. GA12)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-10-14",
+   "ticker": "VZ",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "picked": "2026-10-14",
+   "ticker": "TNDM",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "picked": "2026-10-14",
+   "ticker": "ABT",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "congress"
 }
