@@ -1,97 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-408064:8",
-   "queued_at": "2026-09-30T02:09:47.215103+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $10.1M - One Capital Management (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1853723/000119312526408064/0001193125-26-408064-index.htm"
-  },
-  {
-   "uid": "0001193125-26-408061:3",
-   "queued_at": "2026-09-30T02:09:47.215103+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $10.1M - George (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000119312526408061/0001193125-26-408061-index.htm"
-  },
-  {
-   "uid": "0001193125-26-408061:8",
-   "queued_at": "2026-09-30T02:09:47.215103+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $10.1M - George (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000119312526408061/0001193125-26-408061-index.htm"
-  },
-  {
-   "uid": "0001193125-26-408064:5",
-   "queued_at": "2026-09-30T02:09:47.215103+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $7.1M - One Capital Management (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1853723/000119312526408064/0001193125-26-408064-index.htm"
-  },
-  {
-   "uid": "0001193125-26-408061:5",
-   "queued_at": "2026-09-30T02:09:47.215103+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $7.1M - George (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000119312526408061/0001193125-26-408061-index.htm"
-  },
-  {
-   "uid": "0001976408-26-000874:4",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY NYAX $851K - Nechmad (Chair) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000874/0001976408-26-000874-index.htm"
-  },
-  {
-   "uid": "0001976408-26-000874:3",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY NYAX $436K - Nechmad (Chair) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000874/0001976408-26-000874-index.htm"
-  },
-  {
-   "uid": "0001976408-26-000874:0",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY NYAX $358K - Nechmad (Chair) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000874/0001976408-26-000874-index.htm"
-  },
-  {
-   "uid": "0001104659-26-112076:0",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY MNSO $340K - Zhang (CFO) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2111254/000110465926112076/0001104659-26-112076-index.htm"
-  },
-  {
-   "uid": "0001225208-26-008015:0",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY FUL $100K - Florness (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1017427/000122520826008015/0001225208-26-008015-index.htm"
-  },
-  {
-   "uid": "0001225208-26-008012:0",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY FUL $100K - Lauber (Director) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1566398/000122520826008012/0001225208-26-008012-index.htm"
-  },
-  {
-   "uid": "0001225208-26-008002:1",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $99K - Teachers Insurance Annuity - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1844684/000122520826008002/0001225208-26-008002-index.htm"
-  },
-  {
-   "uid": "0001225208-26-008002:0",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $99K - Teachers Insurance Annuity - 5/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1844684/000122520826008002/0001225208-26-008002-index.htm"
-  },
-  {
    "uid": "0001225208-26-008014:0",
    "queued_at": "2026-09-30T15:21:33.323104+00:00",
    "text": "\ud83d\udfe2 BUY FUL $99K - Handley (Director) - 9/28",
@@ -3499,6 +3408,97 @@
    "text": "\ud83d\udfe2 BUY TDIC $600K - Seto (CEO) - 10/9",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2125603/000149315226046945/0001493152-26-046945-index.htm"
+  },
+  {
+   "uid": "0001974078-26-000380",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udd34 SELL HNGE $78.7M - Insight Venture Partners (10%) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1710959/000197407826000380/0001974078-26-000380-index.htm"
+  },
+  {
+   "uid": "0001974078-26-000379",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udd34 SELL HNGE $64.5M - Insight Venture Partners (10%) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1710860/000197407826000379/0001974078-26-000379-index.htm"
+  },
+  {
+   "uid": "0001193125-26-421839:0",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udd34 SELL QVCG $16.7M - Silver Point Capital (10% Owner) - 10/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1382617/000119312526421839/0001193125-26-421839-index.htm"
+  },
+  {
+   "uid": "0001493152-26-047051:0",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udfe2 BUY QVCG $16.7M - Goldentree Asset Managemen (10% Owner) - 10/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1435627/000149315226047051/0001493152-26-047051-index.htm"
+  },
+  {
+   "uid": "0001193125-26-421727:0",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $11.5M - Nippon Life Insurance (10% Owner) - 10/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526421727/0001193125-26-421727-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010221",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udd34 SELL VG $10.9M - Keith (Officer) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2050857/000195004726010221/0001950047-26-010221-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010220",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udd34 SELL MU $6M - Michael (Officer) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1593199/000195004726010220/0001950047-26-010220-index.htm"
+  },
+  {
+   "uid": "0001193125-26-421727:1",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $4.9M - Nippon Life Insurance (10% Owner) - 10/12",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526421727/0001193125-26-421727-index.htm"
+  },
+  {
+   "uid": "0001225028-26-000006:0",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udfe2 BUY NUAI $1.2M - Mccarthy (10% Owner) - 10/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2160027/000122502826000006/0001225028-26-000006-index.htm"
+  },
+  {
+   "uid": "20035588:2",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udd34 SELL DVN $50K-100K - Hern (Rep. OK01) - traded 9/23 (20d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+  },
+  {
+   "uid": "20035588:13",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udd34 SELL MRSH $50K-100K - Hern (Rep. OK01) - traded 9/17 (26d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+  },
+  {
+   "uid": "20035588:14",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udd34 SELL MRSH $50K-100K - Hern (Rep. OK01) - traded 9/23 (20d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+  },
+  {
+   "uid": "20035588:18",
+   "queued_at": "2026-10-14T22:05:13.265090+00:00",
+   "text": "\ud83d\udfe2 BUY AUTH 5.000% MAT 09/01/ $50K-100K - Hern (Rep. OK01) - traded 9/21 (22d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
   }
  ]
 }
