@@ -1,27 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001950047-26-009879",
-   "queued_at": "2026-09-30T20:14:13.293442+00:00",
-   "text": "\ud83d\udd34 SELL CRWV $6.9M - Michael (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2058037/000195004726009879/0001950047-26-009879-index.htm"
-  },
-  {
-   "uid": "0001183254-26-000008:0",
-   "queued_at": "2026-09-30T20:14:13.293442+00:00",
-   "text": "\ud83d\udfe2 BUY KBDC $1.9M - Robo (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1747172/000118325426000008/0001183254-26-000008-index.htm"
-  },
-  {
-   "uid": "0001225208-26-008020:0",
-   "queued_at": "2026-09-30T20:14:13.293442+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $250K - Kencel (Pres) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1911066/000122520826008020/0001225208-26-008020-index.htm"
-  },
-  {
    "uid": "0001225208-26-008020:1",
    "queued_at": "2026-09-30T20:14:13.293442+00:00",
    "text": "\ud83d\udfe2 BUY NONE $250K - Kencel (Pres) - 9/28",
@@ -3499,6 +3478,27 @@
    "text": "\ud83d\udd34 SELL ALMR $10.2M - Qiming Venture Partners (Affiliate) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
    "source": "form144",
    "url": "https://www.sec.gov/Archives/edgar/data/2104204/000123191926001458/0001231919-26-001458-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007387",
+   "queued_at": "2026-10-15T15:01:49.601902+00:00",
+   "text": "\ud83d\udd34 SELL MRNA $8.6M - Hoge (Officer) - 10/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1760669/000195917326007387/0001959173-26-007387-index.htm"
+  },
+  {
+   "uid": "0001628280-26-065947:0",
+   "queued_at": "2026-10-15T15:01:49.601902+00:00",
+   "text": "\ud83d\udfe2 BUY BORR $3.5M - Troim (Director) - 10/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026065947/0001628280-26-065947-index.htm"
+  },
+  {
+   "uid": "0001292814-26-004938:0",
+   "queued_at": "2026-10-15T15:01:49.601902+00:00",
+   "text": "\ud83d\udfe2 BUY BBD $1.1M - De Oliveira Andre (Officer) - 9/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125973/000129281426004938/0001292814-26-004938-index.htm"
   }
  ]
 }
