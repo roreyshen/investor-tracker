@@ -1,13 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001969223-26-001043",
-   "queued_at": "2026-09-30T20:14:13.293442+00:00",
-   "text": "\ud83d\udd34 SELL BATRB $9.5M - Schiller (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1958140/000196922326001043/0001969223-26-001043-index.htm"
-  },
-  {
    "uid": "0001950047-26-009879",
    "queued_at": "2026-09-30T20:14:13.293442+00:00",
    "text": "\ud83d\udd34 SELL CRWV $6.9M - Michael (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3492,13 @@
    "text": "\ud83d\udfe2 BUY BPRE $1.4M - Kamfar (Director) - 10/13",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018199/0001398344-26-018199-index.htm"
+  },
+  {
+   "uid": "0001231919-26-001458",
+   "queued_at": "2026-10-15T05:14:58.941574+00:00",
+   "text": "\ud83d\udd34 SELL ALMR $10.2M - Qiming Venture Partners (Affiliate) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2104204/000123191926001458/0001231919-26-001458-index.htm"
   }
  ]
 }
