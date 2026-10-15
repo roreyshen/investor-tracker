@@ -1,48 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001225208-26-008014:0",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY FUL $99K - Handley (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1275967/000122520826008014/0001225208-26-008014-index.htm"
-  },
-  {
-   "uid": "0001225208-26-008011:0",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY FUL $98K - Zaheer (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1919136/000122520826008011/0001225208-26-008011-index.htm"
-  },
-  {
-   "uid": "0001225208-26-008013:0",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY FUL $75K - Rasmussen (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1832403/000122520826008013/0001225208-26-008013-index.htm"
-  },
-  {
-   "uid": "0001225208-26-008013:1",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY FUL $24K - Rasmussen (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1832403/000122520826008013/0001225208-26-008013-index.htm"
-  },
-  {
-   "uid": "0001493152-26-045053:0",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY ANIX $16K - Catelani (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1689394/000149315226045053/0001493152-26-045053-index.htm"
-  },
-  {
-   "uid": "0001225208-26-008011:1",
-   "queued_at": "2026-09-30T15:21:33.323104+00:00",
-   "text": "\ud83d\udfe2 BUY FUL $2K - Zaheer (Director) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1919136/000122520826008011/0001225208-26-008011-index.htm"
-  },
-  {
    "uid": "0001969223-26-001043",
    "queued_at": "2026-09-30T20:14:13.293442+00:00",
    "text": "\ud83d\udd34 SELL BATRB $9.5M - Schiller (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3457,48 @@
    "text": "\ud83d\udfe2 BUY AUTH 5.000% MAT 09/01/ $50K-100K - Hern (Rep. OK01) - traded 9/21 (22d ago)",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+  },
+  {
+   "uid": "0001231919-26-001455",
+   "queued_at": "2026-10-15T00:31:29.959062+00:00",
+   "text": "\ud83d\udd34 SELL ALMR $36.7M - Qiming Venture Partners (Affiliate) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2104204/000123191926001455/0001231919-26-001455-index.htm"
+  },
+  {
+   "uid": "0001974078-26-000381",
+   "queued_at": "2026-10-15T00:31:29.959062+00:00",
+   "text": "\ud83d\udd34 SELL HNGE $12.5M - Insight Venture Partners (10%) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1710835/000197407826000381/0001974078-26-000381-index.htm"
+  },
+  {
+   "uid": "0001231919-26-001456",
+   "queued_at": "2026-10-15T00:31:29.959062+00:00",
+   "text": "\ud83d\udd34 SELL ALMR $8.6M - Qiming Venture Partners (Affiliate) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2129618/000123191926001456/0001231919-26-001456-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018199:0",
+   "queued_at": "2026-10-15T00:31:29.959062+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $2.1M - Kamfar (Director) - 10/12",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018199/0001398344-26-018199-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018199:2",
+   "queued_at": "2026-10-15T00:31:29.959062+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $2M - Kamfar (Director) - 10/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018199/0001398344-26-018199-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018199:1",
+   "queued_at": "2026-10-15T00:31:29.959062+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $1.4M - Kamfar (Director) - 10/13",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018199/0001398344-26-018199-index.htm"
   }
  ]
 }
