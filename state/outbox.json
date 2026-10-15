@@ -1,55 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001225208-26-008020:1",
-   "queued_at": "2026-09-30T20:14:13.293442+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $250K - Kencel (Pres) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1911066/000122520826008020/0001225208-26-008020-index.htm"
-  },
-  {
-   "uid": "0001193125-26-408806:0",
-   "queued_at": "2026-09-30T20:14:13.293442+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $22K - Comer (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2018376/000119312526408806/0001193125-26-408806-index.htm"
-  },
-  {
-   "uid": "0001193125-26-408818:0",
-   "queued_at": "2026-09-30T20:14:13.293442+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $11K - Boswell (CEO) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2011498/000119312526408818/0001193125-26-408818-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009890",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $64.2M - Michael (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000195004726009890/0001950047-26-009890-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409451:2",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $52.1M - Berkshire Hathaway Inc (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm"
-  },
-  {
-   "uid": "0001974078-26-000370",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udd34 SELL HNGE $47.7M - Insight Venture Partners (10%) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1710959/000197407826000370/0001974078-26-000370-index.htm"
-  },
-  {
-   "uid": "0001974078-26-000369",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udd34 SELL HNGE $39.1M - Insight Venture Partners (10%) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1710860/000197407826000369/0001974078-26-000369-index.htm"
-  },
-  {
    "uid": "0001193125-26-409206:0",
    "queued_at": "2026-09-30T23:55:49.278167+00:00",
    "text": "\ud83d\udfe2 BUY CRBG $25.1M - Nippon Life Insurance (10% Owner) - 9/28",
@@ -3499,6 +3450,55 @@
    "text": "\ud83d\udfe2 BUY BBD $1.1M - De Oliveira Andre (Officer) - 9/18",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2125973/000129281426004938/0001292814-26-004938-index.htm"
+  },
+  {
+   "uid": "0000316011-26-000033",
+   "queued_at": "2026-10-15T19:08:15.101263+00:00",
+   "text": "\ud83d\udd34 SELL LLY $368.7M - Lilly Endowment Inc (Shareholder) - 10/15 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/316011/000031601126000033/0000316011-26-000033-index.htm"
+  },
+  {
+   "uid": "0001104659-26-116094:0",
+   "queued_at": "2026-10-15T19:08:15.101263+00:00",
+   "text": "\ud83d\udfe2 BUY GOLD $1.7M - Tether Global Investments (10% Owner) - 10/13",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130094/000110465926116094/0001104659-26-116094-index.htm"
+  },
+  {
+   "uid": "20035648:0",
+   "queued_at": "2026-10-15T19:08:15.101263+00:00",
+   "text": "\ud83d\udd34 SELL AZO $15K-50K - Allen (Rep. GA12) - traded 9/22 (22d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035648.pdf"
+  },
+  {
+   "uid": "20035648:1",
+   "queued_at": "2026-10-15T19:08:15.101263+00:00",
+   "text": "\ud83d\udd34 SELL COST $1K-15K - Allen (Rep. GA12) - traded 9/18 (26d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035648.pdf"
+  },
+  {
+   "uid": "20035627:0",
+   "queued_at": "2026-10-15T19:08:15.101263+00:00",
+   "text": "\ud83d\udfe2 BUY Black Belt Energy Gas  $250K-500K - Delbene (Rep. WA01) - traded 9/18 (26d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
+  },
+  {
+   "uid": "20035627:1",
+   "queued_at": "2026-10-15T19:08:15.101263+00:00",
+   "text": "\ud83d\udd34 SELL Triborough Bridge & 4% $250K-500K - Delbene (Rep. WA01) - traded 9/18 (26d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
+  },
+  {
+   "uid": "20035652:1",
+   "queued_at": "2026-10-15T19:08:15.101263+00:00",
+   "text": "\ud83d\udfe2 BUY California Cmnty Choic $50K-100K - Kelly (Rep. PA16) - traded 9/16 (28d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035652.pdf"
   }
  ]
 }
