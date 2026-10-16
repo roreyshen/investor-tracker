@@ -1,41 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-409116:29",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KOD $3.9M - Baker Bros Advisors (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409116:27",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KOD $3.7M - Baker Bros Advisors (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409118:29",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KOD $3.3M - Baker Bros Advisors (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409118/0001193125-26-409118-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409116:3",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KOD $2.8M - Baker Bros Advisors (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409116:13",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KOD $2.7M - Baker Bros Advisors (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
-  },
-  {
    "uid": "0001213900-26-105358:4",
    "queued_at": "2026-09-30T23:55:49.278167+00:00",
    "text": "\ud83d\udfe2 BUY NONE $2.5M - Hamilton Lane Advisors (10% Owner) - 5/6",
@@ -3499,6 +3464,41 @@
    "text": "\ud83d\udfe2 BUY BORR $1.5M - Snowling (COO) - 10/14",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2116137/000162828026066061/0001628280-26-066061-index.htm"
+  },
+  {
+   "uid": "9116378",
+   "queued_at": "2026-10-16T18:23:43.232507+00:00",
+   "text": "\u26aa OTHER ? amount undisclosed - Mccaul (Rep. TX10) - scanned paper filing - open the PDF for details",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116378.pdf"
+  },
+  {
+   "uid": "20035637:0",
+   "queued_at": "2026-10-16T18:23:43.232507+00:00",
+   "text": "\ud83d\udfe2 BUY CA ST GO UTX $250K-500K - Peters (Rep. CA50) - traded 9/3 (42d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035637.pdf"
+  },
+  {
+   "uid": "20035637:1",
+   "queued_at": "2026-10-16T18:23:43.232507+00:00",
+   "text": "\ud83d\udfe2 BUY CA ST GO UTX $100K-250K - Peters (Rep. CA50) - traded 9/3 (42d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035637.pdf"
+  },
+  {
+   "uid": "20035637:2",
+   "queued_at": "2026-10-16T18:23:43.232507+00:00",
+   "text": "\ud83d\udfe2 BUY Charlotte-Meckle HLTH $250K-500K - Peters (Rep. CA50) - traded 9/25 (20d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035637.pdf"
+  },
+  {
+   "uid": "20035637:3",
+   "queued_at": "2026-10-16T18:23:43.232507+00:00",
+   "text": "\ud83d\udd34 SELL U.S. Treasury Bill $250K-500K - Peters (Rep. CA50) - traded 9/24 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035637.pdf"
   }
  ]
 }
