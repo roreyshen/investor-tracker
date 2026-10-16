@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0000947871-26-000912:4",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $1M - Chimovits (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000094787126000912/0000947871-26-000912-index.htm"
-  },
-  {
-   "uid": "0000947871-26-000911:9",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $1M - Gordon (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000094787126000911/0000947871-26-000911-index.htm"
-  },
-  {
    "uid": "0000947871-26-000910:9",
    "queued_at": "2026-09-30T23:55:49.278167+00:00",
    "text": "\ud83d\udfe2 BUY ADRX $1M - Orbimed Advisors Llc (Director) - 9/28",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udfe2 BUY GABC $100 - Seger (Director) - 10/15",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2081604/000208160426000013/0002081604-26-000013-index.htm"
+  },
+  {
+   "uid": "0000921895-26-002808",
+   "queued_at": "2026-10-16T23:54:05.039712+00:00",
+   "text": "\ud83d\udd34 SELL LOCO $10.5M - Lion Fund (10%) - 10/16 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1606366/000092189526002808/0000921895-26-002808-index.htm"
+  },
+  {
+   "uid": "0000921895-26-002810",
+   "queued_at": "2026-10-16T23:54:05.039712+00:00",
+   "text": "\ud83d\udd34 SELL LOCO $6.2M - Biglari Holdings Inc (10%) - 10/16 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000092189526002810/0000921895-26-002810-index.htm"
   }
  ]
 }
