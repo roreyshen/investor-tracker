@@ -1,62 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001950047-26-009893",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udd34 SELL CRWV $5.8M - Brian (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2058067/000195004726009893/0001950047-26-009893-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409116:19",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KOD $5.8M - Baker Bros Advisors (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409116:21",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KOD $5.7M - Baker Bros Advisors (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409127:5",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KOD $5.5M - Baker Bros Advisors (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
-  },
-  {
-   "uid": "0000947871-26-000911:4",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $5.1M - Gordon (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1802369/000094787126000911/0000947871-26-000911-index.htm"
-  },
-  {
-   "uid": "0000947871-26-000910:4",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $5.1M - Orbimed Advisors Llc (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1808744/000094787126000910/0000947871-26-000910-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409116:25",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KOD $4.7M - Baker Bros Advisors (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409116/0001193125-26-409116-index.htm"
-  },
-  {
-   "uid": "0001213900-26-105358:8",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $4M - Hamilton Lane Advisors (10% Owner) - 9/23",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
-  },
-  {
    "uid": "0001193125-26-409116:29",
    "queued_at": "2026-09-30T23:55:49.278167+00:00",
    "text": "\ud83d\udfe2 BUY KOD $3.9M - Baker Bros Advisors (Director) - 9/28",
@@ -3499,6 +3443,62 @@
    "text": "\ud83d\udd34 SELL BJ $10.4M - Eddy (Pres) - 10/14",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000073/0001531152-26-000073-index.htm"
+  },
+  {
+   "uid": "0000919574-26-007000:0",
+   "queued_at": "2026-10-16T14:35:20.260089+00:00",
+   "text": "\ud83d\udd34 SELL INSW $12.8M - Famatown Finance Ltd (10% Owner) - 4/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1731638/000091957426007000/0000919574-26-007000-index.htm"
+  },
+  {
+   "uid": "0000919574-26-007000:1",
+   "queued_at": "2026-10-16T14:35:20.260089+00:00",
+   "text": "\ud83d\udd34 SELL INSW $12.3M - Famatown Finance Ltd (10% Owner) - 5/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1731638/000091957426007000/0000919574-26-007000-index.htm"
+  },
+  {
+   "uid": "0000919574-26-007000:3",
+   "queued_at": "2026-10-16T14:35:20.260089+00:00",
+   "text": "\ud83d\udd34 SELL INSW $11.8M - Famatown Finance Ltd (10% Owner) - 5/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1731638/000091957426007000/0000919574-26-007000-index.htm"
+  },
+  {
+   "uid": "0000919574-26-007000:10",
+   "queued_at": "2026-10-16T14:35:20.260089+00:00",
+   "text": "\ud83d\udd34 SELL INSW $11.5M - Famatown Finance Ltd (10% Owner) - 10/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1731638/000091957426007000/0000919574-26-007000-index.htm"
+  },
+  {
+   "uid": "0000919574-26-007000:9",
+   "queued_at": "2026-10-16T14:35:20.260089+00:00",
+   "text": "\ud83d\udd34 SELL INSW $11.4M - Famatown Finance Ltd (10% Owner) - 9/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1731638/000091957426007000/0000919574-26-007000-index.htm"
+  },
+  {
+   "uid": "0000919574-26-007000:8",
+   "queued_at": "2026-10-16T14:35:20.260089+00:00",
+   "text": "\ud83d\udd34 SELL INSW $11.1M - Famatown Finance Ltd (10% Owner) - 9/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1731638/000091957426007000/0000919574-26-007000-index.htm"
+  },
+  {
+   "uid": "0001628280-26-066045:0",
+   "queued_at": "2026-10-16T14:35:20.260089+00:00",
+   "text": "\ud83d\udfe2 BUY BORR $2.3M - Troim (Director) - 10/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026066045/0001628280-26-066045-index.htm"
+  },
+  {
+   "uid": "0001628280-26-066061:0",
+   "queued_at": "2026-10-16T14:35:20.260089+00:00",
+   "text": "\ud83d\udfe2 BUY BORR $1.5M - Snowling (COO) - 10/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2116137/000162828026066061/0001628280-26-066061-index.htm"
   }
  ]
 }
