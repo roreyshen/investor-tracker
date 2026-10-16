@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001965301-26-000150",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udd34 SELL ROIV $7.3M - Venker (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1801917/000196530126000150/0001965301-26-000150-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409127:7",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KOD $6.6M - Baker Bros Advisors (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1580575/000119312526409127/0001193125-26-409127-index.htm"
-  },
-  {
    "uid": "0001950047-26-009893",
    "queued_at": "2026-09-30T23:55:49.278167+00:00",
    "text": "\ud83d\udd34 SELL CRWV $5.8M - Brian (Officer) - 9/30 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udfe2 BUY BPRE $2K - Macdonald (Director) - 10/13",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1722524/000139834426018261/0001398344-26-018261-index.htm"
+  },
+  {
+   "uid": "0001140361-26-039793:0",
+   "queued_at": "2026-10-16T00:35:12.366226+00:00",
+   "text": "\ud83d\udd34 SELL TALO $47.3M - Control Empresarial De (10% Owner) - 10/13",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1724965/000114036126039793/0001140361-26-039793-index.htm"
+  },
+  {
+   "uid": "0001531152-26-000073:5",
+   "queued_at": "2026-10-16T00:35:12.366226+00:00",
+   "text": "\ud83d\udd34 SELL BJ $10.4M - Eddy (Pres) - 10/14",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000073/0001531152-26-000073-index.htm"
   }
  ]
 }
