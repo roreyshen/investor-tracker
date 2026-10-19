@@ -1,34 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001213900-26-105358:0",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $1M - Hamilton Lane Advisors (10% Owner) - 4/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
-  },
-  {
-   "uid": "0001213900-26-105358:5",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $1000K - Hamilton Lane Advisors (10% Owner) - 5/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
-  },
-  {
-   "uid": "0001213900-26-105358:6",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $500K - Hamilton Lane Advisors (10% Owner) - 5/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409451:0",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $426K - Berkshire Hathaway Inc (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm"
-  },
-  {
    "uid": "0001193125-26-409451:4",
    "queued_at": "2026-09-30T23:55:49.278167+00:00",
    "text": "\ud83d\udfe2 BUY LEN $321K - Berkshire Hathaway Inc (10% Owner) - 9/30",
@@ -3499,6 +3471,34 @@
    "text": "\ud83d\udfe2 BUY APLD $1M - Cummins (Chair) - 10/16",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1391935/000139193526000009/0001391935-26-000009-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007416",
+   "queued_at": "2026-10-19T20:07:11.542541+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $94.9M - Slootman (Director) - 10/19 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007416/0001959173-26-007416-index.htm"
+  },
+  {
+   "uid": "0001193125-26-425009:0",
+   "queued_at": "2026-10-19T20:07:11.542541+00:00",
+   "text": "\ud83d\udfe2 BUY LNBIX $25M - Lincoln Financial Investme (10% Owner) - 10/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2054992/000119312526425009/0001193125-26-425009-index.htm"
+  },
+  {
+   "uid": "0001519822-26-000011:2",
+   "queued_at": "2026-10-19T20:07:11.542541+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $25K - Wieland (10% Owner) - 10/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1519822/000151982226000011/0001519822-26-000011-index.htm"
+  },
+  {
+   "uid": "0001959506-26-000008:1",
+   "queued_at": "2026-10-19T20:07:11.542541+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $2K - Carlson (Counsel) - 10/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1959506/000195950626000008/0001959506-26-000008-index.htm"
   }
  ]
 }
