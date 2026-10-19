@@ -1,83 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-409451:4",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $321K - Berkshire Hathaway Inc (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm"
-  },
-  {
-   "uid": "0001213900-26-105358:1",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $250K - Hamilton Lane Advisors (10% Owner) - 4/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
-  },
-  {
-   "uid": "0001213900-26-105358:2",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $250K - Hamilton Lane Advisors (10% Owner) - 4/21",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2027232/000121390026105358/0001213900-26-105358-index.htm"
-  },
-  {
-   "uid": "0002102407-26-000005:0",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY PMPEX $150K - Woolley - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2102407/000210240726000005/0002102407-26-000005-index.htm"
-  },
-  {
-   "uid": "0001104659-26-112426:0",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KWY $25K - Horowitz (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1612424/000110465926112426/0001104659-26-112426-index.htm"
-  },
-  {
-   "uid": "0002102036-26-000003:0",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY PMPEX $14K - Samson - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2102036/000210203626000003/0002102036-26-000003-index.htm"
-  },
-  {
-   "uid": "0002102499-26-000002:0",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY PMPEX $10K - Hartt - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2102499/000210249926000002/0002102499-26-000002-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409451:3",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $8K - Berkshire Hathaway Inc (10% Owner) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm"
-  },
-  {
-   "uid": "0001104659-26-112426:1",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KWY $8K - Horowitz (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1612424/000110465926112426/0001104659-26-112426-index.htm"
-  },
-  {
-   "uid": "0001628280-26-063980:0",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY DTIL $6K - Frankel (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1855726/000162828026063980/0001628280-26-063980-index.htm"
-  },
-  {
-   "uid": "0001072627-26-000056:0",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KWY $3K - Fitzgerald John Taylor (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1584349/000107262726000056/0001072627-26-000056-index.htm"
-  },
-  {
    "uid": "0001072627-26-000055:0",
    "queued_at": "2026-09-30T23:55:49.278167+00:00",
    "text": "\ud83d\udfe2 BUY KWY $2K - Hansen (CFO & EVP) - 9/30",
@@ -3499,6 +3422,83 @@
    "text": "\ud83d\udfe2 BUY NONE $2K - Carlson (Counsel) - 10/15",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1959506/000195950626000008/0001959506-26-000008-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010307",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udd34 SELL GTLB $18.4M - Sytse Sijbrandij Revocable (Director) - 10/19 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1886022/000195004726010307/0001950047-26-010307-index.htm"
+  },
+  {
+   "uid": "0001855767-26-000019:0",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udd34 SELL PATH $16.8M - Dines (Chair) - 10/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1855767/000185576726000019/0001855767-26-000019-index.htm"
+  },
+  {
+   "uid": "0001855767-26-000019:1",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udd34 SELL PATH $15.6M - Dines (Chair) - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1855767/000185576726000019/0001855767-26-000019-index.htm"
+  },
+  {
+   "uid": "0001193125-26-425300:1",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $12.1M - Nippon Life Insurance (10% Owner) - 10/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526425300/0001193125-26-425300-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010308",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udd34 SELL CVX $9.7M - Hewitt (Officer) - 10/19 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1469419/000195004726010308/0001950047-26-010308-index.htm"
+  },
+  {
+   "uid": "0001193125-26-425300:0",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $4M - Nippon Life Insurance (10% Owner) - 10/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526425300/0001193125-26-425300-index.htm"
+  },
+  {
+   "uid": "0001104659-26-116966:3",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udfe2 BUY CTY $3.1M - Arch Venture Partners (10% Owner) - 10/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2143850/000110465926116966/0001104659-26-116966-index.htm"
+  },
+  {
+   "uid": "0001104659-26-116965:3",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udfe2 BUY CTY $3.1M - Nelsen (Director) - 10/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2143850/000110465926116965/0001104659-26-116965-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018404:1",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $1.3M - Kamfar (Director) - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018404/0001398344-26-018404-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018404:0",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $1.2M - Kamfar (Director) - 10/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018404/0001398344-26-018404-index.htm"
+  },
+  {
+   "uid": "20035490:0",
+   "queued_at": "2026-10-19T23:43:39.587079+00:00",
+   "text": "\ud83d\udd34 SELL BAC $50K-100K - Lee (Rep. FL15) - traded 8/24 (53d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035490.pdf"
   }
  ]
 }
