@@ -1,27 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0000947871-26-000910:9",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY ADRX $1M - Orbimed Advisors Llc (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1808744/000094787126000910/0000947871-26-000910-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409451:1",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $1M - Berkshire Hathaway Inc (10% Owner) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004756:0",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $1M - Di (Officer) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2125956/000129281426004756/0001292814-26-004756-index.htm"
-  },
-  {
    "uid": "0001213900-26-105358:0",
    "queued_at": "2026-09-30T23:55:49.278167+00:00",
    "text": "\ud83d\udfe2 BUY NONE $1M - Hamilton Lane Advisors (10% Owner) - 4/21",
@@ -3499,6 +3478,27 @@
    "text": "\ud83d\udd34 SELL LOCO $6.2M - Biglari Holdings Inc (10%) - 10/16 - intends to sell (Form 144 notice, filed before the sale)",
    "source": "form144",
    "url": "https://www.sec.gov/Archives/edgar/data/1726173/000092189526002810/0000921895-26-002810-index.htm"
+  },
+  {
+   "uid": "0001104659-26-116752:0",
+   "queued_at": "2026-10-19T14:26:21.122841+00:00",
+   "text": "\ud83d\udd34 SELL AFL $10.4M - Japan Post Holdings (10% Owner) - 10/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783464/000110465926116752/0001104659-26-116752-index.htm"
+  },
+  {
+   "uid": "0001900445-26-000006:0",
+   "queued_at": "2026-10-19T14:26:21.122841+00:00",
+   "text": "\ud83d\udfe2 BUY APLD $5.7M - Zhang (Pres) - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1900445/000190044526000006/0001900445-26-000006-index.htm"
+  },
+  {
+   "uid": "0001391935-26-000009:0",
+   "queued_at": "2026-10-19T14:26:21.122841+00:00",
+   "text": "\ud83d\udfe2 BUY APLD $1M - Cummins (Chair) - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1391935/000139193526000009/0001391935-26-000009-index.htm"
   }
  ]
 }
