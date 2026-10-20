@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001072627-26-000055:0",
-   "queued_at": "2026-09-30T23:55:49.278167+00:00",
-   "text": "\ud83d\udfe2 BUY KWY $2K - Hansen (CFO & EVP) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1686017/000107262726000055/0001072627-26-000055-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:3",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $8.4M - Conifer Management (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
    "uid": "0000905148-26-004310:2",
    "queued_at": "2026-10-01T04:30:33.588560+00:00",
    "text": "\ud83d\udfe2 BUY GPI $8.3M - Conifer Management (10% Owner) - 9/28",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udd34 SELL BAC $50K-100K - Lee (Rep. FL15) - traded 8/24 (53d ago)",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035490.pdf"
+  },
+  {
+   "uid": "0001140361-26-040135:1",
+   "queued_at": "2026-10-20T02:07:58.409108+00:00",
+   "text": "\ud83d\udd34 SELL TALO $46.4M - Control Empresarial De (10% Owner) - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1724965/000114036126040135/0001140361-26-040135-index.htm"
+  },
+  {
+   "uid": "0002151678-26-000007:2",
+   "queued_at": "2026-10-20T02:07:58.409108+00:00",
+   "text": "\ud83d\udfe2 BUY IAM $11.5M - Rachlin (Director) - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2151678/000215167826000007/0002151678-26-000007-index.htm"
   }
  ]
 }
