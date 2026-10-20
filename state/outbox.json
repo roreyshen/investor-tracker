@@ -1,48 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0000905148-26-004310:2",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $8.3M - Conifer Management (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:16",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $6.9M - Conifer Management (10% Owner) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0001104659-26-112487:2",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $5M - Uaw Chrysler Retirees (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1844684/000110465926112487/0001104659-26-112487-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:5",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $4.7M - Conifer Management (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:26",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $4M - Conifer Management (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:27",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $4M - Conifer Management (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
    "uid": "0000905148-26-004310:4",
    "queued_at": "2026-10-01T04:30:33.588560+00:00",
    "text": "\ud83d\udfe2 BUY GPI $3.8M - Conifer Management (10% Owner) - 9/28",
@@ -3499,6 +3457,48 @@
    "text": "\ud83d\udfe2 BUY IAM $11.5M - Rachlin (Director) - 10/16",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2151678/000215167826000007/0002151678-26-000007-index.htm"
+  },
+  {
+   "uid": "0000945621-26-001274:0",
+   "queued_at": "2026-10-20T18:00:09.215949+00:00",
+   "text": "\ud83d\udfe2 BUY SCISX $2.4M - Ma Eagle Holdings (10% Owner) - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2049114/000094562126001274/0000945621-26-001274-index.htm"
+  },
+  {
+   "uid": "20035551:0",
+   "queued_at": "2026-10-20T18:00:09.215949+00:00",
+   "text": "\ud83d\udfe2 BUY DDOG $50K-100K - Jackson (Rep. IL01) - traded 9/28 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035551.pdf"
+  },
+  {
+   "uid": "20035551:1",
+   "queued_at": "2026-10-20T18:00:09.215949+00:00",
+   "text": "\ud83d\udfe2 BUY EL $50K-100K - Jackson (Rep. IL01) - traded 9/28 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035551.pdf"
+  },
+  {
+   "uid": "20035551:4",
+   "queued_at": "2026-10-20T18:00:09.215949+00:00",
+   "text": "\ud83d\udd34 SELL VSAT $50K-100K - Jackson (Rep. IL01) - traded 9/28 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035551.pdf"
+  },
+  {
+   "uid": "20035551:5",
+   "queued_at": "2026-10-20T18:00:09.215949+00:00",
+   "text": "\ud83d\udd34 SELL WMT $50K-100K - Jackson (Rep. IL01) - traded 9/28 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035551.pdf"
+  },
+  {
+   "uid": "20035671:0",
+   "queued_at": "2026-10-20T18:00:09.215949+00:00",
+   "text": "\ud83d\udd34 SELL GOOG $50K-100K - Rulli (Rep. OH06) - 10/16",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035671.pdf"
   }
  ]
 }
