@@ -1,41 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0000905148-26-004310:4",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $3.8M - Conifer Management (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:22",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $3.5M - Conifer Management (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:15",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $3.5M - Conifer Management (10% Owner) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:12",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $3.1M - Conifer Management (10% Owner) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0001104659-26-112487:1",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $3M - Uaw Chrysler Retirees (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1844684/000110465926112487/0001104659-26-112487-index.htm"
-  },
-  {
    "uid": "0000905148-26-004310:0",
    "queued_at": "2026-10-01T04:30:33.588560+00:00",
    "text": "\ud83d\udfe2 BUY GPI $3M - Conifer Management (10% Owner) - 9/28",
@@ -3499,6 +3464,41 @@
    "text": "\ud83d\udd34 SELL GOOG $50K-100K - Rulli (Rep. OH06) - 10/16",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035671.pdf"
+  },
+  {
+   "uid": "0001225208-26-008478:0",
+   "queued_at": "2026-10-20T21:32:10.951491+00:00",
+   "text": "\ud83d\udd34 SELL NZF $17.6M - Robert - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1379422/000122520826008478/0001225208-26-008478-index.htm"
+  },
+  {
+   "uid": "0001193125-26-426865:0",
+   "queued_at": "2026-10-20T21:32:10.951491+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $12.1M - Nippon Life Insurance (10% Owner) - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526426865/0001193125-26-426865-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010325",
+   "queued_at": "2026-10-20T21:32:10.951491+00:00",
+   "text": "\ud83d\udd34 SELL BRZE $8.6M - Jonathan (Officer) - 10/20 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1888935/000195004726010325/0001950047-26-010325-index.htm"
+  },
+  {
+   "uid": "0001965301-26-000163",
+   "queued_at": "2026-10-20T21:32:10.951491+00:00",
+   "text": "\ud83d\udd34 SELL ROIV $7M - Venker (Officer) - 10/20 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1801917/000196530126000163/0001965301-26-000163-index.htm"
+  },
+  {
+   "uid": "0001510281-26-000365:0",
+   "queued_at": "2026-10-20T21:32:10.951491+00:00",
+   "text": "\ud83d\udfe2 BUY LEO $1.4M - Saba Capital Management (10% Owner) - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1510281/000151028126000365/0001510281-26-000365-index.htm"
   }
  ]
 }
