@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0000905148-26-004310:23",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $3M - Conifer Management (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0001398344-26-017661:2",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY BPRE $1.9M - Kamfar (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426017661/0001398344-26-017661-index.htm"
-  },
-  {
    "uid": "0001104659-26-112487:0",
    "queued_at": "2026-10-01T04:30:33.588560+00:00",
    "text": "\ud83d\udfe2 BUY NONE $1.9M - Uaw Chrysler Retirees (10% Owner) - 9/28",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udd34 SELL MU $25.6M - Deboer (Pres. &) - 10/16",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1568238/000156823826000003/0001568238-26-000003-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007437",
+   "queued_at": "2026-10-21T19:08:46.149589+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $16.1M - Dageville (Officer) - 10/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1821737/000195917326007437/0001959173-26-007437-index.htm"
+  },
+  {
+   "uid": "20035687:0",
+   "queued_at": "2026-10-21T19:08:46.149589+00:00",
+   "text": "\ud83d\udfe2 BUY So Fine Foods LLC $50K-100K - Himes (Rep. CT04) - traded 9/29 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035687.pdf"
   }
  ]
 }
