@@ -1,104 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001104659-26-112487:0",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $1.9M - Uaw Chrysler Retirees (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1844684/000110465926112487/0001104659-26-112487-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:7",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $1.9M - Conifer Management (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0001398344-26-017661:1",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY BPRE $1.7M - Kamfar (Director) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426017661/0001398344-26-017661-index.htm"
-  },
-  {
-   "uid": "0001398344-26-017661:0",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY BPRE $1.7M - Kamfar (Director) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426017661/0001398344-26-017661-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:25",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $1.3M - Conifer Management (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:17",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $1M - Conifer Management (10% Owner) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004310:9",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $1M - Conifer Management (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
-   "uid": "0001214659-26-012383:2",
-   "queued_at": "2026-10-01T11:11:40.569134+00:00",
-   "text": "\ud83d\udfe2 BUY GPUS $5M - Ault (Exec Chair) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1734770/000121465926012383/0001214659-26-012383-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007179",
-   "queued_at": "2026-10-01T17:24:25.464390+00:00",
-   "text": "\ud83d\udd34 SELL SNOW $5.1M - Kleinerman (Officer) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1979088/000195917326007179/0001959173-26-007179-index.htm"
-  },
-  {
-   "uid": "0001193125-26-409999:0",
-   "queued_at": "2026-10-01T17:24:25.464390+00:00",
-   "text": "\ud83d\udfe2 BUY XENE $1.1M - Mortimer (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1619961/000119312526409999/0001193125-26-409999-index.htm"
-  },
-  {
-   "uid": "0001193125-26-410001:0",
-   "queued_at": "2026-10-01T17:24:25.464390+00:00",
-   "text": "\ud83d\udfe2 BUY XENE $560K - Kelly (CFO) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1582313/000119312526410001/0001193125-26-410001-index.htm"
-  },
-  {
-   "uid": "0001104659-26-112844:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY SLBT $10329.9B - Wang (CEO) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2124675/000110465926112844/0001104659-26-112844-index.htm"
-  },
-  {
-   "uid": "0002157144-26-000002",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL HSBC BANK PLC $5B - Cardoso Da Silva (Heir, investor) - traded 2/25 (218d ago) - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2157144/000215714426000002/0002157144-26-000002-index.htm"
-  },
-  {
-   "uid": "0002157144-26-000001",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL BCLYF $5B - Cardoso Da Silva (Investor) - traded 6/24 (99d ago) - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2157144/000215714426000001/0002157144-26-000001-index.htm"
-  },
-  {
    "uid": "0001950047-26-009982",
    "queued_at": "2026-10-01T21:58:33.718164+00:00",
    "text": "\ud83d\udd34 SELL UTHR $113.3M - Martine (Director) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3401,104 @@
    "text": "\ud83d\udfe2 BUY So Fine Foods LLC $50K-100K - Himes (Rep. CT04) - traded 9/29 (21d ago)",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035687.pdf"
+  },
+  {
+   "uid": "0001140361-26-040419:0",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udd34 SELL TALO $38.6M - Control Empresarial De (10% Owner) - 10/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1724965/000114036126040419/0001140361-26-040419-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010349",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udd34 SELL STOK $38.4M - Edward (Affiliate) - 10/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1623526/000195004726010349/0001950047-26-010349-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007441",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udd34 SELL TRV $35.3M - Schnitzer (Officer) - 10/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1397350/000195917326007441/0001959173-26-007441-index.htm"
+  },
+  {
+   "uid": "0001213900-26-111339:0",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udfe2 BUY GXVIX $25M - Global Management Company (10% Owner) - 10/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1997641/000121390026111339/0001213900-26-111339-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007445",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udd34 SELL TRV $6M - Olivo (Officer) - 10/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1224083/000195917326007445/0001959173-26-007445-index.htm"
+  },
+  {
+   "uid": "0001193125-26-427950:0",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $5.6M - Nippon Life Insurance (10% Owner) - 10/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526427950/0001193125-26-427950-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010344",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udd34 SELL HOOD $5M - Baiju Prafulkumar Bhatt (Director) - 10/21 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1966647/000195004726010344/0001950047-26-010344-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018550:2",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $1.4M - Kamfar (Director) - 10/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018550/0001398344-26-018550-index.htm"
+  },
+  {
+   "uid": "0001398344-26-018550:1",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udfe2 BUY BPRE $1.1M - Kamfar (Director) - 10/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018550/0001398344-26-018550-index.htm"
+  },
+  {
+   "uid": "0001193125-26-427983:0",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $311K - Williams (See Remarks) - 10/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1849894/000119312526427983/0001193125-26-427983-index.htm"
+  },
+  {
+   "uid": "0000826675-26-000124:0",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udfe2 BUY DX $100K - Boston (Chair) - 10/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1283563/000082667526000124/0000826675-26-000124-index.htm"
+  },
+  {
+   "uid": "0000945621-26-001282:0",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $85K - Bronner (Pres) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2031283/000094562126001282/0000945621-26-001282-index.htm"
+  },
+  {
+   "uid": "0000945621-26-001284:0",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $3K - Henke (CFO) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2056731/000094562126001284/0000945621-26-001284-index.htm"
+  },
+  {
+   "uid": "0000945621-26-001286:0",
+   "queued_at": "2026-10-21T22:22:46.579475+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $2K - Rooder (CCO and) - 9/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2031283/000094562126001286/0000945621-26-001286-index.htm"
   }
  ]
 }
