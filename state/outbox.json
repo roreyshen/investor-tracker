@@ -1,13 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0000905148-26-004310:0",
-   "queued_at": "2026-10-01T04:30:33.588560+00:00",
-   "text": "\ud83d\udfe2 BUY GPI $3M - Conifer Management (10% Owner) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004310/0000905148-26-004310-index.htm"
-  },
-  {
    "uid": "0000905148-26-004310:23",
    "queued_at": "2026-10-01T04:30:33.588560+00:00",
    "text": "\ud83d\udfe2 BUY GPI $3M - Conifer Management (10% Owner) - 9/30",
@@ -3499,6 +3492,13 @@
    "text": "\ud83d\udfe2 BUY LEO $1.4M - Saba Capital Management (10% Owner) - 10/16",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1510281/000151028126000365/0001510281-26-000365-index.htm"
+  },
+  {
+   "uid": "0001568238-26-000003:0",
+   "queued_at": "2026-10-21T00:08:45.338260+00:00",
+   "text": "\ud83d\udd34 SELL MU $25.6M - Deboer (Pres. &) - 10/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1568238/000156823826000003/0001568238-26-000003-index.htm"
   }
  ]
 }
