@@ -1,90 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001833683-26-000018:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY N/A $12M - Manufacturers Life Insuran (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1833683/000183368326000018/0001833683-26-000018-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009938",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL DBX $12M - Andrew Houston Revocable (Director) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1734563/000195004726009938/0001950047-26-009938-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009975",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL ADPT $11M - Julie (Officer) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1780664/000195004726009975/0001950047-26-009975-index.htm"
-  },
-  {
-   "uid": "0001193125-26-410739:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL NTAP $10.5M - Kurian (CEO) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1586813/000119312526410739/0001193125-26-410739-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009944",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL RKLB $9.8M - Adam (Officer) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819994/000195004726009944/0001950047-26-009944-index.htm"
-  },
-  {
-   "uid": "0001765496-26-000019:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY N/A $9M - Manufacturers Life Reinsur (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1765496/000176549626000019/0001765496-26-000019-index.htm"
-  },
-  {
-   "uid": "0001193125-26-410677:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $7.3M - Nippon Life Insurance (10% Owner) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526410677/0001193125-26-410677-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009980",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL AIP $7.1M - Bayview Legacy Llc (10%) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1888862/000195004726009980/0001950047-26-009980-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009941",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL VICR $5.8M - Patrizio (Director) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/901484/000195004726009941/0001950047-26-009941-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009945",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL OKTA $5.1M - Larissa (Officer) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1968125/000195004726009945/0001950047-26-009945-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031762:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $5M - Seneff (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2066337/000143774926031762/0001437749-26-031762-index.htm"
-  },
-  {
-   "uid": "0001837478-26-000018:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY N/A $4M - Manulife (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1837478/000183747826000018/0001837478-26-000018-index.htm"
-  },
-  {
    "uid": "0001341439-26-000099:0",
    "queued_at": "2026-10-01T21:58:33.718164+00:00",
    "text": "\ud83d\udfe2 BUY ORCL $3.5M - Rusckowski (Director) - 9/29",
@@ -3499,6 +3415,90 @@
    "text": "\ud83d\udfe2 BUY NONE $205 - Monte (Director) - 10/21",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1910629/000143510926000158/0001435109-26-000158-index.htm"
+  },
+  {
+   "uid": "0001888935-26-000028:1",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udd34 SELL BRZE $12.9M - Hyman (CTO) - 10/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1888935/000188893526000028/0001888935-26-000028-index.htm"
+  },
+  {
+   "uid": "0001193125-26-429152:0",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $9.6M - Msd Capital (10% Owner) - 9/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1998387/000119312526429152/0001193125-26-429152-index.htm"
+  },
+  {
+   "uid": "0001969223-26-001084",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udd34 SELL CRL $8.4M - Foster (Director) - 10/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1141722/000196922326001084/0001969223-26-001084-index.htm"
+  },
+  {
+   "uid": "0001193125-26-429089:0",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $6.8M - Nippon Life Insurance (10% Owner) - 10/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526429089/0001193125-26-429089-index.htm"
+  },
+  {
+   "uid": "0000921895-26-002845:1",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udfe2 BUY DOLE $5.8M - Pale Fire Capital (10% Owner) - 10/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2055254/000092189526002845/0000921895-26-002845-index.htm"
+  },
+  {
+   "uid": "0000080424-26-000258",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udd34 SELL PG $5.5M - Jejurikar (Officer) - 10/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1746310/000008042426000258/0000080424-26-000258-index.htm"
+  },
+  {
+   "uid": "0000921895-26-002845:2",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udfe2 BUY DOLE $2.2M - Pale Fire Capital (10% Owner) - 10/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2055254/000092189526002845/0000921895-26-002845-index.htm"
+  },
+  {
+   "uid": "0001193125-26-429073:0",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udfe2 BUY RAPP $974K - Paul (Director) - 10/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526429073/0001193125-26-429073-index.htm"
+  },
+  {
+   "uid": "0001193125-26-429071:0",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udfe2 BUY RAPP $217K - Maraganore (Director) - 10/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526429071/0001193125-26-429071-index.htm"
+  },
+  {
+   "uid": "0001193125-26-429074:0",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udfe2 BUY RAPP $100K - Young (Director) - 10/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2042847/000119312526429074/0001193125-26-429074-index.htm"
+  },
+  {
+   "uid": "0001193125-26-429075:0",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udfe2 BUY RAPP $100K - Silva (Director) - 10/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526429075/0001193125-26-429075-index.htm"
+  },
+  {
+   "uid": "0001193125-26-429071:1",
+   "queued_at": "2026-10-22T22:59:47.358788+00:00",
+   "text": "\ud83d\udfe2 BUY RAPP $32K - Maraganore (Director) - 10/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526429071/0001193125-26-429071-index.htm"
   }
  ]
 }
