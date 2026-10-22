@@ -1,34 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001950047-26-009982",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL UTHR $113.3M - Martine (Director) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1106578/000195004726009982/0001950047-26-009982-index.htm"
-  },
-  {
-   "uid": "0001214659-26-012438:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY UUU $92.4M - Ault (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1212502/000121465926012438/0001214659-26-012438-index.htm"
-  },
-  {
-   "uid": "0001572983-26-000021:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL ACT $37.1M - Genworth Holdings Inc (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1823529/000157298326000021/0001572983-26-000021-index.htm"
-  },
-  {
-   "uid": "0001765496-26-000018:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY N/A $31M - Manufacturers Life Reinsur (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1765496/000176549626000018/0001765496-26-000018-index.htm"
-  },
-  {
    "uid": "0001765518-26-000006:0",
    "queued_at": "2026-10-01T21:58:33.718164+00:00",
    "text": "\ud83d\udfe2 BUY N/A $26M - Manulife (10% Owner) - 9/30",
@@ -3499,6 +3471,34 @@
    "text": "\ud83d\udfe2 BUY NONE $2K - Rooder (CCO and) - 9/30",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2031283/000094562126001286/0000945621-26-001286-index.htm"
+  },
+  {
+   "uid": "0001402348-26-000020:7",
+   "queued_at": "2026-10-22T00:48:51.900610+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $26.2M - Slootman (Director) - 10/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000020/0001402348-26-000020-index.htm"
+  },
+  {
+   "uid": "0001402348-26-000020:6",
+   "queued_at": "2026-10-22T00:48:51.900610+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $21.6M - Slootman (Director) - 10/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000020/0001402348-26-000020-index.htm"
+  },
+  {
+   "uid": "0001402348-26-000020:5",
+   "queued_at": "2026-10-22T00:48:51.900610+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $12.9M - Slootman (Director) - 10/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000020/0001402348-26-000020-index.htm"
+  },
+  {
+   "uid": "0001402348-26-000020:8",
+   "queued_at": "2026-10-22T00:48:51.900610+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $12.5M - Slootman (Director) - 10/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000020/0001402348-26-000020-index.htm"
   }
  ]
 }
