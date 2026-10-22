@@ -1,41 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001765518-26-000006:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY N/A $26M - Manulife (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1765518/000176551826000006/0001765518-26-000006-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009928",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL LITE $25.7M - Wajid (Officer) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000195004726009928/0001950047-26-009928-index.htm"
-  },
-  {
-   "uid": "0001950047-26-009957",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 10/1 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726009957/0001950047-26-009957-index.htm"
-  },
-  {
-   "uid": "0001622058-26-000022:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL MEDP $16.6M - Troendle (Pres) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000162205826000022/0001622058-26-000022-index.htm"
-  },
-  {
-   "uid": "0001622058-26-000022:1",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udd34 SELL MEDP $13.7M - Troendle (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000162205826000022/0001622058-26-000022-index.htm"
-  },
-  {
    "uid": "0001833683-26-000018:0",
    "queued_at": "2026-10-01T21:58:33.718164+00:00",
    "text": "\ud83d\udfe2 BUY N/A $12M - Manufacturers Life Insuran (10% Owner) - 9/30",
@@ -3499,6 +3464,41 @@
    "text": "\ud83d\udd34 SELL SNOW $12.5M - Slootman (Director) - 10/19",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000020/0001402348-26-000020-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007450",
+   "queued_at": "2026-10-22T15:57:43.763826+00:00",
+   "text": "\ud83d\udd34 SELL TRV $14M - Toczydlowski (Officer) - 10/22 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1689378/000195917326007450/0001959173-26-007450-index.htm"
+  },
+  {
+   "uid": "0000080424-26-000253",
+   "queued_at": "2026-10-22T15:57:43.763826+00:00",
+   "text": "\ud83d\udd34 SELL PG $6M - Raman (Officer) - 10/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1882672/000008042426000253/0000080424-26-000253-index.htm"
+  },
+  {
+   "uid": "0001435109-26-000159:0",
+   "queued_at": "2026-10-22T15:57:43.763826+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $795 - Monte (Director) - 10/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910629/000143510926000159/0001435109-26-000159-index.htm"
+  },
+  {
+   "uid": "0001435109-26-000160:0",
+   "queued_at": "2026-10-22T15:57:43.763826+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $500 - Booth - 10/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1845014/000143510926000160/0001435109-26-000160-index.htm"
+  },
+  {
+   "uid": "0001435109-26-000158:0",
+   "queued_at": "2026-10-22T15:57:43.763826+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $205 - Monte (Director) - 10/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910629/000143510926000158/0001435109-26-000158-index.htm"
   }
  ]
 }
