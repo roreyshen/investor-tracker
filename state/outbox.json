@@ -1,13 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-410415:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY BBASX $3.2M - Amg New York (10% Owner) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2097545/000119312526410415/0001193125-26-410415-index.htm"
-  },
-  {
    "uid": "0001273348-26-000012:0",
    "queued_at": "2026-10-01T21:58:33.718164+00:00",
    "text": "\ud83d\udfe2 BUY GBR $2M - Realty Advisors Inc (10% Owner) - 9/29",
@@ -3499,6 +3492,13 @@
    "text": "\ud83d\udd34 SELL IHT $2B - Wirth (Pres) - 10/20",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1055365/000149315226048149/0001493152-26-048149-index.htm"
+  },
+  {
+   "uid": "6aa5ccb2-ff27-491a-9314-778b9ab37964:0",
+   "queued_at": "2026-10-23T06:19:04.338309+00:00",
+   "text": "\ud83d\udd34 SELL WMB $250K-500K - Armstrong (Senator) - traded 9/8 (44d ago)",
+   "source": "senate",
+   "url": "https://efdsearch.senate.gov/search/view/ptr/6aa5ccb2-ff27-491a-9314-778b9ab37964/"
   }
  ]
 }
