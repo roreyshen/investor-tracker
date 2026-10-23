@@ -1,13 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001341439-26-000099:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY ORCL $3.5M - Rusckowski (Director) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000099/0001341439-26-000099-index.htm"
-  },
-  {
    "uid": "0001193125-26-410415:0",
    "queued_at": "2026-10-01T21:58:33.718164+00:00",
    "text": "\ud83d\udfe2 BUY BBASX $3.2M - Amg New York (10% Owner) - 9/29",
@@ -3499,6 +3492,13 @@
    "text": "\ud83d\udfe2 BUY RAPP $32K - Maraganore (Director) - 10/22",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526429071/0001193125-26-429071-index.htm"
+  },
+  {
+   "uid": "0001493152-26-048149:0",
+   "queued_at": "2026-10-23T01:24:16.559195+00:00",
+   "text": "\ud83d\udd34 SELL IHT $2B - Wirth (Pres) - 10/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1055365/000149315226048149/0001493152-26-048149-index.htm"
   }
  ]
 }
