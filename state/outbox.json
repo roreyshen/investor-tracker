@@ -1,41 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001833683-26-000019:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY N/A $1000K - Manufacturers Life Insuran (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1833683/000183368326000019/0001833683-26-000019-index.htm"
-  },
-  {
-   "uid": "0002100573-26-000006:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY DKS $500K - Barnes (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2100573/000210057326000006/0002100573-26-000006-index.htm"
-  },
-  {
-   "uid": "0001193125-26-410738:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $173K - Solotar (Director) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1930054/000119312526410738/0001193125-26-410738-index.htm"
-  },
-  {
-   "uid": "0001193125-26-410740:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $131K - James (Chairperson) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1939107/000119312526410740/0001193125-26-410740-index.htm"
-  },
-  {
-   "uid": "0001225208-26-008046:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY FUL $99K - Happe (Director) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1382452/000122520826008046/0001225208-26-008046-index.htm"
-  },
-  {
    "uid": "0001210982-26-000010:0",
    "queued_at": "2026-10-01T21:58:33.718164+00:00",
    "text": "\ud83d\udfe2 BUY SPG $97K - Leibowitz (Director) - 9/30",
@@ -3499,6 +3464,41 @@
    "text": "\ud83d\udd34 SELL LRCX $7.1M - Archer (Officer) - 10/23 - intends to sell (Form 144 notice, filed before the sale)",
    "source": "form144",
    "url": "https://www.sec.gov/Archives/edgar/data/1343600/000195917326007465/0001959173-26-007465-index.htm"
+  },
+  {
+   "uid": "0001949846-26-000619",
+   "queued_at": "2026-10-23T20:06:40.826354+00:00",
+   "text": "\ud83d\udd34 SELL BSY $67.5M - Bentley (Director) - 10/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1825229/000194984626000619/0001949846-26-000619-index.htm"
+  },
+  {
+   "uid": "0001193125-26-430420:0",
+   "queued_at": "2026-10-23T20:06:40.826354+00:00",
+   "text": "\ud83d\udd34 SELL INNV $13.9M - Ignite Aggregator Lp (10% Owner) - 10/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1848852/000119312526430420/0001193125-26-430420-index.htm"
+  },
+  {
+   "uid": "0001193125-26-430414:0",
+   "queued_at": "2026-10-23T20:06:40.826354+00:00",
+   "text": "\ud83d\udd34 SELL INNV $13.9M - Tco Group Holdings (10% Owner) - 10/21",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1844765/000119312526430414/0001193125-26-430414-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007473",
+   "queued_at": "2026-10-23T20:06:40.826354+00:00",
+   "text": "\ud83d\udd34 SELL ROP $5.2M - Conley (Officer) - 10/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1699418/000195917326007473/0001959173-26-007473-index.htm"
+  },
+  {
+   "uid": "0001193125-26-430397:0",
+   "queued_at": "2026-10-23T20:06:40.826354+00:00",
+   "text": "\ud83d\udfe2 BUY RAPP $98K - Sanchez (Director) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526430397/0001193125-26-430397-index.htm"
   }
  ]
 }
