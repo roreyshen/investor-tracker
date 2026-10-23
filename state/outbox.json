@@ -1,13 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001273348-26-000012:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY GBR $2M - Realty Advisors Inc (10% Owner) - 9/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1267710/000127334826000012/0001273348-26-000012-index.htm"
-  },
-  {
    "uid": "0001833683-26-000019:0",
    "queued_at": "2026-10-01T21:58:33.718164+00:00",
    "text": "\ud83d\udfe2 BUY N/A $1000K - Manufacturers Life Insuran (10% Owner) - 9/30",
@@ -3499,6 +3492,13 @@
    "text": "\ud83d\udd34 SELL WMB $250K-500K - Armstrong (Senator) - traded 9/8 (44d ago)",
    "source": "senate",
    "url": "https://efdsearch.senate.gov/search/view/ptr/6aa5ccb2-ff27-491a-9314-778b9ab37964/"
+  },
+  {
+   "uid": "0001959173-26-007465",
+   "queued_at": "2026-10-23T16:40:40.890506+00:00",
+   "text": "\ud83d\udd34 SELL LRCX $7.1M - Archer (Officer) - 10/23 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1343600/000195917326007465/0001959173-26-007465-index.htm"
   }
  ]
 }
