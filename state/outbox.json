@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001877939-26-000085:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY CTM $747 - Merriman (COO) - 10/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2036177/000187793926000085/0001877939-26-000085-index.htm"
-  },
-  {
-   "uid": "20035498:0",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY Boulder Larimer & Weld $250K-500K - Delbene (Rep. WA01) - traded 9/3 (27d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035498.pdf"
-  },
-  {
    "uid": "20035498:1",
    "queued_at": "2026-10-01T21:58:33.718164+00:00",
    "text": "\ud83d\udd34 SELL California CMNTY Choic $250K-500K - Delbene (Rep. WA01) - traded 9/3 (27d ago)",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udfe2 BUY CHCO $14K - Reyes (Director) - 10/23",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1880770/000072685426000187/0000726854-26-000187-index.htm"
+  },
+  {
+   "uid": "20035700:0",
+   "queued_at": "2026-10-24T01:35:10.153539+00:00",
+   "text": "\ud83d\udfe2 BUY US Treasury Note 3.375 $5M-25M - Issa (Rep. CA48) - traded 10/8 (14d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035700.pdf"
+  },
+  {
+   "uid": "20035700:1",
+   "queued_at": "2026-10-24T01:35:10.153539+00:00",
+   "text": "\ud83d\udd34 SELL US Treasury Note 3.375 $5M-25M - Issa (Rep. CA48) - traded 10/14 (8d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035700.pdf"
   }
  ]
 }
