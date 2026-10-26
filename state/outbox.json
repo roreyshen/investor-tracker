@@ -1,13 +1,6 @@
 {
  "pending": [
   {
-   "uid": "20035498:2",
-   "queued_at": "2026-10-01T21:58:33.718164+00:00",
-   "text": "\ud83d\udfe2 BUY Commodity 5.00% Due Au $250K-500K - Delbene (Rep. WA01) - traded 9/14 (16d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035498.pdf"
-  },
-  {
    "uid": "20035498:3",
    "queued_at": "2026-10-01T21:58:33.718164+00:00",
    "text": "\ud83d\udfe2 BUY San Joaquin VY Calif C $250K-500K - Delbene (Rep. WA01) - traded 9/3 (27d ago)",
@@ -3499,6 +3492,13 @@
    "text": "\ud83d\udfe2 BUY BPRE $1.4M - Kamfar (Director) - 10/23",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018736/0001398344-26-018736-index.htm"
+  },
+  {
+   "uid": "0001949846-26-000620",
+   "queued_at": "2026-10-26T19:03:35.973639+00:00",
+   "text": "\ud83d\udd34 SELL UHAL-B $21M - Mvs Trust (10%) - 10/26 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2154168/000194984626000620/0001949846-26-000620-index.htm"
   }
  ]
 }
