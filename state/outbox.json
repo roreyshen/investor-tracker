@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001950047-26-010012",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udd34 SELL GRND $25.4M - George (Director) - 10/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1833678/000195004726010012/0001950047-26-010012-index.htm"
-  },
-  {
-   "uid": "0000919574-26-006648:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY N/A $20M - Tiedemann Advisors Llc (10% Owner) - 10/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2046647/000091957426006648/0000919574-26-006648-index.htm"
-  },
-  {
    "uid": "0001973251-26-000039",
    "queued_at": "2026-10-02T23:11:30.118631+00:00",
    "text": "\ud83d\udd34 SELL SNOW $17.5M - Speiser (Affiliate) - 10/2 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udfe2 BUY GPI $1M - Conifer Management (10% Owner) - 10/26",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004561/0000905148-26-004561-index.htm"
+  },
+  {
+   "uid": "0001213900-26-112641:1",
+   "queued_at": "2026-10-27T14:02:32.665695+00:00",
+   "text": "\ud83d\udfe2 BUY PLUR $1.3M - Manieu (Director) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1833124/000121390026112641/0001213900-26-112641-index.htm"
+  },
+  {
+   "uid": "0001435109-26-000161:0",
+   "queued_at": "2026-10-27T14:02:32.665695+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $500 - Staloch (Treasurer) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1867181/000143510926000161/0001435109-26-000161-index.htm"
   }
  ]
 }
