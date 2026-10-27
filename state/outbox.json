@@ -1,69 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001976408-26-000880:0",
-   "queued_at": "2026-10-02T14:01:41.390488+00:00",
-   "text": "\ud83d\udfe2 BUY NYAX $446K - Nechmad (Chair) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1999370/000197640826000880/0001976408-26-000880-index.htm"
-  },
-  {
-   "uid": "0001422493-26-000014:0",
-   "queued_at": "2026-10-02T19:20:44.332518+00:00",
-   "text": "\ud83d\udfe2 BUY MPB $10K - De (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1422493/000142249326000014/0001422493-26-000014-index.htm"
-  },
-  {
-   "uid": "0001749416-26-000010:0",
-   "queued_at": "2026-10-02T19:20:44.332518+00:00",
-   "text": "\ud83d\udfe2 BUY MPB $10K - Evans (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1749416/000174941626000010/0001749416-26-000010-index.htm"
-  },
-  {
-   "uid": "0001104659-26-113107:0",
-   "queued_at": "2026-10-02T19:20:44.332518+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $5K - Wingertzahn (Director) - 10/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1982144/000110465926113107/0001104659-26-113107-index.htm"
-  },
-  {
-   "uid": "0001749279-26-000010:0",
-   "queued_at": "2026-10-02T19:20:44.332518+00:00",
-   "text": "\ud83d\udfe2 BUY MPB $2K - Frank (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1749279/000174927926000010/0001749279-26-000010-index.htm"
-  },
-  {
-   "uid": "0001769745-26-000010:0",
-   "queued_at": "2026-10-02T19:20:44.332518+00:00",
-   "text": "\ud83d\udfe2 BUY MPB $2K - Brumbaugh (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1769745/000176974526000010/0001769745-26-000010-index.htm"
-  },
-  {
-   "uid": "0001278504-26-000010:0",
-   "queued_at": "2026-10-02T19:20:44.332518+00:00",
-   "text": "\ud83d\udfe2 BUY MPB $2K - Mowery (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1278504/000127850426000010/0001278504-26-000010-index.htm"
-  },
-  {
-   "uid": "0001511696-26-000010:0",
-   "queued_at": "2026-10-02T19:20:44.332518+00:00",
-   "text": "\ud83d\udfe2 BUY MPB $496 - Abel (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1511696/000151169626000010/0001511696-26-000010-index.htm"
-  },
-  {
-   "uid": "20035555:1",
-   "queued_at": "2026-10-02T19:20:44.332518+00:00",
-   "text": "\ud83d\udfe2 BUY Indiana ST 5.00% 02/01 $50K-100K - Beyer (Rep. VA08) - traded 9/15 (16d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035555.pdf"
-  },
-  {
    "uid": "0001950047-26-010012",
    "queued_at": "2026-10-02T23:11:30.118631+00:00",
    "text": "\ud83d\udd34 SELL GRND $25.4M - George (Director) - 10/2 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3436,69 @@
    "text": "\ud83d\udfe2 BUY STC $47K - Apel (Director) - 10/23",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1356389/000162828026067363/0001628280-26-067363-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004561:12",
+   "queued_at": "2026-10-27T02:04:56.331371+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $4.6M - Conifer Management (10% Owner) - 10/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004561/0000905148-26-004561-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004561:23",
+   "queued_at": "2026-10-27T02:04:56.331371+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $2.3M - Conifer Management (10% Owner) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004561/0000905148-26-004561-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004561:6",
+   "queued_at": "2026-10-27T02:04:56.331371+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $2.2M - Conifer Management (10% Owner) - 10/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004561/0000905148-26-004561-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004561:10",
+   "queued_at": "2026-10-27T02:04:56.331371+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $2.2M - Conifer Management (10% Owner) - 10/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004561/0000905148-26-004561-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004561:22",
+   "queued_at": "2026-10-27T02:04:56.331371+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $2M - Conifer Management (10% Owner) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004561/0000905148-26-004561-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004561:24",
+   "queued_at": "2026-10-27T02:04:56.331371+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1.6M - Conifer Management (10% Owner) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004561/0000905148-26-004561-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004561:18",
+   "queued_at": "2026-10-27T02:04:56.331371+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1.4M - Conifer Management (10% Owner) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004561/0000905148-26-004561-index.htm"
+  },
+  {
+   "uid": "0001213900-26-112593:0",
+   "queued_at": "2026-10-27T02:04:56.331371+00:00",
+   "text": "\ud83d\udfe2 BUY OPTU $1.1M - Subin (10% Owner) - 10/22",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2159232/000121390026112593/0001213900-26-112593-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004561:28",
+   "queued_at": "2026-10-27T02:04:56.331371+00:00",
+   "text": "\ud83d\udfe2 BUY GPI $1M - Conifer Management (10% Owner) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773994/000090514826004561/0000905148-26-004561-index.htm"
   }
  ]
 }
