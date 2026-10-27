@@ -1,167 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001973251-26-000039",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udd34 SELL SNOW $17.5M - Speiser (Affiliate) - 10/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000197325126000039/0001973251-26-000039-index.htm"
-  },
-  {
-   "uid": "0000921895-26-002719:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY GME $17.1M - Cohen (Chair) - 10/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1767470/000092189526002719/0000921895-26-002719-index.htm"
-  },
-  {
-   "uid": "0001969223-26-001055",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udd34 SELL AAPL $15.5M - Brien (Officer) - 10/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1767094/000196922326001055/0001969223-26-001055-index.htm"
-  },
-  {
-   "uid": "0001193125-26-412414:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $11.7M - Nippon Life Insurance (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526412414/0001193125-26-412414-index.htm"
-  },
-  {
-   "uid": "0001972481-26-000293",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udd34 SELL IPGP $11.6M - Ip Fibre Devices (10%) - 10/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1130423/000197248126000293/0001972481-26-000293-index.htm"
-  },
-  {
-   "uid": "0001628280-26-064627:2",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udd34 SELL CRDO $10.3M - Lam (COO) - 10/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1896205/000162828026064627/0001628280-26-064627-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007243",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udd34 SELL TWST $8.6M - Leproust (Officer) - 10/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1753655/000195917326007243/0001959173-26-007243-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010005",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udd34 SELL VICR $6.2M - Patrizio (Director) - 10/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/901484/000195004726010005/0001950047-26-010005-index.htm"
-  },
-  {
-   "uid": "0001185185-26-004542:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY PORT.U $5M - Southport Acquisition Spon (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2151492/000118518526004542/0001185185-26-004542-index.htm"
-  },
-  {
-   "uid": "0001185185-26-004541:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY PORT.U $5M - Spencer (CEO and CFO) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2151215/000118518526004541/0001185185-26-004541-index.htm"
-  },
-  {
-   "uid": "0002028916-26-000011:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY PAM $4.4M - Mindlin (Pres) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2028916/000202891626000011/0002028916-26-000011-index.htm"
-  },
-  {
-   "uid": "0002028916-26-000011:1",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY PAM $1.2M - Mindlin (Pres) - 9/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2028916/000202891626000011/0002028916-26-000011-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004844:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY CINT $13K - Martins Fernando Matt (Director) - 10/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2121136/000129281426004844/0001292814-26-004844-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031935:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY AUBN $1K - Barrett (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1457242/000143774926031935/0001437749-26-031935-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031936:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY AUBN $1K - Housel (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1195632/000143774926031936/0001437749-26-031936-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031934:1",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY AUBN $740 - Ham (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1195633/000143774926031934/0001437749-26-031934-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031935:1",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY AUBN $609 - Barrett (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1457242/000143774926031935/0001437749-26-031935-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031934:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY AUBN $548 - Ham (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1195633/000143774926031934/0001437749-26-031934-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031937:0",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY AUBN $439 - Donnell (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1393391/000143774926031937/0001437749-26-031937-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031936:1",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY AUBN $388 - Housel (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1195632/000143774926031936/0001437749-26-031936-index.htm"
-  },
-  {
-   "uid": "0001437749-26-031937:1",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY AUBN $305 - Donnell (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1393391/000143774926031937/0001437749-26-031937-index.htm"
-  },
-  {
-   "uid": "0000919574-26-006648:1",
-   "queued_at": "2026-10-02T23:11:30.118631+00:00",
-   "text": "\ud83d\udfe2 BUY N/A amount undisclosed - Tiedemann Advisors Llc (10% Owner) - 10/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2046647/000091957426006648/0000919574-26-006648-index.htm"
-  },
-  {
-   "uid": "0000950103-26-015176:5",
-   "queued_at": "2026-10-03T01:57:38.749779+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $16.4M - Sentonas (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000095010326015176/0000950103-26-015176-index.htm"
-  },
-  {
    "uid": "0000950103-26-015176:4",
    "queued_at": "2026-10-03T01:57:38.749779+00:00",
    "text": "\ud83d\udd34 SELL CRWD $14.2M - Sentonas (Pres) - 9/30",
@@ -3499,6 +3338,167 @@
    "text": "\ud83d\udfe2 BUY NONE $500 - Staloch (Treasurer) - 10/26",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1867181/000143510926000161/0001435109-26-000161-index.htm"
+  },
+  {
+   "uid": "0001231919-26-001503:3",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY LYCA $35M - Venrock Healthcare Capital (10% Owner) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2037157/000123191926001503/0001231919-26-001503-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010442",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udd34 SELL COF-PN $18.4M - Richard (Officer) - 10/27 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1238032/000195004726010442/0001950047-26-010442-index.htm"
+  },
+  {
+   "uid": "0000950142-26-002870:1",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY MSM $15.6M - Jacobson (Director) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1008015/000095014226002870/0000950142-26-002870-index.htm"
+  },
+  {
+   "uid": "0001193125-26-434287:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $13.9M - Nippon Life Insurance (10% Owner) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526434287/0001193125-26-434287-index.htm"
+  },
+  {
+   "uid": "0000891836-26-000067",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udd34 SELL GS-PD $10.7M - Solomon (Director) - 10/27 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1693709/000089183626000067/0000891836-26-000067-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007511",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udd34 SELL R $7.4M - Sanchez (Director) - 10/27 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1216931/000195917326007511/0001959173-26-007511-index.htm"
+  },
+  {
+   "uid": "0000950142-26-002870:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY MSM $7M - Jacobson (Director) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1008015/000095014226002870/0000950142-26-002870-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010438",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udd34 SELL CBRS $6.5M - Sean (Officer) - 10/27 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2132472/000195004726010438/0001950047-26-010438-index.htm"
+  },
+  {
+   "uid": "0000950142-26-002870:2",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY MSM $6.3M - Jacobson (Director) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1008015/000095014226002870/0000950142-26-002870-index.htm"
+  },
+  {
+   "uid": "0001193125-26-434287:1",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $6.3M - Nippon Life Insurance (10% Owner) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526434287/0001193125-26-434287-index.htm"
+  },
+  {
+   "uid": "0000950142-26-002868:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $1.2M - Hershey Trust Co (10% Owner) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1944831/000095014226002868/0000950142-26-002868-index.htm"
+  },
+  {
+   "uid": "0001104659-26-119180:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY CTEV $1.2M - Ares Management Llc (10% Owner) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2117555/000110465926119180/0001104659-26-119180-index.htm"
+  },
+  {
+   "uid": "0001104659-26-119177:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY CTEV $1.2M - Ares Management Llc (10% Owner) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1793548/000110465926119177/0001104659-26-119177-index.htm"
+  },
+  {
+   "uid": "0001336706-26-000080:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY NPB $771K - Williams (Chair) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2057567/000133670626000080/0001336706-26-000080-index.htm"
+  },
+  {
+   "uid": "0001336706-26-000080:1",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY NPB $766K - Williams (Chair) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2057567/000133670626000080/0001336706-26-000080-index.htm"
+  },
+  {
+   "uid": "0001498811-26-000002:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY TIPT $502K - Barnes (Chair) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1498811/000149881126000002/0001498811-26-000002-index.htm"
+  },
+  {
+   "uid": "0001140361-26-040923:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY AIOK $487K - Panagiotidis (CEO) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2118775/000114036126040923/0001140361-26-040923-index.htm"
+  },
+  {
+   "uid": "0001140361-26-040923:5",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY AIOK $404K - Panagiotidis (CEO) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2118775/000114036126040923/0001140361-26-040923-index.htm"
+  },
+  {
+   "uid": "0001225208-26-008526:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY NMCO $249K - Robert - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1774342/000122520826008526/0001225208-26-008526-index.htm"
+  },
+  {
+   "uid": "0002056954-26-000006:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY NPB $185K - Boer (Director) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2056954/000205695426000006/0002056954-26-000006-index.htm"
+  },
+  {
+   "uid": "0001628280-26-067616:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY STC $133K - Eppinger (CEO) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1261155/000162828026067616/0001628280-26-067616-index.htm"
+  },
+  {
+   "uid": "0001336706-26-000081:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY NPB $50K - Long (COO) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1548602/000133670626000081/0001336706-26-000081-index.htm"
+  },
+  {
+   "uid": "0001628280-26-067619:0",
+   "queued_at": "2026-10-27T23:05:03.564841+00:00",
+   "text": "\ud83d\udfe2 BUY STC $44K - Matz (Director) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1814738/000162828026067619/0001628280-26-067619-index.htm"
   }
  ]
 }
