@@ -1,55 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0000950103-26-015176:4",
-   "queued_at": "2026-10-03T01:57:38.749779+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $14.2M - Sentonas (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000095010326015176/0000950103-26-015176-index.htm"
-  },
-  {
-   "uid": "0001433644-26-000017:6",
-   "queued_at": "2026-10-03T01:57:38.749779+00:00",
-   "text": "\ud83d\udd34 SELL SNOW $11.7M - Speiser (Director) - 10/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000143364426000017/0001433644-26-000017-index.htm"
-  },
-  {
-   "uid": "0000950103-26-015176:6",
-   "queued_at": "2026-10-03T01:57:38.749779+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $11.2M - Sentonas (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000095010326015176/0000950103-26-015176-index.htm"
-  },
-  {
-   "uid": "0000950103-26-015176:3",
-   "queued_at": "2026-10-03T01:57:38.749779+00:00",
-   "text": "\ud83d\udd34 SELL CRWD $10.7M - Sentonas (Pres) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1968270/000095010326015176/0000950103-26-015176-index.htm"
-  },
-  {
-   "uid": "0001949846-26-000605",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udd34 SELL IBRX $7.7M - Simon (Officer) - 10/5 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1647994/000194984626000605/0001949846-26-000605-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004850:11",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $5.8M - Alvarez (Director) - 8/31",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004850:10",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $5.3M - Alvarez (Director) - 8/31",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
-  },
-  {
    "uid": "0001292814-26-004850:9",
    "queued_at": "2026-10-05T14:40:00.306695+00:00",
    "text": "\ud83d\udfe2 BUY BBD $5M - Alvarez (Director) - 8/31",
@@ -3499,6 +3450,55 @@
    "text": "\ud83d\udfe2 BUY STC $44K - Matz (Director) - 10/23",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1814738/000162828026067619/0001628280-26-067619-index.htm"
+  },
+  {
+   "uid": "0001140361-26-040937:0",
+   "queued_at": "2026-10-28T02:15:52.857483+00:00",
+   "text": "\ud83d\udd34 SELL TALO $45.8M - Control Empresarial De (10% Owner) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1724965/000114036126040937/0001140361-26-040937-index.htm"
+  },
+  {
+   "uid": "0001213900-26-113031:2",
+   "queued_at": "2026-10-28T02:15:52.857483+00:00",
+   "text": "\ud83d\udfe2 BUY LRN $7.1M - Haggart (Director) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2040262/000121390026113031/0001213900-26-113031-index.htm"
+  },
+  {
+   "uid": "0001213900-26-113031:0",
+   "queued_at": "2026-10-28T02:15:52.857483+00:00",
+   "text": "\ud83d\udfe2 BUY LRN $4.7M - Haggart (Director) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2040262/000121390026113031/0001213900-26-113031-index.htm"
+  },
+  {
+   "uid": "0001253170-26-000014:5",
+   "queued_at": "2026-10-28T02:15:52.857483+00:00",
+   "text": "\ud83d\udfe2 BUY SRRK $4.1M - Akkaraju (Director) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1727196/000125317026000014/0001253170-26-000014-index.htm"
+  },
+  {
+   "uid": "0001253170-26-000014:1",
+   "queued_at": "2026-10-28T02:15:52.857483+00:00",
+   "text": "\ud83d\udfe2 BUY SRRK $3.9M - Akkaraju (Director) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1727196/000125317026000014/0001253170-26-000014-index.htm"
+  },
+  {
+   "uid": "0001253170-26-000014:4",
+   "queued_at": "2026-10-28T02:15:52.857483+00:00",
+   "text": "\ud83d\udfe2 BUY SRRK $2M - Akkaraju (Director) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1727196/000125317026000014/0001253170-26-000014-index.htm"
+  },
+  {
+   "uid": "0001253170-26-000014:0",
+   "queued_at": "2026-10-28T02:15:52.857483+00:00",
+   "text": "\ud83d\udfe2 BUY SRRK $1.9M - Akkaraju (Director) - 10/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1727196/000125317026000014/0001253170-26-000014-index.htm"
   }
  ]
 }
