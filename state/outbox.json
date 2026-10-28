@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001292814-26-004850:9",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $5M - Alvarez (Director) - 8/31",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004850:8",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $4M - Alvarez (Director) - 8/31",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
-  },
-  {
    "uid": "0001292814-26-004850:7",
    "queued_at": "2026-10-05T14:40:00.306695+00:00",
    "text": "\ud83d\udfe2 BUY BBD $3.7M - Alvarez (Director) - 8/31",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udfe2 BUY SRRK $1.9M - Akkaraju (Director) - 10/23",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1727196/000125317026000014/0001253170-26-000014-index.htm"
+  },
+  {
+   "uid": "0001487630-26-000022:1",
+   "queued_at": "2026-10-28T15:46:06.566304+00:00",
+   "text": "\ud83d\udfe2 BUY ACN $2.5M - Sweet (Chair and CEO) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1487630/000148763026000022/0001487630-26-000022-index.htm"
+  },
+  {
+   "uid": "0001487630-26-000022:0",
+   "queued_at": "2026-10-28T15:46:06.566304+00:00",
+   "text": "\ud83d\udfe2 BUY ACN $515K - Sweet (Chair and CEO) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1487630/000148763026000022/0001487630-26-000022-index.htm"
   }
  ]
 }
