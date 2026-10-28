@@ -1,55 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001292814-26-004850:7",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $3.7M - Alvarez (Director) - 8/31",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004850:6",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $3.2M - Alvarez (Director) - 8/31",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004850:5",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $3M - Alvarez (Director) - 8/31",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004850:4",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $1.6M - Alvarez (Director) - 8/31",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004850:3",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $1M - Alvarez (Director) - 8/31",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126543/000129281426004850/0001292814-26-004850-index.htm"
-  },
-  {
-   "uid": "0001213900-26-106613:0",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY VCIG $313K - Hoo (Director) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1930510/000121390026106613/0001213900-26-106613-index.htm"
-  },
-  {
-   "uid": "20035553:0",
-   "queued_at": "2026-10-05T14:40:00.306695+00:00",
-   "text": "\ud83d\udfe2 BUY REOF XXX, LLC $500K-1M - Pelosi (Rep. CA11) - traded 9/8 (24d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035553.pdf"
-  },
-  {
    "uid": "0000950142-26-002685:0",
    "queued_at": "2026-10-05T21:42:03.462230+00:00",
    "text": "\ud83d\udd34 SELL TH $202.4M - Tdr Capital Investments (10% Owner) - 10/1",
@@ -3499,6 +3450,55 @@
    "text": "\ud83d\udfe2 BUY ACN $515K - Sweet (Chair and CEO) - 10/26",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1487630/000148763026000022/0001487630-26-000022-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010456",
+   "queued_at": "2026-10-28T20:37:51.567121+00:00",
+   "text": "\ud83d\udd34 SELL DDOG $12.1M - Alexis (Director) - 10/28 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783984/000195004726010456/0001950047-26-010456-index.htm"
+  },
+  {
+   "uid": "0001677418-26-000018:0",
+   "queued_at": "2026-10-28T20:37:51.567121+00:00",
+   "text": "\ud83d\udd34 SELL MEDP $10.9M - Burwig (Exec. VP,) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1677418/000167741826000018/0001677418-26-000018-index.htm"
+  },
+  {
+   "uid": "0001965301-26-000167",
+   "queued_at": "2026-10-28T20:37:51.567121+00:00",
+   "text": "\ud83d\udd34 SELL ROIV $7.3M - Venker (Officer) - 10/28 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1801917/000196530126000167/0001965301-26-000167-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007520",
+   "queued_at": "2026-10-28T20:37:51.567121+00:00",
+   "text": "\ud83d\udd34 SELL DHR $7M - Mcgrew (Officer) - 10/28 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1754423/000195917326007520/0001959173-26-007520-index.htm"
+  },
+  {
+   "uid": "0001949846-26-000622",
+   "queued_at": "2026-10-28T20:37:51.567121+00:00",
+   "text": "\ud83d\udd34 SELL SCHW-PJ $5.9M - Schwab (Officer) - 10/28 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/923738/000194984626000622/0001949846-26-000622-index.htm"
+  },
+  {
+   "uid": "0001193125-26-435749:0",
+   "queued_at": "2026-10-28T20:37:51.567121+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $529K - Liberty Mutual Holding (10% Owner) - 10/26",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1944831/000119312526435749/0001193125-26-435749-index.htm"
+  },
+  {
+   "uid": "0001628280-26-067904:0",
+   "queued_at": "2026-10-28T20:37:51.567121+00:00",
+   "text": "\ud83d\udfe2 BUY BBT $21K - Rosengren (Director) - 10/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1973576/000162828026067904/0001628280-26-067904-index.htm"
   }
  ]
 }
