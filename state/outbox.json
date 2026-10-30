@@ -1,90 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-414744:10",
-   "queued_at": "2026-10-06T01:55:44.051260+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $8K - Berkshire Hathaway Inc (10% Owner) - 10/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/0001193125-26-414744-index.htm"
-  },
-  {
-   "uid": "0001628280-26-065174:0",
-   "queued_at": "2026-10-06T15:28:02.978474+00:00",
-   "text": "\ud83d\udfe2 BUY BORR $6.2M - Troim (Director) - 10/5",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026065174/0001628280-26-065174-index.htm"
-  },
-  {
-   "uid": "0001817646-26-000029:1",
-   "queued_at": "2026-10-06T15:28:02.978474+00:00",
-   "text": "\ud83d\udfe2 BUY AVR $4.9M - Capital Pty Ltd (10% Owner) - 10/5",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2011514/000181764626000029/0001817646-26-000029-index.htm"
-  },
-  {
-   "uid": "0001817646-26-000029:0",
-   "queued_at": "2026-10-06T15:28:02.978474+00:00",
-   "text": "\ud83d\udfe2 BUY AVR $1.8M - Capital Pty Ltd (10% Owner) - 10/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2011514/000181764626000029/0001817646-26-000029-index.htm"
-  },
-  {
-   "uid": "0002069861-26-000007:0",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL RITE $106.7M - Hendricks (10% Owner) - 9/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2069861/000206986126000007/0002069861-26-000007-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007299",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL ANET $97.6M - Ullal (Officer) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1605809/000195917326007299/0001959173-26-007299-index.htm"
-  },
-  {
-   "uid": "0001513845-26-000126:4",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL NBIS $25.1M - Nave (COO) - 10/5",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
-  },
-  {
-   "uid": "0001969223-26-001065",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL TT $23.1M - Regnery (Officer) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1715932/000196922326001065/0001969223-26-001065-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010077",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL WDAY $18.8M - David Duffield Trust (10%) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1327811/000195004726010077/0001950047-26-010077-index.htm"
-  },
-  {
-   "uid": "0001513845-26-000126:5",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL NBIS $17.4M - Nave (COO) - 10/5",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
-  },
-  {
-   "uid": "0001513845-26-000126:1",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL NBIS $14.2M - Nave (COO) - 10/5",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
-  },
-  {
-   "uid": "0001513845-26-000126:2",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL NBIS $13.2M - Nave (COO) - 10/5",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
-  },
-  {
    "uid": "0001513845-26-000126:7",
    "queued_at": "2026-10-06T20:31:38.838447+00:00",
    "text": "\ud83d\udd34 SELL NBIS $11.6M - Nave (COO) - 10/5",
@@ -3499,6 +3415,90 @@
    "text": "\ud83d\udd34 SELL STNG $12.5M - Lauro (Pres) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
    "source": "form144",
    "url": "https://www.sec.gov/Archives/edgar/data/1978589/000197858926000006/0001978589-26-000006-index.htm"
+  },
+  {
+   "uid": "0000316011-26-000040",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL LLY $405.2M - Lilly Endowment Inc (Shareholder) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/316011/000031601126000040/0000316011-26-000040-index.htm"
+  },
+  {
+   "uid": "0001593156-26-000010:12",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL HLT $15.3M - Jacobs (See Remarks) - 10/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1593156/000159315626000010/0001593156-26-000010-index.htm"
+  },
+  {
+   "uid": "0001104659-26-120643:0",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL WRLD $15M - Prescott General Partners (10% Owner) - 10/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1538653/000110465926120643/0001104659-26-120643-index.htm"
+  },
+  {
+   "uid": "0001593156-26-000010:9",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL HLT $13.5M - Jacobs (See Remarks) - 10/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1593156/000159315626000010/0001593156-26-000010-index.htm"
+  },
+  {
+   "uid": "0001866581-26-000166:0",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL BROS $11.7M - Dm Trust Aggregator (10% Owner) - 10/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1883105/000186658126000166/0001866581-26-000166-index.htm"
+  },
+  {
+   "uid": "0001866581-26-000164:0",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL BROS $11.7M - Boersma (Exec Chair) - 10/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1883154/000186658126000164/0001866581-26-000164-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007569",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL GKOS $10.6M - Navratil (Officer) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1920053/000195917326007569/0001959173-26-007569-index.htm"
+  },
+  {
+   "uid": "0001593156-26-000010:11",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL HLT $10.2M - Jacobs (See Remarks) - 10/29",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1593156/000159315626000010/0001593156-26-000010-index.htm"
+  },
+  {
+   "uid": "0000950157-26-001137",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL AER $9.6M - Kelly (CEO) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1450289/000095015726001137/0000950157-26-001137-index.htm"
+  },
+  {
+   "uid": "0001981585-26-000004",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL FDX $8.2M - Brightman (Officer) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1981585/000198158526000004/0001981585-26-000004-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010512",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udd34 SELL GILD $7.6M - Daniel (Director) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1638643/000195004726010512/0001950047-26-010512-index.htm"
+  },
+  {
+   "uid": "0001628280-26-068526:0",
+   "queued_at": "2026-10-30T20:54:22.999848+00:00",
+   "text": "\ud83d\udfe2 BUY BBT $11K - Charnley (Director) - 10/30",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1901713/000162828026068526/0001628280-26-068526-index.htm"
   }
  ]
 }
