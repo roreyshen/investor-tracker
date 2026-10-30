@@ -1,27 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001628280-26-065167:1",
-   "queued_at": "2026-10-06T01:55:44.051260+00:00",
-   "text": "\ud83d\udfe2 BUY ACCV $58K - Rubiera (CEO) - 10/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2149930/000162828026065167/0001628280-26-065167-index.htm"
-  },
-  {
-   "uid": "0001628280-26-065154:1",
-   "queued_at": "2026-10-06T01:55:44.051260+00:00",
-   "text": "\ud83d\udfe2 BUY ACCV $45K - Jewell (COO) - 10/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2141406/000162828026065154/0001628280-26-065154-index.htm"
-  },
-  {
-   "uid": "0001193125-26-414744:14",
-   "queued_at": "2026-10-06T01:55:44.051260+00:00",
-   "text": "\ud83d\udfe2 BUY LEN $24K - Berkshire Hathaway Inc (10% Owner) - 10/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/0001193125-26-414744-index.htm"
-  },
-  {
    "uid": "0001193125-26-414744:10",
    "queued_at": "2026-10-06T01:55:44.051260+00:00",
    "text": "\ud83d\udfe2 BUY LEN $8K - Berkshire Hathaway Inc (10% Owner) - 10/1",
@@ -3499,6 +3478,27 @@
    "text": "\ud83d\udd34 SELL SCHW $12.2M - Schwab (Chair) - 10/29",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/923738/000092373826000048/0000923738-26-000048-index.htm"
+  },
+  {
+   "uid": "0001978586-26-000008",
+   "queued_at": "2026-10-30T16:16:46.364380+00:00",
+   "text": "\ud83d\udd34 SELL STNG $22.3M - Lauro (Director) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1978586/000197858626000008/0001978586-26-000008-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007561",
+   "queued_at": "2026-10-30T16:16:46.364380+00:00",
+   "text": "\ud83d\udd34 SELL WMT $20.5M - Kumar (Officer) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1781198/000195917326007561/0001959173-26-007561-index.htm"
+  },
+  {
+   "uid": "0001978589-26-000006",
+   "queued_at": "2026-10-30T16:16:46.364380+00:00",
+   "text": "\ud83d\udd34 SELL STNG $12.5M - Lauro (Pres) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1978589/000197858926000006/0001978589-26-000006-index.htm"
   }
  ]
 }
