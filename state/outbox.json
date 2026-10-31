@@ -1,55 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001513845-26-000126:7",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL NBIS $11.6M - Nave (COO) - 10/5",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
-  },
-  {
-   "uid": "0001513845-26-000126:8",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL NBIS $11.5M - Nave (COO) - 10/5",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
-  },
-  {
-   "uid": "0001513845-26-000126:3",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL NBIS $11.4M - Nave (COO) - 10/5",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2060551/000151384526000126/0001513845-26-000126-index.htm"
-  },
-  {
-   "uid": "0001969223-26-001064",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udd34 SELL CACC $8M - Eidolon Corvid Trust (Member of) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2137517/000196922326001064/0001969223-26-001064-index.htm"
-  },
-  {
-   "uid": "0001460471-26-000005:0",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udfe2 BUY SAH $1.3M - Rusnak (10% Owner) - 10/1",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1460471/000146047126000005/0001460471-26-000005-index.htm"
-  },
-  {
-   "uid": "0001136478-26-000010:0",
-   "queued_at": "2026-10-06T20:31:38.838447+00:00",
-   "text": "\ud83d\udfe2 BUY NXH $1M - Lemonis (Exec Chair) - 10/6",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1136478/000113647826000010/0001136478-26-000010-index.htm"
-  },
-  {
-   "uid": "0001123292-26-001368:0",
-   "queued_at": "2026-10-07T00:09:56.050944+00:00",
-   "text": "\ud83d\udd34 SELL ESTC $135.2M - Schuurman (Director) - 10/5",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1753439/000112329226001368/0001123292-26-001368-index.htm"
-  },
-  {
    "uid": "0001193125-26-415871",
    "queued_at": "2026-10-07T00:09:56.050944+00:00",
    "text": "\ud83d\udd34 SELL CBL $68.2M - Canyon Capital Advisors (IA to Funds) - 10/6 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3450,55 @@
    "text": "\ud83d\udfe2 BUY BBT $11K - Charnley (Director) - 10/30",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1901713/000162828026068526/0001628280-26-068526-index.htm"
+  },
+  {
+   "uid": "0001017608-26-000004",
+   "queued_at": "2026-10-31T00:27:28.993884+00:00",
+   "text": "\ud83d\udd34 SELL CVNA $682.9M - Garcia (10%) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1690820/000101760826000004/0001017608-26-000004-index.htm"
+  },
+  {
+   "uid": "0001921094-26-001129",
+   "queued_at": "2026-10-31T00:27:28.993884+00:00",
+   "text": "\ud83d\udd34 SELL KNSA $51.6M - Patel (Officer) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730430/000192109426001129/0001921094-26-001129-index.htm"
+  },
+  {
+   "uid": "0001104659-26-120789:0",
+   "queued_at": "2026-10-31T00:27:28.993884+00:00",
+   "text": "\ud83d\udfe2 BUY RAPP $20M - Healy (Director) - 10/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2012593/000110465926120789/0001104659-26-120789-index.htm"
+  },
+  {
+   "uid": "0001921094-26-001127",
+   "queued_at": "2026-10-31T00:27:28.993884+00:00",
+   "text": "\ud83d\udd34 SELL KNSA $9.8M - Moat (Officer) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1857177/000192109426001127/0001921094-26-001127-index.htm"
+  },
+  {
+   "uid": "0001921094-26-001125",
+   "queued_at": "2026-10-31T00:27:28.993884+00:00",
+   "text": "\ud83d\udd34 SELL KNSA $8.9M - Paolini (Officer) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1741533/000192109426001125/0001921094-26-001125-index.htm"
+  },
+  {
+   "uid": "0001193125-26-441956:0",
+   "queued_at": "2026-10-31T00:27:28.993884+00:00",
+   "text": "\ud83d\udfe2 BUY CRBG $8.7M - Nippon Life Insurance (10% Owner) - 10/28",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526441956/0001193125-26-441956-index.htm"
+  },
+  {
+   "uid": "0000902664-26-004337",
+   "queued_at": "2026-10-31T00:27:28.993884+00:00",
+   "text": "\ud83d\udd34 SELL AMAL $8.4M - Workers (10%) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2008869/000090266426004337/0000902664-26-004337-index.htm"
   }
  ]
 }
