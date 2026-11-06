@@ -1,48 +1,6 @@
 {
  "pending": [
   {
-   "uid": "20035588:14",
-   "queued_at": "2026-10-14T22:05:13.265090+00:00",
-   "text": "\ud83d\udd34 SELL MRSH $50K-100K - Hern (Rep. OK01) - traded 9/23 (20d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
-  },
-  {
-   "uid": "20035588:18",
-   "queued_at": "2026-10-14T22:05:13.265090+00:00",
-   "text": "\ud83d\udfe2 BUY AUTH 5.000% MAT 09/01/ $50K-100K - Hern (Rep. OK01) - traded 9/21 (22d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
-  },
-  {
-   "uid": "0001231919-26-001455",
-   "queued_at": "2026-10-15T00:31:29.959062+00:00",
-   "text": "\ud83d\udd34 SELL ALMR $36.7M - Qiming Venture Partners (Affiliate) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2104204/000123191926001455/0001231919-26-001455-index.htm"
-  },
-  {
-   "uid": "0001974078-26-000381",
-   "queued_at": "2026-10-15T00:31:29.959062+00:00",
-   "text": "\ud83d\udd34 SELL HNGE $12.5M - Insight Venture Partners (10%) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1710835/000197407826000381/0001974078-26-000381-index.htm"
-  },
-  {
-   "uid": "0001231919-26-001456",
-   "queued_at": "2026-10-15T00:31:29.959062+00:00",
-   "text": "\ud83d\udd34 SELL ALMR $8.6M - Qiming Venture Partners (Affiliate) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2129618/000123191926001456/0001231919-26-001456-index.htm"
-  },
-  {
-   "uid": "0001398344-26-018199:0",
-   "queued_at": "2026-10-15T00:31:29.959062+00:00",
-   "text": "\ud83d\udfe2 BUY BPRE $2.1M - Kamfar (Director) - 10/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018199/0001398344-26-018199-index.htm"
-  },
-  {
    "uid": "0001398344-26-018199:2",
    "queued_at": "2026-10-15T00:31:29.959062+00:00",
    "text": "\ud83d\udfe2 BUY BPRE $2M - Kamfar (Director) - 10/14",
@@ -3499,6 +3457,48 @@
    "text": "\ud83d\udfe2 BUY N/A amount undisclosed - Pershing Square Capital (Director) - 11/3",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2129159/000114036126042135/0001140361-26-042135-index.htm"
+  },
+  {
+   "uid": "0000950157-26-001218:0",
+   "queued_at": "2026-11-06T03:16:26.352423+00:00",
+   "text": "\ud83d\udd34 SELL MAX $76.5M - White Mountains Insurance (10% Owner) - 11/4",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1979065/000095015726001218/0000950157-26-001218-index.htm"
+  },
+  {
+   "uid": "0001821737-26-000018:1",
+   "queued_at": "2026-11-06T03:16:26.352423+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $14.6M - Dageville (Director) - 11/4",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1821737/000182173726000018/0001821737-26-000018-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001212:1",
+   "queued_at": "2026-11-06T03:16:26.352423+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $7.7M - Loeb (10% Owner) - 10/1",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2025369/000089914026001212/0000899140-26-001212-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001214:0",
+   "queued_at": "2026-11-06T03:16:26.352423+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $4M - Loeb (10% Owner) - 11/3",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2122354/000089914026001214/0000899140-26-001214-index.htm"
+  },
+  {
+   "uid": "0001477932-26-006731:0",
+   "queued_at": "2026-11-06T03:16:26.352423+00:00",
+   "text": "\ud83d\udfe2 BUY TRAD $2.1M - Liu (CEO and CFO) - 2/27",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2105334/000147793226006731/0001477932-26-006731-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001212:0",
+   "queued_at": "2026-11-06T03:16:26.352423+00:00",
+   "text": "\ud83d\udfe2 BUY NONE $2M - Loeb (10% Owner) - 5/15",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2025369/000089914026001212/0000899140-26-001212-index.htm"
   }
  ]
 }
