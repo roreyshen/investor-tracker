@@ -1,118 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001398344-26-018199:2",
-   "queued_at": "2026-10-15T00:31:29.959062+00:00",
-   "text": "\ud83d\udfe2 BUY BPRE $2M - Kamfar (Director) - 10/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018199/0001398344-26-018199-index.htm"
-  },
-  {
-   "uid": "0001398344-26-018199:1",
-   "queued_at": "2026-10-15T00:31:29.959062+00:00",
-   "text": "\ud83d\udfe2 BUY BPRE $1.4M - Kamfar (Director) - 10/13",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426018199/0001398344-26-018199-index.htm"
-  },
-  {
-   "uid": "0001231919-26-001458",
-   "queued_at": "2026-10-15T05:14:58.941574+00:00",
-   "text": "\ud83d\udd34 SELL ALMR $10.2M - Qiming Venture Partners (Affiliate) - 10/14 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2104204/000123191926001458/0001231919-26-001458-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007387",
-   "queued_at": "2026-10-15T15:01:49.601902+00:00",
-   "text": "\ud83d\udd34 SELL MRNA $8.6M - Hoge (Officer) - 10/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1760669/000195917326007387/0001959173-26-007387-index.htm"
-  },
-  {
-   "uid": "0001628280-26-065947:0",
-   "queued_at": "2026-10-15T15:01:49.601902+00:00",
-   "text": "\ud83d\udfe2 BUY BORR $3.5M - Troim (Director) - 10/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026065947/0001628280-26-065947-index.htm"
-  },
-  {
-   "uid": "0001292814-26-004938:0",
-   "queued_at": "2026-10-15T15:01:49.601902+00:00",
-   "text": "\ud83d\udfe2 BUY BBD $1.1M - De Oliveira Andre (Officer) - 9/18",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2125973/000129281426004938/0001292814-26-004938-index.htm"
-  },
-  {
-   "uid": "0000316011-26-000033",
-   "queued_at": "2026-10-15T19:08:15.101263+00:00",
-   "text": "\ud83d\udd34 SELL LLY $368.7M - Lilly Endowment Inc (Shareholder) - 10/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/316011/000031601126000033/0000316011-26-000033-index.htm"
-  },
-  {
-   "uid": "0001104659-26-116094:0",
-   "queued_at": "2026-10-15T19:08:15.101263+00:00",
-   "text": "\ud83d\udfe2 BUY GOLD $1.7M - Tether Global Investments (10% Owner) - 10/13",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2130094/000110465926116094/0001104659-26-116094-index.htm"
-  },
-  {
-   "uid": "20035648:0",
-   "queued_at": "2026-10-15T19:08:15.101263+00:00",
-   "text": "\ud83d\udd34 SELL AZO $15K-50K - Allen (Rep. GA12) - traded 9/22 (22d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035648.pdf"
-  },
-  {
-   "uid": "20035648:1",
-   "queued_at": "2026-10-15T19:08:15.101263+00:00",
-   "text": "\ud83d\udd34 SELL COST $1K-15K - Allen (Rep. GA12) - traded 9/18 (26d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035648.pdf"
-  },
-  {
-   "uid": "20035627:0",
-   "queued_at": "2026-10-15T19:08:15.101263+00:00",
-   "text": "\ud83d\udfe2 BUY Black Belt Energy Gas  $250K-500K - Delbene (Rep. WA01) - traded 9/18 (26d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
-  },
-  {
-   "uid": "20035627:1",
-   "queued_at": "2026-10-15T19:08:15.101263+00:00",
-   "text": "\ud83d\udd34 SELL Triborough Bridge & 4% $250K-500K - Delbene (Rep. WA01) - traded 9/18 (26d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
-  },
-  {
-   "uid": "20035652:1",
-   "queued_at": "2026-10-15T19:08:15.101263+00:00",
-   "text": "\ud83d\udfe2 BUY California Cmnty Choic $50K-100K - Kelly (Rep. PA16) - traded 9/16 (28d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035652.pdf"
-  },
-  {
-   "uid": "0000905148-26-004480:1",
-   "queued_at": "2026-10-15T22:19:19.280219+00:00",
-   "text": "\ud83d\udd34 SELL KNTK $109.5M - Isq Global Fund (10% Owner) - 10/13",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2020905/000090514826004480/0000905148-26-004480-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010242",
-   "queued_at": "2026-10-15T22:19:19.280219+00:00",
-   "text": "\ud83d\udd34 SELL HOOD $33.1M - Tenev Irrevocable Trust (Director) - 10/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1966974/000195004726010242/0001950047-26-010242-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010244",
-   "queued_at": "2026-10-15T22:19:19.280219+00:00",
-   "text": "\ud83d\udd34 SELL PATH $32.6M - Icevulcan Investments Limi (Director) - 10/15 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1855767/000195004726010244/0001950047-26-010244-index.htm"
-  },
-  {
    "uid": "0001965301-26-000160",
    "queued_at": "2026-10-15T22:19:19.280219+00:00",
    "text": "\ud83d\udd34 SELL MU $26.1M - Deboer (Officer) - 10/16 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3387,118 @@
    "text": "\ud83d\udfe2 BUY NONE $2M - Loeb (10% Owner) - 5/15",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2025369/000089914026001212/0000899140-26-001212-index.htm"
+  },
+  {
+   "uid": "0001973251-26-000042",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $14M - Speiser (Affiliate) - 11/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000197325126000042/0001973251-26-000042-index.htm"
+  },
+  {
+   "uid": "0001949846-26-000637",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udd34 SELL SBGI $9.9M - Smith (Director) - 11/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1971213/000194984626000637/0001949846-26-000637-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007812",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udd34 SELL ALL-PB $7.5M - Debiase (Officer) - 11/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1709115/000195917326007812/0001959173-26-007812-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007810",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udd34 SELL VRTX $6.3M - Kewalramani (Officer) - 11/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1735944/000195917326007810/0001959173-26-007810-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007816",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udd34 SELL HLT $5.8M - Silcock (Officer) - 11/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1653153/000195917326007816/0001959173-26-007816-index.htm"
+  },
+  {
+   "uid": "0001193125-26-450979:1",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udfe2 BUY GLBE $550K - Koren (CFO) - 11/4",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1964100/000119312526450979/0001193125-26-450979-index.htm"
+  },
+  {
+   "uid": "0001214659-26-013801:0",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udfe2 BUY LKQ $201K - Gove (Director) - 11/4",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1187773/000121465926013801/0001214659-26-013801-index.htm"
+  },
+  {
+   "uid": "0002015754-26-000003:0",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udfe2 BUY MTDR $46K - Erman (Pres) - 11/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2015754/000201575426000003/0002015754-26-000003-index.htm"
+  },
+  {
+   "uid": "0001934692-26-000008:0",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udfe2 BUY MTDR $46K - Elsener (EVP,) - 11/5",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1934692/000193469226000008/0001934692-26-000008-index.htm"
+  },
+  {
+   "uid": "0001213900-26-116554:1",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udfe2 BUY SYNX $10K - Klein (VP Marketing) - 11/4",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2119339/000121390026116554/0001213900-26-116554-index.htm"
+  },
+  {
+   "uid": "0001213900-26-116552:1",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udfe2 BUY SYNX $10K - Klein (CEO) - 11/4",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2011482/000121390026116552/0001213900-26-116552-index.htm"
+  },
+  {
+   "uid": "0001213900-26-116554:0",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udfe2 BUY SYNX $10K - Klein (VP Marketing) - 11/3",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2119339/000121390026116554/0001213900-26-116554-index.htm"
+  },
+  {
+   "uid": "0001213900-26-116552:0",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udfe2 BUY SYNX $10K - Klein (CEO) - 11/3",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2011482/000121390026116552/0001213900-26-116552-index.htm"
+  },
+  {
+   "uid": "20035770:0",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udfe2 BUY AMAT $1K-15K - Gottheimer (Rep. NJ05) - traded 10/26 (10d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035770.pdf"
+  },
+  {
+   "uid": "20035770:1",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udfe2 BUY BHE $1K-15K - Gottheimer (Rep. NJ05) - traded 10/12 (24d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035770.pdf"
+  },
+  {
+   "uid": "20035770:2",
+   "queued_at": "2026-11-06T17:58:22.758681+00:00",
+   "text": "\ud83d\udd34 SELL TLK $1K-15K - Gottheimer (Rep. NJ05) - traded 10/15 (21d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035770.pdf"
   }
  ]
 }
