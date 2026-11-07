@@ -1,27 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-424142:0",
-   "queued_at": "2026-10-16T21:33:15.189370+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $20.5M - Nippon Life Insurance (10% Owner) - 10/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526424142/0001193125-26-424142-index.htm"
-  },
-  {
-   "uid": "0001969223-26-001078",
-   "queued_at": "2026-10-16T21:33:15.189370+00:00",
-   "text": "\ud83d\udd34 SELL PACS $18.5M - Murray (Officer) - 10/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2014386/000196922326001078/0001969223-26-001078-index.htm"
-  },
-  {
-   "uid": "0001225028-26-000007:1",
-   "queued_at": "2026-10-16T21:33:15.189370+00:00",
-   "text": "\ud83d\udd34 SELL NUAI $14.8M - Mccarthy (10% Owner) - 10/14",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2160027/000122502826000007/0001225028-26-000007-index.htm"
-  },
-  {
    "uid": "0001493152-26-047403:0",
    "queued_at": "2026-10-16T21:33:15.189370+00:00",
    "text": "\ud83d\udfe2 BUY NONE $12.3M - Goldentree Asset Managemen (10% Owner) - 10/14",
@@ -3499,6 +3478,27 @@
    "text": "\ud83d\udfe2 BUY TBBK $47K - Mudick (Director) - 11/4",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1328273/000203985226000136/0002039852-26-000136-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010806",
+   "queued_at": "2026-11-07T02:35:12.320427+00:00",
+   "text": "\ud83d\udd34 SELL MSI $36.4M - Gregory (Officer) - 11/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1201232/000195004726010806/0001950047-26-010806-index.htm"
+  },
+  {
+   "uid": "0001506307-26-000139:0",
+   "queued_at": "2026-11-07T02:35:12.320427+00:00",
+   "text": "\ud83d\udfe2 BUY KMI $15M - Kinder (Exec Chair) - 11/6",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1506307/000150630726000139/0001506307-26-000139-index.htm"
+  },
+  {
+   "uid": "0000921895-26-002955",
+   "queued_at": "2026-11-07T02:35:12.320427+00:00",
+   "text": "\ud83d\udd34 SELL WEX $6.3M - Impactive Capital Lp (Director) - 11/6 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1786767/000092189526002955/0000921895-26-002955-index.htm"
   }
  ]
 }
