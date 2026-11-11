@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001959173-26-007550",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udd34 SELL CB $16.4M - Greenberg (Officer) - 10/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1162125/000195917326007550/0001959173-26-007550-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010475",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udd34 SELL BROS $11.4M - Dm Trust Aggregator (10%) - 10/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1883105/000195004726010475/0001950047-26-010475-index.htm"
-  },
-  {
    "uid": "0001959173-26-007557",
    "queued_at": "2026-10-29T23:21:29.547781+00:00",
    "text": "\ud83d\udd34 SELL EAT $8.8M - Hochman (Officer) - 10/29 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udfe2 BUY DTI $9K - Johnson (CFO) - 11/9",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1982629/000119312526455760/0001193125-26-455760-index.htm"
+  },
+  {
+   "uid": "0000100517-26-000203:0",
+   "queued_at": "2026-11-11T08:26:14.611197+00:00",
+   "text": "\ud83d\udd34 SELL UAL $10.8M - Kirby (CEO) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1249555/000010051726000203/0000100517-26-000203-index.htm"
+  },
+  {
+   "uid": "0001699322-26-000018:1",
+   "queued_at": "2026-11-11T08:26:14.611197+00:00",
+   "text": "\ud83d\udd34 SELL SNAP $10M - Murphy (CTO) - 11/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1699322/000169932226000018/0001699322-26-000018-index.htm"
   }
  ]
 }
