@@ -307,164 +307,9 @@
    "period": "2025-09-30"
   }
  },
- "house_etag": "\"7c675ad31b71dd1:0\"",
- "last_run": "2026-11-11T16:28:47.363507+00:00",
+ "house_etag": "\"b768d5e571dd1:0\"",
+ "last_run": "2026-11-11T22:57:21.820430+00:00",
  "recent_buys": [
-  {
-   "date": "2026-11-04",
-   "person": "Pale Fire Capital SE (+4)",
-   "ticker": "COUR"
-  },
-  {
-   "date": "2026-11-05",
-   "person": "Pale Fire Capital SE (+4)",
-   "ticker": "COUR"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "Gosney Ryan T",
-   "ticker": "LBRT"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "Gusek Ron",
-   "ticker": "LBRT"
-  },
-  {
-   "date": "2026-11-04",
-   "person": "Saba Capital Management, L.P.",
-   "ticker": "MXF"
-  },
-  {
-   "date": "2026-11-05",
-   "person": "MOORE JOHN A",
-   "ticker": "SCND"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "Pershing Square Capital Management, L.P. (+5)",
-   "ticker": "N/A"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "Amlani Ajay K",
-   "ticker": "AWRE"
-  },
-  {
-   "date": "2026-11-04",
-   "person": "Amlani Ajay K",
-   "ticker": "AWRE"
-  },
-  {
-   "date": "2026-11-05",
-   "person": "Novogratz Michael (+1)",
-   "ticker": "GLXY"
-  },
-  {
-   "date": "2026-11-05",
-   "person": "Novogratz Michael (+1)",
-   "ticker": "GLXY"
-  },
-  {
-   "date": "2026-11-05",
-   "person": "Hennigan Thomas M",
-   "ticker": "NONE"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "Chaikof David",
-   "ticker": "BB"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "Byrne Richard J",
-   "ticker": "FBRT"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "Karam Fahmi",
-   "ticker": "UPBD"
-  },
-  {
-   "date": "2026-11-05",
-   "person": "McKay Edward H",
-   "ticker": "SHEN"
-  },
-  {
-   "date": "2026-11-05",
-   "person": "Lytle Glenn E Jr",
-   "ticker": "SHEN"
-  },
-  {
-   "date": "2026-11-04",
-   "person": "Ondrof Thomas Gerard",
-   "ticker": "SYY"
-  },
-  {
-   "date": "2026-11-04",
-   "person": "Canup Edward G",
-   "ticker": "CBAN"
-  },
-  {
-   "date": "2026-11-04",
-   "person": "Canup Edward G",
-   "ticker": "CBAN"
-  },
-  {
-   "date": "2026-11-05",
-   "person": "Canup Edward G",
-   "ticker": "CBAN"
-  },
-  {
-   "date": "2026-02-19",
-   "person": "Prishkolnik Rachel",
-   "ticker": "VRNS"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "Duncan Charles Cliff",
-   "ticker": "VNDA"
-  },
-  {
-   "date": "2026-11-04",
-   "person": "Duncan Charles Cliff",
-   "ticker": "VNDA"
-  },
-  {
-   "date": "2026-11-05",
-   "person": "Duncan Charles Cliff",
-   "ticker": "VNDA"
-  },
-  {
-   "date": "2026-11-04",
-   "person": "Breber Pierre R",
-   "ticker": "CLX"
-  },
-  {
-   "date": "2026-11-04",
-   "person": "Sonnenschein Elazar",
-   "ticker": "PLSM"
-  },
-  {
-   "date": "2026-11-03",
-   "person": "Deck Brian A",
-   "ticker": "SPXC"
-  },
-  {
-   "date": "2026-11-05",
-   "person": "Finn Michael J",
-   "ticker": "JBSS"
-  },
   {
    "date": "2026-11-03",
    "person": "RICE JOHN G",
@@ -2309,9 +2154,164 @@
    "date": "2026-11-10",
    "person": "SIMPSON BOB R",
    "ticker": "TXO"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "ARE"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "LNT"
+  },
+  {
+   "date": "2026-10-15",
+   "person": "Cisneros, Gilbert",
+   "ticker": "ARGX"
+  },
+  {
+   "date": "2026-10-14",
+   "person": "Cisneros, Gilbert",
+   "ticker": "ARGX"
+  },
+  {
+   "date": "2026-10-27",
+   "person": "Cisneros, Gilbert",
+   "ticker": "ARGX"
+  },
+  {
+   "date": "2026-10-09",
+   "person": "Cisneros, Gilbert",
+   "ticker": "BNS"
+  },
+  {
+   "date": "2026-10-27",
+   "person": "Cisneros, Gilbert",
+   "ticker": "BBIO"
+  },
+  {
+   "date": "2026-11-02",
+   "person": "Cisneros, Gilbert",
+   "ticker": "BBIO"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "CF"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "CSCO"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "CMS"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "CMCSA"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "EIX"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "LLY"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "FIS"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "FOXA"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "PODD"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "LITE"
+  },
+  {
+   "date": "2026-10-27",
+   "person": "Cisneros, Gilbert",
+   "ticker": "MTSI"
+  },
+  {
+   "date": "2026-10-09",
+   "person": "Cisneros, Gilbert",
+   "ticker": "META"
+  },
+  {
+   "date": "2026-10-15",
+   "person": "Cisneros, Gilbert",
+   "ticker": "MBGL"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "MRNA"
+  },
+  {
+   "date": "2026-10-08",
+   "person": "Cisneros, Gilbert",
+   "ticker": "MRAAF"
+  },
+  {
+   "date": "2026-10-14",
+   "person": "Cisneros, Gilbert",
+   "ticker": "ON"
+  },
+  {
+   "date": "2026-10-21",
+   "person": "Cisneros, Gilbert",
+   "ticker": "NOW"
+  },
+  {
+   "date": "2026-10-14",
+   "person": "Cisneros, Gilbert",
+   "ticker": "SNEJF"
+  },
+  {
+   "date": "2026-10-14",
+   "person": "Cisneros, Gilbert",
+   "ticker": "SARO"
+  },
+  {
+   "date": "2026-06-05",
+   "person": "Cisneros, Gilbert",
+   "ticker": "STRC"
+  },
+  {
+   "date": "2026-10-16",
+   "person": "Cisneros, Gilbert",
+   "ticker": "TXRH"
+  },
+  {
+   "date": "2026-10-14",
+   "person": "Cisneros, Gilbert",
+   "ticker": "COO"
+  },
+  {
+   "date": "2026-10-20",
+   "person": "Cisneros, Gilbert",
+   "ticker": "WFC"
   }
  ],
- "runs": 305,
+ "runs": 306,
  "seen": {
   "13f": {
    "0001172661-26-002336": 1789391529,
@@ -37183,6 +37183,8 @@
    "20035775": 1794270896,
    "20035778": 1793899486,
    "20035780": 1794270896,
+   "20035788": 1794437830,
+   "20035806": 1794437831,
    "8221321": 1789391517,
    "8221322": 1789391517,
    "8221326": 1789391517,
@@ -37239,7 +37241,8 @@
    "9116389": 1793301319,
    "9116390": 1793301319,
    "9116391": 1793301320,
-   "9116399": 1794270896
+   "9116399": 1794270896,
+   "9116403": 1794437830
   },
   "senate": {
    "014817f0-9809-457f-8ac5-048948608e02": 1789391518,

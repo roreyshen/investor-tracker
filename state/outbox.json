@@ -1,69 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001959173-26-007557",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udd34 SELL EAT $8.8M - Hochman (Officer) - 10/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1933011/000195917326007557/0001959173-26-007557-index.htm"
-  },
-  {
-   "uid": "0001969223-26-001103",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udd34 SELL CUBB $8.7M - Jay (Director) - 10/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1488813/000196922326001103/0001969223-26-001103-index.htm"
-  },
-  {
-   "uid": "0001193125-26-437931:0",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $6.3M - Nippon Life Insurance (10% Owner) - 10/27",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526437931/0001193125-26-437931-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010476",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udd34 SELL BROS $6.1M - Dm Individual Aggregator (10%) - 10/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1883096/000195004726010476/0001950047-26-010476-index.htm"
-  },
-  {
-   "uid": "0001949846-26-000625",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udd34 SELL SCHW-PJ $6M - Schwab (Officer) - 10/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/923738/000194984626000625/0001949846-26-000625-index.htm"
-  },
-  {
-   "uid": "0001969223-26-001100",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udd34 SELL CB $5M - Evan (Officer) - 10/29 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1162125/000196922326001100/0001969223-26-001100-index.htm"
-  },
-  {
-   "uid": "0001185185-26-005072:0",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udfe2 BUY SCQCU $2.7M - Das (Director) - 10/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2158277/000118518526005072/0001185185-26-005072-index.htm"
-  },
-  {
-   "uid": "0001193125-26-438100:0",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udfe2 BUY DINO $1.1M - Myers (CEO) - 10/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1915657/000119312526438100/0001193125-26-438100-index.htm"
-  },
-  {
-   "uid": "0001336706-26-000086:0",
-   "queued_at": "2026-10-29T23:21:29.547781+00:00",
-   "text": "\ud83d\udfe2 BUY NPB $47K - Chaudhary (Director) - 10/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2081867/000133670626000086/0001336706-26-000086-index.htm"
-  },
-  {
    "uid": "0000923738-26-000048:1",
    "queued_at": "2026-10-30T02:47:35.018672+00:00",
    "text": "\ud83d\udd34 SELL SCHW $12.2M - Schwab (Chair) - 10/29",
@@ -3499,6 +3436,69 @@
    "text": "\ud83d\udd34 SELL SNAP $10M - Murphy (CTO) - 11/9",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1699322/000169932226000018/0001699322-26-000018-index.htm"
+  },
+  {
+   "uid": "20035788:11",
+   "queued_at": "2026-11-11T22:57:21.818716+00:00",
+   "text": "\ud83d\udfe2 BUY Financing Authority Re $250K-500K - Cisneros (Rep. CA31) - traded 10/19 (22d ago) - AMENDED filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+  },
+  {
+   "uid": "20035788:12",
+   "queued_at": "2026-11-11T22:57:21.818716+00:00",
+   "text": "\ud83d\udfe2 BUY Financing Authority Re $250K-500K - Cisneros (Rep. CA31) - traded 10/23 (18d ago) - AMENDED filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+  },
+  {
+   "uid": "20035788:36",
+   "queued_at": "2026-11-11T22:57:21.818716+00:00",
+   "text": "\ud83d\udd34 SELL Milwaukee, Wisconsin G $100K-250K - Cisneros (Rep. CA31) - traded 10/13 (28d ago) - AMENDED filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+  },
+  {
+   "uid": "20035788:37",
+   "queued_at": "2026-11-11T22:57:21.818716+00:00",
+   "text": "\ud83d\udfe2 BUY MBGL $50K-100K - Cisneros (Rep. CA31) - traded 10/15 (26d ago) - AMENDED filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+  },
+  {
+   "uid": "20035788:40",
+   "queued_at": "2026-11-11T22:57:21.818716+00:00",
+   "text": "\ud83d\udd34 SELL New York Liberty Devel $50K-100K - Cisneros (Rep. CA31) - traded 10/13 (28d ago) - AMENDED filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+  },
+  {
+   "uid": "20035788:47",
+   "queued_at": "2026-11-11T22:57:21.818716+00:00",
+   "text": "\ud83d\udd34 SELL San Mateo Foster City, $100K-250K - Cisneros (Rep. CA31) - traded 10/27 (14d ago) - AMENDED filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+  },
+  {
+   "uid": "20035788:48",
+   "queued_at": "2026-11-11T22:57:21.818716+00:00",
+   "text": "\ud83d\udfe2 BUY Protection District Ce $250K-500K - Cisneros (Rep. CA31) - 11/4 - AMENDED filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+  },
+  {
+   "uid": "20035788:53",
+   "queued_at": "2026-11-11T22:57:21.818716+00:00",
+   "text": "\ud83d\udd34 SELL STRC $50K-100K - Cisneros (Rep. CA31) - traded 10/15 (26d ago) - AMENDED filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+  },
+  {
+   "uid": "20035788:64",
+   "queued_at": "2026-11-11T22:57:21.818716+00:00",
+   "text": "\ud83d\udd34 SELL Educational Facilities $250K-500K - Cisneros (Rep. CA31) - traded 10/9 (32d ago) - AMENDED filing",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
   }
  ]
 }
