@@ -1,237 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001017608-26-000004",
-   "queued_at": "2026-10-31T00:27:28.993884+00:00",
-   "text": "\ud83d\udd34 SELL CVNA $682.9M - Garcia (10%) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1690820/000101760826000004/0001017608-26-000004-index.htm"
-  },
-  {
-   "uid": "0001921094-26-001129",
-   "queued_at": "2026-10-31T00:27:28.993884+00:00",
-   "text": "\ud83d\udd34 SELL KNSA $51.6M - Patel (Officer) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1730430/000192109426001129/0001921094-26-001129-index.htm"
-  },
-  {
-   "uid": "0001104659-26-120789:0",
-   "queued_at": "2026-10-31T00:27:28.993884+00:00",
-   "text": "\ud83d\udfe2 BUY RAPP $20M - Healy (Director) - 10/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2012593/000110465926120789/0001104659-26-120789-index.htm"
-  },
-  {
-   "uid": "0001921094-26-001127",
-   "queued_at": "2026-10-31T00:27:28.993884+00:00",
-   "text": "\ud83d\udd34 SELL KNSA $9.8M - Moat (Officer) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1857177/000192109426001127/0001921094-26-001127-index.htm"
-  },
-  {
-   "uid": "0001921094-26-001125",
-   "queued_at": "2026-10-31T00:27:28.993884+00:00",
-   "text": "\ud83d\udd34 SELL KNSA $8.9M - Paolini (Officer) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1741533/000192109426001125/0001921094-26-001125-index.htm"
-  },
-  {
-   "uid": "0001193125-26-441956:0",
-   "queued_at": "2026-10-31T00:27:28.993884+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $8.7M - Nippon Life Insurance (10% Owner) - 10/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526441956/0001193125-26-441956-index.htm"
-  },
-  {
-   "uid": "0000902664-26-004337",
-   "queued_at": "2026-10-31T00:27:28.993884+00:00",
-   "text": "\ud83d\udd34 SELL AMAL $8.4M - Workers (10%) - 10/30 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2008869/000090266426004337/0000902664-26-004337-index.htm"
-  },
-  {
-   "uid": "0001978586-26-000009:0",
-   "queued_at": "2026-11-02T17:21:59.185484+00:00",
-   "text": "\ud83d\udd34 SELL STNG $21.8M - Lauro (CEO) - 10/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1978586/000197858626000009/0001978586-26-000009-index.htm"
-  },
-  {
-   "uid": "0000080424-26-000265",
-   "queued_at": "2026-11-02T17:21:59.185484+00:00",
-   "text": "\ud83d\udd34 SELL PG $10.5M - Schulten (Officer) - 11/3 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1844763/000008042426000265/0000080424-26-000265-index.htm"
-  },
-  {
-   "uid": "0000853816-26-000069:0",
-   "queued_at": "2026-11-02T17:21:59.185484+00:00",
-   "text": "\ud83d\udfe2 BUY LSTR $715K - Lonegro (Pres) - 10/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1653042/000085381626000069/0000853816-26-000069-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010587",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL UTHR $71.5M - Martine (Director) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1106578/000195004726010587/0001950047-26-010587-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010525",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL APH $65.9M - Richard (Officer) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1276461/000195004726010525/0001950047-26-010525-index.htm"
-  },
-  {
-   "uid": "0001104659-26-121503:0",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udfe2 BUY ROL $50M - Randall Rollins Voting (10% Owner) - 10/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1820515/000110465926121503/0001104659-26-121503-index.htm"
-  },
-  {
-   "uid": "0001104659-26-121502:0",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udfe2 BUY ROL $50M - Lor Inc (10% Owner) - 10/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1212243/000110465926121502/0001104659-26-121502-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010559",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL BROS $26.9M - Dm Trust Aggregator (10%) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1883105/000195004726010559/0001950047-26-010559-index.htm"
-  },
-  {
-   "uid": "0001921094-26-001137",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL MORN $23.3M - Mansueto (Officer) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1324069/000192109426001137/0001921094-26-001137-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010550",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL AXP $22.9M - Laureen (Officer) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1357325/000195004726010550/0001950047-26-010550-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010589",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL FTNT $22M - Ken (Director) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1475587/000195004726010589/0001950047-26-010589-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010543",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL REGN $20.4M - George (Director) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1225471/000195004726010543/0001950047-26-010543-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010551",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL AXP $14.7M - Anna (Officer) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1753557/000195004726010551/0001950047-26-010551-index.htm"
-  },
-  {
-   "uid": "0001964306-26-000486",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL V $14.6M - Taneja (Officer) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1532601/000196430626000486/0001964306-26-000486-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010561",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL BROS $14.4M - Dm Individual Aggregator (10%) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1883096/000195004726010561/0001950047-26-010561-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010576",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL DBX $13.9M - Andrew Houston Revocable (Director) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1734563/000195004726010576/0001950047-26-010576-index.htm"
-  },
-  {
-   "uid": "0001974078-26-000395",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL META $12.8M - Andreessen Horowitz Fund (10%) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889436/000197407826000395/0001974078-26-000395-index.htm"
-  },
-  {
-   "uid": "0001921094-26-001140",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL MAX $9.3M - Nonko (Director) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1830016/000192109426001140/0001921094-26-001140-index.htm"
-  },
-  {
-   "uid": "0001193125-26-443677:0",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $8.8M - Nippon Life Insurance (10% Owner) - 10/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526443677/0001193125-26-443677-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010572",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL MDLZ $8.4M - Dirk Van De (Director) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1536137/000195004726010572/0001950047-26-010572-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007607",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL AJG $7.7M - Howell (Officer) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1222374/000195917326007607/0001959173-26-007607-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010566",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL RKLB $7.7M - Adam (Officer) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1819994/000195004726010566/0001950047-26-010566-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010571",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL PANW $6.7M - William (Officer) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1590423/000195004726010571/0001950047-26-010571-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010552",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udd34 SELL KO $6.4M - Beatriz (Officer) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1434519/000195004726010552/0001950047-26-010552-index.htm"
-  },
-  {
-   "uid": "0002162499-26-000004:1",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udfe2 BUY BBTX $6M - Salvia Investment Gmbh (10% Owner) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2162499/000216249926000004/0002162499-26-000004-index.htm"
-  },
-  {
-   "uid": "0001982614-26-000004:1",
-   "queued_at": "2026-11-03T00:02:47.571221+00:00",
-   "text": "\ud83d\udfe2 BUY BBTX $6M - Jeggle (Director) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2044950/000198261426000004/0001982614-26-000004-index.htm"
-  },
-  {
    "uid": "0001921094-26-001141",
    "queued_at": "2026-11-03T00:02:47.571221+00:00",
    "text": "\ud83d\udd34 SELL MAX $5.9M - Yi (Officer) - 11/2 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3268,237 @@
    "text": "\ud83d\udfe2 BUY DTI $4K - Furst (Director) - 11/10",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1884516/000119312526456634/0001193125-26-456634-index.htm"
+  },
+  {
+   "uid": "0001193125-26-457122",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL MANE $37.6M - Longitude Venture Partners (10%) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1935964/000119312526457122/0001193125-26-457122-index.htm"
+  },
+  {
+   "uid": "0001969223-26-001169",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL FWONB $28.5M - Charles (Director) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1560385/000196922326001169/0001969223-26-001169-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010980",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL HNGE $24.6M - Gabriel (Director) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2062781/000195004726010980/0001950047-26-010980-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010983",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL PLTR $14.3M - Shyam (Officer) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1824159/000195004726010983/0001950047-26-010983-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010987",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL MTSI $13.6M - Stephen (Director) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1493594/000195004726010987/0001950047-26-010987-index.htm"
+  },
+  {
+   "uid": "0001950047-26-011002",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL MU $11.4M - Sumit (Officer) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1311079/000195004726011002/0001950047-26-011002-index.htm"
+  },
+  {
+   "uid": "0001950047-26-011000",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL MU $11.4M - Sumit (Officer) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1311079/000195004726011000/0001950047-26-011000-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010990",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL SNA $8.8M - Nicholas (Director) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1246136/000195004726010990/0001950047-26-010990-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007933",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL TPR $8.8M - Crevoiserat (Officer) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1607592/000195917326007933/0001959173-26-007933-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007958",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL VRTX $8.4M - Wagner (Officer) - 11/12 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1223348/000195917326007958/0001959173-26-007958-index.htm"
+  },
+  {
+   "uid": "0001950047-26-011011",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL ROIV $7.3M - Richard (Officer) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1885841/000195004726011011/0001950047-26-011011-index.htm"
+  },
+  {
+   "uid": "0001975310-26-000001",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL LKNCY $7.3M - Guo (Officer) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1975310/000197531026000001/0001975310-26-000001-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010986",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL FICO $7.1M - William (Director) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1074500/000195004726010986/0001950047-26-010986-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010979",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL RVMDW $6.9M - Jack (Officer) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1800668/000195004726010979/0001950047-26-010979-index.htm"
+  },
+  {
+   "uid": "0001959173-26-007961",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL JXN-PA $6.9M - Prieskorn (Director) - 11/12 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1856349/000195917326007961/0001959173-26-007961-index.htm"
+  },
+  {
+   "uid": "0001773856-26-000001",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL BEN $5.8M - Nicholls (Officer) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1773856/000177385626000001/0001773856-26-000001-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010978",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL SEPN $5.2M - Alan (Director) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1984086/000195004726010978/0001950047-26-010978-index.htm"
+  },
+  {
+   "uid": "0001950047-26-010998",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL AMD $5.1M - Nora (Director) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1418351/000195004726010998/0001950047-26-010998-index.htm"
+  },
+  {
+   "uid": "0001899883-26-000044:0",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY FIP $1.5M - Nicholson (Pres) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1899883/000189988326000044/0001899883-26-000044-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004745:0",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY BDSX $1M - Schuler (10% Owner) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1439725/000090514826004745/0000905148-26-004745-index.htm"
+  },
+  {
+   "uid": "0001284591-26-000002:0",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY HOS $1000K - Hornbeck (Pres) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1284591/000128459126000002/0001284591-26-000002-index.htm"
+  },
+  {
+   "uid": "0002028916-26-000014:0",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY PAM $787K - Mindlin (Pres) - 11/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2028916/000202891626000014/0002028916-26-000014-index.htm"
+  },
+  {
+   "uid": "0001284591-26-000002:1",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY HOS $500K - Hornbeck (Pres) - 11/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1284591/000128459126000002/0001284591-26-000002-index.htm"
+  },
+  {
+   "uid": "0002028916-26-000014:2",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY PAM $489K - Mindlin (Pres) - 11/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2028916/000202891626000014/0002028916-26-000014-index.htm"
+  },
+  {
+   "uid": "0001193125-26-457453:0",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY DOX $150K - Genish (Director) - 11/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1847851/000119312526457453/0001193125-26-457453-index.htm"
+  },
+  {
+   "uid": "0001193125-26-457482:0",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY DOX $101K - Kanouff (Director) - 11/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1333214/000119312526457482/0001193125-26-457482-index.htm"
+  },
+  {
+   "uid": "0001193125-26-457435:1",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY DOX $37K - Macdonald (Director) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1969942/000119312526457435/0001193125-26-457435-index.htm"
+  },
+  {
+   "uid": "0001193125-26-457443:0",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udd34 SELL DOX $35K - Davis (Director) - 11/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1868244/000119312526457443/0001193125-26-457443-index.htm"
+  },
+  {
+   "uid": "0001683168-26-008544:0",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY PHIO $6K - Deming (Director) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1641063/000168316826008544/0001683168-26-008544-index.htm"
+  },
+  {
+   "uid": "0001193125-26-457426:1",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY DOX $6K - Morali (Director) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1112637/000119312526457426/0001193125-26-457426-index.htm"
+  },
+  {
+   "uid": "0001683168-26-008544:1",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY PHIO $4K - Deming (Director) - 11/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1641063/000168316826008544/0001683168-26-008544-index.htm"
+  },
+  {
+   "uid": "0001193125-26-457435:0",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY DOX $4K - Macdonald (Director) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1969942/000119312526457435/0001193125-26-457435-index.htm"
+  },
+  {
+   "uid": "0001636435-26-000004:0",
+   "queued_at": "2026-11-12T19:39:21.271396+00:00",
+   "text": "\ud83d\udfe2 BUY GOOD $3K - Beckhorn (Treasurer) - 11/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1636435/000163643526000004/0001636435-26-000004-index.htm"
   }
  ]
 }
