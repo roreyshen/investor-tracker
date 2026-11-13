@@ -1,55 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001213900-26-115572:0",
-   "queued_at": "2026-11-04T00:57:24.030076+00:00",
-   "text": "\ud83d\udfe2 BUY SYNX $9K - Klein (CEO) - 10/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2011482/000121390026115572/0001213900-26-115572-index.htm"
-  },
-  {
-   "uid": "0001213900-26-115571:0",
-   "queued_at": "2026-11-04T00:57:24.030076+00:00",
-   "text": "\ud83d\udfe2 BUY SYNX $9K - Klein (VP Marketing) - 10/29",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2119339/000121390026115571/0001213900-26-115571-index.htm"
-  },
-  {
-   "uid": "0001437749-26-034649:0",
-   "queued_at": "2026-11-04T00:57:24.030076+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $5K - Seneff (10% Owner) - 10/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2066337/000143774926034649/0001437749-26-034649-index.htm"
-  },
-  {
-   "uid": "0001437749-26-034649:1",
-   "queued_at": "2026-11-04T00:57:24.030076+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $5K - Seneff (10% Owner) - 10/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2066337/000143774926034649/0001437749-26-034649-index.htm"
-  },
-  {
-   "uid": "0001014100-26-000029:0",
-   "queued_at": "2026-11-04T00:57:24.030076+00:00",
-   "text": "\ud83d\udfe2 BUY FUNC $4K - Boal (Director) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1609298/000101410026000029/0001014100-26-000029-index.htm"
-  },
-  {
-   "uid": "0001014100-26-000032:0",
-   "queued_at": "2026-11-04T00:57:24.030076+00:00",
-   "text": "\ud83d\udfe2 BUY FUNC $3K - Rush (Chair) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1354841/000101410026000032/0001014100-26-000032-index.htm"
-  },
-  {
-   "uid": "0001014100-26-000031:0",
-   "queued_at": "2026-11-04T00:57:24.030076+00:00",
-   "text": "\ud83d\udfe2 BUY FUNC $123 - Sturm (EVP & CFO) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1644053/000101410026000031/0001014100-26-000031-index.htm"
-  },
-  {
    "uid": "0001104659-26-122289",
    "queued_at": "2026-11-04T07:16:28.551812+00:00",
    "text": "\ud83d\udd34 SELL PFGC $151.3M - Sachem Head Capital (Director) - 11/3 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3450,55 @@
    "text": "\ud83d\udfe2 BUY LRMR $187K - Hamilton (Director) - 11/12",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1769848/000119312526459008/0001193125-26-459008-index.htm"
+  },
+  {
+   "uid": "0000950157-26-001244:0",
+   "queued_at": "2026-11-13T15:36:02.596326+00:00",
+   "text": "\ud83d\udd34 SELL MAX $16M - White Mountains Insurance (10% Owner) - 11/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1979065/000095015726001244/0000950157-26-001244-index.htm"
+  },
+  {
+   "uid": "0001976408-26-000942",
+   "queued_at": "2026-11-13T15:36:02.596326+00:00",
+   "text": "\ud83d\udd34 SELL RSKD $8.5M - Qumra Capital (Director) - 11/13 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1851112/000197640826000942/0001976408-26-000942-index.htm"
+  },
+  {
+   "uid": "0001294357-26-000020:0",
+   "queued_at": "2026-11-13T15:36:02.596326+00:00",
+   "text": "\ud83d\udfe2 BUY PSEC $3.9M - Barry (CEO) - 11/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1294357/000129435726000020/0001294357-26-000020-index.htm"
+  },
+  {
+   "uid": "0000921895-26-003050:1",
+   "queued_at": "2026-11-13T15:36:02.596326+00:00",
+   "text": "\ud83d\udfe2 BUY BH $3.6M - Biglari (Chair) - 11/12",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000092189526003050/0000921895-26-003050-index.htm"
+  },
+  {
+   "uid": "0001294357-26-000020:1",
+   "queued_at": "2026-11-13T15:36:02.596326+00:00",
+   "text": "\ud83d\udfe2 BUY PSEC $2.1M - Barry (CEO) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1294357/000129435726000020/0001294357-26-000020-index.htm"
+  },
+  {
+   "uid": "0000921895-26-003050:0",
+   "queued_at": "2026-11-13T15:36:02.596326+00:00",
+   "text": "\ud83d\udfe2 BUY BH $1.8M - Biglari (Chair) - 11/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000092189526003050/0000921895-26-003050-index.htm"
+  },
+  {
+   "uid": "0000950142-26-003016:0",
+   "queued_at": "2026-11-13T15:36:02.596326+00:00",
+   "text": "\ud83d\udfe2 BUY CSQR $35K - Cook (CFO) - 11/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2138432/000095014226003016/0000950142-26-003016-index.htm"
   }
  ]
 }
