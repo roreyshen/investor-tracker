@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001213900-26-115571:1",
-   "queued_at": "2026-11-04T00:57:24.030076+00:00",
-   "text": "\ud83d\udfe2 BUY SYNX $11K - Klein (VP Marketing) - 10/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2119339/000121390026115571/0001213900-26-115571-index.htm"
-  },
-  {
-   "uid": "0001213900-26-115570:1",
-   "queued_at": "2026-11-04T00:57:24.030076+00:00",
-   "text": "\ud83d\udfe2 BUY SYNX $10K - Klein (Director) - 10/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2119250/000121390026115570/0001213900-26-115570-index.htm"
-  },
-  {
    "uid": "0001213900-26-115572:0",
    "queued_at": "2026-11-04T00:57:24.030076+00:00",
    "text": "\ud83d\udfe2 BUY SYNX $9K - Klein (CEO) - 10/29",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udfe2 BUY US Treasury Note 4% DU $15K-50K - Allen (Rep. GA12) - traded 10/2 (40d ago)",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035821.pdf"
+  },
+  {
+   "uid": "0001539497-26-002941:0",
+   "queued_at": "2026-11-13T07:21:19.550798+00:00",
+   "text": "\ud83d\udd34 SELL CTRI $13.1M - Icahn (10% Owner) - 11/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1981599/000153949726002941/0001539497-26-002941-index.htm"
+  },
+  {
+   "uid": "0001193125-26-459008:0",
+   "queued_at": "2026-11-13T07:21:19.550798+00:00",
+   "text": "\ud83d\udfe2 BUY LRMR $187K - Hamilton (Director) - 11/12",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1769848/000119312526459008/0001193125-26-459008-index.htm"
   }
  ]
 }
