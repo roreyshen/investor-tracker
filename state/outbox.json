@@ -1,55 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001866581-26-000188:8",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udd34 SELL BROS $11.9M - Boersma (Exec Chair) - 11/4",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1883154/000186658126000188/0001866581-26-000188-index.htm"
-  },
-  {
-   "uid": "0001866581-26-000186:3",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udd34 SELL BROS $11.9M - Dm Individual Aggregator (10% Owner) - 11/4",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1883096/000186658126000186/0001866581-26-000186-index.htm"
-  },
-  {
-   "uid": "0001866581-26-000188:2",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udd34 SELL BROS $11.3M - Boersma (Exec Chair) - 11/3",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1883154/000186658126000188/0001866581-26-000188-index.htm"
-  },
-  {
-   "uid": "0001866581-26-000184:2",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udd34 SELL BROS $11.3M - Dm Trust Aggregator (10% Owner) - 11/3",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1883105/000186658126000184/0001866581-26-000184-index.htm"
-  },
-  {
-   "uid": "0000921895-26-002932:1",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udfe2 BUY DOLE $9.8M - Pale Fire Capital (10% Owner) - 11/3",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2055254/000092189526002932/0000921895-26-002932-index.htm"
-  },
-  {
-   "uid": "0002014361-26-000041",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udd34 SELL PACS $9.4M - Hancock (Officer) - 11/4 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2014361/000201436126000041/0002014361-26-000041-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010710",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udd34 SELL MDLZ $8.4M - Dirk Van De (Director) - 11/4 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1536137/000195004726010710/0001950047-26-010710-index.htm"
-  },
-  {
    "uid": "0001969223-26-001128",
    "queued_at": "2026-11-05T01:50:33.226402+00:00",
    "text": "\ud83d\udd34 SELL GEHC $6.7M - James (Officer) - 11/4 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3450,55 @@
    "text": "\ud83d\udfe2 BUY CTEV $150K - Dalton (Pres., CEO &) - 11/11",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1841409/000162828026073944/0001628280-26-073944-index.htm"
+  },
+  {
+   "uid": "0001193125-26-461382:1",
+   "queued_at": "2026-11-14T08:40:54.792581+00:00",
+   "text": "\ud83d\udd34 SELL LFST $32.3M - Pardo (See Remarks) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1865531/000119312526461382/0001193125-26-461382-index.htm"
+  },
+  {
+   "uid": "0001539497-26-002986:0",
+   "queued_at": "2026-11-14T08:40:54.792581+00:00",
+   "text": "\ud83d\udd34 SELL CTRI $14.1M - Icahn (10% Owner) - 11/9",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1981599/000153949726002986/0001539497-26-002986-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004805:0",
+   "queued_at": "2026-11-14T08:40:54.792581+00:00",
+   "text": "\ud83d\udfe2 BUY STWD $9.9M - Sternlicht (Chair) - 11/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1465128/000090514826004805/0000905148-26-004805-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004805:1",
+   "queued_at": "2026-11-14T08:40:54.792581+00:00",
+   "text": "\ud83d\udfe2 BUY STWD $4.8M - Sternlicht (Chair) - 11/12",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1465128/000090514826004805/0000905148-26-004805-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004807:1",
+   "queued_at": "2026-11-14T08:40:54.792581+00:00",
+   "text": "\ud83d\udfe2 BUY STWD $1M - Pollack (Director) - 11/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1662895/000090514826004807/0000905148-26-004807-index.htm"
+  },
+  {
+   "uid": "0000905148-26-004807:0",
+   "queued_at": "2026-11-14T08:40:54.792581+00:00",
+   "text": "\ud83d\udfe2 BUY STWD $1M - Pollack (Director) - 11/11",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1662895/000090514826004807/0000905148-26-004807-index.htm"
+  },
+  {
+   "uid": "0001493152-26-051920:0",
+   "queued_at": "2026-11-14T08:40:54.792581+00:00",
+   "text": "\ud83d\udfe2 BUY NXGL $733K - Kieser (Interim CEO) - 11/10",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2133654/000149315226051920/0001493152-26-051920-index.htm"
   }
  ]
 }
