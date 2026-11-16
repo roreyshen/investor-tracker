@@ -1,90 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001969223-26-001128",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udd34 SELL GEHC $6.7M - James (Officer) - 11/4 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1932393/000196922326001128/0001969223-26-001128-index.htm"
-  },
-  {
-   "uid": "0001193125-26-447693:0",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udfe2 BUY CRBG $6.7M - Nippon Life Insurance (10% Owner) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526447693/0001193125-26-447693-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010700",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udd34 SELL PFG $6M - Christopher (Officer) - 11/4 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1180573/000195004726010700/0001950047-26-010700-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010704",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udd34 SELL MIAX $5.1M - Barbara (Officer) - 11/4 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2080878/000195004726010704/0001950047-26-010704-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010715",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udd34 SELL EVTC $5M - Morgan (Officer) - 11/4 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1559865/000195004726010715/0001950047-26-010715-index.htm"
-  },
-  {
-   "uid": "0000921895-26-002932:0",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udfe2 BUY DOLE $3.1M - Pale Fire Capital (10% Owner) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2055254/000092189526002932/0000921895-26-002932-index.htm"
-  },
-  {
-   "uid": "0001185185-26-005179:0",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udfe2 BUY SCQCU $2.7M - Das (Director) - 10/28",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2158277/000118518526005179/0001185185-26-005179-index.htm"
-  },
-  {
-   "uid": "0001193125-26-447393:0",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udfe2 BUY UPBD $400K - Brown (Director) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1245377/000119312526447393/0001193125-26-447393-index.htm"
-  },
-  {
-   "uid": "0001193125-26-447404:0",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udfe2 BUY UPBD $393K - Marino (Director) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1614728/000119312526447404/0001193125-26-447404-index.htm"
-  },
-  {
-   "uid": "0001193125-26-447407:0",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udfe2 BUY UPBD $251K - Khouri (CFO) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2093120/000119312526447407/0001193125-26-447407-index.htm"
-  },
-  {
-   "uid": "0001193125-26-447396:0",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udfe2 BUY UPBD $99K - Wooters (Officer) - 11/3",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1810040/000119312526447396/0001193125-26-447396-index.htm"
-  },
-  {
-   "uid": "0001193125-26-447395:0",
-   "queued_at": "2026-11-05T01:50:33.226402+00:00",
-   "text": "\ud83d\udfe2 BUY UPBD $50K - Kumar (CTO) - 11/2",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2126298/000119312526447395/0001193125-26-447395-index.htm"
-  },
-  {
    "uid": "0001193125-26-447394:0",
    "queued_at": "2026-11-05T01:50:33.226402+00:00",
    "text": "\ud83d\udfe2 BUY UPBD $50K - Langenstein (Director) - 11/2",
@@ -3499,6 +3415,90 @@
    "text": "\ud83d\udfe2 BUY NXGL $733K - Kieser (Interim CEO) - 11/10",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2133654/000149315226051920/0001493152-26-051920-index.htm"
+  },
+  {
+   "uid": "0001137774-26-000240:1",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udfe2 BUY EMO $20M - Prudential Financial Inc (10% Owner) - 11/12",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1517518/000113777426000240/0001137774-26-000240-index.htm"
+  },
+  {
+   "uid": "0001137774-26-000240:0",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udfe2 BUY EMO $15M - Prudential Financial Inc (10% Owner) - 11/12",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1517518/000113777426000240/0001137774-26-000240-index.htm"
+  },
+  {
+   "uid": "0001630805-26-000093:0",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udfe2 BUY BW $42K - Frymyer (CFO) - 11/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2051649/000163080526000093/0001630805-26-000093-index.htm"
+  },
+  {
+   "uid": "20035779:2",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udd34 SELL Commodity 5.00% Due Au $250K-500K - Delbene (Rep. WA01) - traded 10/19 (25d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf"
+  },
+  {
+   "uid": "20035779:3",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udfe2 BUY San Joaquin VY Calif C $250K-500K - Delbene (Rep. WA01) - traded 10/19 (25d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf"
+  },
+  {
+   "uid": "20035786:2",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udd34 SELL Berks Cnty PA GO UTX $50K-100K - Peters (Rep. CA50) - traded 10/8 (36d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
+  },
+  {
+   "uid": "20035786:3",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udd34 SELL Charlotte-Meckle HLTH $100K-250K - Peters (Rep. CA50) - traded 10/15 (29d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
+  },
+  {
+   "uid": "20035786:4",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udd34 SELL Illinois State GO UTX $50K-100K - Peters (Rep. CA50) - traded 10/28 (16d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
+  },
+  {
+   "uid": "20035786:5",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udfe2 BUY Inverted Capital I LP $50K-100K - Peters (Rep. CA50) - traded 10/22 (22d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
+  },
+  {
+   "uid": "20035786:6",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udfe2 BUY Smash Capital Fund II  $50K-100K - Peters (Rep. CA50) - traded 10/6 (38d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
+  },
+  {
+   "uid": "20035786:7",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udd34 SELL U.S. Treasury Bill $500K-1M - Peters (Rep. CA50) - traded 10/16 (28d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
+  },
+  {
+   "uid": "20035786:8",
+   "queued_at": "2026-11-16T20:53:03.889252+00:00",
+   "text": "\ud83d\udfe2 BUY Watsonville CA W SWR U $50K-100K - Peters (Rep. CA50) - traded 10/22 (22d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
   }
  ]
 }
