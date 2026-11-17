@@ -1,6 +1,51 @@
 {
- "cash": 401.1299999999901,
- "closed": [],
+ "cash": 46321.60999999999,
+ "closed": [
+  {
+   "closed": "2026-11-17",
+   "cost": 9960.24,
+   "entry": 70.64,
+   "exit": 93.27,
+   "opened": "2026-09-14",
+   "pnl": 3190.83,
+   "shares": 141,
+   "ticker": "PVH",
+   "why": "Larsson Stefan (Chief Executive Officer)"
+  },
+  {
+   "closed": "2026-11-17",
+   "cost": 9984.96,
+   "entry": 34.67,
+   "exit": 35.71,
+   "opened": "2026-09-14",
+   "pnl": 299.52,
+   "shares": 288,
+   "ticker": "CRBG",
+   "why": "NIPPON LIFE INSURANCE CO (10% Owner)"
+  },
+  {
+   "closed": "2026-11-17",
+   "cost": 9800.56,
+   "entry": 222.74,
+   "exit": 255.56,
+   "opened": "2026-09-14",
+   "pnl": 1444.08,
+   "shares": 44,
+   "ticker": "RSG",
+   "why": "CASCADE INVESTMENT, L.L.C. (+1) (10% Owner)"
+  },
+  {
+   "closed": "2026-11-17",
+   "cost": 9990.97,
+   "entry": 27.83,
+   "exit": 31.31,
+   "opened": "2026-09-15",
+   "pnl": 1249.32,
+   "shares": 359,
+   "ticker": "GIII",
+   "why": "GOLDFARB MORRIS (CEO)"
+  }
+ ],
  "marks": [
   {
    "date": "2026-09-14",
@@ -236,41 +281,14 @@
    "date": "2026-11-14",
    "equity": 106883.21,
    "spy": 757.12
+  },
+  {
+   "date": "2026-11-17",
+   "equity": 107186.36,
+   "spy": 754.37
   }
  ],
  "open": [
-  {
-   "cost": 9960.24,
-   "entry": 70.64,
-   "opened": "2026-09-14",
-   "shares": 141,
-   "ticker": "PVH",
-   "why": "Larsson Stefan (Chief Executive Officer)"
-  },
-  {
-   "cost": 9984.96,
-   "entry": 34.67,
-   "opened": "2026-09-14",
-   "shares": 288,
-   "ticker": "CRBG",
-   "why": "NIPPON LIFE INSURANCE CO (10% Owner)"
-  },
-  {
-   "cost": 9800.56,
-   "entry": 222.74,
-   "opened": "2026-09-14",
-   "shares": 44,
-   "ticker": "RSG",
-   "why": "CASCADE INVESTMENT, L.L.C. (+1) (10% Owner)"
-  },
-  {
-   "cost": 9990.97,
-   "entry": 27.83,
-   "opened": "2026-09-15",
-   "shares": 359,
-   "ticker": "GIII",
-   "why": "GOLDFARB MORRIS (CEO)"
-  },
   {
    "cost": 9999.36,
    "entry": 13.02,
@@ -320,7 +338,13 @@
    "why": "Cohen Ryan (President, CEO and Chairman)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-11-17",
+   "ticker": "TEAM",
+   "why": "Cannon-Brookes Michael (CEO, Co-Founder)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }

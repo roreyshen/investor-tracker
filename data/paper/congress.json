@@ -1,6 +1,62 @@
 {
- "cash": 322.49999999997635,
- "closed": [],
+ "cash": 52739.10999999997,
+ "closed": [
+  {
+   "closed": "2026-11-17",
+   "cost": 9997.85,
+   "entry": 48.77,
+   "exit": 53.68,
+   "opened": "2026-09-14",
+   "pnl": 1006.55,
+   "shares": 205,
+   "ticker": "HMN",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "closed": "2026-11-17",
+   "cost": 9996.35,
+   "entry": 153.79,
+   "exit": 165.82,
+   "opened": "2026-09-14",
+   "pnl": 781.95,
+   "shares": 65,
+   "ticker": "CDW",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "closed": "2026-11-17",
+   "cost": 9995.16,
+   "entry": 61.32,
+   "exit": 51.65,
+   "opened": "2026-09-14",
+   "pnl": -1576.21,
+   "shares": 163,
+   "ticker": "KMX",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "closed": "2026-11-17",
+   "cost": 9995.04,
+   "entry": 37.86,
+   "exit": 42.75,
+   "opened": "2026-09-14",
+   "pnl": 1290.96,
+   "shares": 264,
+   "ticker": "APG",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "closed": "2026-11-17",
+   "cost": 9994.98,
+   "entry": 14.34,
+   "exit": 15.68,
+   "opened": "2026-09-14",
+   "pnl": 933.98,
+   "shares": 697,
+   "ticker": "TTD",
+   "why": "Cisneros, Gilbert (Rep. CA31)"
+  }
+ ],
  "marks": [
   {
    "date": "2026-09-14",
@@ -236,49 +292,14 @@
    "date": "2026-11-14",
    "equity": 103533.3,
    "spy": 757.12
+  },
+  {
+   "date": "2026-11-17",
+   "equity": 103002.95,
+   "spy": 754.37
   }
  ],
  "open": [
-  {
-   "cost": 9997.85,
-   "entry": 48.77,
-   "opened": "2026-09-14",
-   "shares": 205,
-   "ticker": "HMN",
-   "why": "Cisneros, Gilbert (Rep. CA31)"
-  },
-  {
-   "cost": 9996.35,
-   "entry": 153.79,
-   "opened": "2026-09-14",
-   "shares": 65,
-   "ticker": "CDW",
-   "why": "Cisneros, Gilbert (Rep. CA31)"
-  },
-  {
-   "cost": 9995.16,
-   "entry": 61.32,
-   "opened": "2026-09-14",
-   "shares": 163,
-   "ticker": "KMX",
-   "why": "Cisneros, Gilbert (Rep. CA31)"
-  },
-  {
-   "cost": 9995.04,
-   "entry": 37.86,
-   "opened": "2026-09-14",
-   "shares": 264,
-   "ticker": "APG",
-   "why": "Cisneros, Gilbert (Rep. CA31)"
-  },
-  {
-   "cost": 9994.98,
-   "entry": 14.34,
-   "opened": "2026-09-14",
-   "shares": 697,
-   "ticker": "TTD",
-   "why": "Cisneros, Gilbert (Rep. CA31)"
-  },
   {
    "cost": 9944.0,
    "entry": 452.0,

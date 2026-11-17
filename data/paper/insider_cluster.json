@@ -1,6 +1,29 @@
 {
- "cash": 125.55000000001382,
- "closed": [],
+ "cash": 21972.150000000016,
+ "closed": [
+  {
+   "closed": "2026-11-17",
+   "cost": 9995.12,
+   "entry": 24.26,
+   "exit": 25.39,
+   "opened": "2026-09-15",
+   "pnl": 465.56,
+   "shares": 412,
+   "ticker": "PMTS",
+   "why": "Riley H Sanford (Director)"
+  },
+  {
+   "closed": "2026-11-17",
+   "cost": 9976.48,
+   "entry": 54.22,
+   "exit": 61.88,
+   "opened": "2026-09-15",
+   "pnl": 1409.44,
+   "shares": 184,
+   "ticker": "COO",
+   "why": "Rosebrough Walter M Jr (Director)"
+  }
+ ],
  "marks": [
   {
    "date": "2026-09-14",
@@ -236,25 +259,14 @@
    "date": "2026-11-14",
    "equity": 100511.6,
    "spy": 757.12
+  },
+  {
+   "date": "2026-11-17",
+   "equity": 100378.57,
+   "spy": 754.37
   }
  ],
  "open": [
-  {
-   "cost": 9995.12,
-   "entry": 24.26,
-   "opened": "2026-09-15",
-   "shares": 412,
-   "ticker": "PMTS",
-   "why": "Riley H Sanford (Director)"
-  },
-  {
-   "cost": 9976.48,
-   "entry": 54.22,
-   "opened": "2026-09-15",
-   "shares": 184,
-   "ticker": "COO",
-   "why": "Rosebrough Walter M Jr (Director)"
-  },
   {
    "cost": 9997.87,
    "entry": 3.91,
@@ -320,7 +332,18 @@
    "why": "Nester Paul W (President & CEO)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-11-17",
+   "ticker": "HAWK",
+   "why": "Fox Alex J (Pres, HawkEye 360 Int'l)"
+  },
+  {
+   "picked": "2026-11-17",
+   "ticker": "FPS",
+   "why": "Hottinger Tyson (Chief Legal Officer)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
