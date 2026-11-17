@@ -1,5 +1,5 @@
 {
- "cash": 46321.60999999999,
+ "cash": 36425.56999999999,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -336,15 +336,17 @@
    "shares": 441,
    "ticker": "GME",
    "why": "Cohen Ryan (President, CEO and Chairman)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-17",
+   "cost": 9896.04,
+   "entry": 149.94,
+   "opened": "2026-11-17",
+   "shares": 66,
    "ticker": "TEAM",
    "why": "Cannon-Brookes Michael (CEO, Co-Founder)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }

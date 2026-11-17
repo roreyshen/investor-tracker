@@ -1,5 +1,5 @@
 {
- "cash": 21972.150000000016,
+ "cash": 1979.7300000000141,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -330,20 +330,25 @@
    "shares": 481,
    "ticker": "RGCO",
    "why": "Nester Paul W (President & CEO)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-17",
+   "cost": 9995.4,
+   "entry": 18.51,
+   "opened": "2026-11-17",
+   "shares": 540,
    "ticker": "HAWK",
    "why": "Fox Alex J (Pres, HawkEye 360 Int'l)"
   },
   {
-   "picked": "2026-11-17",
+   "cost": 9997.02,
+   "entry": 20.57,
+   "opened": "2026-11-17",
+   "shares": 486,
    "ticker": "FPS",
    "why": "Hottinger Tyson (Chief Legal Officer)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
