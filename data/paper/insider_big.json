@@ -1,5 +1,5 @@
 {
- "cash": 75685.51999999999,
+ "cash": 65701.87999999999,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -361,15 +361,17 @@
    "shares": 66,
    "ticker": "TEAM",
    "why": "Cannon-Brookes Michael (CEO, Co-Founder)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-18",
+   "cost": 9983.64,
+   "entry": 18.42,
+   "opened": "2026-11-18",
+   "shares": 542,
    "ticker": "DKNG",
    "why": "Kalish Matthew (Director)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }
