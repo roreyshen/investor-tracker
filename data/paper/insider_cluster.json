@@ -1,5 +1,5 @@
 {
- "cash": 1979.7300000000141,
+ "cash": 27993.890000000014,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -22,6 +22,39 @@
    "shares": 184,
    "ticker": "COO",
    "why": "Rosebrough Walter M Jr (Director)"
+  },
+  {
+   "closed": "2026-11-18",
+   "cost": 9997.87,
+   "entry": 3.91,
+   "exit": 2.88,
+   "opened": "2026-09-16",
+   "pnl": -2633.71,
+   "shares": 2557,
+   "ticker": "RWT",
+   "why": "KUBICEK GREG H (Director)"
+  },
+  {
+   "closed": "2026-11-18",
+   "cost": 9987.2,
+   "entry": 31.21,
+   "exit": 27.4,
+   "opened": "2026-09-16",
+   "pnl": -1219.2,
+   "shares": 320,
+   "ticker": "SBLK",
+   "why": "Spyrou Symeon (co CFO)"
+  },
+  {
+   "closed": "2026-11-18",
+   "cost": 9964.0,
+   "entry": 49.82,
+   "exit": 49.41,
+   "opened": "2026-09-16",
+   "pnl": -82.0,
+   "shares": 200,
+   "ticker": "GABC",
+   "why": "Ryan Christina M (Director)"
   }
  ],
  "marks": [
@@ -264,33 +297,14 @@
    "date": "2026-11-17",
    "equity": 100378.57,
    "spy": 754.37
+  },
+  {
+   "date": "2026-11-18",
+   "equity": 100378.57,
+   "spy": 739.95
   }
  ],
  "open": [
-  {
-   "cost": 9997.87,
-   "entry": 3.91,
-   "opened": "2026-09-16",
-   "shares": 2557,
-   "ticker": "RWT",
-   "why": "KUBICEK GREG H (Director)"
-  },
-  {
-   "cost": 9987.2,
-   "entry": 31.21,
-   "opened": "2026-09-16",
-   "shares": 320,
-   "ticker": "SBLK",
-   "why": "Spyrou Symeon (co CFO)"
-  },
-  {
-   "cost": 9964.0,
-   "entry": 49.82,
-   "opened": "2026-09-16",
-   "shares": 200,
-   "ticker": "GABC",
-   "why": "Ryan Christina M (Director)"
-  },
   {
    "cost": 9984.47,
    "entry": 16.13,

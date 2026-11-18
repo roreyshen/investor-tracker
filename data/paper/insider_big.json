@@ -1,5 +1,5 @@
 {
- "cash": 36425.56999999999,
+ "cash": 75685.51999999999,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -44,6 +44,50 @@
    "shares": 359,
    "ticker": "GIII",
    "why": "GOLDFARB MORRIS (CEO)"
+  },
+  {
+   "closed": "2026-11-18",
+   "cost": 9999.36,
+   "entry": 13.02,
+   "exit": 12.66,
+   "opened": "2026-09-16",
+   "pnl": -276.48,
+   "shares": 768,
+   "ticker": "KBDC",
+   "why": "ROBO JAMES L (Director)"
+  },
+  {
+   "closed": "2026-11-18",
+   "cost": 9988.44,
+   "entry": 21.62,
+   "exit": 21.81,
+   "opened": "2026-09-16",
+   "pnl": 87.78,
+   "shares": 462,
+   "ticker": "AAT",
+   "why": "RADY ERNEST S (Executive Chairman)"
+  },
+  {
+   "closed": "2026-11-18",
+   "cost": 9993.2,
+   "entry": 12.04,
+   "exit": 11.37,
+   "opened": "2026-09-16",
+   "pnl": -556.1,
+   "shares": 830,
+   "ticker": "ARDC",
+   "why": "THRIVENT FINANCIAL FOR LUTHERANS (10% Owner)"
+  },
+  {
+   "closed": "2026-11-18",
+   "cost": 9956.1,
+   "entry": 60.34,
+   "exit": 60.75,
+   "opened": "2026-09-16",
+   "pnl": 67.65,
+   "shares": 165,
+   "ticker": "FOX",
+   "why": "MURDOCH LACHLAN K (Executive Chair, CEO)"
   }
  ],
  "marks": [
@@ -286,41 +330,14 @@
    "date": "2026-11-17",
    "equity": 107186.36,
    "spy": 754.37
+  },
+  {
+   "date": "2026-11-18",
+   "equity": 107186.36,
+   "spy": 739.95
   }
  ],
  "open": [
-  {
-   "cost": 9999.36,
-   "entry": 13.02,
-   "opened": "2026-09-16",
-   "shares": 768,
-   "ticker": "KBDC",
-   "why": "ROBO JAMES L (Director)"
-  },
-  {
-   "cost": 9988.44,
-   "entry": 21.62,
-   "opened": "2026-09-16",
-   "shares": 462,
-   "ticker": "AAT",
-   "why": "RADY ERNEST S (Executive Chairman)"
-  },
-  {
-   "cost": 9993.2,
-   "entry": 12.04,
-   "opened": "2026-09-16",
-   "shares": 830,
-   "ticker": "ARDC",
-   "why": "THRIVENT FINANCIAL FOR LUTHERANS (10% Owner)"
-  },
-  {
-   "cost": 9956.1,
-   "entry": 60.34,
-   "opened": "2026-09-16",
-   "shares": 165,
-   "ticker": "FOX",
-   "why": "MURDOCH LACHLAN K (Executive Chair, CEO)"
-  },
   {
    "cost": 9940.8,
    "entry": 82.84,
@@ -346,7 +363,13 @@
    "why": "Cannon-Brookes Michael (CEO, Co-Founder)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-11-18",
+   "ticker": "DKNG",
+   "why": "Kalish Matthew (Director)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }
