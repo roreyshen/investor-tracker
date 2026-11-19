@@ -1,5 +1,5 @@
 {
- "cash": 61813.91,
+ "cash": 41827.39,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -374,18 +374,29 @@
    "shares": 486,
    "ticker": "FPS",
    "why": "Hottinger Tyson (Chief Legal Officer)"
+  },
+  {
+   "cost": 9991.64,
+   "entry": 11.38,
+   "opened": "2026-11-19",
+   "shares": 878,
+   "ticker": "OFRM",
+   "why": "Morris Scott James (Director)"
+  },
+  {
+   "cost": 9994.88,
+   "entry": 25.76,
+   "opened": "2026-11-19",
+   "shares": 388,
+   "ticker": "WWB",
+   "why": "Bonita David P (Director)"
   }
  ],
  "pending": [
   {
    "picked": "2026-11-19",
-   "ticker": "OFRM",
-   "why": "Morris Scott James (Director)"
-  },
-  {
-   "picked": "2026-11-19",
-   "ticker": "WWB",
-   "why": "Bonita David P (Director)"
+   "ticker": "RMIX",
+   "why": "Johnston Bretton A. (Director)"
   }
  ],
  "started": "2026-09-14",

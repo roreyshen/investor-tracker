@@ -1,5 +1,5 @@
 {
- "cash": 65701.87999999999,
+ "cash": 15773.249999999989,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -374,35 +374,49 @@
    "shares": 542,
    "ticker": "DKNG",
    "why": "Kalish Matthew (Director)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-19",
+   "cost": 9996.76,
+   "entry": 4.91,
+   "opened": "2026-11-19",
+   "shares": 2036,
    "ticker": "SJT",
    "why": "OLIVER ERIC L (+2) (10% Owner)"
   },
   {
-   "picked": "2026-11-19",
+   "cost": 9952.2,
+   "entry": 368.6,
+   "opened": "2026-11-19",
+   "shares": 27,
    "ticker": "BH",
    "why": "BIGLARI, SARDAR (+2) (Chairman and CEO)"
   },
   {
-   "picked": "2026-11-19",
+   "cost": 9988.59,
+   "entry": 45.61,
+   "opened": "2026-11-19",
+   "shares": 219,
    "ticker": "ANAB",
    "why": "EcoR1 Capital, LLC (+1) (Director)"
   },
   {
-   "picked": "2026-11-19",
+   "cost": 9995.56,
+   "entry": 11.32,
+   "opened": "2026-11-19",
+   "shares": 883,
    "ticker": "STWD",
    "why": "ZELNICK STRAUSS (Director)"
   },
   {
-   "picked": "2026-11-19",
+   "cost": 9995.52,
+   "entry": 10.96,
+   "opened": "2026-11-19",
+   "shares": 912,
    "ticker": "FUN",
    "why": "JAFFER REHAN (Director)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }
