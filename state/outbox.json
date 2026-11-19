@@ -1,76 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001959173-26-007906",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL ALL-PJ $34M - Wilson (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1190466/000195917326007906/0001959173-26-007906-index.htm"
-  },
-  {
-   "uid": "0001687898-26-000011:0",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udfe2 BUY NFRX $24.5M - Harrison Street Real (10% Owner) - 11/6",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1969674/000168789826000011/0001687898-26-000011-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010923",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL CVX $23.6M - Mark (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1729591/000195004726010923/0001950047-26-010923-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007912",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL MET-PF $19.1M - Khalaf (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1535491/000195917326007912/0001959173-26-007912-index.htm"
-  },
-  {
-   "uid": "0001070750-26-000163:0",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL HST $16.7M - Risoleo (Pres) - 11/9",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1194637/000107075026000163/0001070750-26-000163-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007925",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL TPR $16M - Roe (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1570308/000195917326007925/0001959173-26-007925-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010962",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL MSI $13.2M - Gregory (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1201232/000195004726010962/0001950047-26-010962-index.htm"
-  },
-  {
-   "uid": "0001999371-26-025076",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL LTH $12.2M - Tpg Vii Magni (Stockholder) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1972856/000199937126025076/0001999371-26-025076-index.htm"
-  },
-  {
-   "uid": "0001193125-26-455582:0",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL NONE $11.3M - Morgan Investment Manageme - 10/30",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1940499/000119312526455582/0001193125-26-455582-index.htm"
-  },
-  {
-   "uid": "0001959173-26-007908",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL UAL $10.9M - Kirby (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1249555/000195917326007908/0001959173-26-007908-index.htm"
-  },
-  {
    "uid": "0001193125-26-455498",
    "queued_at": "2026-11-10T21:50:58.490102+00:00",
    "text": "\ud83d\udd34 SELL TEVA $10.7M - Francis (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3429,76 @@
    "text": "\ud83d\udfe2 BUY STXS $25K - Benfer (Director) - 11/17",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1325119/000149315226053131/0001493152-26-053131-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075005:0",
+   "queued_at": "2026-11-19T18:23:17.940159+00:00",
+   "text": "\ud83d\udfe2 BUY HMH $1.2M - Mcgee (CFO) - 11/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2035200/000162828026075005/0001628280-26-075005-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075005:1",
+   "queued_at": "2026-11-19T18:23:17.940159+00:00",
+   "text": "\ud83d\udfe2 BUY HMH $469K - Mcgee (CFO) - 11/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2035200/000162828026075005/0001628280-26-075005-index.htm"
+  },
+  {
+   "uid": "0001808199-26-000006:0",
+   "queued_at": "2026-11-19T18:23:17.940159+00:00",
+   "text": "\ud83d\udfe2 BUY TGEN $20K - Whiting (Counsel) - 11/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1808199/000180819926000006/0001808199-26-000006-index.htm"
+  },
+  {
+   "uid": "0001496259-26-000005:0",
+   "queued_at": "2026-11-19T18:23:17.940159+00:00",
+   "text": "\ud83d\udfe2 BUY TGEN $17K - Deschenes (CFO) - 11/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1537435/000149625926000005/0001496259-26-000005-index.htm"
+  },
+  {
+   "uid": "0001230427-26-000005:0",
+   "queued_at": "2026-11-19T18:23:17.940159+00:00",
+   "text": "\ud83d\udfe2 BUY TGEN $16K - Lewis (Director) - 11/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1537435/000123042726000005/0001230427-26-000005-index.htm"
+  },
+  {
+   "uid": "0001230427-26-000005:2",
+   "queued_at": "2026-11-19T18:23:17.940159+00:00",
+   "text": "\ud83d\udfe2 BUY TGEN $2K - Lewis (Director) - 11/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1537435/000123042726000005/0001230427-26-000005-index.htm"
+  },
+  {
+   "uid": "0001230427-26-000005:1",
+   "queued_at": "2026-11-19T18:23:17.940159+00:00",
+   "text": "\ud83d\udfe2 BUY TGEN $1K - Lewis (Director) - 11/16",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1537435/000123042726000005/0001230427-26-000005-index.htm"
+  },
+  {
+   "uid": "0001496259-26-000005:1",
+   "queued_at": "2026-11-19T18:23:17.940159+00:00",
+   "text": "\ud83d\udfe2 BUY TGEN $537 - Deschenes (CFO) - 11/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1537435/000149625926000005/0001496259-26-000005-index.htm"
+  },
+  {
+   "uid": "20036844:3",
+   "queued_at": "2026-11-19T18:23:17.940159+00:00",
+   "text": "\ud83d\udfe2 BUY U.S. Treasury Note $50K-100K - Kean (Rep. NJ07) - traded 10/20 (30d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036844.pdf"
+  },
+  {
+   "uid": "20036864:0",
+   "queued_at": "2026-11-19T18:23:17.940159+00:00",
+   "text": "\ud83d\udd34 SELL TPR $1K-15K - Sewell (Rep. AL07) - traded 11/5 (13d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036864.pdf"
   }
  ]
 }
