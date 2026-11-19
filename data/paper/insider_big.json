@@ -335,6 +335,11 @@
    "date": "2026-11-18",
    "equity": 107186.36,
    "spy": 739.95
+  },
+  {
+   "date": "2026-11-19",
+   "equity": 106331.12,
+   "spy": 732.44
   }
  ],
  "open": [
@@ -371,7 +376,33 @@
    "why": "Kalish Matthew (Director)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-11-19",
+   "ticker": "SJT",
+   "why": "OLIVER ERIC L (+2) (10% Owner)"
+  },
+  {
+   "picked": "2026-11-19",
+   "ticker": "BH",
+   "why": "BIGLARI, SARDAR (+2) (Chairman and CEO)"
+  },
+  {
+   "picked": "2026-11-19",
+   "ticker": "ANAB",
+   "why": "EcoR1 Capital, LLC (+1) (Director)"
+  },
+  {
+   "picked": "2026-11-19",
+   "ticker": "STWD",
+   "why": "ZELNICK STRAUSS (Director)"
+  },
+  {
+   "picked": "2026-11-19",
+   "ticker": "FUN",
+   "why": "JAFFER REHAN (Director)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }
