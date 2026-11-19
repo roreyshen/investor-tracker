@@ -1,27 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001999371-26-025078",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL LTH $88.9M - Tpg Vii Magni (Stockholder) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1972834/000199937126025078/0001999371-26-025078-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010948",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL PLTR $50.8M - Shyam (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1824159/000195004726010948/0001950047-26-010948-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010935",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udd34 SELL ROIV $50.7M - Frank (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1647805/000195004726010935/0001950047-26-010935-index.htm"
-  },
-  {
    "uid": "0001959173-26-007906",
    "queued_at": "2026-11-10T21:50:58.490102+00:00",
    "text": "\ud83d\udd34 SELL ALL-PJ $34M - Wilson (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
@@ -3499,6 +3478,27 @@
    "text": "\ud83d\udfe2 BUY HAWK $5K - Zeitouni (Officer) - 11/17",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2127470/000212747026000006/0002127470-26-000006-index.htm"
+  },
+  {
+   "uid": "0001458423-26-000012:1",
+   "queued_at": "2026-11-19T09:12:23.714203+00:00",
+   "text": "\ud83d\udfe2 BUY USAR $1.7M - Blitzer (Director) - 11/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1970622/000145842326000012/0001458423-26-000012-index.htm"
+  },
+  {
+   "uid": "0001493152-26-053130:0",
+   "queued_at": "2026-11-19T09:12:23.714203+00:00",
+   "text": "\ud83d\udfe2 BUY STXS $100K - Menawat (Director) - 11/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1685893/000149315226053130/0001493152-26-053130-index.htm"
+  },
+  {
+   "uid": "0001493152-26-053131:0",
+   "queued_at": "2026-11-19T09:12:23.714203+00:00",
+   "text": "\ud83d\udfe2 BUY STXS $25K - Benfer (Director) - 11/17",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1325119/000149315226053131/0001493152-26-053131-index.htm"
   }
  ]
 }
