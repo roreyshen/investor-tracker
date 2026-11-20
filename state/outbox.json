@@ -1,20 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001794783-26-000090:0",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udfe2 BUY SLQT $40K - Grant (Pres) - 11/6",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1804765/000179478326000090/0001794783-26-000090-index.htm"
-  },
-  {
-   "uid": "0001794783-26-000093:0",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udfe2 BUY SLQT $40K - Grant (COO) - 11/6",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1804642/000179478326000093/0001794783-26-000093-index.htm"
-  },
-  {
    "uid": "0001794783-26-000092:0",
    "queued_at": "2026-11-10T21:50:58.490102+00:00",
    "text": "\ud83d\udfe2 BUY SLQT $12K - Hawks (Director) - 11/6",
@@ -3499,6 +3485,20 @@
    "text": "\ud83d\udfe2 BUY LCTX amount undisclosed - Broadwood Partners (Director) - 11/17",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1278388/000091957426008200/0000919574-26-008200-index.htm"
+  },
+  {
+   "uid": "0001193125-26-469031:0",
+   "queued_at": "2026-11-20T08:07:40.704686+00:00",
+   "text": "\ud83d\udfe2 BUY RMIX $113K - Heyer (Director) - 11/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2094433/000119312526469031/0001193125-26-469031-index.htm"
+  },
+  {
+   "uid": "0001193125-26-469031:1",
+   "queued_at": "2026-11-20T08:07:40.704686+00:00",
+   "text": "\ud83d\udfe2 BUY RMIX $70K - Heyer (Director) - 11/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2094433/000119312526469031/0001193125-26-469031-index.htm"
   }
  ]
 }
