@@ -1,5 +1,5 @@
 {
- "cash": 41827.39,
+ "cash": 31827.55,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -340,6 +340,11 @@
    "date": "2026-11-19",
    "equity": 99838.11,
    "spy": 732.44
+  },
+  {
+   "date": "2026-11-20",
+   "equity": 98873.13,
+   "spy": 730.2
   }
  ],
  "open": [
@@ -390,15 +395,17 @@
    "shares": 388,
    "ticker": "WWB",
    "why": "Bonita David P (Director)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-19",
+   "cost": 9999.84,
+   "entry": 7.53,
+   "opened": "2026-11-20",
+   "shares": 1328,
    "ticker": "RMIX",
    "why": "Johnston Bretton A. (Director)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
