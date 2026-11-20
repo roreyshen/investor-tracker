@@ -1,76 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001794783-26-000092:0",
-   "queued_at": "2026-11-10T21:50:58.490102+00:00",
-   "text": "\ud83d\udfe2 BUY SLQT $12K - Hawks (Director) - 11/6",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1804623/000179478326000092/0001794783-26-000092-index.htm"
-  },
-  {
-   "uid": "0001011438-26-000674",
-   "queued_at": "2026-11-11T01:44:26.679871+00:00",
-   "text": "\ud83d\udd34 SELL ILMN $82.8M - Corvex Management Lp (Director) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1535472/000101143826000674/0001011438-26-000674-index.htm"
-  },
-  {
-   "uid": "0001193125-26-455838",
-   "queued_at": "2026-11-11T01:44:26.679871+00:00",
-   "text": "\ud83d\udd34 SELL LTH $76.3M - Green Ltf Holdings (Owner) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1886438/000119312526455838/0001193125-26-455838-index.htm"
-  },
-  {
-   "uid": "0001950047-26-010969",
-   "queued_at": "2026-11-11T01:44:26.679871+00:00",
-   "text": "\ud83d\udd34 SELL ROIV $50.7M - Frank (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1647805/000195004726010969/0001950047-26-010969-index.htm"
-  },
-  {
-   "uid": "0001317345-26-000020:12",
-   "queued_at": "2026-11-11T01:44:26.679871+00:00",
-   "text": "\ud83d\udd34 SELL RCL $17.1M - Wilhelmsen (Director) - 11/9",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1317345/000131734526000020/0001317345-26-000020-index.htm"
-  },
-  {
-   "uid": "0001317345-26-000020:6",
-   "queued_at": "2026-11-11T01:44:26.679871+00:00",
-   "text": "\ud83d\udd34 SELL RCL $15.8M - Wilhelmsen (Director) - 11/6",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1317345/000131734526000020/0001317345-26-000020-index.htm"
-  },
-  {
-   "uid": "0001317345-26-000020:21",
-   "queued_at": "2026-11-11T01:44:26.679871+00:00",
-   "text": "\ud83d\udd34 SELL RCL $15.7M - Wilhelmsen (Director) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1317345/000131734526000020/0001317345-26-000020-index.htm"
-  },
-  {
-   "uid": "0001317345-26-000020:18",
-   "queued_at": "2026-11-11T01:44:26.679871+00:00",
-   "text": "\ud83d\udd34 SELL RCL $15.1M - Wilhelmsen (Director) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1317345/000131734526000020/0001317345-26-000020-index.htm"
-  },
-  {
-   "uid": "0001596532-26-000262:0",
-   "queued_at": "2026-11-11T01:44:26.679871+00:00",
-   "text": "\ud83d\udd34 SELL ANET $14.9M - Bechtolsheim (10% Owner) - 11/6",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000262/0001596532-26-000262-index.htm"
-  },
-  {
-   "uid": "0001317345-26-000020:11",
-   "queued_at": "2026-11-11T01:44:26.679871+00:00",
-   "text": "\ud83d\udd34 SELL RCL $14M - Wilhelmsen (Director) - 11/9",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1317345/000131734526000020/0001317345-26-000020-index.htm"
-  },
-  {
    "uid": "0001317345-26-000020:13",
    "queued_at": "2026-11-11T01:44:26.679871+00:00",
    "text": "\ud83d\udd34 SELL RCL $13.2M - Wilhelmsen (Director) - 11/9",
@@ -3499,6 +3429,76 @@
    "text": "\ud83d\udfe2 BUY RMIX $70K - Heyer (Director) - 11/19",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/2094433/000119312526469031/0001193125-26-469031-index.htm"
+  },
+  {
+   "uid": "0001213900-26-122444:0",
+   "queued_at": "2026-11-20T16:59:08.116594+00:00",
+   "text": "\ud83d\udfe2 BUY PICS $299K - Teixeira Linares Marcio (Director) - 11/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2121101/000121390026122444/0001213900-26-122444-index.htm"
+  },
+  {
+   "uid": "0001213900-26-122442:0",
+   "queued_at": "2026-11-20T16:59:08.116594+00:00",
+   "text": "\ud83d\udfe2 BUY SAGT $268K - Ng (CEO) - 11/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2070001/000121390026122442/0001213900-26-122442-index.htm"
+  },
+  {
+   "uid": "0001213900-26-122460:0",
+   "queued_at": "2026-11-20T16:59:08.116594+00:00",
+   "text": "\ud83d\udfe2 BUY PICS $233K - Pruett (Director) - 11/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2111657/000121390026122460/0001213900-26-122460-index.htm"
+  },
+  {
+   "uid": "0001213900-26-122452:0",
+   "queued_at": "2026-11-20T16:59:08.116594+00:00",
+   "text": "\ud83d\udfe2 BUY PICS $25K - Costa De Moura (Director) - 11/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2121107/000121390026122452/0001213900-26-122452-index.htm"
+  },
+  {
+   "uid": "0001437749-26-037805:0",
+   "queued_at": "2026-11-20T16:59:08.116594+00:00",
+   "text": "\ud83d\udfe2 BUY FLNA $23K - Barry (Pres) - 11/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1562371/000143774926037805/0001437749-26-037805-index.htm"
+  },
+  {
+   "uid": "0001437749-26-037807:0",
+   "queued_at": "2026-11-20T16:59:08.116594+00:00",
+   "text": "\ud83d\udfe2 BUY FLNA $10K - Anderson (Director) - 11/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2001911/000143774926037807/0001437749-26-037807-index.htm"
+  },
+  {
+   "uid": "0001274775-26-000005:0",
+   "queued_at": "2026-11-20T16:59:08.116594+00:00",
+   "text": "\ud83d\udfe2 BUY TGEN $3K - Hatsopoulos (Director) - 11/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1537435/000127477526000005/0001274775-26-000005-index.htm"
+  },
+  {
+   "uid": "0001274775-26-000005:2",
+   "queued_at": "2026-11-20T16:59:08.116594+00:00",
+   "text": "\ud83d\udfe2 BUY TGEN $3K - Hatsopoulos (Director) - 11/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1537435/000127477526000005/0001274775-26-000005-index.htm"
+  },
+  {
+   "uid": "0001917503-26-000004:0",
+   "queued_at": "2026-11-20T16:59:08.116594+00:00",
+   "text": "\ud83d\udfe2 BUY TGEN $3K - Rangesh (CEO) - 11/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1917503/000191750326000004/0001917503-26-000004-index.htm"
+  },
+  {
+   "uid": "0001274775-26-000005:1",
+   "queued_at": "2026-11-20T16:59:08.116594+00:00",
+   "text": "\ud83d\udfe2 BUY TGEN $2K - Hatsopoulos (Director) - 11/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1537435/000127477526000005/0001274775-26-000005-index.htm"
   }
  ]
 }
