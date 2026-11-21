@@ -345,6 +345,11 @@
    "date": "2026-11-20",
    "equity": 107426.57,
    "spy": 730.2
+  },
+  {
+   "date": "2026-11-21",
+   "equity": 106683.79,
+   "spy": 715.87
   }
  ],
  "open": [
@@ -421,7 +426,13 @@
    "why": "JAFFER REHAN (Director)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-11-21",
+   "ticker": "GLXY",
+   "why": "Novogratz Michael (+1) (Chief Executive Officer)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }

@@ -345,6 +345,11 @@
    "date": "2026-11-20",
    "equity": 98873.13,
    "spy": 730.2
+  },
+  {
+   "date": "2026-11-21",
+   "equity": 97379.2,
+   "spy": 715.87
   }
  ],
  "open": [
@@ -405,7 +410,13 @@
    "why": "Johnston Bretton A. (Director)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-11-21",
+   "ticker": "SEI",
+   "why": "TEAGUE AJ (Director)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
