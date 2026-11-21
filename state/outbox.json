@@ -1,34 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001899883-26-000044:0",
-   "queued_at": "2026-11-12T19:39:21.271396+00:00",
-   "text": "\ud83d\udfe2 BUY FIP $1.5M - Nicholson (Pres) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1899883/000189988326000044/0001899883-26-000044-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004745:0",
-   "queued_at": "2026-11-12T19:39:21.271396+00:00",
-   "text": "\ud83d\udfe2 BUY BDSX $1M - Schuler (10% Owner) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1439725/000090514826004745/0000905148-26-004745-index.htm"
-  },
-  {
-   "uid": "0001284591-26-000002:0",
-   "queued_at": "2026-11-12T19:39:21.271396+00:00",
-   "text": "\ud83d\udfe2 BUY HOS $1000K - Hornbeck (Pres) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1284591/000128459126000002/0001284591-26-000002-index.htm"
-  },
-  {
-   "uid": "0002028916-26-000014:0",
-   "queued_at": "2026-11-12T19:39:21.271396+00:00",
-   "text": "\ud83d\udfe2 BUY PAM $787K - Mindlin (Pres) - 11/9",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2028916/000202891626000014/0002028916-26-000014-index.htm"
-  },
-  {
    "uid": "0001284591-26-000002:1",
    "queued_at": "2026-11-12T19:39:21.271396+00:00",
    "text": "\ud83d\udfe2 BUY HOS $500K - Hornbeck (Pres) - 11/11",
@@ -3499,6 +3471,34 @@
    "text": "\ud83d\udd34 SELL GS $250K-500K - Cruz (Senator) - traded 11/11 (9d ago)",
    "source": "senate",
    "url": "https://efdsearch.senate.gov/search/view/ptr/f0f7eba0-ca09-4b80-a97b-64b6dafb835e/"
+  },
+  {
+   "uid": "0001402348-26-000021:9",
+   "queued_at": "2026-11-21T03:58:25.393731+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $21.9M - Slootman (Director) - 11/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000021/0001402348-26-000021-index.htm"
+  },
+  {
+   "uid": "0001821737-26-000019:0",
+   "queued_at": "2026-11-21T03:58:25.393731+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $13.8M - Dageville (Director) - 11/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1821737/000182173726000019/0001821737-26-000019-index.htm"
+  },
+  {
+   "uid": "0001402348-26-000021:7",
+   "queued_at": "2026-11-21T03:58:25.393731+00:00",
+   "text": "\ud83d\udd34 SELL SNOW $10M - Slootman (Director) - 11/18",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1640147/000140234826000021/0001402348-26-000021-index.htm"
+  },
+  {
+   "uid": "0001832812-26-000016:0",
+   "queued_at": "2026-11-21T03:58:25.393731+00:00",
+   "text": "\ud83d\udfe2 BUY UPST $860K - Gu (CEO) - 11/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1832812/000183281226000016/0001832812-26-000016-index.htm"
   }
  ]
 }
