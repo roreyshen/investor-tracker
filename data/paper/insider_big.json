@@ -1,5 +1,5 @@
 {
- "cash": 15773.249999999989,
+ "cash": 5781.729999999989,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -424,15 +424,17 @@
    "shares": 912,
    "ticker": "FUN",
    "why": "JAFFER REHAN (Director)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-21",
+   "cost": 9991.52,
+   "entry": 12.32,
+   "opened": "2026-11-21",
+   "shares": 811,
    "ticker": "GLXY",
    "why": "Novogratz Michael (+1) (Chief Executive Officer)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }

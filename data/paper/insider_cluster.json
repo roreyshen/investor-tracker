@@ -1,5 +1,5 @@
 {
- "cash": 31827.55,
+ "cash": 21877.61,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -408,15 +408,17 @@
    "shares": 1328,
    "ticker": "RMIX",
    "why": "Johnston Bretton A. (Director)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-21",
+   "cost": 9949.94,
+   "entry": 54.67,
+   "opened": "2026-11-21",
+   "shares": 182,
    "ticker": "SEI",
    "why": "TEAGUE AJ (Director)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
