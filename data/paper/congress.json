@@ -1,5 +1,5 @@
 {
- "cash": 52739.10999999997,
+ "cash": 42964.86999999997,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -364,15 +364,17 @@
    "shares": 97,
    "ticker": "ABT",
    "why": "Cisneros, Gilbert (Rep. CA31)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-24",
+   "cost": 9774.24,
+   "entry": 349.08,
+   "opened": "2026-11-24",
+   "shares": 28,
    "ticker": "AAPL",
    "why": "Case, Ed (Rep. HI01)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "congress"
 }

@@ -1,5 +1,5 @@
 {
- "cash": 28136.22999999999,
+ "cash": 18141.08999999999,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -443,15 +443,17 @@
    "shares": 811,
    "ticker": "GLXY",
    "why": "Novogratz Michael (+1) (Chief Executive Officer)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-24",
+   "cost": 9995.14,
+   "entry": 9.07,
+   "opened": "2026-11-24",
+   "shares": 1102,
    "ticker": "KNOP",
    "why": "Seglem Trygve (Director)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }

@@ -1,5 +1,5 @@
 {
- "cash": 28552.96,
+ "cash": 18558.15,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -424,15 +424,17 @@
    "shares": 182,
    "ticker": "SEI",
    "why": "TEAGUE AJ (Director)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-24",
+   "cost": 9994.81,
+   "entry": 6.29,
+   "opened": "2026-11-24",
+   "shares": 1589,
    "ticker": "GNL",
    "why": "PERLA STANLEY R (Director)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_cluster"
 }
