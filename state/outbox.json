@@ -1,48 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001628280-26-073398:1",
-   "queued_at": "2026-11-13T00:44:26.744244+00:00",
-   "text": "\ud83d\udfe2 BUY AFCG $69K - Tannenbaum (Director) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1822523/000162828026073398/0001628280-26-073398-index.htm"
-  },
-  {
-   "uid": "0001193125-26-458834:0",
-   "queued_at": "2026-11-13T00:44:26.744244+00:00",
-   "text": "\ud83d\udfe2 BUY LRMR $50K - Celano (CFO) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1377582/000119312526458834/0001193125-26-458834-index.htm"
-  },
-  {
-   "uid": "0001193125-26-458853:0",
-   "queued_at": "2026-11-13T00:44:26.744244+00:00",
-   "text": "\ud83d\udfe2 BUY LRMR $50K - Ben (Pres) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1529611/000119312526458853/0001193125-26-458853-index.htm"
-  },
-  {
-   "uid": "0001193125-26-458845:0",
-   "queued_at": "2026-11-13T00:44:26.744244+00:00",
-   "text": "\ud83d\udfe2 BUY LRMR $50K - Harlow (Pres) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2095554/000119312526458845/0001193125-26-458845-index.htm"
-  },
-  {
-   "uid": "0001628280-26-073398:0",
-   "queued_at": "2026-11-13T00:44:26.744244+00:00",
-   "text": "\ud83d\udfe2 BUY AFCG $29K - Tannenbaum (Director) - 11/9",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1822523/000162828026073398/0001628280-26-073398-index.htm"
-  },
-  {
-   "uid": "0001193125-26-458256:0",
-   "queued_at": "2026-11-13T00:44:26.744244+00:00",
-   "text": "\ud83d\udfe2 BUY DTI $24K - Furst (Director) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1884516/000119312526458256/0001193125-26-458256-index.htm"
-  },
-  {
    "uid": "0001193125-26-458848:0",
    "queued_at": "2026-11-13T00:44:26.744244+00:00",
    "text": "\ud83d\udfe2 BUY LRMR $22K - Thomas (Director) - 11/11",
@@ -3499,6 +3457,48 @@
    "text": "\ud83d\udfe2 BUY fmbm $5K - Runion (Director) - 11/19",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1491981/000149198126000006/0001491981-26-000006-index.htm"
+  },
+  {
+   "uid": "0001193125-26-473141:0",
+   "queued_at": "2026-11-24T16:11:57.209447+00:00",
+   "text": "\ud83d\udd34 SELL SLDE $160.2M - Lucas (CEO) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1886428/000119312526473141/0001193125-26-473141-index.htm"
+  },
+  {
+   "uid": "0001753926-26-002241:1",
+   "queued_at": "2026-11-24T16:11:57.209447+00:00",
+   "text": "\ud83d\udfe2 BUY VANI $5M - Williams (Director) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1624919/000175392626002241/0001753926-26-002241-index.htm"
+  },
+  {
+   "uid": "0001493152-26-053875:0",
+   "queued_at": "2026-11-24T16:11:57.209447+00:00",
+   "text": "\ud83d\udfe2 BUY XGPU $305K - Beyman (Chair) - 11/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1886817/000149315226053875/0001493152-26-053875-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075614:0",
+   "queued_at": "2026-11-24T16:11:57.209447+00:00",
+   "text": "\ud83d\udfe2 BUY PRE $304K - Rosin (CFO of IM8) - 11/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026075614/0001628280-26-075614-index.htm"
+  },
+  {
+   "uid": "0001493152-26-053882:0",
+   "queued_at": "2026-11-24T16:11:57.209447+00:00",
+   "text": "\ud83d\udfe2 BUY XGPU $135K - Korman (COO) - 11/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2141833/000149315226053882/0001493152-26-053882-index.htm"
+  },
+  {
+   "uid": "0001493152-26-053878:0",
+   "queued_at": "2026-11-24T16:11:57.209447+00:00",
+   "text": "\ud83d\udfe2 BUY XGPU $75K - Beyman (Pres) - 11/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2143735/000149315226053878/0001493152-26-053878-index.htm"
   }
  ]
 }
