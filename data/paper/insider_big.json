@@ -1,5 +1,5 @@
 {
- "cash": 5781.729999999989,
+ "cash": 28136.22999999999,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -88,6 +88,28 @@
    "shares": 165,
    "ticker": "FOX",
    "why": "MURDOCH LACHLAN K (Executive Chair, CEO)"
+  },
+  {
+   "closed": "2026-11-24",
+   "cost": 9940.8,
+   "entry": 82.84,
+   "exit": 85.96,
+   "opened": "2026-09-22",
+   "pnl": 374.4,
+   "shares": 120,
+   "ticker": "GSAT",
+   "why": "Monroe James III (Director)"
+  },
+  {
+   "closed": "2026-11-24",
+   "cost": 9984.24,
+   "entry": 22.64,
+   "exit": 27.3,
+   "opened": "2026-09-22",
+   "pnl": 2055.06,
+   "shares": 441,
+   "ticker": "GME",
+   "why": "Cohen Ryan (President, CEO and Chairman)"
   }
  ],
  "marks": [
@@ -350,25 +372,14 @@
    "date": "2026-11-21",
    "equity": 106683.79,
    "spy": 715.87
+  },
+  {
+   "date": "2026-11-24",
+   "equity": 104555.85,
+   "spy": 722.29
   }
  ],
  "open": [
-  {
-   "cost": 9940.8,
-   "entry": 82.84,
-   "opened": "2026-09-22",
-   "shares": 120,
-   "ticker": "GSAT",
-   "why": "Monroe James III (Director)"
-  },
-  {
-   "cost": 9984.24,
-   "entry": 22.64,
-   "opened": "2026-09-22",
-   "shares": 441,
-   "ticker": "GME",
-   "why": "Cohen Ryan (President, CEO and Chairman)"
-  },
   {
    "cost": 9896.04,
    "entry": 149.94,
@@ -434,7 +445,13 @@
    "why": "Novogratz Michael (+1) (Chief Executive Officer)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-11-24",
+   "ticker": "KNOP",
+   "why": "Seglem Trygve (Director)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }

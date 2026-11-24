@@ -317,6 +317,11 @@
    "date": "2026-11-21",
    "equity": 100474.49,
    "spy": 715.87
+  },
+  {
+   "date": "2026-11-24",
+   "equity": 100675.25,
+   "spy": 722.29
   }
  ],
  "open": [
@@ -361,7 +366,13 @@
    "why": "Cisneros, Gilbert (Rep. CA31)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-11-24",
+   "ticker": "AAPL",
+   "why": "Case, Ed (Rep. HI01)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "congress"
 }
