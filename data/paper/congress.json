@@ -1,5 +1,5 @@
 {
- "cash": 42964.86999999997,
+ "cash": 58776.42999999998,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -55,6 +55,28 @@
    "shares": 697,
    "ticker": "TTD",
    "why": "Cisneros, Gilbert (Rep. CA31)"
+  },
+  {
+   "closed": "2026-11-25",
+   "cost": 9944.0,
+   "entry": 452.0,
+   "exit": 349.2,
+   "opened": "2026-09-23",
+   "pnl": -2261.6,
+   "shares": 22,
+   "ticker": "TSM",
+   "why": "Allen, Richard W. (Rep. GA12)"
+  },
+  {
+   "closed": "2026-11-25",
+   "cost": 9842.58,
+   "entry": 364.54,
+   "exit": 301.08,
+   "opened": "2026-09-23",
+   "pnl": -1713.42,
+   "shares": 27,
+   "ticker": "AVGO",
+   "why": "Allen, Richard W. (Rep. GA12)"
   }
  ],
  "marks": [
@@ -322,25 +344,14 @@
    "date": "2026-11-24",
    "equity": 100675.25,
    "spy": 722.29
+  },
+  {
+   "date": "2026-11-25",
+   "equity": 101040.86,
+   "spy": 718.78
   }
  ],
  "open": [
-  {
-   "cost": 9944.0,
-   "entry": 452.0,
-   "opened": "2026-09-23",
-   "shares": 22,
-   "ticker": "TSM",
-   "why": "Allen, Richard W. (Rep. GA12)"
-  },
-  {
-   "cost": 9842.58,
-   "entry": 364.54,
-   "opened": "2026-09-23",
-   "shares": 27,
-   "ticker": "AVGO",
-   "why": "Allen, Richard W. (Rep. GA12)"
-  },
   {
    "cost": 9968.37,
    "entry": 43.53,
