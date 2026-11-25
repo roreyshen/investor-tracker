@@ -1,55 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001743611-26-000008:0",
-   "queued_at": "2026-11-13T21:41:55.746238+00:00",
-   "text": "\ud83d\udfe2 BUY ALT $16K - Pisano (Director) - 11/13",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1743611/000174361126000008/0001743611-26-000008-index.htm"
-  },
-  {
-   "uid": "0001251779-26-000017:0",
-   "queued_at": "2026-11-13T21:41:55.746238+00:00",
-   "text": "\ud83d\udfe2 BUY ALT $16K - Weaver (CFO) - 11/13",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1326190/000125177926000017/0001251779-26-000017-index.htm"
-  },
-  {
-   "uid": "0001630805-26-000091:0",
-   "queued_at": "2026-11-13T21:41:55.746238+00:00",
-   "text": "\ud83d\udfe2 BUY BW $14K - Moeller (Director) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1823422/000163080526000091/0001630805-26-000091-index.htm"
-  },
-  {
-   "uid": "0001630805-26-000089:0",
-   "queued_at": "2026-11-13T21:41:55.746238+00:00",
-   "text": "\ud83d\udfe2 BUY BW $9K - Tato (Director) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1823397/000163080526000089/0001630805-26-000089-index.htm"
-  },
-  {
-   "uid": "0001193125-26-460559:0",
-   "queued_at": "2026-11-13T21:41:55.746238+00:00",
-   "text": "\ud83d\udfe2 BUY DTI $3K - Furst (Director) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1884516/000119312526460559/0001193125-26-460559-index.htm"
-  },
-  {
-   "uid": "0001193125-26-461090:0",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL MANE $37.6M - Enright (Director) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1827635/000119312526461090/0001193125-26-461090-index.htm"
-  },
-  {
-   "uid": "0001193125-26-461090:1",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL MANE $37.6M - Enright (Director) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1827635/000119312526461090/0001193125-26-461090-index.htm"
-  },
-  {
    "uid": "0001193125-26-461071:0",
    "queued_at": "2026-11-14T01:50:26.588251+00:00",
    "text": "\ud83d\udd34 SELL MANE $37.6M - Longitude Capital Partners (10% Owner) - 11/11",
@@ -3499,6 +3450,55 @@
    "text": "\ud83d\udfe2 BUY MH Four Winds LLC Comp $250K-500K - Blumenthal (Senator) - traded 10/15 (40d ago)",
    "source": "senate",
    "url": "https://efdsearch.senate.gov/search/view/ptr/9d3510cc-b11b-4777-a8a8-f0a58e886290/"
+  },
+  {
+   "uid": "0001211060-26-000012:1",
+   "queued_at": "2026-11-25T09:16:07.522879+00:00",
+   "text": "\ud83d\udfe2 BUY PLTR $49.1M - Thiel (Director) - 11/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000012/0001211060-26-000012-index.htm"
+  },
+  {
+   "uid": "0001211060-26-000012:2",
+   "queued_at": "2026-11-25T09:16:07.522879+00:00",
+   "text": "\ud83d\udfe2 BUY PLTR $42.7M - Thiel (Director) - 11/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000012/0001211060-26-000012-index.htm"
+  },
+  {
+   "uid": "0001211060-26-000012:0",
+   "queued_at": "2026-11-25T09:16:07.522879+00:00",
+   "text": "\ud83d\udfe2 BUY PLTR $30.5M - Thiel (Director) - 11/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000121106026000012/0001211060-26-000012-index.htm"
+  },
+  {
+   "uid": "0001823951-26-000013:4",
+   "queued_at": "2026-11-25T09:16:07.522879+00:00",
+   "text": "\ud83d\udd34 SELL PLTR $15.9M - Karp (See Remarks) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1823951/000182395126000013/0001823951-26-000013-index.htm"
+  },
+  {
+   "uid": "0001823951-26-000013:3",
+   "queued_at": "2026-11-25T09:16:07.522879+00:00",
+   "text": "\ud83d\udd34 SELL PLTR $11.1M - Karp (See Remarks) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1823951/000182395126000013/0001823951-26-000013-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075849:0",
+   "queued_at": "2026-11-25T09:16:07.522879+00:00",
+   "text": "\ud83d\udfe2 BUY SAFTX $5M - Assured Guaranty Ltd (10% Owner) - 11/19",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2166892/000162828026075849/0001628280-26-075849-index.htm"
+  },
+  {
+   "uid": "0000905148-26-005172:0",
+   "queued_at": "2026-11-25T09:16:07.522879+00:00",
+   "text": "\ud83d\udfe2 BUY MNTS $1.2M - Burkle - 11/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1781162/000090514826005172/0000905148-26-005172-index.htm"
   }
  ]
 }
