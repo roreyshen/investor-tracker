@@ -1,139 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001193125-26-461071:0",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL MANE $37.6M - Longitude Capital Partners (10% Owner) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2018312/000119312526461071/0001193125-26-461071-index.htm"
-  },
-  {
-   "uid": "0001193125-26-461071:1",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL MANE $37.6M - Longitude Capital Partners (10% Owner) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2018312/000119312526461071/0001193125-26-461071-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011094",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL LYV $16.7M - Joseph (Officer) - 11/13 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1552281/000195004726011094/0001950047-26-011094-index.htm"
-  },
-  {
-   "uid": "0001824159-26-000017:4",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL PLTR $15.6M - Sankar (See Remarks) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1824159/000182415926000017/0001824159-26-000017-index.htm"
-  },
-  {
-   "uid": "0001824159-26-000017:8",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL PLTR $14.8M - Sankar (See Remarks) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1824159/000182415926000017/0001824159-26-000017-index.htm"
-  },
-  {
-   "uid": "0001193125-26-461179:0",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $14.1M - Audax Private Credit (10% Owner) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2076441/000119312526461179/0001193125-26-461179-index.htm"
-  },
-  {
-   "uid": "0001317345-26-000022:3",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL RCL $13.7M - Wilhelmsen (Director) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1317345/000131734526000022/0001317345-26-000022-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011102",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL ZETA $13.1M - Bosch Spv Llc (Stockholder) - 11/13 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2163688/000195004726011102/0001950047-26-011102-index.htm"
-  },
-  {
-   "uid": "0001824159-26-000017:5",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL PLTR $10.9M - Sankar (See Remarks) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1824159/000182415926000017/0001824159-26-000017-index.htm"
-  },
-  {
-   "uid": "0001824159-26-000017:3",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL PLTR $10.7M - Sankar (See Remarks) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1824159/000182415926000017/0001824159-26-000017-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011100",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL ROIV $7.3M - Pulik (Officer) - 11/11 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1885841/000195004726011100/0001950047-26-011100-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011097",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL BETA $7M - David (Director) - 11/13 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2090119/000195004726011097/0001950047-26-011097-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011092",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL ARX $5.4M - Nancy (Director) - 11/13 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2012400/000195004726011092/0001950047-26-011092-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011101",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udd34 SELL ROIV $5.2M - Richard (Officer) - 11/10 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1885841/000195004726011101/0001950047-26-011101-index.htm"
-  },
-  {
-   "uid": "0001999001-26-000119:0",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udfe2 BUY FUN $3.9M - Jaffer (Director) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1999001/000199900126000119/0001999001-26-000119-index.htm"
-  },
-  {
-   "uid": "0001999001-26-000119:1",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udfe2 BUY FUN $2.8M - Jaffer (Director) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1999001/000199900126000119/0001999001-26-000119-index.htm"
-  },
-  {
-   "uid": "0001999001-26-000119:2",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udfe2 BUY FUN $2.6M - Jaffer (Director) - 11/13",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1999001/000199900126000119/0001999001-26-000119-index.htm"
-  },
-  {
-   "uid": "0001832812-26-000012:0",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udfe2 BUY UPST $1M - Gu (CEO) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1832812/000183281226000012/0001832812-26-000012-index.htm"
-  },
-  {
-   "uid": "0001193125-26-461179:1",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udfe2 BUY NONE $422K - Audax Private Credit (10% Owner) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2076441/000119312526461179/0001193125-26-461179-index.htm"
-  },
-  {
    "uid": "0001628280-26-073944:0",
    "queued_at": "2026-11-14T01:50:26.588251+00:00",
    "text": "\ud83d\udfe2 BUY CTEV $150K - Dalton (Pres., CEO &) - 11/11",
@@ -3499,6 +3366,139 @@
    "text": "\ud83d\udfe2 BUY MNTS $1.2M - Burkle - 11/20",
    "source": "form4",
    "url": "https://www.sec.gov/Archives/edgar/data/1781162/000090514826005172/0000905148-26-005172-index.htm"
+  },
+  {
+   "uid": "0002125667-26-000005:0",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY SHMD $103.9B - Schuetz Arthur Josef (CFO Schmid) - traded 11/25 (7304d ago)",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125667/000212566726000005/0002125667-26-000005-index.htm"
+  },
+  {
+   "uid": "0001104659-26-131976:0",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY GOLD $5.7M - Tether Global Investments (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130094/000110465926131976/0001104659-26-131976-index.htm"
+  },
+  {
+   "uid": "0001959173-26-008305",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udd34 SELL AJG $5.1M - Bay (Officer) - 11/25 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1410235/000195917326008305/0001959173-26-008305-index.htm"
+  },
+  {
+   "uid": "0001959173-26-008317",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $5M - Abrams (Officer) - 11/25 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2061059/000195917326008317/0001959173-26-008317-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075874:0",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY BORR $3.9M - Troim (Director) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026075874/0001628280-26-075874-index.htm"
+  },
+  {
+   "uid": "0002080471-26-000003:0",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY KDK $2.2M - Burnette (CEO) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2080471/000208047126000003/0002080471-26-000003-index.htm"
+  },
+  {
+   "uid": "0001493152-26-054124:0",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY VIVO $466K - Chin (Chair) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1681348/000149315226054124/0001493152-26-054124-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075886:3",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY PRE $250K - Yeung Danny Sheng (CEO) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1930070/000162828026075886/0001628280-26-075886-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075886:1",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY PRE $192K - Yeung Danny Sheng (CEO) - 11/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1930070/000162828026075886/0001628280-26-075886-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075886:0",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY PRE $148K - Yeung Danny Sheng (CEO) - 11/20",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1930070/000162828026075886/0001628280-26-075886-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075886:2",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY PRE $142K - Yeung Danny Sheng (CEO) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1930070/000162828026075886/0001628280-26-075886-index.htm"
+  },
+  {
+   "uid": "0001140361-26-045598:0",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY TROX $139K - Romano (Director) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1530804/000114036126045598/0001140361-26-045598-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075888:0",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY PRE $88K - Lo (CFO) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2117963/000162828026075888/0001628280-26-075888-index.htm"
+  },
+  {
+   "uid": "0001628280-26-075888:1",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY PRE $39K - Lo (CFO) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2117963/000162828026075888/0001628280-26-075888-index.htm"
+  },
+  {
+   "uid": "0001140361-26-045601:0",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udfe2 BUY TROX $20K - Engle (Officer) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2012547/000114036126045601/0001140361-26-045601-index.htm"
+  },
+  {
+   "uid": "20036875:7",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udd34 SELL ROK $50K-100K - Hern (Rep. OK01) - 11/17",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036875.pdf"
+  },
+  {
+   "uid": "20036875:8",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udd34 SELL ROK $50K-100K - Hern (Rep. OK01) - 11/17",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036875.pdf"
+  },
+  {
+   "uid": "20036875:9",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udd34 SELL ROK $100K-250K - Hern (Rep. OK01) - traded 11/16 (8d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036875.pdf"
+  },
+  {
+   "uid": "20036875:10",
+   "queued_at": "2026-11-25T19:33:25.471678+00:00",
+   "text": "\ud83d\udd34 SELL ROYAL BK CDA MTN ZERO  $250K-500K - Hern (Rep. OK01) - traded 10/27 (28d ago)",
+   "source": "house",
+   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036875.pdf"
   }
  ]
 }
