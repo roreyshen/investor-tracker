@@ -1,5 +1,5 @@
 {
- "cash": 18141.08999999999,
+ "cash": 8331.58999999999,
  "closed": [
   {
    "closed": "2026-11-17",
@@ -461,15 +461,17 @@
    "shares": 1102,
    "ticker": "KNOP",
    "why": "Seglem Trygve (Director)"
-  }
- ],
- "pending": [
+  },
   {
-   "picked": "2026-11-26",
+   "cost": 9809.5,
+   "entry": 196.19,
+   "opened": "2026-11-26",
+   "shares": 50,
    "ticker": "COHR",
    "why": "PAGLIUCA STEPHEN G (Director)"
   }
  ],
+ "pending": [],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }
