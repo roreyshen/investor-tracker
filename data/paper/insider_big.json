@@ -382,6 +382,11 @@
    "date": "2026-11-25",
    "equity": 105419.64,
    "spy": 718.78
+  },
+  {
+   "date": "2026-11-26",
+   "equity": 107598.81,
+   "spy": 716.7
   }
  ],
  "open": [
@@ -458,7 +463,13 @@
    "why": "Seglem Trygve (Director)"
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "picked": "2026-11-26",
+   "ticker": "COHR",
+   "why": "PAGLIUCA STEPHEN G (Director)"
+  }
+ ],
  "started": "2026-09-14",
  "strategy": "insider_big"
 }
