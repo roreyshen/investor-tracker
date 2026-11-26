@@ -1,356 +1,6 @@
 {
  "pending": [
   {
-   "uid": "0001628280-26-073944:0",
-   "queued_at": "2026-11-14T01:50:26.588251+00:00",
-   "text": "\ud83d\udfe2 BUY CTEV $150K - Dalton (Pres., CEO &) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1841409/000162828026073944/0001628280-26-073944-index.htm"
-  },
-  {
-   "uid": "0001193125-26-461382:1",
-   "queued_at": "2026-11-14T08:40:54.792581+00:00",
-   "text": "\ud83d\udd34 SELL LFST $32.3M - Pardo (See Remarks) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1865531/000119312526461382/0001193125-26-461382-index.htm"
-  },
-  {
-   "uid": "0001539497-26-002986:0",
-   "queued_at": "2026-11-14T08:40:54.792581+00:00",
-   "text": "\ud83d\udd34 SELL CTRI $14.1M - Icahn (10% Owner) - 11/9",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1981599/000153949726002986/0001539497-26-002986-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004805:0",
-   "queued_at": "2026-11-14T08:40:54.792581+00:00",
-   "text": "\ud83d\udfe2 BUY STWD $9.9M - Sternlicht (Chair) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1465128/000090514826004805/0000905148-26-004805-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004805:1",
-   "queued_at": "2026-11-14T08:40:54.792581+00:00",
-   "text": "\ud83d\udfe2 BUY STWD $4.8M - Sternlicht (Chair) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1465128/000090514826004805/0000905148-26-004805-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004807:1",
-   "queued_at": "2026-11-14T08:40:54.792581+00:00",
-   "text": "\ud83d\udfe2 BUY STWD $1M - Pollack (Director) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1662895/000090514826004807/0000905148-26-004807-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004807:0",
-   "queued_at": "2026-11-14T08:40:54.792581+00:00",
-   "text": "\ud83d\udfe2 BUY STWD $1M - Pollack (Director) - 11/11",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1662895/000090514826004807/0000905148-26-004807-index.htm"
-  },
-  {
-   "uid": "0001493152-26-051920:0",
-   "queued_at": "2026-11-14T08:40:54.792581+00:00",
-   "text": "\ud83d\udfe2 BUY NXGL $733K - Kieser (Interim CEO) - 11/10",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2133654/000149315226051920/0001493152-26-051920-index.htm"
-  },
-  {
-   "uid": "0001137774-26-000240:1",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udfe2 BUY EMO $20M - Prudential Financial Inc (10% Owner) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1517518/000113777426000240/0001137774-26-000240-index.htm"
-  },
-  {
-   "uid": "0001137774-26-000240:0",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udfe2 BUY EMO $15M - Prudential Financial Inc (10% Owner) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1517518/000113777426000240/0001137774-26-000240-index.htm"
-  },
-  {
-   "uid": "0001630805-26-000093:0",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udfe2 BUY BW $42K - Frymyer (CFO) - 11/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2051649/000163080526000093/0001630805-26-000093-index.htm"
-  },
-  {
-   "uid": "20035779:2",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udd34 SELL Commodity 5.00% Due Au $250K-500K - Delbene (Rep. WA01) - traded 10/19 (25d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf"
-  },
-  {
-   "uid": "20035779:3",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udfe2 BUY San Joaquin VY Calif C $250K-500K - Delbene (Rep. WA01) - traded 10/19 (25d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035779.pdf"
-  },
-  {
-   "uid": "20035786:2",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udd34 SELL Berks Cnty PA GO UTX $50K-100K - Peters (Rep. CA50) - traded 10/8 (36d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
-  },
-  {
-   "uid": "20035786:3",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udd34 SELL Charlotte-Meckle HLTH $100K-250K - Peters (Rep. CA50) - traded 10/15 (29d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
-  },
-  {
-   "uid": "20035786:4",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udd34 SELL Illinois State GO UTX $50K-100K - Peters (Rep. CA50) - traded 10/28 (16d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
-  },
-  {
-   "uid": "20035786:5",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udfe2 BUY Inverted Capital I LP $50K-100K - Peters (Rep. CA50) - traded 10/22 (22d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
-  },
-  {
-   "uid": "20035786:6",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udfe2 BUY Smash Capital Fund II  $50K-100K - Peters (Rep. CA50) - traded 10/6 (38d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
-  },
-  {
-   "uid": "20035786:7",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udd34 SELL U.S. Treasury Bill $500K-1M - Peters (Rep. CA50) - traded 10/16 (28d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
-  },
-  {
-   "uid": "20035786:8",
-   "queued_at": "2026-11-16T20:53:03.889252+00:00",
-   "text": "\ud83d\udfe2 BUY Watsonville CA W SWR U $50K-100K - Peters (Rep. CA50) - traded 10/22 (22d ago)",
-   "source": "house",
-   "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035786.pdf"
-  },
-  {
-   "uid": "0001193125-26-463399:526057104",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udfe2 BUY LENNAR CORP (CL A) $2.1B - Berkshire (13F filer) - traded 9/30 (47d ago) - position +99%",
-   "source": "13f",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526463399/0001193125-26-463399-index.htm"
-  },
-  {
-   "uid": "0001193125-26-463399:92343E102",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL VERISIGN INC $1.7B - Berkshire (13F filer) - traded 9/30 (47d ago) - position -34%",
-   "source": "13f",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526463399/0001193125-26-463399-index.htm"
-  },
-  {
-   "uid": "0001193125-26-463399:T19377109",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udfe2 BUY BENDING SPOONS SPA (CO $689.4M - Berkshire (13F filer) - traded 9/30 (47d ago) - NEW position",
-   "source": "13f",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526463399/0001193125-26-463399-index.htm"
-  },
-  {
-   "uid": "0001999371-26-025503:0",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL LFST $484.8M - Tpg Gp Llc (10% Owner) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1903793/000199937126025503/0001999371-26-025503-index.htm"
-  },
-  {
-   "uid": "0001193125-26-463399:14040H105",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL CAPITAL ONE FINL CORP $222M - Berkshire (13F filer) - traded 9/30 (47d ago) - position -62%",
-   "source": "13f",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526463399/0001193125-26-463399-index.htm"
-  },
-  {
-   "uid": "0001193125-26-463399:526057302",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udfe2 BUY LENNAR CORP (CL B) $44.2M - Berkshire (13F filer) - traded 9/30 (47d ago) - position +85%",
-   "source": "13f",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526463399/0001193125-26-463399-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011155",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL AMD $37.4M - Lisa (Director) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1405109/000195004726011155/0001950047-26-011155-index.htm"
-  },
-  {
-   "uid": "0001921094-26-001188",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL AAPL $31.8M - Levinson (Director) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1214128/000192109426001188/0001921094-26-001188-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011194",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL AMZN $25.3M - Bezos Earth Fund (Nonprofit) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/2018000/000195004726011194/0001950047-26-011194-index.htm"
-  },
-  {
-   "uid": "0000950142-26-003079:2",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL CPRI $19.5M - Idol (Chair) - 11/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1530721/000095014226003079/0000950142-26-003079-index.htm"
-  },
-  {
-   "uid": "0000950142-26-003079:1",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL CPRI $19.3M - Idol (Chair) - 11/16",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1530721/000095014226003079/0000950142-26-003079-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011148",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL RVMDW $18.7M - Stephen (Officer) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1628171/000195004726011148/0001950047-26-011148-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011176",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL MSI $18.7M - Gregory (Officer) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1201232/000195004726011176/0001950047-26-011176-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011179",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL RDDT $17.7M - Jennifer (Officer) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1713445/000195004726011179/0001950047-26-011179-index.htm"
-  },
-  {
-   "uid": "0000906134-26-000017:0",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL TPC $14.9M - Tutor (Director) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/906134/000090613426000017/0000906134-26-000017-index.htm"
-  },
-  {
-   "uid": "0001734563-26-000027:2",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL DBX $14.9M - Houston (Co-CEO) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1734563/000173456326000027/0001734563-26-000027-index.htm"
-  },
-  {
-   "uid": "0001317345-26-000024:6",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL RCL $12.3M - Wilhelmsen (Director) - 11/13",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1317345/000131734526000024/0001317345-26-000024-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004976:0",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL FRMI $10.4M - Neugebauer (10% Owner) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2088794/000090514826004976/0000905148-26-004976-index.htm"
-  },
-  {
-   "uid": "0000905148-26-004976:1",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL FRMI $10.4M - Neugebauer (10% Owner) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2088794/000090514826004976/0000905148-26-004976-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011180",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL PCTY $9.8M - Steven (Director) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1591698/000195004726011180/0001950047-26-011180-index.htm"
-  },
-  {
-   "uid": "0001949846-26-000657",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL LEVI $9.6M - Haas (10%) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1771089/000194984626000657/0001949846-26-000657-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011171",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL CSCO $9.3M - Charles (Director) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1559655/000195004726011171/0001950047-26-011171-index.htm"
-  },
-  {
-   "uid": "0001959173-26-008030",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL MRNA $8.6M - Hoge (Officer) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1760669/000195917326008030/0001959173-26-008030-index.htm"
-  },
-  {
-   "uid": "0001959173-26-008023",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL TYL $8.6M - Moore (Officer) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1250902/000195917326008023/0001959173-26-008023-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011170",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL CSCO $8M - Deborah (Officer) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1873299/000195004726011170/0001950047-26-011170-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011168",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL CSCO $6.2M - Jeetendra (Officer) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1779016/000195004726011168/0001950047-26-011168-index.htm"
-  },
-  {
-   "uid": "0001950047-26-011119",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udd34 SELL AMD $5.1M - Forrest (Officer) - 11/16 - intends to sell (Form 144 notice, filed before the sale)",
-   "source": "form144",
-   "url": "https://www.sec.gov/Archives/edgar/data/1622864/000195004726011119/0001950047-26-011119-index.htm"
-  },
-  {
-   "uid": "0002028916-26-000015:0",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udfe2 BUY PAM $1.3M - Mindlin (Pres) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2028916/000202891626000015/0002028916-26-000015-index.htm"
-  },
-  {
-   "uid": "0001666120-26-000035:4",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udfe2 BUY TEAM $1.2M - Cannon (CEO,) - 11/13",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/1666120/000166612026000035/0001666120-26-000035-index.htm"
-  },
-  {
-   "uid": "0001493152-26-052496:0",
-   "queued_at": "2026-11-17T12:23:16.510747+00:00",
-   "text": "\ud83d\udfe2 BUY OIG $1M - Gregg (CEO) - 11/12",
-   "source": "form4",
-   "url": "https://www.sec.gov/Archives/edgar/data/2135086/000149315226052496/0001493152-26-052496-index.htm"
-  },
-  {
    "uid": "0001004434-26-000110:0",
    "queued_at": "2026-11-17T12:23:16.510747+00:00",
    "text": "\ud83d\udfe2 BUY AMG $1M - Cates (Director) - 11/12",
@@ -3499,6 +3149,356 @@
    "text": "\ud83d\udd34 SELL ROYAL BK CDA MTN ZERO  $250K-500K - Hern (Rep. OK01) - traded 10/27 (28d ago)",
    "source": "house",
    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036875.pdf"
+  },
+  {
+   "uid": "0001193125-26-478552:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $499.1M - Bx Mozart Ml (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2108063/000119312526478552/0001193125-26-478552-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478553:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $499.1M - Bcp Holdings Mozart (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2094484/000119312526478553/0001193125-26-478553-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478548:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $417.3M - Hellman Friedman Capital (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2074980/000119312526478548/0001193125-26-478548-index.htm"
+  },
+  {
+   "uid": "0001493152-26-054235:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $384.6M - Carlyle Group Inc (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046386/000149315226054235/0001493152-26-054235-index.htm"
+  },
+  {
+   "uid": "0001493152-26-054236:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $384.6M - Carlyle Mozart Coinvestmen (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2108756/000149315226054236/0001493152-26-054236-index.htm"
+  },
+  {
+   "uid": "0001493152-26-054234:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $384.6M - Cp Circle Ml (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2102784/000149315226054234/0001493152-26-054234-index.htm"
+  },
+  {
+   "uid": "0001493152-26-054231:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $384.6M - Tc Group Cayman (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046386/000149315226054231/0001493152-26-054231-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478548:2",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $319.3M - Hellman Friedman Capital (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2074980/000119312526478548/0001193125-26-478548-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478552:1",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $230.5M - Bx Mozart Ml (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2108063/000119312526478552/0001193125-26-478552-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478553:1",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $230.5M - Bcp Holdings Mozart (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2094484/000119312526478553/0001193125-26-478553-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478552:2",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $57.1M - Bx Mozart Ml (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2108063/000119312526478552/0001193125-26-478552-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478553:2",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $57.1M - Bcp Holdings Mozart (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2094484/000119312526478553/0001193125-26-478553-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478552:3",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $34.8M - Bx Mozart Ml (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2108063/000119312526478552/0001193125-26-478552-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478553:3",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $34.8M - Bcp Holdings Mozart (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2094484/000119312526478553/0001193125-26-478553-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478548:3",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $33.8M - Hellman Friedman Capital (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2074980/000119312526478548/0001193125-26-478548-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478533:1",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL CPAY $21M - Clarke (Chair) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526478533/0001193125-26-478533-index.htm"
+  },
+  {
+   "uid": "0001178937-26-000047",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL KYMR $20.7M - Atlas Venture Fund (Shareholder) - 11/25 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1815442/000117893726000047/0001178937-26-000047-index.htm"
+  },
+  {
+   "uid": "0001950047-26-011519",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL AAPL $19.2M - Sabih And Andeleeb (Officer) - 11/25 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/2078476/000195004726011519/0001950047-26-011519-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478548:1",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MDLN $19.1M - Hellman Friedman Capital (10% Owner) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2074980/000119312526478548/0001193125-26-478548-index.htm"
+  },
+  {
+   "uid": "0001950047-26-011554",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL KYMR $15.2M - Bruce (Director) - 11/25 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1815442/000195004726011554/0001950047-26-011554-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478533:3",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL CPAY $13.7M - Clarke (Chair) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526478533/0001193125-26-478533-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478533:2",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL CPAY $12.2M - Clarke (Chair) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526478533/0001193125-26-478533-index.htm"
+  },
+  {
+   "uid": "0001950047-26-011553",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL BBIO $11.2M - Ronald (Director) - 11/25 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1743881/000195004726011553/0001950047-26-011553-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478533:6",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL CPAY $10.7M - Clarke (Chair) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1506862/000119312526478533/0001193125-26-478533-index.htm"
+  },
+  {
+   "uid": "0001193125-26-478517",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL TEVA $10M - Francis (Officer) - 11/25 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1673277/000119312526478517/0001193125-26-478517-index.htm"
+  },
+  {
+   "uid": "0001950047-26-011526",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL ESTC $8.2M - Stichting (Affiliate) - 11/25 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1753445/000195004726011526/0001950047-26-011526-index.htm"
+  },
+  {
+   "uid": "0001959173-26-008323",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udd34 SELL MHO $6.2M - Schottenstein (Officer) - 11/25 - intends to sell (Form 144 notice, filed before the sale)",
+   "source": "form144",
+   "url": "https://www.sec.gov/Archives/edgar/data/1204731/000195917326008323/0001959173-26-008323-index.htm"
+  },
+  {
+   "uid": "0001510281-26-000482:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY DXYZ $5.1M - Saba Capital Management (10% Owner) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1843974/000151028126000482/0001510281-26-000482-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:13",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $4.5M - Pagliuca (Director) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:14",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $3.9M - Pagliuca (Director) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:15",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $3.5M - Pagliuca (Director) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:11",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $3.2M - Pagliuca (Director) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:3",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $2.9M - Pagliuca (Director) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:2",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $2.9M - Pagliuca (Director) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:12",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $2.7M - Pagliuca (Director) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:5",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $2.6M - Pagliuca (Director) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:1",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $1.8M - Pagliuca (Director) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:4",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $1.4M - Pagliuca (Director) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:10",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $1.3M - Pagliuca (Director) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0000899140-26-001413:6",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY COHR $1.2M - Pagliuca (Director) - 11/23",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1240386/000089914026001413/0000899140-26-001413-index.htm"
+  },
+  {
+   "uid": "0001012975-26-001116:2",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY PLBY $1M - Docler (Director) - 11/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2053703/000101297526001116/0001012975-26-001116-index.htm"
+  },
+  {
+   "uid": "0001380615-26-000018:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY GLXY $956K - Novogratz (CEO) - 11/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1912562/000138061526000018/0001380615-26-000018-index.htm"
+  },
+  {
+   "uid": "0001666120-26-000043:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY TEAM $521K - Cannon (CEO,) - 11/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1666120/000166612026000043/0001666120-26-000043-index.htm"
+  },
+  {
+   "uid": "0001666120-26-000042:5",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY TEAM $494K - Cannon (CEO,) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1666120/000166612026000042/0001666120-26-000042-index.htm"
+  },
+  {
+   "uid": "0001666120-26-000042:6",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY TEAM $484K - Cannon (CEO,) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1666120/000166612026000042/0001666120-26-000042-index.htm"
+  },
+  {
+   "uid": "0001666120-26-000043:3",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY TEAM $325K - Cannon (CEO,) - 11/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1666120/000166612026000043/0001666120-26-000043-index.htm"
+  },
+  {
+   "uid": "0001666120-26-000043:7",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY TEAM $317K - Cannon (CEO,) - 11/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1666120/000166612026000043/0001666120-26-000043-index.htm"
+  },
+  {
+   "uid": "0001666120-26-000042:1",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY TEAM $300K - Cannon (CEO,) - 11/24",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1666120/000166612026000042/0001666120-26-000042-index.htm"
+  },
+  {
+   "uid": "0001666120-26-000043:4",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY TEAM $271K - Cannon (CEO,) - 11/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1666120/000166612026000043/0001666120-26-000043-index.htm"
+  },
+  {
+   "uid": "0002052994-26-000005:0",
+   "queued_at": "2026-11-26T02:30:18.185259+00:00",
+   "text": "\ud83d\udfe2 BUY GLXY $268K - Paquette (CFO) - 11/25",
+   "source": "form4",
+   "url": "https://www.sec.gov/Archives/edgar/data/2052994/000205299426000005/0002052994-26-000005-index.htm"
   }
  ]
 }
